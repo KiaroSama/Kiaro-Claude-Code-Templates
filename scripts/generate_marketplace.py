@@ -190,5 +190,25 @@ mf = {
 json.dump(mf, open(os.path.join(ROOT, ".claude-plugin", "marketplace.json"), "w", encoding="utf-8"),
           ensure_ascii=False, indent=2)
 
+# Codex and the other cross-vendor clients read this one instead. Its entries
+# carry a source object and a policy block rather than a plain path string.
+agents_mf = {
+    "name": mf["name"],
+    "interface": {"displayName": "Kiaro Claude Code Templates"},
+    "plugins": [
+        {
+            "name": e["name"],
+            "source": {"source": "local", "path": e["source"]},
+            "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"},
+            "category": CODEX_CATEGORY[e["category"]],
+        }
+        for e in entries
+    ],
+}
+agents_dir = os.path.join(ROOT, ".agents", "plugins")
+os.makedirs(agents_dir, exist_ok=True)
+json.dump(agents_mf, open(os.path.join(agents_dir, "marketplace.json"), "w", encoding="utf-8"),
+          ensure_ascii=False, indent=2)
+
 from collections import Counter
 print(Counter(e["category"] for e in entries), "TOTAL:", len(entries))
