@@ -1,0 +1,11 @@
+{
+  "name": "code-review-checklist",
+  "description": "Comprehensive checklist for conducting thorough code reviews covering functionality, security, performance, and maintainability",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

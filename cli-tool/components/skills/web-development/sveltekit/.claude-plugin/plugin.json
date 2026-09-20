@@ -1,0 +1,11 @@
+{
+  "name": "sveltekit",
+  "description": "Build full-stack web applications with SvelteKit — file-based routing, SSR, SSG, API routes, and form actions in one framework.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

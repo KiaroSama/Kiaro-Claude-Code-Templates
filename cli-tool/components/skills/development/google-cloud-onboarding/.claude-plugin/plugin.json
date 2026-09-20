@@ -1,0 +1,11 @@
+{
+  "name": "google-cloud-onboarding",
+  "description": "Guides developers through their first steps on Google Cloud, covering account creation, billing setup, project management, CLI installation, and deploying a first resource.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

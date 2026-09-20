@@ -1,0 +1,11 @@
+{
+  "name": "bleu",
+  "description": "Use this skill whenever a developer wants to turn an idea into a complete, production-ready, end-to-end system plan BEFORE writing any code. Trigger on 'plan this system', 'design the architecture for', 'help me blueprint', 'deep plan for X', 'break this idea into components', 'expand into action...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

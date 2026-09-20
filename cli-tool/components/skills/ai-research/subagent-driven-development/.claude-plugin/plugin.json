@@ -1,0 +1,11 @@
+{
+  "name": "ai-research-subagent-driven-development",
+  "description": "Use when executing implementation plans with independent tasks in the current session",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "premium-web-design",
+  "description": "> Create premium, Awwwards-quality website designs as React (.jsx) components that look like they were built by a top-tier agency charging $50k+ per project. Use this skill whenever the user asks for a website, landing page, portfolio, or web component that should look expensive, premium, luxury,...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

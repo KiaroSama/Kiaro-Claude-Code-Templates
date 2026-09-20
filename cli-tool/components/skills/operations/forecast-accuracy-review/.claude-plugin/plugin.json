@@ -1,0 +1,11 @@
+{
+  "name": "forecast-accuracy-review",
+  "description": "Evaluate demand-forecast quality honestly - WMAPE, bias and Forecast Value Added against a naive benchmark over a rolling-origin backtest. Use when the user mentions forecast accuracy, MAPE, demand planning performance, tahmin doğruluğu, talep tahmini, or asks whether a forecasting process or too...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

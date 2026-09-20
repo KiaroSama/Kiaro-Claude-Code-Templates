@@ -1,0 +1,11 @@
+{
+  "name": "pc-games",
+  "description": "PC and console game development principles. Engine selection, platform features, optimization strategies. allowed-tools: Read, Write, Edit, Glob, Grep",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

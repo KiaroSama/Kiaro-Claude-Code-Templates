@@ -1,0 +1,11 @@
+{
+  "name": "resume-section-builder",
+  "description": "Create targeted resume sections optimized for different experience levels and roles. Use when the user wants to build or rewrite specific sections like summary, skills, experience, education, or projects.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

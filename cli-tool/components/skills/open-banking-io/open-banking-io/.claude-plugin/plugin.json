@@ -1,0 +1,11 @@
+{
+  "name": "open-banking-io",
+  "description": "Read bank account balances and transactions from EU/UK banks via the open-banking.io PSD2 API. Use when the user wants to check balances, list recent transactions, categorise spending, or reconcile payments across European bank accounts — without eIDAS certificates or an AISP licence.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

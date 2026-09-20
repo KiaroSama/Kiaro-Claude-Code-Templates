@@ -1,0 +1,11 @@
+{
+  "name": "game-audio",
+  "description": "Game audio principles. Sound design, music integration, adaptive audio systems. allowed-tools: Read, Glob, Grep",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "graph-query",
+  "description": "Query the code graph database to understand component relationships, dependencies, and change impact. Use when the user asks to \"find callers\", \"check dependencies\", \"what uses this\", \"show relationships\", \"find serializers\", or when reading code and needing to understand what depends on a compon...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

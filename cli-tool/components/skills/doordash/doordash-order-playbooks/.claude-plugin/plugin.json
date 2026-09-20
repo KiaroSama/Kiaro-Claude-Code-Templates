@@ -1,0 +1,11 @@
+{
+  "name": "doordash-order-playbooks",
+  "description": "Named, context-bound saved DoorDash orders (\"post-gym\", \"late-night deploy\") recalled through the DoorDash CLI (dd-cli) with a mandatory cart-diff before any checkout link is handed over. Use when the user names a saved order (\"order my post-gym bowl\", \"the usual\", \"my Friday ramen\"), wants to sa...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

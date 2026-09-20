@@ -1,0 +1,11 @@
+{
+  "name": "agent-management",
+  "description": "Create, manage, and orchestrate AI agents using the AI Maestro CLI. Use when the user asks to \"create agent\", \"list agents\", \"delete agent\", \"hibernate agent\", \"wake agent\", \"install plugin\", \"show agent\", \"restart agent\", or any agent lifecycle management task.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

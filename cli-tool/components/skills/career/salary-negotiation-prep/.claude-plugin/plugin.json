@@ -1,0 +1,11 @@
+{
+  "name": "salary-negotiation-prep",
+  "description": "Research market rates, build negotiation strategy, and create counter-offer scripts. Use when the user mentions salary negotiation, counter offer, compensation discussion, or pay raise conversation.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "star-history-chart",
+  "description": "Add a self-hosted \"Stargazers over time\" chart to any GitHub repo's README. GitHub now restricts the stargazers endpoint to a repo's own admins/collaborators, so third-party live services (star-history free tier, starchart.cc) return \"Requires authentication\" for everyone. This generates a static...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

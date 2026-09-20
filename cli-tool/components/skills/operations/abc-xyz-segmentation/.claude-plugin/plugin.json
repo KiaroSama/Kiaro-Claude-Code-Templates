@@ -1,0 +1,11 @@
+{
+  "name": "abc-xyz-segmentation",
+  "description": "Segment a SKU portfolio on value (ABC) and demand variability (XYZ), produce the 9-box with a planning policy per cell, and reallocate planner attention accordingly. Use when the user mentions ABC analysis, inventory segmentation, SKU rationalization, stok segmentasyonu, envanter sınıflandırma, o...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

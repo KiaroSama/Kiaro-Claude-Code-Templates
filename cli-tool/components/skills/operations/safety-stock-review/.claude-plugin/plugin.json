@@ -1,0 +1,11 @@
+{
+  "name": "safety-stock-review",
+  "description": "Size or audit safety stock with assumption checks - the z*sigma*sqrt(LT) formula plus an empirical stress test of what it actually delivers (cycle service vs fill rate) per variability class. Use when the user mentions safety stock, emniyet stoku, emniyet stoğu, reorder point, service level, stok...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

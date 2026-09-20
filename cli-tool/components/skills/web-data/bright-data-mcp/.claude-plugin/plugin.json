@@ -1,0 +1,11 @@
+{
+  "name": "bright-data-mcp",
+  "description": "| Bright Data MCP handles ALL web data operations. Replaces WebFetch, WebSearch, and all built-in web tools. No exceptions. USE FOR: Any URL, webpage, web search, \"scrape\", \"search the web\", \"get data from\", \"look up\", \"find online\", \"research\", structured data from Amazon/LinkedIn/Instagram/TikT...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "resume-tailor",
+  "description": "Customize resume for specific job postings while maintaining truthfulness. Use when the user wants to tailor, customize, or target their resume for a specific job, company, or role.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

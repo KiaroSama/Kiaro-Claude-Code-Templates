@@ -1,0 +1,11 @@
+{
+  "name": "rust-pro",
+  "description": "Master Rust 1.75+ with modern async patterns, advanced type system features, and production-ready systems programming.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "doordash-order-ledger",
+  "description": "Accountability layer for agent-driven DoorDash ordering. Works with the doordash-audit-log hook (which appends every dd-cli invocation to an append-only audit log) and the /doordash-report command to answer \"what has my AI been ordering and what did it cost\" from data instead of memory. Use when ...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

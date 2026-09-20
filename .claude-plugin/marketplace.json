@@ -3860,7 +3860,7 @@
       "description": "Graph-based drug discovery toolkit. Molecular property prediction (ADMET), protein modeling, knowledge graph reasoning, molecular generation, retrosynthesis, GNNs (GIN, GAT, SchNet), 40+ datasets, for PyTorch-based ML on molecules, proteins, and biomedical graphs."
     },
     {
-      "name": "torch_geometric",
+      "name": "torch-geometric",
       "source": "./cli-tool/components/skills/scientific/torch_geometric",
       "description": "Graph Neural Networks (PyG). Node/graph classification, link prediction, GCN, GAT, GraphSAGE, heterogeneous graphs, molecular property prediction, for geometric deep learning."
     },
@@ -4885,7 +4885,7 @@
       "description": "Components for mcps audio."
     },
     {
-      "name": "mcps-browser_automation",
+      "name": "mcps-browser-automation",
       "source": "./plugins/mcps-browser_automation",
       "description": "Components for mcps browser_automation."
     },

@@ -1,0 +1,11 @@
+{
+  "name": "executive-resume-writer",
+  "description": "Create C-suite and VP-level resumes emphasizing strategic leadership, P&L ownership, and board-level impact. Use when the user mentions executive, C-suite, CEO, CFO, CTO, VP, director, or senior leadership resume.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

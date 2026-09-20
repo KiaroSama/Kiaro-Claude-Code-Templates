@@ -1,0 +1,11 @@
+{
+  "name": "context7-auto-research",
+  "description": "Automatically fetch latest library/framework documentation for Claude Code via Context7 API",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

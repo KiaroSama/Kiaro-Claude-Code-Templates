@@ -1,0 +1,11 @@
+{
+  "name": "naming-analyzer",
+  "description": "Suggest better variable, function, and class names based on context and conventions.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

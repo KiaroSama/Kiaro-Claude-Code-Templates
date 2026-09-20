@@ -1,0 +1,11 @@
+{
+  "name": "academic-cv-builder",
+  "description": "Format CVs for academic positions, including publications, grants, teaching, and research experience. Use when the user mentions academic CV, faculty job, tenure-track, postdoc, PhD, research position, or needs to list publications, grants, conferences, or teaching.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "address-github-comments",
+  "description": "Use when you need to address review or issue comments on an open GitHub Pull Request using the gh CLI.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "context-architecture",
+  "description": ">- Audit a codebase and bind every claim it makes about itself to a mechanism that fails when the claim stops being true, so it is legible to people and AI agents. Applies Context Architecture's nine principles: make structure say what the system does, place AGENTS.md at boundaries, codify conven...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "shadcn",
+  "description": "Manages shadcn/ui components and projects, providing context, documentation, and usage patterns for building modern design systems. user-invocable: false",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

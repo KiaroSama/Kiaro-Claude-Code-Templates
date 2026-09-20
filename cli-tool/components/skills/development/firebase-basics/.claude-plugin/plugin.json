@@ -1,0 +1,11 @@
+{
+  "name": "firebase-basics",
+  "description": "Sets up and develops projects using Firebase products and services, especially for mobile or web apps. Covers Firebase CLI setup, project configuration, and integration with Firebase platform services.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

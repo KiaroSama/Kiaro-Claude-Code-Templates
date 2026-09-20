@@ -1,0 +1,11 @@
+{
+  "name": "heygen-best-practices",
+  "description": "Best practices for HeyGen - AI avatar video creation API",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

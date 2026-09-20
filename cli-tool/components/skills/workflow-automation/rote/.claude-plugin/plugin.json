@@ -1,0 +1,11 @@
+{
+  "name": "rote",
+  "description": "Compile a proven agent skill (a SKILL.md plus references) into a deterministic pipeline that runs without an LLM in the loop, then serve it back to Claude as an MCP tool. Use when: rote, compile this skill, turn this skill into a workflow, make this skill deterministic, make this skill cheaper or...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "2d-games",
+  "description": "2D game development principles. Sprites, tilemaps, physics, camera. allowed-tools: Read, Write, Edit, Glob, Grep",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}
