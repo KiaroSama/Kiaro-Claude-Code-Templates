@@ -1,0 +1,40 @@
+{
+  "mcpServers": {
+    "DeepGraph Next.js MCP": {
+      "description": "Deep code analysis and visualization for Next.js projects. Understand component relationships, dependencies, and architecture patterns.",
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-code-graph@latest",
+        "vercel/next.js"
+      ]
+    },
+    "DeepGraph React MCP": {
+      "description": "Analyze React component hierarchies, state flows, and dependencies. Visualize your React application architecture.",
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-code-graph@latest",
+        "facebook/react"
+      ]
+    },
+    "DeepGraph TypeScript MCP": {
+      "description": "Comprehensive TypeScript code analysis with type mapping, interface relationships, and module dependency tracking.",
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-code-graph@latest",
+        "microsoft/TypeScript"
+      ]
+    },
+    "DeepGraph Vue MCP": {
+      "description": "Analyze Vue.js applications including component composition, reactive data flow, and template-script relationships.",
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-code-graph@latest",
+        "vuejs/core"
+      ]
+    }
+  }
+}

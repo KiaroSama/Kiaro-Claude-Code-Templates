@@ -1,0 +1,77 @@
+{
+  "mcpServers": {
+    "alpaca-trading": {
+      "description": "Trading platform MCP server enabling stock, ETF, crypto, and options trading via Alpaca's API. Supports market data, portfolio management, and order execution.",
+      "command": "uvx",
+      "args": [
+        "alpaca-mcp-server"
+      ],
+      "env": {
+        "ALPACA_API_KEY": "<your-alpaca-api-key>",
+        "ALPACA_SECRET_KEY": "<your-alpaca-secret-key>"
+      }
+    },
+    "alphai": {
+      "description": "Pre-analyzed financial news via REST API and MCP. Per-ticker impact, category, and a 1-10 relevance score on every story, plus SEC Form 4 insider data. Free tier, no card.",
+      "type": "http",
+      "url": "https://mcp.alphai.io/mcp"
+    },
+    "footballbin-predictions": {
+      "description": "AI-powered football match predictions for Premier League and Champions League. Returns half-time scores, full-time scores, next goal scorer, corner counts, and key player analysis. Public endpoint, no API key required.",
+      "url": "https://ru7m5svay1.execute-api.eu-central-1.amazonaws.com/prod/mcp"
+    },
+    "github": {
+      "description": "Direct GitHub API integration for repository management, issue tracking, pull requests, and collaborative development workflows.",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-github"
+      ],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "<YOUR_TOKEN>"
+      }
+    },
+    "livetennisapi": {
+      "description": "Real-time and historical tennis data for LLM agents — live scores, match state (server, break point, retirement/walkover), players, rankings, fixtures, head-to-head and the 1968-2022 results archive across ATP, WTA, Challenger, ITF and juniors. Free tier, no card: https://livetennisapi.com/subscribe/free",
+      "command": "npx",
+      "args": [
+        "-y",
+        "livetennisapi-mcp"
+      ],
+      "env": {
+        "LIVETENNISAPI_KEY": "YOUR_LIVE_TENNIS_API_KEY"
+      }
+    },
+    "memex": {
+      "type": "stdio",
+      "description": "Developer context continuity for AI coding agents. Watches your git repos and builds a temporal knowledge graph of modules, symbols, decisions, and open problems via Graphiti + Neo4j, then serves it over MCP. Every edge carries a validity window and a confidence score that decays over time. 12 tools across read and write. Requires NEO4J_URI, NEO4J_USER, NEO4J_PASSWORD, and GEMINI_API_KEY (set in your repo's .env).",
+      "command": "npx",
+      "args": [
+        "-y",
+        "stifler-memex-mcp",
+        "serve",
+        "--repo",
+        "."
+      ]
+    },
+    "memory": {
+      "description": "Persistent memory and context management for Claude Code sessions. Store and recall information across conversations and projects.",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-memory"
+      ]
+    },
+    "n8n-mcp": {
+      "description": "Build and manage n8n workflows directly from Claude. Includes a pre-built database with all n8n node documentation for workflow automation.",
+      "command": "npx",
+      "args": [
+        "-y",
+        "n8n-mcp"
+      ],
+      "env": {
+        "MCP_MODE": "stdio"
+      }
+    }
+  }
+}

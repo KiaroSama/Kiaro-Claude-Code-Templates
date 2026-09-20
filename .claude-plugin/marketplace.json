@@ -5,16 +5,4945 @@
   },
   "plugins": [
     {
-      "name": "telegram-bot-builder",
+      "name": "agent-management",
+      "source": "./cli-tool/components/skills/ai-maestro/agent-management",
+      "strict": false
+    },
+    {
+      "name": "agent-messaging",
+      "source": "./cli-tool/components/skills/ai-maestro/agent-messaging",
+      "strict": false
+    },
+    {
+      "name": "docs-search",
+      "source": "./cli-tool/components/skills/ai-maestro/docs-search",
+      "strict": false
+    },
+    {
+      "name": "graph-query",
+      "source": "./cli-tool/components/skills/ai-maestro/graph-query",
+      "strict": false
+    },
+    {
+      "name": "memory-search",
+      "source": "./cli-tool/components/skills/ai-maestro/memory-search",
+      "strict": false
+    },
+    {
+      "name": "planning",
+      "source": "./cli-tool/components/skills/ai-maestro/planning",
+      "strict": false
+    },
+    {
+      "name": "agent-evaluation",
+      "source": "./cli-tool/components/skills/ai-research/agent-evaluation",
+      "strict": false
+    },
+    {
+      "name": "agent-manager-skill",
+      "source": "./cli-tool/components/skills/ai-research/agent-manager-skill",
+      "strict": false
+    },
+    {
+      "name": "agent-memory-mcp",
+      "source": "./cli-tool/components/skills/ai-research/agent-memory-mcp",
+      "strict": false
+    },
+    {
+      "name": "agent-memory-systems",
+      "source": "./cli-tool/components/skills/ai-research/agent-memory-systems",
+      "strict": false
+    },
+    {
+      "name": "agent-tool-builder",
+      "source": "./cli-tool/components/skills/ai-research/agent-tool-builder",
+      "strict": false
+    },
+    {
+      "name": "agents-autogpt",
+      "source": "./cli-tool/components/skills/ai-research/agents-autogpt",
+      "strict": false
+    },
+    {
+      "name": "agents-crewai",
+      "source": "./cli-tool/components/skills/ai-research/agents-crewai",
+      "strict": false
+    },
+    {
+      "name": "agents-langchain",
+      "source": "./cli-tool/components/skills/ai-research/agents-langchain",
+      "strict": false
+    },
+    {
+      "name": "agents-llamaindex",
+      "source": "./cli-tool/components/skills/ai-research/agents-llamaindex",
+      "strict": false
+    },
+    {
+      "name": "ai-agents-architect",
+      "source": "./cli-tool/components/skills/ai-research/ai-agents-architect",
+      "strict": false
+    },
+    {
+      "name": "autonomous-agent-patterns",
+      "source": "./cli-tool/components/skills/ai-research/autonomous-agent-patterns",
+      "strict": false
+    },
+    {
+      "name": "autonomous-agents",
+      "source": "./cli-tool/components/skills/ai-research/autonomous-agents",
+      "strict": false
+    },
+    {
+      "name": "behavioral-modes",
+      "source": "./cli-tool/components/skills/ai-research/behavioral-modes",
+      "strict": false
+    },
+    {
+      "name": "claude-code-guide",
+      "source": "./cli-tool/components/skills/ai-research/claude-code-guide",
+      "strict": false
+    },
+    {
+      "name": "computer-use-agents",
+      "source": "./cli-tool/components/skills/ai-research/computer-use-agents",
+      "strict": false
+    },
+    {
+      "name": "context-window-management",
+      "source": "./cli-tool/components/skills/ai-research/context-window-management",
+      "strict": false
+    },
+    {
+      "name": "context7-auto-research",
+      "source": "./cli-tool/components/skills/ai-research/context7-auto-research",
+      "strict": false
+    },
+    {
+      "name": "conversation-memory",
+      "source": "./cli-tool/components/skills/ai-research/conversation-memory",
+      "strict": false
+    },
+    {
+      "name": "crewai",
+      "source": "./cli-tool/components/skills/ai-research/crewai",
+      "strict": false
+    },
+    {
+      "name": "data-engineer",
+      "source": "./cli-tool/components/skills/ai-research/data-engineer",
+      "strict": false
+    },
+    {
+      "name": "data-processing-nemo-curator",
+      "source": "./cli-tool/components/skills/ai-research/data-processing-nemo-curator",
+      "strict": false
+    },
+    {
+      "name": "data-processing-ray-data",
+      "source": "./cli-tool/components/skills/ai-research/data-processing-ray-data",
+      "strict": false
+    },
+    {
+      "name": "data-scientist",
+      "source": "./cli-tool/components/skills/ai-research/data-scientist",
+      "strict": false
+    },
+    {
+      "name": "datadog-cli",
+      "source": "./cli-tool/components/skills/ai-research/datadog-cli",
+      "strict": false
+    },
+    {
+      "name": "deep-research",
+      "source": "./cli-tool/components/skills/ai-research/deep-research",
+      "strict": false
+    },
+    {
+      "name": "deep-research-notebooklm",
+      "source": "./cli-tool/components/skills/ai-research/deep-research-notebooklm",
+      "strict": false
+    },
+    {
+      "name": "ai-research-dispatching-parallel-agents",
+      "source": "./cli-tool/components/skills/ai-research/dispatching-parallel-agents",
+      "strict": false
+    },
+    {
+      "name": "distributed-training-accelerate",
+      "source": "./cli-tool/components/skills/ai-research/distributed-training-accelerate",
+      "strict": false
+    },
+    {
+      "name": "distributed-training-deepspeed",
+      "source": "./cli-tool/components/skills/ai-research/distributed-training-deepspeed",
+      "strict": false
+    },
+    {
+      "name": "distributed-training-megatron-core",
+      "source": "./cli-tool/components/skills/ai-research/distributed-training-megatron-core",
+      "strict": false
+    },
+    {
+      "name": "distributed-training-pytorch-fsdp",
+      "source": "./cli-tool/components/skills/ai-research/distributed-training-pytorch-fsdp",
+      "strict": false
+    },
+    {
+      "name": "distributed-training-pytorch-lightning",
+      "source": "./cli-tool/components/skills/ai-research/distributed-training-pytorch-lightning",
+      "strict": false
+    },
+    {
+      "name": "distributed-training-ray-train",
+      "source": "./cli-tool/components/skills/ai-research/distributed-training-ray-train",
+      "strict": false
+    },
+    {
+      "name": "emerging-techniques-knowledge-distillation",
+      "source": "./cli-tool/components/skills/ai-research/emerging-techniques-knowledge-distillation",
+      "strict": false
+    },
+    {
+      "name": "emerging-techniques-long-context",
+      "source": "./cli-tool/components/skills/ai-research/emerging-techniques-long-context",
+      "strict": false
+    },
+    {
+      "name": "emerging-techniques-model-merging",
+      "source": "./cli-tool/components/skills/ai-research/emerging-techniques-model-merging",
+      "strict": false
+    },
+    {
+      "name": "emerging-techniques-model-pruning",
+      "source": "./cli-tool/components/skills/ai-research/emerging-techniques-model-pruning",
+      "strict": false
+    },
+    {
+      "name": "emerging-techniques-moe-training",
+      "source": "./cli-tool/components/skills/ai-research/emerging-techniques-moe-training",
+      "strict": false
+    },
+    {
+      "name": "emerging-techniques-speculative-decoding",
+      "source": "./cli-tool/components/skills/ai-research/emerging-techniques-speculative-decoding",
+      "strict": false
+    },
+    {
+      "name": "evaluation-bigcode-evaluation-harness",
+      "source": "./cli-tool/components/skills/ai-research/evaluation-bigcode-evaluation-harness",
+      "strict": false
+    },
+    {
+      "name": "evaluation-lm-evaluation-harness",
+      "source": "./cli-tool/components/skills/ai-research/evaluation-lm-evaluation-harness",
+      "strict": false
+    },
+    {
+      "name": "evaluation-nemo-evaluator",
+      "source": "./cli-tool/components/skills/ai-research/evaluation-nemo-evaluator",
+      "strict": false
+    },
+    {
+      "name": "fine-tuning-axolotl",
+      "source": "./cli-tool/components/skills/ai-research/fine-tuning-axolotl",
+      "strict": false
+    },
+    {
+      "name": "fine-tuning-llama-factory",
+      "source": "./cli-tool/components/skills/ai-research/fine-tuning-llama-factory",
+      "strict": false
+    },
+    {
+      "name": "fine-tuning-peft",
+      "source": "./cli-tool/components/skills/ai-research/fine-tuning-peft",
+      "strict": false
+    },
+    {
+      "name": "fine-tuning-unsloth",
+      "source": "./cli-tool/components/skills/ai-research/fine-tuning-unsloth",
+      "strict": false
+    },
+    {
+      "name": "gemini",
+      "source": "./cli-tool/components/skills/ai-research/gemini",
+      "strict": false
+    },
+    {
+      "name": "gemini-api-agent-platform",
+      "source": "./cli-tool/components/skills/ai-research/gemini-api-agent-platform",
+      "strict": false
+    },
+    {
+      "name": "gepetto",
+      "source": "./cli-tool/components/skills/ai-research/gepetto",
+      "strict": false
+    },
+    {
+      "name": "inference-serving-llama-cpp",
+      "source": "./cli-tool/components/skills/ai-research/inference-serving-llama-cpp",
+      "strict": false
+    },
+    {
+      "name": "inference-serving-sglang",
+      "source": "./cli-tool/components/skills/ai-research/inference-serving-sglang",
+      "strict": false
+    },
+    {
+      "name": "inference-serving-tensorrt-llm",
+      "source": "./cli-tool/components/skills/ai-research/inference-serving-tensorrt-llm",
+      "strict": false
+    },
+    {
+      "name": "inference-serving-vllm",
+      "source": "./cli-tool/components/skills/ai-research/inference-serving-vllm",
+      "strict": false
+    },
+    {
+      "name": "infrastructure-lambda-labs",
+      "source": "./cli-tool/components/skills/ai-research/infrastructure-lambda-labs",
+      "strict": false
+    },
+    {
+      "name": "infrastructure-modal",
+      "source": "./cli-tool/components/skills/ai-research/infrastructure-modal",
+      "strict": false
+    },
+    {
+      "name": "infrastructure-skypilot",
+      "source": "./cli-tool/components/skills/ai-research/infrastructure-skypilot",
+      "strict": false
+    },
+    {
+      "name": "jira",
+      "source": "./cli-tool/components/skills/ai-research/jira",
+      "strict": false
+    },
+    {
+      "name": "langfuse",
+      "source": "./cli-tool/components/skills/ai-research/langfuse",
+      "strict": false
+    },
+    {
+      "name": "langgraph",
+      "source": "./cli-tool/components/skills/ai-research/langgraph",
+      "strict": false
+    },
+    {
+      "name": "llm-app-patterns",
+      "source": "./cli-tool/components/skills/ai-research/llm-app-patterns",
+      "strict": false
+    },
+    {
+      "name": "llm-evaluation",
+      "source": "./cli-tool/components/skills/ai-research/llm-evaluation",
+      "strict": false
+    },
+    {
+      "name": "llm-ops",
+      "source": "./cli-tool/components/skills/ai-research/llm-ops",
+      "strict": false
+    },
+    {
+      "name": "loki-mode",
+      "source": "./cli-tool/components/skills/ai-research/loki-mode",
+      "strict": false
+    },
+    {
+      "name": "mechanistic-interpretability-nnsight",
+      "source": "./cli-tool/components/skills/ai-research/mechanistic-interpretability-nnsight",
+      "strict": false
+    },
+    {
+      "name": "mechanistic-interpretability-pyvene",
+      "source": "./cli-tool/components/skills/ai-research/mechanistic-interpretability-pyvene",
+      "strict": false
+    },
+    {
+      "name": "mechanistic-interpretability-saelens",
+      "source": "./cli-tool/components/skills/ai-research/mechanistic-interpretability-saelens",
+      "strict": false
+    },
+    {
+      "name": "mechanistic-interpretability-transformer-lens",
+      "source": "./cli-tool/components/skills/ai-research/mechanistic-interpretability-transformer-lens",
+      "strict": false
+    },
+    {
+      "name": "ml-engineer",
+      "source": "./cli-tool/components/skills/ai-research/ml-engineer",
+      "strict": false
+    },
+    {
+      "name": "ml-paper-writing",
+      "source": "./cli-tool/components/skills/ai-research/ml-paper-writing",
+      "strict": false
+    },
+    {
+      "name": "mlops-mlflow",
+      "source": "./cli-tool/components/skills/ai-research/mlops-mlflow",
+      "strict": false
+    },
+    {
+      "name": "mlops-tensorboard",
+      "source": "./cli-tool/components/skills/ai-research/mlops-tensorboard",
+      "strict": false
+    },
+    {
+      "name": "mlops-weights-and-biases",
+      "source": "./cli-tool/components/skills/ai-research/mlops-weights-and-biases",
+      "strict": false
+    },
+    {
+      "name": "model-architecture-litgpt",
+      "source": "./cli-tool/components/skills/ai-research/model-architecture-litgpt",
+      "strict": false
+    },
+    {
+      "name": "model-architecture-mamba",
+      "source": "./cli-tool/components/skills/ai-research/model-architecture-mamba",
+      "strict": false
+    },
+    {
+      "name": "model-architecture-nanogpt",
+      "source": "./cli-tool/components/skills/ai-research/model-architecture-nanogpt",
+      "strict": false
+    },
+    {
+      "name": "model-architecture-rwkv",
+      "source": "./cli-tool/components/skills/ai-research/model-architecture-rwkv",
+      "strict": false
+    },
+    {
+      "name": "model-architecture-torchtitan",
+      "source": "./cli-tool/components/skills/ai-research/model-architecture-torchtitan",
+      "strict": false
+    },
+    {
+      "name": "multimodal-audiocraft",
+      "source": "./cli-tool/components/skills/ai-research/multimodal-audiocraft",
+      "strict": false
+    },
+    {
+      "name": "multimodal-blip-2",
+      "source": "./cli-tool/components/skills/ai-research/multimodal-blip-2",
+      "strict": false
+    },
+    {
+      "name": "multimodal-clip",
+      "source": "./cli-tool/components/skills/ai-research/multimodal-clip",
+      "strict": false
+    },
+    {
+      "name": "multimodal-llava",
+      "source": "./cli-tool/components/skills/ai-research/multimodal-llava",
+      "strict": false
+    },
+    {
+      "name": "multimodal-segment-anything",
+      "source": "./cli-tool/components/skills/ai-research/multimodal-segment-anything",
+      "strict": false
+    },
+    {
+      "name": "multimodal-stable-diffusion",
+      "source": "./cli-tool/components/skills/ai-research/multimodal-stable-diffusion",
+      "strict": false
+    },
+    {
+      "name": "multimodal-whisper",
+      "source": "./cli-tool/components/skills/ai-research/multimodal-whisper",
+      "strict": false
+    },
+    {
+      "name": "observability-langsmith",
+      "source": "./cli-tool/components/skills/ai-research/observability-langsmith",
+      "strict": false
+    },
+    {
+      "name": "observability-phoenix",
+      "source": "./cli-tool/components/skills/ai-research/observability-phoenix",
+      "strict": false
+    },
+    {
+      "name": "openai-docs",
+      "source": "./cli-tool/components/skills/ai-research/openai-docs",
+      "strict": false
+    },
+    {
+      "name": "optimization-awq",
+      "source": "./cli-tool/components/skills/ai-research/optimization-awq",
+      "strict": false
+    },
+    {
+      "name": "optimization-bitsandbytes",
+      "source": "./cli-tool/components/skills/ai-research/optimization-bitsandbytes",
+      "strict": false
+    },
+    {
+      "name": "optimization-flash-attention",
+      "source": "./cli-tool/components/skills/ai-research/optimization-flash-attention",
+      "strict": false
+    },
+    {
+      "name": "optimization-gguf",
+      "source": "./cli-tool/components/skills/ai-research/optimization-gguf",
+      "strict": false
+    },
+    {
+      "name": "optimization-gptq",
+      "source": "./cli-tool/components/skills/ai-research/optimization-gptq",
+      "strict": false
+    },
+    {
+      "name": "optimization-hqq",
+      "source": "./cli-tool/components/skills/ai-research/optimization-hqq",
+      "strict": false
+    },
+    {
+      "name": "parallel-agents",
+      "source": "./cli-tool/components/skills/ai-research/parallel-agents",
+      "strict": false
+    },
+    {
+      "name": "perplexity",
+      "source": "./cli-tool/components/skills/ai-research/perplexity",
+      "strict": false
+    },
+    {
+      "name": "post-training-grpo-rl-training",
+      "source": "./cli-tool/components/skills/ai-research/post-training-grpo-rl-training",
+      "strict": false
+    },
+    {
+      "name": "post-training-miles",
+      "source": "./cli-tool/components/skills/ai-research/post-training-miles",
+      "strict": false
+    },
+    {
+      "name": "post-training-openrlhf",
+      "source": "./cli-tool/components/skills/ai-research/post-training-openrlhf",
+      "strict": false
+    },
+    {
+      "name": "post-training-simpo",
+      "source": "./cli-tool/components/skills/ai-research/post-training-simpo",
+      "strict": false
+    },
+    {
+      "name": "post-training-slime",
+      "source": "./cli-tool/components/skills/ai-research/post-training-slime",
+      "strict": false
+    },
+    {
+      "name": "post-training-torchforge",
+      "source": "./cli-tool/components/skills/ai-research/post-training-torchforge",
+      "strict": false
+    },
+    {
+      "name": "post-training-trl-fine-tuning",
+      "source": "./cli-tool/components/skills/ai-research/post-training-trl-fine-tuning",
+      "strict": false
+    },
+    {
+      "name": "post-training-verl",
+      "source": "./cli-tool/components/skills/ai-research/post-training-verl",
+      "strict": false
+    },
+    {
+      "name": "prompt-caching",
+      "source": "./cli-tool/components/skills/ai-research/prompt-caching",
+      "strict": false
+    },
+    {
+      "name": "prompt-engineer",
+      "source": "./cli-tool/components/skills/ai-research/prompt-engineer",
+      "strict": false
+    },
+    {
+      "name": "prompt-engineering",
+      "source": "./cli-tool/components/skills/ai-research/prompt-engineering",
+      "strict": false
+    },
+    {
+      "name": "prompt-engineering-dspy",
+      "source": "./cli-tool/components/skills/ai-research/prompt-engineering-dspy",
+      "strict": false
+    },
+    {
+      "name": "prompt-engineering-guidance",
+      "source": "./cli-tool/components/skills/ai-research/prompt-engineering-guidance",
+      "strict": false
+    },
+    {
+      "name": "prompt-engineering-instructor",
+      "source": "./cli-tool/components/skills/ai-research/prompt-engineering-instructor",
+      "strict": false
+    },
+    {
+      "name": "prompt-engineering-outlines",
+      "source": "./cli-tool/components/skills/ai-research/prompt-engineering-outlines",
+      "strict": false
+    },
+    {
+      "name": "prompt-engineering-patterns",
+      "source": "./cli-tool/components/skills/ai-research/prompt-engineering-patterns",
+      "strict": false
+    },
+    {
+      "name": "prompt-library",
+      "source": "./cli-tool/components/skills/ai-research/prompt-library",
+      "strict": false
+    },
+    {
+      "name": "pydantic-ai",
+      "source": "./cli-tool/components/skills/ai-research/pydantic-ai",
+      "strict": false
+    },
+    {
+      "name": "qa-test-planner",
+      "source": "./cli-tool/components/skills/ai-research/qa-test-planner",
+      "strict": false
+    },
+    {
+      "name": "rag-chroma",
+      "source": "./cli-tool/components/skills/ai-research/rag-chroma",
+      "strict": false
+    },
+    {
+      "name": "rag-engineer",
+      "source": "./cli-tool/components/skills/ai-research/rag-engineer",
+      "strict": false
+    },
+    {
+      "name": "rag-faiss",
+      "source": "./cli-tool/components/skills/ai-research/rag-faiss",
+      "strict": false
+    },
+    {
+      "name": "rag-implementation",
+      "source": "./cli-tool/components/skills/ai-research/rag-implementation",
+      "strict": false
+    },
+    {
+      "name": "rag-pinecone",
+      "source": "./cli-tool/components/skills/ai-research/rag-pinecone",
+      "strict": false
+    },
+    {
+      "name": "rag-qdrant",
+      "source": "./cli-tool/components/skills/ai-research/rag-qdrant",
+      "strict": false
+    },
+    {
+      "name": "rag-sentence-transformers",
+      "source": "./cli-tool/components/skills/ai-research/rag-sentence-transformers",
+      "strict": false
+    },
+    {
+      "name": "research-engineer",
+      "source": "./cli-tool/components/skills/ai-research/research-engineer",
+      "strict": false
+    },
+    {
+      "name": "safety-alignment-constitutional-ai",
+      "source": "./cli-tool/components/skills/ai-research/safety-alignment-constitutional-ai",
+      "strict": false
+    },
+    {
+      "name": "safety-alignment-llamaguard",
+      "source": "./cli-tool/components/skills/ai-research/safety-alignment-llamaguard",
+      "strict": false
+    },
+    {
+      "name": "safety-alignment-nemo-guardrails",
+      "source": "./cli-tool/components/skills/ai-research/safety-alignment-nemo-guardrails",
+      "strict": false
+    },
+    {
+      "name": "ai-research-subagent-driven-development",
+      "source": "./cli-tool/components/skills/ai-research/subagent-driven-development",
+      "strict": false
+    },
+    {
+      "name": "tokenization-huggingface-tokenizers",
+      "source": "./cli-tool/components/skills/ai-research/tokenization-huggingface-tokenizers",
+      "strict": false
+    },
+    {
+      "name": "tokenization-sentencepiece",
+      "source": "./cli-tool/components/skills/ai-research/tokenization-sentencepiece",
+      "strict": false
+    },
+    {
+      "name": "voice-agents",
+      "source": "./cli-tool/components/skills/ai-research/voice-agents",
+      "strict": false
+    },
+    {
+      "name": "voice-ai-development",
+      "source": "./cli-tool/components/skills/ai-research/voice-ai-development",
+      "strict": false
+    },
+    {
+      "name": "google-analytics",
+      "source": "./cli-tool/components/skills/analytics/google-analytics",
+      "strict": false
+    },
+    {
+      "name": "ab-test-setup",
+      "source": "./cli-tool/components/skills/business-marketing/ab-test-setup",
+      "strict": false
+    },
+    {
+      "name": "agile-product-owner",
+      "source": "./cli-tool/components/skills/business-marketing/agile-product-owner",
+      "strict": false
+    },
+    {
+      "name": "ai-product",
+      "source": "./cli-tool/components/skills/business-marketing/ai-product",
+      "strict": false
+    },
+    {
+      "name": "ai-wrapper-product",
+      "source": "./cli-tool/components/skills/business-marketing/ai-wrapper-product",
+      "strict": false
+    },
+    {
+      "name": "analytics-tracking",
+      "source": "./cli-tool/components/skills/business-marketing/analytics-tracking",
+      "strict": false
+    },
+    {
+      "name": "app-builder",
+      "source": "./cli-tool/components/skills/business-marketing/app-builder",
+      "strict": false
+    },
+    {
+      "name": "app-builder-templates",
+      "source": "./cli-tool/components/skills/business-marketing/app-builder/templates",
+      "strict": false
+    },
+    {
+      "name": "app-store-optimization",
+      "source": "./cli-tool/components/skills/business-marketing/app-store-optimization",
+      "strict": false
+    },
+    {
+      "name": "brand-guidelines-anthropic",
+      "source": "./cli-tool/components/skills/business-marketing/brand-guidelines-anthropic",
+      "strict": false
+    },
+    {
+      "name": "brand-guidelines-community",
+      "source": "./cli-tool/components/skills/business-marketing/brand-guidelines-community",
+      "strict": false
+    },
+    {
+      "name": "ceo-advisor",
+      "source": "./cli-tool/components/skills/business-marketing/ceo-advisor",
+      "strict": false
+    },
+    {
+      "name": "competitive-ads-extractor",
+      "source": "./cli-tool/components/skills/business-marketing/competitive-ads-extractor",
+      "strict": false
+    },
+    {
+      "name": "competitor-alternatives",
+      "source": "./cli-tool/components/skills/business-marketing/competitor-alternatives",
+      "strict": false
+    },
+    {
+      "name": "content-creator",
+      "source": "./cli-tool/components/skills/business-marketing/content-creator",
+      "strict": false
+    },
+    {
+      "name": "content-research-writer",
+      "source": "./cli-tool/components/skills/business-marketing/content-research-writer",
+      "strict": false
+    },
+    {
+      "name": "copy-editing",
+      "source": "./cli-tool/components/skills/business-marketing/copy-editing",
+      "strict": false
+    },
+    {
+      "name": "copywriting",
+      "source": "./cli-tool/components/skills/business-marketing/copywriting",
+      "strict": false
+    },
+    {
+      "name": "cto-advisor",
+      "source": "./cli-tool/components/skills/business-marketing/cto-advisor",
+      "strict": false
+    },
+    {
+      "name": "email-sequence",
+      "source": "./cli-tool/components/skills/business-marketing/email-sequence",
+      "strict": false
+    },
+    {
+      "name": "email-systems",
+      "source": "./cli-tool/components/skills/business-marketing/email-systems",
+      "strict": false
+    },
+    {
+      "name": "form-cro",
+      "source": "./cli-tool/components/skills/business-marketing/form-cro",
+      "strict": false
+    },
+    {
+      "name": "free-tool-strategy",
+      "source": "./cli-tool/components/skills/business-marketing/free-tool-strategy",
+      "strict": false
+    },
+    {
+      "name": "launch-strategy",
+      "source": "./cli-tool/components/skills/business-marketing/launch-strategy",
+      "strict": false
+    },
+    {
+      "name": "lead-research-assistant",
+      "source": "./cli-tool/components/skills/business-marketing/lead-research-assistant",
+      "strict": false
+    },
+    {
+      "name": "marketing-demand-acquisition",
+      "source": "./cli-tool/components/skills/business-marketing/marketing-demand-acquisition",
+      "strict": false
+    },
+    {
+      "name": "marketing-ideas",
+      "source": "./cli-tool/components/skills/business-marketing/marketing-ideas",
+      "strict": false
+    },
+    {
+      "name": "marketing-psychology",
+      "source": "./cli-tool/components/skills/business-marketing/marketing-psychology",
+      "strict": false
+    },
+    {
+      "name": "marketing-strategy-pmm",
+      "source": "./cli-tool/components/skills/business-marketing/marketing-strategy-pmm",
+      "strict": false
+    },
+    {
+      "name": "micro-saas-launcher",
+      "source": "./cli-tool/components/skills/business-marketing/micro-saas-launcher",
+      "strict": false
+    },
+    {
+      "name": "onboarding-cro",
+      "source": "./cli-tool/components/skills/business-marketing/onboarding-cro",
+      "strict": false
+    },
+    {
+      "name": "page-cro",
+      "source": "./cli-tool/components/skills/business-marketing/page-cro",
+      "strict": false
+    },
+    {
+      "name": "paid-ads",
+      "source": "./cli-tool/components/skills/business-marketing/paid-ads",
+      "strict": false
+    },
+    {
+      "name": "paywall-upgrade-cro",
+      "source": "./cli-tool/components/skills/business-marketing/paywall-upgrade-cro",
+      "strict": false
+    },
+    {
+      "name": "popup-cro",
+      "source": "./cli-tool/components/skills/business-marketing/popup-cro",
+      "strict": false
+    },
+    {
+      "name": "pricing-strategy",
+      "source": "./cli-tool/components/skills/business-marketing/pricing-strategy",
+      "strict": false
+    },
+    {
+      "name": "product-decision-agent",
+      "source": "./cli-tool/components/skills/business-marketing/product-decision-agent",
+      "strict": false
+    },
+    {
+      "name": "product-manager-toolkit",
+      "source": "./cli-tool/components/skills/business-marketing/product-manager-toolkit",
+      "strict": false
+    },
+    {
+      "name": "product-strategist",
+      "source": "./cli-tool/components/skills/business-marketing/product-strategist",
+      "strict": false
+    },
+    {
+      "name": "programmatic-seo",
+      "source": "./cli-tool/components/skills/business-marketing/programmatic-seo",
+      "strict": false
+    },
+    {
+      "name": "referral-program",
+      "source": "./cli-tool/components/skills/business-marketing/referral-program",
+      "strict": false
+    },
+    {
+      "name": "schema-markup",
+      "source": "./cli-tool/components/skills/business-marketing/schema-markup",
+      "strict": false
+    },
+    {
+      "name": "seo-audit",
+      "source": "./cli-tool/components/skills/business-marketing/seo-audit",
+      "strict": false
+    },
+    {
+      "name": "seo-fundamentals",
+      "source": "./cli-tool/components/skills/business-marketing/seo-fundamentals",
+      "strict": false
+    },
+    {
+      "name": "seo-optimizer",
+      "source": "./cli-tool/components/skills/business-marketing/seo-optimizer",
+      "strict": false
+    },
+    {
+      "name": "seoagent",
+      "source": "./cli-tool/components/skills/business-marketing/seoagent",
+      "strict": false
+    },
+    {
+      "name": "signup-flow-cro",
+      "source": "./cli-tool/components/skills/business-marketing/signup-flow-cro",
+      "strict": false
+    },
+    {
+      "name": "social-content",
+      "source": "./cli-tool/components/skills/business-marketing/social-content",
+      "strict": false
+    },
+    {
+      "name": "viral-generator-builder",
+      "source": "./cli-tool/components/skills/business-marketing/viral-generator-builder",
+      "strict": false
+    },
+    {
+      "name": "business-marketing-x-twitter-scraper",
+      "source": "./cli-tool/components/skills/business-marketing/x-twitter-scraper",
+      "strict": false
+    },
+    {
+      "name": "academic-cv-builder",
+      "source": "./cli-tool/components/skills/career/academic-cv-builder",
+      "strict": false
+    },
+    {
+      "name": "career-changer-translator",
+      "source": "./cli-tool/components/skills/career/career-changer-translator",
+      "strict": false
+    },
+    {
+      "name": "cover-letter-generator",
+      "source": "./cli-tool/components/skills/career/cover-letter-generator",
+      "strict": false
+    },
+    {
+      "name": "creative-portfolio-resume",
+      "source": "./cli-tool/components/skills/career/creative-portfolio-resume",
+      "strict": false
+    },
+    {
+      "name": "executive-resume-writer",
+      "source": "./cli-tool/components/skills/career/executive-resume-writer",
+      "strict": false
+    },
+    {
+      "name": "interview-prep-generator",
+      "source": "./cli-tool/components/skills/career/interview-prep-generator",
+      "strict": false
+    },
+    {
+      "name": "job-description-analyzer",
+      "source": "./cli-tool/components/skills/career/job-description-analyzer",
+      "strict": false
+    },
+    {
+      "name": "linkedin-profile-optimizer",
+      "source": "./cli-tool/components/skills/career/linkedin-profile-optimizer",
+      "strict": false
+    },
+    {
+      "name": "offer-comparison-analyzer",
+      "source": "./cli-tool/components/skills/career/offer-comparison-analyzer",
+      "strict": false
+    },
+    {
+      "name": "portfolio-case-study-writer",
+      "source": "./cli-tool/components/skills/career/portfolio-case-study-writer",
+      "strict": false
+    },
+    {
+      "name": "reference-list-builder",
+      "source": "./cli-tool/components/skills/career/reference-list-builder",
+      "strict": false
+    },
+    {
+      "name": "resume-ats-optimizer",
+      "source": "./cli-tool/components/skills/career/resume-ats-optimizer",
+      "strict": false
+    },
+    {
+      "name": "resume-bullet-writer",
+      "source": "./cli-tool/components/skills/career/resume-bullet-writer",
+      "strict": false
+    },
+    {
+      "name": "resume-formatter",
+      "source": "./cli-tool/components/skills/career/resume-formatter",
+      "strict": false
+    },
+    {
+      "name": "resume-quantifier",
+      "source": "./cli-tool/components/skills/career/resume-quantifier",
+      "strict": false
+    },
+    {
+      "name": "resume-section-builder",
+      "source": "./cli-tool/components/skills/career/resume-section-builder",
+      "strict": false
+    },
+    {
+      "name": "resume-tailor",
+      "source": "./cli-tool/components/skills/career/resume-tailor",
+      "strict": false
+    },
+    {
+      "name": "resume-version-manager",
+      "source": "./cli-tool/components/skills/career/resume-version-manager",
+      "strict": false
+    },
+    {
+      "name": "salary-negotiation-prep",
+      "source": "./cli-tool/components/skills/career/salary-negotiation-prep",
+      "strict": false
+    },
+    {
+      "name": "tech-resume-optimizer",
+      "source": "./cli-tool/components/skills/career/tech-resume-optimizer",
+      "strict": false
+    },
+    {
+      "name": "workorai",
+      "source": "./cli-tool/components/skills/career/workorai",
+      "strict": false
+    },
+    {
+      "name": "3d-web-experience",
+      "source": "./cli-tool/components/skills/creative-design/3d-web-experience",
+      "strict": false
+    },
+    {
+      "name": "accessibility-auditor",
+      "source": "./cli-tool/components/skills/creative-design/accessibility-auditor",
+      "strict": false
+    },
+    {
+      "name": "algorithmic-art",
+      "source": "./cli-tool/components/skills/creative-design/algorithmic-art",
+      "strict": false
+    },
+    {
+      "name": "c4-architecture",
+      "source": "./cli-tool/components/skills/creative-design/c4-architecture",
+      "strict": false
+    },
+    {
+      "name": "canvas-design",
+      "source": "./cli-tool/components/skills/creative-design/canvas-design",
+      "strict": false
+    },
+    {
+      "name": "claude-d3js-skill",
+      "source": "./cli-tool/components/skills/creative-design/claude-d3js-skill",
+      "strict": false
+    },
+    {
+      "name": "develop-web-game",
+      "source": "./cli-tool/components/skills/creative-design/develop-web-game",
+      "strict": false
+    },
+    {
+      "name": "diagrammer",
+      "source": "./cli-tool/components/skills/creative-design/diagrammer",
+      "strict": false
+    },
+    {
+      "name": "draw-io",
+      "source": "./cli-tool/components/skills/creative-design/draw-io",
+      "strict": false
+    },
+    {
+      "name": "excalidraw",
+      "source": "./cli-tool/components/skills/creative-design/excalidraw",
+      "strict": false
+    },
+    {
+      "name": "executing-marketing-campaigns",
+      "source": "./cli-tool/components/skills/creative-design/executing-marketing-campaigns",
+      "strict": false
+    },
+    {
+      "name": "figma",
+      "source": "./cli-tool/components/skills/creative-design/figma",
+      "strict": false
+    },
+    {
+      "name": "figma-implement-design",
+      "source": "./cli-tool/components/skills/creative-design/figma-implement-design",
+      "strict": false
+    },
+    {
+      "name": "frontend-design",
+      "source": "./cli-tool/components/skills/creative-design/frontend-design",
+      "strict": false
+    },
+    {
+      "name": "2d-games",
+      "source": "./cli-tool/components/skills/creative-design/game-development/2d-games",
+      "strict": false
+    },
+    {
+      "name": "3d-games",
+      "source": "./cli-tool/components/skills/creative-design/game-development/3d-games",
+      "strict": false
+    },
+    {
+      "name": "game-art",
+      "source": "./cli-tool/components/skills/creative-design/game-development/game-art",
+      "strict": false
+    },
+    {
+      "name": "game-audio",
+      "source": "./cli-tool/components/skills/creative-design/game-development/game-audio",
+      "strict": false
+    },
+    {
+      "name": "game-design",
+      "source": "./cli-tool/components/skills/creative-design/game-development/game-design",
+      "strict": false
+    },
+    {
+      "name": "mobile-games",
+      "source": "./cli-tool/components/skills/creative-design/game-development/mobile-games",
+      "strict": false
+    },
+    {
+      "name": "multiplayer",
+      "source": "./cli-tool/components/skills/creative-design/game-development/multiplayer",
+      "strict": false
+    },
+    {
+      "name": "pc-games",
+      "source": "./cli-tool/components/skills/creative-design/game-development/pc-games",
+      "strict": false
+    },
+    {
+      "name": "game-development",
+      "source": "./cli-tool/components/skills/creative-design/game-development",
+      "strict": false
+    },
+    {
+      "name": "vr-ar",
+      "source": "./cli-tool/components/skills/creative-design/game-development/vr-ar",
+      "strict": false
+    },
+    {
+      "name": "web-games",
+      "source": "./cli-tool/components/skills/creative-design/game-development/web-games",
+      "strict": false
+    },
+    {
+      "name": "imagegen",
+      "source": "./cli-tool/components/skills/creative-design/imagegen",
+      "strict": false
+    },
+    {
+      "name": "interactive-portfolio",
+      "source": "./cli-tool/components/skills/creative-design/interactive-portfolio",
+      "strict": false
+    },
+    {
+      "name": "luma-imagegen",
+      "source": "./cli-tool/components/skills/creative-design/luma-imagegen",
+      "strict": false
+    },
+    {
+      "name": "marp-slide",
+      "source": "./cli-tool/components/skills/creative-design/marp-slide",
+      "strict": false
+    },
+    {
+      "name": "meme-factory",
+      "source": "./cli-tool/components/skills/creative-design/meme-factory",
+      "strict": false
+    },
+    {
+      "name": "mermaid-diagrams",
+      "source": "./cli-tool/components/skills/creative-design/mermaid-diagrams",
+      "strict": false
+    },
+    {
+      "name": "mobile-design",
+      "source": "./cli-tool/components/skills/creative-design/mobile-design",
+      "strict": false
+    },
+    {
+      "name": "patentfig",
+      "source": "./cli-tool/components/skills/creative-design/patentfig",
+      "strict": false
+    },
+    {
+      "name": "premium-web-design",
+      "source": "./cli-tool/components/skills/creative-design/premium-web-design",
+      "strict": false
+    },
+    {
+      "name": "remotion-best-practices",
+      "source": "./cli-tool/components/skills/creative-design/remotion-best-practices",
+      "strict": false
+    },
+    {
+      "name": "scroll-experience",
+      "source": "./cli-tool/components/skills/creative-design/scroll-experience",
+      "strict": false
+    },
+    {
+      "name": "creative-design-slack-gif-creator",
+      "source": "./cli-tool/components/skills/creative-design/slack-gif-creator",
+      "strict": false
+    },
+    {
+      "name": "tailwind-patterns",
+      "source": "./cli-tool/components/skills/creative-design/tailwind-patterns",
+      "strict": false
+    },
+    {
+      "name": "theme-factory",
+      "source": "./cli-tool/components/skills/creative-design/theme-factory",
+      "strict": false
+    },
+    {
+      "name": "ui-design-system",
+      "source": "./cli-tool/components/skills/creative-design/ui-design-system",
+      "strict": false
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "source": "./cli-tool/components/skills/creative-design/ui-ux-pro-max",
+      "strict": false
+    },
+    {
+      "name": "ux-researcher-designer",
+      "source": "./cli-tool/components/skills/creative-design/ux-researcher-designer",
+      "strict": false
+    },
+    {
+      "name": "web-design-guidelines",
+      "source": "./cli-tool/components/skills/creative-design/web-design-guidelines",
+      "strict": false
+    },
+    {
+      "name": "curviate",
+      "source": "./cli-tool/components/skills/curviate/curviate",
+      "strict": false
+    },
+    {
+      "name": "curviate-engage",
+      "source": "./cli-tool/components/skills/curviate/curviate-engage",
+      "strict": false
+    },
+    {
+      "name": "curviate-inbox",
+      "source": "./cli-tool/components/skills/curviate/curviate-inbox",
+      "strict": false
+    },
+    {
+      "name": "curviate-jobs",
+      "source": "./cli-tool/components/skills/curviate/curviate-jobs",
+      "strict": false
+    },
+    {
+      "name": "curviate-network",
+      "source": "./cli-tool/components/skills/curviate/curviate-network",
+      "strict": false
+    },
+    {
+      "name": "curviate-premium",
+      "source": "./cli-tool/components/skills/curviate/curviate-premium",
+      "strict": false
+    },
+    {
+      "name": "curviate-profile",
+      "source": "./cli-tool/components/skills/curviate/curviate-profile",
+      "strict": false
+    },
+    {
+      "name": "curviate-quickstart",
+      "source": "./cli-tool/components/skills/curviate/curviate-quickstart",
+      "strict": false
+    },
+    {
+      "name": "curviate-search",
+      "source": "./cli-tool/components/skills/curviate/curviate-search",
+      "strict": false
+    },
+    {
+      "name": "alloydb-basics",
+      "source": "./cli-tool/components/skills/database/alloydb-basics",
+      "strict": false
+    },
+    {
+      "name": "bigquery-basics",
+      "source": "./cli-tool/components/skills/database/bigquery-basics",
+      "strict": false
+    },
+    {
+      "name": "cloud-sql-basics",
+      "source": "./cli-tool/components/skills/database/cloud-sql-basics",
+      "strict": false
+    },
+    {
+      "name": "database-architect",
+      "source": "./cli-tool/components/skills/database/database-architect",
+      "strict": false
+    },
+    {
+      "name": "database-migration",
+      "source": "./cli-tool/components/skills/database/database-migration",
+      "strict": false
+    },
+    {
+      "name": "database-optimizer",
+      "source": "./cli-tool/components/skills/database/database-optimizer",
+      "strict": false
+    },
+    {
+      "name": "neon-instagres",
+      "source": "./cli-tool/components/skills/database/neon-instagres",
+      "strict": false
+    },
+    {
+      "name": "postgres-schema-design",
+      "source": "./cli-tool/components/skills/database/postgres-schema-design",
+      "strict": false
+    },
+    {
+      "name": "postgresql",
+      "source": "./cli-tool/components/skills/database/postgresql",
+      "strict": false
+    },
+    {
+      "name": "postgresql-optimization",
+      "source": "./cli-tool/components/skills/database/postgresql-optimization",
+      "strict": false
+    },
+    {
+      "name": "sql-pro",
+      "source": "./cli-tool/components/skills/database/sql-pro",
+      "strict": false
+    },
+    {
+      "name": "supabase-postgres-best-practices",
+      "source": "./cli-tool/components/skills/database/supabase-postgres-best-practices",
+      "strict": false
+    },
+    {
+      "name": "using-neon",
+      "source": "./cli-tool/components/skills/database/using-neon",
+      "strict": false
+    },
+    {
+      "name": "design-to-code",
+      "source": "./cli-tool/components/skills/design-to-code",
+      "strict": false
+    },
+    {
+      "name": "accessibility",
+      "source": "./cli-tool/components/skills/development/accessibility",
+      "strict": false
+    },
+    {
+      "name": "agent-development",
+      "source": "./cli-tool/components/skills/development/agent-development",
+      "strict": false
+    },
+    {
+      "name": "agent-md-refactor",
+      "source": "./cli-tool/components/skills/development/agent-md-refactor",
+      "strict": false
+    },
+    {
+      "name": "agirails-agent-payments",
+      "source": "./cli-tool/components/skills/development/agirails-agent-payments",
+      "strict": false
+    },
+    {
+      "name": "algolia-search",
+      "source": "./cli-tool/components/skills/development/algolia-search",
+      "strict": false
+    },
+    {
+      "name": "android-cicd",
+      "source": "./cli-tool/components/skills/development/android-cicd",
+      "strict": false
+    },
+    {
+      "name": "angular",
+      "source": "./cli-tool/components/skills/development/angular",
+      "strict": false
+    },
+    {
+      "name": "api-design-principles",
+      "source": "./cli-tool/components/skills/development/api-design-principles",
+      "strict": false
+    },
+    {
+      "name": "api-documentation-generator",
+      "source": "./cli-tool/components/skills/development/api-documentation-generator",
+      "strict": false
+    },
+    {
+      "name": "api-integration-specialist",
+      "source": "./cli-tool/components/skills/development/api-integration-specialist",
+      "strict": false
+    },
+    {
+      "name": "api-patterns",
+      "source": "./cli-tool/components/skills/development/api-patterns",
+      "strict": false
+    },
+    {
+      "name": "architecture",
+      "source": "./cli-tool/components/skills/development/architecture",
+      "strict": false
+    },
+    {
+      "name": "architecture-decision-records",
+      "source": "./cli-tool/components/skills/development/architecture-decision-records",
+      "strict": false
+    },
+    {
+      "name": "architecture-patterns",
+      "source": "./cli-tool/components/skills/development/architecture-patterns",
+      "strict": false
+    },
+    {
+      "name": "artifacts-builder",
+      "source": "./cli-tool/components/skills/development/artifacts-builder",
+      "strict": false
+    },
+    {
+      "name": "async-python-patterns",
+      "source": "./cli-tool/components/skills/development/async-python-patterns",
+      "strict": false
+    },
+    {
+      "name": "avalonia-layout-zafiro",
+      "source": "./cli-tool/components/skills/development/avalonia-layout-zafiro",
+      "strict": false
+    },
+    {
+      "name": "avalonia-viewmodels-zafiro",
+      "source": "./cli-tool/components/skills/development/avalonia-viewmodels-zafiro",
+      "strict": false
+    },
+    {
+      "name": "avalonia-zafiro-development",
+      "source": "./cli-tool/components/skills/development/avalonia-zafiro-development",
+      "strict": false
+    },
+    {
+      "name": "aws-serverless",
+      "source": "./cli-tool/components/skills/development/aws-serverless",
+      "strict": false
+    },
+    {
+      "name": "azure-functions",
+      "source": "./cli-tool/components/skills/development/azure-functions",
+      "strict": false
+    },
+    {
+      "name": "backend-architect",
+      "source": "./cli-tool/components/skills/development/backend-architect",
+      "strict": false
+    },
+    {
+      "name": "backend-dev-guidelines",
+      "source": "./cli-tool/components/skills/development/backend-dev-guidelines",
+      "strict": false
+    },
+    {
+      "name": "bash-linux",
+      "source": "./cli-tool/components/skills/development/bash-linux",
+      "strict": false
+    },
+    {
+      "name": "bash-pro",
+      "source": "./cli-tool/components/skills/development/bash-pro",
+      "strict": false
+    },
+    {
+      "name": "best-practices",
+      "source": "./cli-tool/components/skills/development/best-practices",
+      "strict": false
+    },
+    {
+      "name": "bleu",
+      "source": "./cli-tool/components/skills/development/bleu",
+      "strict": false
+    },
+    {
+      "name": "development-brainstorming",
+      "source": "./cli-tool/components/skills/development/brainstorming",
+      "strict": false
+    },
+    {
+      "name": "brightdata-local-search",
+      "source": "./cli-tool/components/skills/development/brightdata-local-search",
+      "strict": false
+    },
+    {
+      "name": "bullmq-specialist",
+      "source": "./cli-tool/components/skills/development/bullmq-specialist",
+      "strict": false
+    },
+    {
+      "name": "bun-development",
+      "source": "./cli-tool/components/skills/development/bun-development",
+      "strict": false
+    },
+    {
+      "name": "c-pro",
+      "source": "./cli-tool/components/skills/development/c-pro",
+      "strict": false
+    },
+    {
+      "name": "cc-skill-backend-patterns",
+      "source": "./cli-tool/components/skills/development/cc-skill-backend-patterns",
+      "strict": false
+    },
+    {
+      "name": "cc-skill-clickhouse-io",
+      "source": "./cli-tool/components/skills/development/cc-skill-clickhouse-io",
+      "strict": false
+    },
+    {
+      "name": "cc-skill-coding-standards",
+      "source": "./cli-tool/components/skills/development/cc-skill-coding-standards",
+      "strict": false
+    },
+    {
+      "name": "cc-skill-continuous-learning",
+      "source": "./cli-tool/components/skills/development/cc-skill-continuous-learning",
+      "strict": false
+    },
+    {
+      "name": "cc-skill-frontend-patterns",
+      "source": "./cli-tool/components/skills/development/cc-skill-frontend-patterns",
+      "strict": false
+    },
+    {
+      "name": "cc-skill-project-guidelines-example",
+      "source": "./cli-tool/components/skills/development/cc-skill-project-guidelines-example",
+      "strict": false
+    },
+    {
+      "name": "cc-skill-security-review",
+      "source": "./cli-tool/components/skills/development/cc-skill-security-review",
+      "strict": false
+    },
+    {
+      "name": "cc-skill-strategic-compact",
+      "source": "./cli-tool/components/skills/development/cc-skill-strategic-compact",
+      "strict": false
+    },
+    {
+      "name": "changelog-generator",
+      "source": "./cli-tool/components/skills/development/changelog-generator",
+      "strict": false
+    },
+    {
+      "name": "claude-api",
+      "source": "./cli-tool/components/skills/development/claude-api",
+      "strict": false
+    },
+    {
+      "name": "claude-opus-4-5-migration",
+      "source": "./cli-tool/components/skills/development/claude-opus-4-5-migration",
+      "strict": false
+    },
+    {
+      "name": "clean-code",
+      "source": "./cli-tool/components/skills/development/clean-code",
+      "strict": false
+    },
+    {
+      "name": "clerk-auth",
+      "source": "./cli-tool/components/skills/development/clerk-auth",
+      "strict": false
+    },
+    {
+      "name": "cloud-architect",
+      "source": "./cli-tool/components/skills/development/cloud-architect",
+      "strict": false
+    },
+    {
+      "name": "cloud-devops",
+      "source": "./cli-tool/components/skills/development/cloud-devops",
+      "strict": false
+    },
+    {
+      "name": "cloud-run-basics",
+      "source": "./cli-tool/components/skills/development/cloud-run-basics",
+      "strict": false
+    },
+    {
+      "name": "cloudflare-deploy",
+      "source": "./cli-tool/components/skills/development/cloudflare-deploy",
+      "strict": false
+    },
+    {
+      "name": "cocoindex",
+      "source": "./cli-tool/components/skills/development/cocoindex",
+      "strict": false
+    },
+    {
+      "name": "code-review-checklist",
+      "source": "./cli-tool/components/skills/development/code-review-checklist",
+      "strict": false
+    },
+    {
+      "name": "code-reviewer",
+      "source": "./cli-tool/components/skills/development/code-reviewer",
+      "strict": false
+    },
+    {
+      "name": "codex",
+      "source": "./cli-tool/components/skills/development/codex",
+      "strict": false
+    },
+    {
+      "name": "codex-review",
+      "source": "./cli-tool/components/skills/development/codex-review",
+      "strict": false
+    },
+    {
+      "name": "command-creator",
+      "source": "./cli-tool/components/skills/development/command-creator",
+      "strict": false
+    },
+    {
+      "name": "command-development",
+      "source": "./cli-tool/components/skills/development/command-development",
+      "strict": false
+    },
+    {
+      "name": "context-architecture",
+      "source": "./cli-tool/components/skills/development/context-architecture",
+      "strict": false
+    },
+    {
+      "name": "convex",
+      "source": "./cli-tool/components/skills/development/convex",
+      "strict": false
+    },
+    {
+      "name": "core-components",
+      "source": "./cli-tool/components/skills/development/core-components",
+      "strict": false
+    },
+    {
+      "name": "core-web-vitals",
+      "source": "./cli-tool/components/skills/development/core-web-vitals",
+      "strict": false
+    },
+    {
+      "name": "cpp-pro",
+      "source": "./cli-tool/components/skills/development/cpp-pro",
+      "strict": false
+    },
+    {
+      "name": "create-plan",
+      "source": "./cli-tool/components/skills/development/create-plan",
+      "strict": false
+    },
+    {
+      "name": "csharp-pro",
+      "source": "./cli-tool/components/skills/development/csharp-pro",
+      "strict": false
+    },
+    {
+      "name": "database-design",
+      "source": "./cli-tool/components/skills/development/database-design",
+      "strict": false
+    },
+    {
+      "name": "database-schema-designer",
+      "source": "./cli-tool/components/skills/development/database-schema-designer",
+      "strict": false
+    },
+    {
+      "name": "dependency-updater",
+      "source": "./cli-tool/components/skills/development/dependency-updater",
+      "strict": false
+    },
+    {
+      "name": "deployment-procedures",
+      "source": "./cli-tool/components/skills/development/deployment-procedures",
+      "strict": false
+    },
+    {
+      "name": "design-system-starter",
+      "source": "./cli-tool/components/skills/development/design-system-starter",
+      "strict": false
+    },
+    {
+      "name": "developer-growth-analysis",
+      "source": "./cli-tool/components/skills/development/developer-growth-analysis",
+      "strict": false
+    },
+    {
+      "name": "devops-iac-engineer",
+      "source": "./cli-tool/components/skills/development/devops-iac-engineer",
+      "strict": false
+    },
+    {
+      "name": "development-dispatching-parallel-agents",
+      "source": "./cli-tool/components/skills/development/dispatching-parallel-agents",
+      "strict": false
+    },
+    {
+      "name": "django-pro",
+      "source": "./cli-tool/components/skills/development/django-pro",
+      "strict": false
+    },
+    {
+      "name": "docker-expert",
+      "source": "./cli-tool/components/skills/development/docker-expert",
+      "strict": false
+    },
+    {
+      "name": "domain-driven-design",
+      "source": "./cli-tool/components/skills/development/domain-driven-design",
+      "strict": false
+    },
+    {
+      "name": "dotnet-backend",
+      "source": "./cli-tool/components/skills/development/dotnet-backend",
+      "strict": false
+    },
+    {
+      "name": "e2e-testing-patterns",
+      "source": "./cli-tool/components/skills/development/e2e-testing-patterns",
+      "strict": false
+    },
+    {
+      "name": "elixir-pro",
+      "source": "./cli-tool/components/skills/development/elixir-pro",
+      "strict": false
+    },
+    {
+      "name": "environment-setup-guide",
+      "source": "./cli-tool/components/skills/development/environment-setup-guide",
+      "strict": false
+    },
+    {
+      "name": "error-resolver",
+      "source": "./cli-tool/components/skills/development/error-resolver",
+      "strict": false
+    },
+    {
+      "name": "eval-genius",
+      "source": "./cli-tool/components/skills/development/eval-genius",
+      "strict": false
+    },
+    {
+      "name": "event-sourcing-architect",
+      "source": "./cli-tool/components/skills/development/event-sourcing-architect",
+      "strict": false
+    },
+    {
+      "name": "development-executing-plans",
+      "source": "./cli-tool/components/skills/development/executing-plans",
+      "strict": false
+    },
+    {
+      "name": "fastapi-pro",
+      "source": "./cli-tool/components/skills/development/fastapi-pro",
+      "strict": false
+    },
+    {
+      "name": "fastmcp-server",
+      "source": "./cli-tool/components/skills/development/fastmcp-server",
+      "strict": false
+    },
+    {
+      "name": "feature-design-assistant",
+      "source": "./cli-tool/components/skills/development/feature-design-assistant",
+      "strict": false
+    },
+    {
+      "name": "finishing-a-development-branch",
+      "source": "./cli-tool/components/skills/development/finishing-a-development-branch",
+      "strict": false
+    },
+    {
+      "name": "firebase",
+      "source": "./cli-tool/components/skills/development/firebase",
+      "strict": false
+    },
+    {
+      "name": "firebase-basics",
+      "source": "./cli-tool/components/skills/development/firebase-basics",
+      "strict": false
+    },
+    {
+      "name": "flutter-expert",
+      "source": "./cli-tool/components/skills/development/flutter-expert",
+      "strict": false
+    },
+    {
+      "name": "frontend-dev-guidelines",
+      "source": "./cli-tool/components/skills/development/frontend-dev-guidelines",
+      "strict": false
+    },
+    {
+      "name": "gcp-cloud-run",
+      "source": "./cli-tool/components/skills/development/gcp-cloud-run",
+      "strict": false
+    },
+    {
+      "name": "gh-address-comments",
+      "source": "./cli-tool/components/skills/development/gh-address-comments",
+      "strict": false
+    },
+    {
+      "name": "gh-fix-ci",
+      "source": "./cli-tool/components/skills/development/gh-fix-ci",
+      "strict": false
+    },
+    {
+      "name": "git-commit-helper",
+      "source": "./cli-tool/components/skills/development/git-commit-helper",
+      "strict": false
+    },
+    {
+      "name": "git-pushing",
+      "source": "./cli-tool/components/skills/development/git-pushing",
+      "strict": false
+    },
+    {
+      "name": "github-actions-creator",
+      "source": "./cli-tool/components/skills/development/github-actions-creator",
+      "strict": false
+    },
+    {
+      "name": "development-github-workflow-automation",
+      "source": "./cli-tool/components/skills/development/github-workflow-automation",
+      "strict": false
+    },
+    {
+      "name": "gke-basics",
+      "source": "./cli-tool/components/skills/development/gke-basics",
+      "strict": false
+    },
+    {
+      "name": "golang-pro",
+      "source": "./cli-tool/components/skills/development/golang-pro",
+      "strict": false
+    },
+    {
+      "name": "google-cloud-networking-observability",
+      "source": "./cli-tool/components/skills/development/google-cloud-networking-observability",
+      "strict": false
+    },
+    {
+      "name": "google-cloud-onboarding",
+      "source": "./cli-tool/components/skills/development/google-cloud-onboarding",
+      "strict": false
+    },
+    {
+      "name": "google-cloud-waf-cost-optimization",
+      "source": "./cli-tool/components/skills/development/google-cloud-waf-cost-optimization",
+      "strict": false
+    },
+    {
+      "name": "google-cloud-waf-reliability",
+      "source": "./cli-tool/components/skills/development/google-cloud-waf-reliability",
+      "strict": false
+    },
+    {
+      "name": "grafana-dashboards",
+      "source": "./cli-tool/components/skills/development/grafana-dashboards",
+      "strict": false
+    },
+    {
+      "name": "graphql",
+      "source": "./cli-tool/components/skills/development/graphql",
+      "strict": false
+    },
+    {
+      "name": "graphql-architect",
+      "source": "./cli-tool/components/skills/development/graphql-architect",
+      "strict": false
+    },
+    {
+      "name": "haskell-pro",
+      "source": "./cli-tool/components/skills/development/haskell-pro",
+      "strict": false
+    },
+    {
+      "name": "helm-chart-scaffolding",
+      "source": "./cli-tool/components/skills/development/helm-chart-scaffolding",
+      "strict": false
+    },
+    {
+      "name": "heygen-best-practices",
+      "source": "./cli-tool/components/skills/development/heygen-best-practices",
+      "strict": false
+    },
+    {
+      "name": "hook-development",
+      "source": "./cli-tool/components/skills/development/hook-development",
+      "strict": false
+    },
+    {
+      "name": "hubspot-integration",
+      "source": "./cli-tool/components/skills/development/hubspot-integration",
+      "strict": false
+    },
+    {
+      "name": "i18n-localization",
+      "source": "./cli-tool/components/skills/development/i18n-localization",
+      "strict": false
+    },
+    {
+      "name": "incident-responder",
+      "source": "./cli-tool/components/skills/development/incident-responder",
+      "strict": false
+    },
+    {
+      "name": "internet-court",
+      "source": "./cli-tool/components/skills/development/internet-court",
+      "strict": false
+    },
+    {
+      "name": "it-operations",
+      "source": "./cli-tool/components/skills/development/it-operations",
+      "strict": false
+    },
+    {
+      "name": "java-pro",
+      "source": "./cli-tool/components/skills/development/java-pro",
+      "strict": false
+    },
+    {
+      "name": "javascript-mastery",
+      "source": "./cli-tool/components/skills/development/javascript-mastery",
+      "strict": false
+    },
+    {
+      "name": "javascript-pro",
+      "source": "./cli-tool/components/skills/development/javascript-pro",
+      "strict": false
+    },
+    {
+      "name": "javascript-testing-patterns",
+      "source": "./cli-tool/components/skills/development/javascript-testing-patterns",
+      "strict": false
+    },
+    {
+      "name": "jupyter-notebook",
+      "source": "./cli-tool/components/skills/development/jupyter-notebook",
+      "strict": false
+    },
+    {
+      "name": "k6-load-testing",
+      "source": "./cli-tool/components/skills/development/k6-load-testing",
+      "strict": false
+    },
+    {
+      "name": "kotlin-coroutines-expert",
+      "source": "./cli-tool/components/skills/development/kotlin-coroutines-expert",
+      "strict": false
+    },
+    {
+      "name": "kubernetes-architect",
+      "source": "./cli-tool/components/skills/development/kubernetes-architect",
+      "strict": false
+    },
+    {
+      "name": "laravel-expert",
+      "source": "./cli-tool/components/skills/development/laravel-expert",
+      "strict": false
+    },
+    {
+      "name": "lint-and-validate",
+      "source": "./cli-tool/components/skills/development/lint-and-validate",
+      "strict": false
+    },
+    {
+      "name": "linux-shell-scripting",
+      "source": "./cli-tool/components/skills/development/linux-shell-scripting",
+      "strict": false
+    },
+    {
+      "name": "manifest",
+      "source": "./cli-tool/components/skills/development/manifest",
+      "strict": false
+    },
+    {
+      "name": "mcp-builder",
+      "source": "./cli-tool/components/skills/development/mcp-builder",
+      "strict": false
+    },
+    {
+      "name": "mcp-integration",
+      "source": "./cli-tool/components/skills/development/mcp-integration",
+      "strict": false
+    },
+    {
+      "name": "mermaid-diagram-specialist",
+      "source": "./cli-tool/components/skills/development/mermaid-diagram-specialist",
+      "strict": false
+    },
+    {
+      "name": "microservices-patterns",
+      "source": "./cli-tool/components/skills/development/microservices-patterns",
+      "strict": false
+    },
+    {
+      "name": "monorepo-architect",
+      "source": "./cli-tool/components/skills/development/monorepo-architect",
+      "strict": false
+    },
+    {
+      "name": "moodle-external-api-development",
+      "source": "./cli-tool/components/skills/development/moodle-external-api-development",
+      "strict": false
+    },
+    {
+      "name": "move-code-quality",
+      "source": "./cli-tool/components/skills/development/move-code-quality",
+      "strict": false
+    },
+    {
+      "name": "mui",
+      "source": "./cli-tool/components/skills/development/mui",
+      "strict": false
+    },
+    {
+      "name": "neon-postgres",
+      "source": "./cli-tool/components/skills/development/neon-postgres",
+      "strict": false
+    },
+    {
+      "name": "nestjs-expert",
+      "source": "./cli-tool/components/skills/development/nestjs-expert",
+      "strict": false
+    },
+    {
+      "name": "netlify-deploy",
+      "source": "./cli-tool/components/skills/development/netlify-deploy",
+      "strict": false
+    },
+    {
+      "name": "nextjs-best-practices",
+      "source": "./cli-tool/components/skills/development/nextjs-best-practices",
+      "strict": false
+    },
+    {
+      "name": "nextjs-supabase-auth",
+      "source": "./cli-tool/components/skills/development/nextjs-supabase-auth",
+      "strict": false
+    },
+    {
+      "name": "nodejs-backend-patterns",
+      "source": "./cli-tool/components/skills/development/nodejs-backend-patterns",
+      "strict": false
+    },
+    {
+      "name": "nodejs-best-practices",
+      "source": "./cli-tool/components/skills/development/nodejs-best-practices",
+      "strict": false
+    },
+    {
+      "name": "nosql-expert",
+      "source": "./cli-tool/components/skills/development/nosql-expert",
+      "strict": false
+    },
+    {
+      "name": "observability-engineer",
+      "source": "./cli-tool/components/skills/development/observability-engineer",
+      "strict": false
+    },
+    {
+      "name": "openapi-to-typescript",
+      "source": "./cli-tool/components/skills/development/openapi-to-typescript",
+      "strict": false
+    },
+    {
+      "name": "performance",
+      "source": "./cli-tool/components/skills/development/performance",
+      "strict": false
+    },
+    {
+      "name": "performance-profiling",
+      "source": "./cli-tool/components/skills/development/performance-profiling",
+      "strict": false
+    },
+    {
+      "name": "php-pro",
+      "source": "./cli-tool/components/skills/development/php-pro",
+      "strict": false
+    },
+    {
+      "name": "plaid-fintech",
+      "source": "./cli-tool/components/skills/development/plaid-fintech",
+      "strict": false
+    },
+    {
+      "name": "playwright",
+      "source": "./cli-tool/components/skills/development/playwright",
+      "strict": false
+    },
+    {
+      "name": "playwright-e2e-builder",
+      "source": "./cli-tool/components/skills/development/playwright-e2e-builder",
+      "strict": false
+    },
+    {
+      "name": "playwright-java",
+      "source": "./cli-tool/components/skills/development/playwright-java",
+      "strict": false
+    },
+    {
+      "name": "plugin-forge",
+      "source": "./cli-tool/components/skills/development/plugin-forge",
+      "strict": false
+    },
+    {
+      "name": "plugin-settings",
+      "source": "./cli-tool/components/skills/development/plugin-settings",
+      "strict": false
+    },
+    {
+      "name": "plugin-structure",
+      "source": "./cli-tool/components/skills/development/plugin-structure",
+      "strict": false
+    },
+    {
+      "name": "postgres-best-practices",
+      "source": "./cli-tool/components/skills/development/postgres-best-practices",
+      "strict": false
+    },
+    {
+      "name": "powershell-windows",
+      "source": "./cli-tool/components/skills/development/powershell-windows",
+      "strict": false
+    },
+    {
+      "name": "prisma-expert",
+      "source": "./cli-tool/components/skills/development/prisma-expert",
+      "strict": false
+    },
+    {
+      "name": "production-code-audit",
+      "source": "./cli-tool/components/skills/development/production-code-audit",
+      "strict": false
+    },
+    {
+      "name": "prometheus-configuration",
+      "source": "./cli-tool/components/skills/development/prometheus-configuration",
+      "strict": false
+    },
+    {
+      "name": "python-patterns",
+      "source": "./cli-tool/components/skills/development/python-patterns",
+      "strict": false
+    },
+    {
+      "name": "python-pro",
+      "source": "./cli-tool/components/skills/development/python-pro",
+      "strict": false
+    },
+    {
+      "name": "python-testing-patterns",
+      "source": "./cli-tool/components/skills/development/python-testing-patterns",
+      "strict": false
+    },
+    {
+      "name": "development-react-best-practices",
+      "source": "./cli-tool/components/skills/development/react-best-practices",
+      "strict": false
+    },
+    {
+      "name": "react-dev",
+      "source": "./cli-tool/components/skills/development/react-dev",
+      "strict": false
+    },
+    {
+      "name": "react-patterns",
+      "source": "./cli-tool/components/skills/development/react-patterns",
+      "strict": false
+    },
+    {
+      "name": "react-ui-patterns",
+      "source": "./cli-tool/components/skills/development/react-ui-patterns",
+      "strict": false
+    },
+    {
+      "name": "react-useeffect",
+      "source": "./cli-tool/components/skills/development/react-useeffect",
+      "strict": false
+    },
+    {
+      "name": "receiving-code-review",
+      "source": "./cli-tool/components/skills/development/receiving-code-review",
+      "strict": false
+    },
+    {
+      "name": "render-deploy",
+      "source": "./cli-tool/components/skills/development/render-deploy",
+      "strict": false
+    },
+    {
+      "name": "requesting-code-review",
+      "source": "./cli-tool/components/skills/development/requesting-code-review",
+      "strict": false
+    },
+    {
+      "name": "ruby-pro",
+      "source": "./cli-tool/components/skills/development/ruby-pro",
+      "strict": false
+    },
+    {
+      "name": "rust-cli-builder",
+      "source": "./cli-tool/components/skills/development/rust-cli-builder",
+      "strict": false
+    },
+    {
+      "name": "rust-pro",
+      "source": "./cli-tool/components/skills/development/rust-pro",
+      "strict": false
+    },
+    {
+      "name": "saas-multi-tenant",
+      "source": "./cli-tool/components/skills/development/saas-multi-tenant",
+      "strict": false
+    },
+    {
+      "name": "salesforce-development",
+      "source": "./cli-tool/components/skills/development/salesforce-development",
+      "strict": false
+    },
+    {
+      "name": "scala-pro",
+      "source": "./cli-tool/components/skills/development/scala-pro",
+      "strict": false
+    },
+    {
+      "name": "screenshot-feature-extractor",
+      "source": "./cli-tool/components/skills/development/screenshot-feature-extractor",
+      "strict": false
+    },
+    {
+      "name": "security-compliance",
+      "source": "./cli-tool/components/skills/development/security-compliance",
+      "strict": false
+    },
+    {
+      "name": "senior-architect",
+      "source": "./cli-tool/components/skills/development/senior-architect",
+      "strict": false
+    },
+    {
+      "name": "senior-backend",
+      "source": "./cli-tool/components/skills/development/senior-backend",
+      "strict": false
+    },
+    {
+      "name": "senior-computer-vision",
+      "source": "./cli-tool/components/skills/development/senior-computer-vision",
+      "strict": false
+    },
+    {
+      "name": "senior-data-engineer",
+      "source": "./cli-tool/components/skills/development/senior-data-engineer",
+      "strict": false
+    },
+    {
+      "name": "senior-data-scientist",
+      "source": "./cli-tool/components/skills/development/senior-data-scientist",
+      "strict": false
+    },
+    {
+      "name": "senior-devops",
+      "source": "./cli-tool/components/skills/development/senior-devops",
+      "strict": false
+    },
+    {
+      "name": "senior-frontend",
+      "source": "./cli-tool/components/skills/development/senior-frontend",
+      "strict": false
+    },
+    {
+      "name": "senior-fullstack",
+      "source": "./cli-tool/components/skills/development/senior-fullstack",
+      "strict": false
+    },
+    {
+      "name": "senior-ml-engineer",
+      "source": "./cli-tool/components/skills/development/senior-ml-engineer",
+      "strict": false
+    },
+    {
+      "name": "senior-prompt-engineer",
+      "source": "./cli-tool/components/skills/development/senior-prompt-engineer",
+      "strict": false
+    },
+    {
+      "name": "senior-qa",
+      "source": "./cli-tool/components/skills/development/senior-qa",
+      "strict": false
+    },
+    {
+      "name": "senior-secops",
+      "source": "./cli-tool/components/skills/development/senior-secops",
+      "strict": false
+    },
+    {
+      "name": "senior-security",
+      "source": "./cli-tool/components/skills/development/senior-security",
+      "strict": false
+    },
+    {
+      "name": "seo",
+      "source": "./cli-tool/components/skills/development/seo",
+      "strict": false
+    },
+    {
+      "name": "server-management",
+      "source": "./cli-tool/components/skills/development/server-management",
+      "strict": false
+    },
+    {
+      "name": "skill-creation-guide",
+      "source": "./cli-tool/components/skills/development/skill-creation-guide",
+      "strict": false
+    },
+    {
+      "name": "development-skill-creator",
+      "source": "./cli-tool/components/skills/development/skill-creator",
+      "strict": false
+    },
+    {
+      "name": "skill-development",
+      "source": "./cli-tool/components/skills/development/skill-development",
+      "strict": false
+    },
+    {
+      "name": "skill-installer",
+      "source": "./cli-tool/components/skills/development/skill-installer",
+      "strict": false
+    },
+    {
+      "name": "software-architecture",
+      "source": "./cli-tool/components/skills/development/software-architecture",
+      "strict": false
+    },
+    {
+      "name": "stripe-integration",
+      "source": "./cli-tool/components/skills/development/stripe-integration",
+      "strict": false
+    },
+    {
+      "name": "development-subagent-driven-development",
+      "source": "./cli-tool/components/skills/development/subagent-driven-development",
+      "strict": false
+    },
+    {
+      "name": "swarmvault",
+      "source": "./cli-tool/components/skills/development/swarmvault",
+      "strict": false
+    },
+    {
+      "name": "swift-concurrency-expert",
+      "source": "./cli-tool/components/skills/development/swift-concurrency-expert",
+      "strict": false
+    },
+    {
+      "name": "systematic-debugging",
+      "source": "./cli-tool/components/skills/development/systematic-debugging",
+      "strict": false
+    },
+    {
+      "name": "task-execution-engine",
+      "source": "./cli-tool/components/skills/development/task-execution-engine",
+      "strict": false
+    },
+    {
+      "name": "tdd-orchestrator",
+      "source": "./cli-tool/components/skills/development/tdd-orchestrator",
+      "strict": false
+    },
+    {
+      "name": "tdd-workflow",
+      "source": "./cli-tool/components/skills/development/tdd-workflow",
+      "strict": false
+    },
+    {
+      "name": "development-telegram-bot-builder",
+      "source": "./cli-tool/components/skills/development/telegram-bot-builder",
+      "strict": false
+    },
+    {
+      "name": "terraform-specialist",
+      "source": "./cli-tool/components/skills/development/terraform-specialist",
+      "strict": false
+    },
+    {
+      "name": "test-detect",
+      "source": "./cli-tool/components/skills/development/test-detect",
+      "strict": false
+    },
+    {
+      "name": "test-driven-development",
+      "source": "./cli-tool/components/skills/development/test-driven-development",
+      "strict": false
+    },
+    {
+      "name": "test-fixing",
+      "source": "./cli-tool/components/skills/development/test-fixing",
+      "strict": false
+    },
+    {
+      "name": "testing-patterns",
+      "source": "./cli-tool/components/skills/development/testing-patterns",
+      "strict": false
+    },
+    {
+      "name": "typescript-expert",
+      "source": "./cli-tool/components/skills/development/typescript-expert",
+      "strict": false
+    },
+    {
+      "name": "typescript-pro",
+      "source": "./cli-tool/components/skills/development/typescript-pro",
+      "strict": false
+    },
+    {
+      "name": "using-git-worktrees",
+      "source": "./cli-tool/components/skills/development/using-git-worktrees",
+      "strict": false
+    },
+    {
+      "name": "development-using-superpowers",
+      "source": "./cli-tool/components/skills/development/using-superpowers",
+      "strict": false
+    },
+    {
+      "name": "vercel-deploy",
+      "source": "./cli-tool/components/skills/development/vercel-deploy",
+      "strict": false
+    },
+    {
+      "name": "vercel-deployment",
+      "source": "./cli-tool/components/skills/development/vercel-deployment",
+      "strict": false
+    },
+    {
+      "name": "verification-before-completion",
+      "source": "./cli-tool/components/skills/development/verification-before-completion",
+      "strict": false
+    },
+    {
+      "name": "development-web-artifacts-builder",
+      "source": "./cli-tool/components/skills/development/web-artifacts-builder",
+      "strict": false
+    },
+    {
+      "name": "web-quality-audit",
+      "source": "./cli-tool/components/skills/development/web-quality-audit",
+      "strict": false
+    },
+    {
+      "name": "web-to-markdown",
+      "source": "./cli-tool/components/skills/development/web-to-markdown",
+      "strict": false
+    },
+    {
+      "name": "development-webapp-testing",
+      "source": "./cli-tool/components/skills/development/webapp-testing",
+      "strict": false
+    },
+    {
+      "name": "worktree-guide",
+      "source": "./cli-tool/components/skills/development/worktree-guide",
+      "strict": false
+    },
+    {
+      "name": "development-writing-plans",
+      "source": "./cli-tool/components/skills/development/writing-plans",
+      "strict": false
+    },
+    {
+      "name": "development-writing-skills",
+      "source": "./cli-tool/components/skills/development/writing-skills",
+      "strict": false
+    },
+    {
+      "name": "zapier-workflows",
+      "source": "./cli-tool/components/skills/development/zapier-workflows",
+      "strict": false
+    },
+    {
+      "name": "doc",
+      "source": "./cli-tool/components/skills/document-processing/doc",
+      "strict": false
+    },
+    {
+      "name": "documentation-templates",
+      "source": "./cli-tool/components/skills/document-processing/documentation-templates",
+      "strict": false
+    },
+    {
+      "name": "document-processing-docx",
+      "source": "./cli-tool/components/skills/document-processing/docx",
+      "strict": false
+    },
+    {
+      "name": "docx-official",
+      "source": "./cli-tool/components/skills/document-processing/docx-official",
+      "strict": false
+    },
+    {
+      "name": "json-canvas",
+      "source": "./cli-tool/components/skills/document-processing/json-canvas",
+      "strict": false
+    },
+    {
+      "name": "obsidian-bases",
+      "source": "./cli-tool/components/skills/document-processing/obsidian-bases",
+      "strict": false
+    },
+    {
+      "name": "obsidian-markdown",
+      "source": "./cli-tool/components/skills/document-processing/obsidian-markdown",
+      "strict": false
+    },
+    {
+      "name": "document-processing-pdf",
+      "source": "./cli-tool/components/skills/document-processing/pdf",
+      "strict": false
+    },
+    {
+      "name": "pdf-anthropic",
+      "source": "./cli-tool/components/skills/document-processing/pdf-anthropic",
+      "strict": false
+    },
+    {
+      "name": "pdf-fill-studio",
+      "source": "./cli-tool/components/skills/document-processing/pdf-fill-studio",
+      "strict": false
+    },
+    {
+      "name": "pdf-official",
+      "source": "./cli-tool/components/skills/document-processing/pdf-official",
+      "strict": false
+    },
+    {
+      "name": "pdf-processing",
+      "source": "./cli-tool/components/skills/document-processing/pdf-processing",
+      "strict": false
+    },
+    {
+      "name": "pdf-processing-pro",
+      "source": "./cli-tool/components/skills/document-processing/pdf-processing-pro",
+      "strict": false
+    },
+    {
+      "name": "document-processing-pptx",
+      "source": "./cli-tool/components/skills/document-processing/pptx",
+      "strict": false
+    },
+    {
+      "name": "pptx-official",
+      "source": "./cli-tool/components/skills/document-processing/pptx-official",
+      "strict": false
+    },
+    {
+      "name": "spreadsheet",
+      "source": "./cli-tool/components/skills/document-processing/spreadsheet",
+      "strict": false
+    },
+    {
+      "name": "document-processing-xlsx",
+      "source": "./cli-tool/components/skills/document-processing/xlsx",
+      "strict": false
+    },
+    {
+      "name": "xlsx-official",
+      "source": "./cli-tool/components/skills/document-processing/xlsx-official",
+      "strict": false
+    },
+    {
+      "name": "doordash-allergy-shield",
+      "source": "./cli-tool/components/skills/doordash/doordash-allergy-shield",
+      "strict": false
+    },
+    {
+      "name": "doordash-group-orders",
+      "source": "./cli-tool/components/skills/doordash/doordash-group-orders",
+      "strict": false
+    },
+    {
+      "name": "doordash-order-ledger",
+      "source": "./cli-tool/components/skills/doordash/doordash-order-ledger",
+      "strict": false
+    },
+    {
+      "name": "doordash-order-playbooks",
+      "source": "./cli-tool/components/skills/doordash/doordash-order-playbooks",
+      "strict": false
+    },
+    {
+      "name": "doordash-spend-guard",
+      "source": "./cli-tool/components/skills/doordash/doordash-spend-guard",
+      "strict": false
+    },
+    {
+      "name": "backend-to-frontend-handoff-docs",
+      "source": "./cli-tool/components/skills/enterprise-communication/backend-to-frontend-handoff-docs",
+      "strict": false
+    },
+    {
+      "name": "brand-guidelines",
+      "source": "./cli-tool/components/skills/enterprise-communication/brand-guidelines",
+      "strict": false
+    },
+    {
+      "name": "capa-officer",
+      "source": "./cli-tool/components/skills/enterprise-communication/capa-officer",
+      "strict": false
+    },
+    {
+      "name": "daily-meeting-update",
+      "source": "./cli-tool/components/skills/enterprise-communication/daily-meeting-update",
+      "strict": false
+    },
+    {
+      "name": "data-privacy-compliance",
+      "source": "./cli-tool/components/skills/enterprise-communication/data-privacy-compliance",
+      "strict": false
+    },
+    {
+      "name": "difficult-workplace-conversations",
+      "source": "./cli-tool/components/skills/enterprise-communication/difficult-workplace-conversations",
+      "strict": false
+    },
+    {
+      "name": "discord-bot-architect",
+      "source": "./cli-tool/components/skills/enterprise-communication/discord-bot-architect",
+      "strict": false
+    },
+    {
+      "name": "email-composer",
+      "source": "./cli-tool/components/skills/enterprise-communication/email-composer",
+      "strict": false
+    },
+    {
+      "name": "excel-analysis",
+      "source": "./cli-tool/components/skills/enterprise-communication/excel-analysis",
+      "strict": false
+    },
+    {
+      "name": "fda-consultant-specialist",
+      "source": "./cli-tool/components/skills/enterprise-communication/fda-consultant-specialist",
+      "strict": false
+    },
+    {
+      "name": "feedback-mastery",
+      "source": "./cli-tool/components/skills/enterprise-communication/feedback-mastery",
+      "strict": false
+    },
+    {
+      "name": "frontend-to-backend-requirements",
+      "source": "./cli-tool/components/skills/enterprise-communication/frontend-to-backend-requirements",
+      "strict": false
+    },
+    {
+      "name": "gdpr-dsgvo-expert",
+      "source": "./cli-tool/components/skills/enterprise-communication/gdpr-dsgvo-expert",
+      "strict": false
+    },
+    {
+      "name": "information-security-manager-iso27001",
+      "source": "./cli-tool/components/skills/enterprise-communication/information-security-manager-iso27001",
+      "strict": false
+    },
+    {
+      "name": "internal-comms",
+      "source": "./cli-tool/components/skills/enterprise-communication/internal-comms",
+      "strict": false
+    },
+    {
+      "name": "internal-comms-anthropic",
+      "source": "./cli-tool/components/skills/enterprise-communication/internal-comms-anthropic",
+      "strict": false
+    },
+    {
+      "name": "internal-comms-community",
+      "source": "./cli-tool/components/skills/enterprise-communication/internal-comms-community",
+      "strict": false
+    },
+    {
+      "name": "isms-audit-expert",
+      "source": "./cli-tool/components/skills/enterprise-communication/isms-audit-expert",
+      "strict": false
+    },
+    {
+      "name": "mdr-745-specialist",
+      "source": "./cli-tool/components/skills/enterprise-communication/mdr-745-specialist",
+      "strict": false
+    },
+    {
+      "name": "professional-communication",
+      "source": "./cli-tool/components/skills/enterprise-communication/professional-communication",
+      "strict": false
+    },
+    {
+      "name": "qms-audit-expert",
+      "source": "./cli-tool/components/skills/enterprise-communication/qms-audit-expert",
+      "strict": false
+    },
+    {
+      "name": "quality-documentation-manager",
+      "source": "./cli-tool/components/skills/enterprise-communication/quality-documentation-manager",
+      "strict": false
+    },
+    {
+      "name": "quality-manager-qmr",
+      "source": "./cli-tool/components/skills/enterprise-communication/quality-manager-qmr",
+      "strict": false
+    },
+    {
+      "name": "quality-manager-qms-iso13485",
+      "source": "./cli-tool/components/skills/enterprise-communication/quality-manager-qms-iso13485",
+      "strict": false
+    },
+    {
+      "name": "regulatory-affairs-head",
+      "source": "./cli-tool/components/skills/enterprise-communication/regulatory-affairs-head",
+      "strict": false
+    },
+    {
+      "name": "risk-management-specialist",
+      "source": "./cli-tool/components/skills/enterprise-communication/risk-management-specialist",
+      "strict": false
+    },
+    {
+      "name": "session-handoff",
+      "source": "./cli-tool/components/skills/enterprise-communication/session-handoff",
+      "strict": false
+    },
+    {
+      "name": "slack-bot-builder",
+      "source": "./cli-tool/components/skills/enterprise-communication/slack-bot-builder",
+      "strict": false
+    },
+    {
+      "name": "enterprise-communication-slack-gif-creator",
+      "source": "./cli-tool/components/skills/enterprise-communication/slack-gif-creator",
+      "strict": false
+    },
+    {
+      "name": "enterprise-communication-telegram-bot-builder",
       "source": "./cli-tool/components/skills/enterprise-communication/telegram-bot-builder",
-      "description": "Telegram bot builder skill",
       "strict": false
     },
     {
       "name": "telegram-mini-app",
       "source": "./cli-tool/components/skills/enterprise-communication/telegram-mini-app",
-      "description": "Telegram mini app skill",
+      "strict": false
+    },
+    {
+      "name": "twilio-communications",
+      "source": "./cli-tool/components/skills/enterprise-communication/twilio-communications",
+      "strict": false
+    },
+    {
+      "name": "writing-clearly-and-concisely",
+      "source": "./cli-tool/components/skills/enterprise-communication/writing-clearly-and-concisely",
+      "strict": false
+    },
+    {
+      "name": "commit-smart",
+      "source": "./cli-tool/components/skills/git/commit-smart",
+      "strict": false
+    },
+    {
+      "name": "git-context-controller",
+      "source": "./cli-tool/components/skills/git/git-context-controller",
+      "strict": false
+    },
+    {
+      "name": "star-history-chart",
+      "source": "./cli-tool/components/skills/git/star-history-chart",
+      "strict": false
+    },
+    {
+      "name": "gmod-addon-maker",
+      "source": "./cli-tool/components/skills/gmod-addon-maker",
+      "strict": false
+    },
+    {
+      "name": "marketing-x-twitter-scraper",
+      "source": "./cli-tool/components/skills/marketing/x-twitter-scraper",
+      "strict": false
+    },
+    {
+      "name": "image-enhancer",
+      "source": "./cli-tool/components/skills/media/image-enhancer",
+      "strict": false
+    },
+    {
+      "name": "screenshot",
+      "source": "./cli-tool/components/skills/media/screenshot",
+      "strict": false
+    },
+    {
+      "name": "speech",
+      "source": "./cli-tool/components/skills/media/speech",
+      "strict": false
+    },
+    {
+      "name": "transcribe",
+      "source": "./cli-tool/components/skills/media/transcribe",
+      "strict": false
+    },
+    {
+      "name": "video-downloader",
+      "source": "./cli-tool/components/skills/media/video-downloader",
+      "strict": false
+    },
+    {
+      "name": "open-banking-io",
+      "source": "./cli-tool/components/skills/open-banking-io/open-banking-io",
+      "strict": false
+    },
+    {
+      "name": "abc-xyz-segmentation",
+      "source": "./cli-tool/components/skills/operations/abc-xyz-segmentation",
+      "strict": false
+    },
+    {
+      "name": "forecast-accuracy-review",
+      "source": "./cli-tool/components/skills/operations/forecast-accuracy-review",
+      "strict": false
+    },
+    {
+      "name": "otif-analysis",
+      "source": "./cli-tool/components/skills/operations/otif-analysis",
+      "strict": false
+    },
+    {
+      "name": "root-cause-pareto",
+      "source": "./cli-tool/components/skills/operations/root-cause-pareto",
+      "strict": false
+    },
+    {
+      "name": "safety-stock-review",
+      "source": "./cli-tool/components/skills/operations/safety-stock-review",
+      "strict": false
+    },
+    {
+      "name": "weekly-ops-report",
+      "source": "./cli-tool/components/skills/operations/weekly-ops-report",
+      "strict": false
+    },
+    {
+      "name": "pb-api-rules",
+      "source": "./cli-tool/components/skills/pocketbase/pb-api-rules",
+      "strict": false
+    },
+    {
+      "name": "pb-collections",
+      "source": "./cli-tool/components/skills/pocketbase/pb-collections",
+      "strict": false
+    },
+    {
+      "name": "pb-deploy",
+      "source": "./cli-tool/components/skills/pocketbase/pb-deploy",
+      "strict": false
+    },
+    {
+      "name": "pb-hooks",
+      "source": "./cli-tool/components/skills/pocketbase/pb-hooks",
+      "strict": false
+    },
+    {
+      "name": "pb-migrations",
+      "source": "./cli-tool/components/skills/pocketbase/pb-migrations",
+      "strict": false
+    },
+    {
+      "name": "pb-sdk",
+      "source": "./cli-tool/components/skills/pocketbase/pb-sdk",
+      "strict": false
+    },
+    {
+      "name": "academy-guide",
+      "source": "./cli-tool/components/skills/productivity/academy-guide",
+      "strict": false
+    },
+    {
+      "name": "address-github-comments",
+      "source": "./cli-tool/components/skills/productivity/address-github-comments",
+      "strict": false
+    },
+    {
+      "name": "avoid-ai-writing",
+      "source": "./cli-tool/components/skills/productivity/avoid-ai-writing",
+      "strict": false
+    },
+    {
+      "name": "productivity-brainstorming",
+      "source": "./cli-tool/components/skills/productivity/brainstorming",
+      "strict": false
+    },
+    {
+      "name": "claude-code-sessions",
+      "source": "./cli-tool/components/skills/productivity/claude-code-sessions",
+      "strict": false
+    },
+    {
+      "name": "code-review-excellence",
+      "source": "./cli-tool/components/skills/productivity/code-review-excellence",
+      "strict": false
+    },
+    {
+      "name": "code-simplifier",
+      "source": "./cli-tool/components/skills/productivity/code-simplifier",
+      "strict": false
+    },
+    {
+      "name": "commit-work",
+      "source": "./cli-tool/components/skills/productivity/commit-work",
+      "strict": false
+    },
+    {
+      "name": "concise-planning",
+      "source": "./cli-tool/components/skills/productivity/concise-planning",
+      "strict": false
+    },
+    {
+      "name": "crafting-effective-readmes",
+      "source": "./cli-tool/components/skills/productivity/crafting-effective-readmes",
+      "strict": false
+    },
+    {
+      "name": "deadline-prep",
+      "source": "./cli-tool/components/skills/productivity/deadline-prep",
+      "strict": false
+    },
+    {
+      "name": "debugger",
+      "source": "./cli-tool/components/skills/productivity/debugger",
+      "strict": false
+    },
+    {
+      "name": "debugging-strategies",
+      "source": "./cli-tool/components/skills/productivity/debugging-strategies",
+      "strict": false
+    },
+    {
+      "name": "devil",
+      "source": "./cli-tool/components/skills/productivity/devil",
+      "strict": false
+    },
+    {
+      "name": "discernment-nudge",
+      "source": "./cli-tool/components/skills/productivity/discernment-nudge",
+      "strict": false
+    },
+    {
+      "name": "doc-chaser-lite",
+      "source": "./cli-tool/components/skills/productivity/doc-chaser-lite",
+      "strict": false
+    },
+    {
+      "name": "doc-coauthoring",
+      "source": "./cli-tool/components/skills/productivity/doc-coauthoring",
+      "strict": false
+    },
+    {
+      "name": "productivity-executing-plans",
+      "source": "./cli-tool/components/skills/productivity/executing-plans",
+      "strict": false
+    },
+    {
+      "name": "file-organizer",
+      "source": "./cli-tool/components/skills/productivity/file-organizer",
+      "strict": false
+    },
+    {
+      "name": "game-changing-features",
+      "source": "./cli-tool/components/skills/productivity/game-changing-features",
+      "strict": false
+    },
+    {
+      "name": "humanizer",
+      "source": "./cli-tool/components/skills/productivity/humanizer",
+      "strict": false
+    },
+    {
+      "name": "invoice-organizer",
+      "source": "./cli-tool/components/skills/productivity/invoice-organizer",
+      "strict": false
+    },
+    {
+      "name": "kaizen",
+      "source": "./cli-tool/components/skills/productivity/kaizen",
+      "strict": false
+    },
+    {
+      "name": "linear",
+      "source": "./cli-tool/components/skills/productivity/linear",
+      "strict": false
+    },
+    {
+      "name": "mac-storage-cleaner",
+      "source": "./cli-tool/components/skills/productivity/mac-storage-cleaner",
+      "strict": false
+    },
+    {
+      "name": "meeting-insights-analyzer",
+      "source": "./cli-tool/components/skills/productivity/meeting-insights-analyzer",
+      "strict": false
+    },
+    {
+      "name": "naming-analyzer",
+      "source": "./cli-tool/components/skills/productivity/naming-analyzer",
+      "strict": false
+    },
+    {
+      "name": "notebooklm",
+      "source": "./cli-tool/components/skills/productivity/notebooklm",
+      "strict": false
+    },
+    {
+      "name": "notion-knowledge-capture",
+      "source": "./cli-tool/components/skills/productivity/notion-knowledge-capture",
+      "strict": false
+    },
+    {
+      "name": "notion-meeting-intelligence",
+      "source": "./cli-tool/components/skills/productivity/notion-meeting-intelligence",
+      "strict": false
+    },
+    {
+      "name": "notion-research-documentation",
+      "source": "./cli-tool/components/skills/productivity/notion-research-documentation",
+      "strict": false
+    },
+    {
+      "name": "notion-spec-to-implementation",
+      "source": "./cli-tool/components/skills/productivity/notion-spec-to-implementation",
+      "strict": false
+    },
+    {
+      "name": "notion-template-business",
+      "source": "./cli-tool/components/skills/productivity/notion-template-business",
+      "strict": false
+    },
+    {
+      "name": "nowait",
+      "source": "./cli-tool/components/skills/productivity/nowait",
+      "strict": false
+    },
+    {
+      "name": "obsidian-clipper-template-creator",
+      "source": "./cli-tool/components/skills/productivity/obsidian-clipper-template-creator",
+      "strict": false
+    },
+    {
+      "name": "performance-optimizer",
+      "source": "./cli-tool/components/skills/productivity/performance-optimizer",
+      "strict": false
+    },
+    {
+      "name": "personal-tool-builder",
+      "source": "./cli-tool/components/skills/productivity/personal-tool-builder",
+      "strict": false
+    },
+    {
+      "name": "plan-writing",
+      "source": "./cli-tool/components/skills/productivity/plan-writing",
+      "strict": false
+    },
+    {
+      "name": "productivity-planning-with-files",
+      "source": "./cli-tool/components/skills/productivity/planning-with-files",
+      "strict": false
+    },
+    {
+      "name": "raffle-winner-picker",
+      "source": "./cli-tool/components/skills/productivity/raffle-winner-picker",
+      "strict": false
+    },
+    {
+      "name": "reducing-entropy",
+      "source": "./cli-tool/components/skills/productivity/reducing-entropy",
+      "strict": false
+    },
+    {
+      "name": "requirements-clarity",
+      "source": "./cli-tool/components/skills/productivity/requirements-clarity",
+      "strict": false
+    },
+    {
+      "name": "ship-learn-next",
+      "source": "./cli-tool/components/skills/productivity/ship-learn-next",
+      "strict": false
+    },
+    {
+      "name": "productivity-skill-creator",
+      "source": "./cli-tool/components/skills/productivity/skill-creator",
+      "strict": false
+    },
+    {
+      "name": "skill-developer",
+      "source": "./cli-tool/components/skills/productivity/skill-developer",
+      "strict": false
+    },
+    {
+      "name": "skill-judge",
+      "source": "./cli-tool/components/skills/productivity/skill-judge",
+      "strict": false
+    },
+    {
+      "name": "think-tank",
+      "source": "./cli-tool/components/skills/productivity/think-tank",
+      "strict": false
+    },
+    {
+      "name": "productivity-writing-plans",
+      "source": "./cli-tool/components/skills/productivity/writing-plans",
+      "strict": false
+    },
+    {
+      "name": "writing-rules",
+      "source": "./cli-tool/components/skills/productivity/writing-rules",
+      "strict": false
+    },
+    {
+      "name": "productivity-writing-skills",
+      "source": "./cli-tool/components/skills/productivity/writing-skills",
+      "strict": false
+    },
+    {
+      "name": "database",
+      "source": "./cli-tool/components/skills/railway/database",
+      "strict": false
+    },
+    {
+      "name": "deploy",
+      "source": "./cli-tool/components/skills/railway/deploy",
+      "strict": false
+    },
+    {
+      "name": "deployment",
+      "source": "./cli-tool/components/skills/railway/deployment",
+      "strict": false
+    },
+    {
+      "name": "domain",
+      "source": "./cli-tool/components/skills/railway/domain",
+      "strict": false
+    },
+    {
+      "name": "environment",
+      "source": "./cli-tool/components/skills/railway/environment",
+      "strict": false
+    },
+    {
+      "name": "metrics",
+      "source": "./cli-tool/components/skills/railway/metrics",
+      "strict": false
+    },
+    {
+      "name": "new",
+      "source": "./cli-tool/components/skills/railway/new",
+      "strict": false
+    },
+    {
+      "name": "projects",
+      "source": "./cli-tool/components/skills/railway/projects",
+      "strict": false
+    },
+    {
+      "name": "railway-docs",
+      "source": "./cli-tool/components/skills/railway/railway-docs",
+      "strict": false
+    },
+    {
+      "name": "service",
+      "source": "./cli-tool/components/skills/railway/service",
+      "strict": false
+    },
+    {
+      "name": "status",
+      "source": "./cli-tool/components/skills/railway/status",
+      "strict": false
+    },
+    {
+      "name": "railway-templates",
+      "source": "./cli-tool/components/skills/railway/templates",
+      "strict": false
+    },
+    {
+      "name": "adaptyv",
+      "source": "./cli-tool/components/skills/scientific/adaptyv",
+      "strict": false
+    },
+    {
+      "name": "aeon",
+      "source": "./cli-tool/components/skills/scientific/aeon",
+      "strict": false
+    },
+    {
+      "name": "alphafold-database",
+      "source": "./cli-tool/components/skills/scientific/alphafold-database",
+      "strict": false
+    },
+    {
+      "name": "anndata",
+      "source": "./cli-tool/components/skills/scientific/anndata",
+      "strict": false
+    },
+    {
+      "name": "arboreto",
+      "source": "./cli-tool/components/skills/scientific/arboreto",
+      "strict": false
+    },
+    {
+      "name": "astropy",
+      "source": "./cli-tool/components/skills/scientific/astropy",
+      "strict": false
+    },
+    {
+      "name": "benchling-integration",
+      "source": "./cli-tool/components/skills/scientific/benchling-integration",
+      "strict": false
+    },
+    {
+      "name": "biomni",
+      "source": "./cli-tool/components/skills/scientific/biomni",
+      "strict": false
+    },
+    {
+      "name": "biopython",
+      "source": "./cli-tool/components/skills/scientific/biopython",
+      "strict": false
+    },
+    {
+      "name": "biorxiv-database",
+      "source": "./cli-tool/components/skills/scientific/biorxiv-database",
+      "strict": false
+    },
+    {
+      "name": "bioservices",
+      "source": "./cli-tool/components/skills/scientific/bioservices",
+      "strict": false
+    },
+    {
+      "name": "brenda-database",
+      "source": "./cli-tool/components/skills/scientific/brenda-database",
+      "strict": false
+    },
+    {
+      "name": "cellxgene-census",
+      "source": "./cli-tool/components/skills/scientific/cellxgene-census",
+      "strict": false
+    },
+    {
+      "name": "chembl-database",
+      "source": "./cli-tool/components/skills/scientific/chembl-database",
+      "strict": false
+    },
+    {
+      "name": "cirq",
+      "source": "./cli-tool/components/skills/scientific/cirq",
+      "strict": false
+    },
+    {
+      "name": "citation-management",
+      "source": "./cli-tool/components/skills/scientific/citation-management",
+      "strict": false
+    },
+    {
+      "name": "clinical-decision-support",
+      "source": "./cli-tool/components/skills/scientific/clinical-decision-support",
+      "strict": false
+    },
+    {
+      "name": "clinical-reports",
+      "source": "./cli-tool/components/skills/scientific/clinical-reports",
+      "strict": false
+    },
+    {
+      "name": "clinicaltrials-database",
+      "source": "./cli-tool/components/skills/scientific/clinicaltrials-database",
+      "strict": false
+    },
+    {
+      "name": "clinpgx-database",
+      "source": "./cli-tool/components/skills/scientific/clinpgx-database",
+      "strict": false
+    },
+    {
+      "name": "clinvar-database",
+      "source": "./cli-tool/components/skills/scientific/clinvar-database",
+      "strict": false
+    },
+    {
+      "name": "cobrapy",
+      "source": "./cli-tool/components/skills/scientific/cobrapy",
+      "strict": false
+    },
+    {
+      "name": "cosmic-database",
+      "source": "./cli-tool/components/skills/scientific/cosmic-database",
+      "strict": false
+    },
+    {
+      "name": "dask",
+      "source": "./cli-tool/components/skills/scientific/dask",
+      "strict": false
+    },
+    {
+      "name": "datacommons-client",
+      "source": "./cli-tool/components/skills/scientific/datacommons-client",
+      "strict": false
+    },
+    {
+      "name": "datamol",
+      "source": "./cli-tool/components/skills/scientific/datamol",
+      "strict": false
+    },
+    {
+      "name": "deepchem",
+      "source": "./cli-tool/components/skills/scientific/deepchem",
+      "strict": false
+    },
+    {
+      "name": "deeptools",
+      "source": "./cli-tool/components/skills/scientific/deeptools",
+      "strict": false
+    },
+    {
+      "name": "denario",
+      "source": "./cli-tool/components/skills/scientific/denario",
+      "strict": false
+    },
+    {
+      "name": "diffdock",
+      "source": "./cli-tool/components/skills/scientific/diffdock",
+      "strict": false
+    },
+    {
+      "name": "dnanexus-integration",
+      "source": "./cli-tool/components/skills/scientific/dnanexus-integration",
+      "strict": false
+    },
+    {
+      "name": "document-skills-docx",
+      "source": "./cli-tool/components/skills/scientific/document-skills/docx",
+      "strict": false
+    },
+    {
+      "name": "document-skills-pdf",
+      "source": "./cli-tool/components/skills/scientific/document-skills/pdf",
+      "strict": false
+    },
+    {
+      "name": "document-skills-pptx",
+      "source": "./cli-tool/components/skills/scientific/document-skills/pptx",
+      "strict": false
+    },
+    {
+      "name": "document-skills-xlsx",
+      "source": "./cli-tool/components/skills/scientific/document-skills/xlsx",
+      "strict": false
+    },
+    {
+      "name": "drugbank-database",
+      "source": "./cli-tool/components/skills/scientific/drugbank-database",
+      "strict": false
+    },
+    {
+      "name": "ena-database",
+      "source": "./cli-tool/components/skills/scientific/ena-database",
+      "strict": false
+    },
+    {
+      "name": "ensembl-database",
+      "source": "./cli-tool/components/skills/scientific/ensembl-database",
+      "strict": false
+    },
+    {
+      "name": "esm",
+      "source": "./cli-tool/components/skills/scientific/esm",
+      "strict": false
+    },
+    {
+      "name": "etetoolkit",
+      "source": "./cli-tool/components/skills/scientific/etetoolkit",
+      "strict": false
+    },
+    {
+      "name": "exploratory-data-analysis",
+      "source": "./cli-tool/components/skills/scientific/exploratory-data-analysis",
+      "strict": false
+    },
+    {
+      "name": "fda-database",
+      "source": "./cli-tool/components/skills/scientific/fda-database",
+      "strict": false
+    },
+    {
+      "name": "flowio",
+      "source": "./cli-tool/components/skills/scientific/flowio",
+      "strict": false
+    },
+    {
+      "name": "fluidsim",
+      "source": "./cli-tool/components/skills/scientific/fluidsim",
+      "strict": false
+    },
+    {
+      "name": "gene-database",
+      "source": "./cli-tool/components/skills/scientific/gene-database",
+      "strict": false
+    },
+    {
+      "name": "generate-image",
+      "source": "./cli-tool/components/skills/scientific/generate-image",
+      "strict": false
+    },
+    {
+      "name": "geniml",
+      "source": "./cli-tool/components/skills/scientific/geniml",
+      "strict": false
+    },
+    {
+      "name": "geo-database",
+      "source": "./cli-tool/components/skills/scientific/geo-database",
+      "strict": false
+    },
+    {
+      "name": "geopandas",
+      "source": "./cli-tool/components/skills/scientific/geopandas",
+      "strict": false
+    },
+    {
+      "name": "get-available-resources",
+      "source": "./cli-tool/components/skills/scientific/get-available-resources",
+      "strict": false
+    },
+    {
+      "name": "gget",
+      "source": "./cli-tool/components/skills/scientific/gget",
+      "strict": false
+    },
+    {
+      "name": "gtars",
+      "source": "./cli-tool/components/skills/scientific/gtars",
+      "strict": false
+    },
+    {
+      "name": "gwas-database",
+      "source": "./cli-tool/components/skills/scientific/gwas-database",
+      "strict": false
+    },
+    {
+      "name": "histolab",
+      "source": "./cli-tool/components/skills/scientific/histolab",
+      "strict": false
+    },
+    {
+      "name": "hmdb-database",
+      "source": "./cli-tool/components/skills/scientific/hmdb-database",
+      "strict": false
+    },
+    {
+      "name": "hypogenic",
+      "source": "./cli-tool/components/skills/scientific/hypogenic",
+      "strict": false
+    },
+    {
+      "name": "hypothesis-generation",
+      "source": "./cli-tool/components/skills/scientific/hypothesis-generation",
+      "strict": false
+    },
+    {
+      "name": "kegg-database",
+      "source": "./cli-tool/components/skills/scientific/kegg-database",
+      "strict": false
+    },
+    {
+      "name": "labarchive-integration",
+      "source": "./cli-tool/components/skills/scientific/labarchive-integration",
+      "strict": false
+    },
+    {
+      "name": "lamindb",
+      "source": "./cli-tool/components/skills/scientific/lamindb",
+      "strict": false
+    },
+    {
+      "name": "latchbio-integration",
+      "source": "./cli-tool/components/skills/scientific/latchbio-integration",
+      "strict": false
+    },
+    {
+      "name": "latex-posters",
+      "source": "./cli-tool/components/skills/scientific/latex-posters",
+      "strict": false
+    },
+    {
+      "name": "literature-review",
+      "source": "./cli-tool/components/skills/scientific/literature-review",
+      "strict": false
+    },
+    {
+      "name": "market-research-reports",
+      "source": "./cli-tool/components/skills/scientific/market-research-reports",
+      "strict": false
+    },
+    {
+      "name": "markitdown",
+      "source": "./cli-tool/components/skills/scientific/markitdown",
+      "strict": false
+    },
+    {
+      "name": "matchms",
+      "source": "./cli-tool/components/skills/scientific/matchms",
+      "strict": false
+    },
+    {
+      "name": "matplotlib",
+      "source": "./cli-tool/components/skills/scientific/matplotlib",
+      "strict": false
+    },
+    {
+      "name": "medchem",
+      "source": "./cli-tool/components/skills/scientific/medchem",
+      "strict": false
+    },
+    {
+      "name": "metabolomics-workbench-database",
+      "source": "./cli-tool/components/skills/scientific/metabolomics-workbench-database",
+      "strict": false
+    },
+    {
+      "name": "modal",
+      "source": "./cli-tool/components/skills/scientific/modal",
+      "strict": false
+    },
+    {
+      "name": "molfeat",
+      "source": "./cli-tool/components/skills/scientific/molfeat",
+      "strict": false
+    },
+    {
+      "name": "networkx",
+      "source": "./cli-tool/components/skills/scientific/networkx",
+      "strict": false
+    },
+    {
+      "name": "neurokit2",
+      "source": "./cli-tool/components/skills/scientific/neurokit2",
+      "strict": false
+    },
+    {
+      "name": "neuropixels-analysis",
+      "source": "./cli-tool/components/skills/scientific/neuropixels-analysis",
+      "strict": false
+    },
+    {
+      "name": "omero-integration",
+      "source": "./cli-tool/components/skills/scientific/omero-integration",
+      "strict": false
+    },
+    {
+      "name": "openalex-database",
+      "source": "./cli-tool/components/skills/scientific/openalex-database",
+      "strict": false
+    },
+    {
+      "name": "opentargets-database",
+      "source": "./cli-tool/components/skills/scientific/opentargets-database",
+      "strict": false
+    },
+    {
+      "name": "opentrons-integration",
+      "source": "./cli-tool/components/skills/scientific/opentrons-integration",
+      "strict": false
+    },
+    {
+      "name": "paper-2-web",
+      "source": "./cli-tool/components/skills/scientific/paper-2-web",
+      "strict": false
+    },
+    {
+      "name": "pathml",
+      "source": "./cli-tool/components/skills/scientific/pathml",
+      "strict": false
+    },
+    {
+      "name": "pdb-database",
+      "source": "./cli-tool/components/skills/scientific/pdb-database",
+      "strict": false
+    },
+    {
+      "name": "peer-review",
+      "source": "./cli-tool/components/skills/scientific/peer-review",
+      "strict": false
+    },
+    {
+      "name": "pennylane",
+      "source": "./cli-tool/components/skills/scientific/pennylane",
+      "strict": false
+    },
+    {
+      "name": "perplexity-search",
+      "source": "./cli-tool/components/skills/scientific/perplexity-search",
+      "strict": false
+    },
+    {
+      "name": "plotly",
+      "source": "./cli-tool/components/skills/scientific/plotly",
+      "strict": false
+    },
+    {
+      "name": "polars",
+      "source": "./cli-tool/components/skills/scientific/polars",
+      "strict": false
+    },
+    {
+      "name": "pptx-posters",
+      "source": "./cli-tool/components/skills/scientific/pptx-posters",
+      "strict": false
+    },
+    {
+      "name": "protocolsio-integration",
+      "source": "./cli-tool/components/skills/scientific/protocolsio-integration",
+      "strict": false
+    },
+    {
+      "name": "pubchem-database",
+      "source": "./cli-tool/components/skills/scientific/pubchem-database",
+      "strict": false
+    },
+    {
+      "name": "pubmed-database",
+      "source": "./cli-tool/components/skills/scientific/pubmed-database",
+      "strict": false
+    },
+    {
+      "name": "pufferlib",
+      "source": "./cli-tool/components/skills/scientific/pufferlib",
+      "strict": false
+    },
+    {
+      "name": "pydeseq2",
+      "source": "./cli-tool/components/skills/scientific/pydeseq2",
+      "strict": false
+    },
+    {
+      "name": "pydicom",
+      "source": "./cli-tool/components/skills/scientific/pydicom",
+      "strict": false
+    },
+    {
+      "name": "pyhealth",
+      "source": "./cli-tool/components/skills/scientific/pyhealth",
+      "strict": false
+    },
+    {
+      "name": "pylabrobot",
+      "source": "./cli-tool/components/skills/scientific/pylabrobot",
+      "strict": false
+    },
+    {
+      "name": "pymatgen",
+      "source": "./cli-tool/components/skills/scientific/pymatgen",
+      "strict": false
+    },
+    {
+      "name": "pymc",
+      "source": "./cli-tool/components/skills/scientific/pymc",
+      "strict": false
+    },
+    {
+      "name": "pymoo",
+      "source": "./cli-tool/components/skills/scientific/pymoo",
+      "strict": false
+    },
+    {
+      "name": "pyopenms",
+      "source": "./cli-tool/components/skills/scientific/pyopenms",
+      "strict": false
+    },
+    {
+      "name": "pysam",
+      "source": "./cli-tool/components/skills/scientific/pysam",
+      "strict": false
+    },
+    {
+      "name": "pytdc",
+      "source": "./cli-tool/components/skills/scientific/pytdc",
+      "strict": false
+    },
+    {
+      "name": "pytorch-lightning",
+      "source": "./cli-tool/components/skills/scientific/pytorch-lightning",
+      "strict": false
+    },
+    {
+      "name": "qiskit",
+      "source": "./cli-tool/components/skills/scientific/qiskit",
+      "strict": false
+    },
+    {
+      "name": "qutip",
+      "source": "./cli-tool/components/skills/scientific/qutip",
+      "strict": false
+    },
+    {
+      "name": "rdkit",
+      "source": "./cli-tool/components/skills/scientific/rdkit",
+      "strict": false
+    },
+    {
+      "name": "reactome-database",
+      "source": "./cli-tool/components/skills/scientific/reactome-database",
+      "strict": false
+    },
+    {
+      "name": "research-grants",
+      "source": "./cli-tool/components/skills/scientific/research-grants",
+      "strict": false
+    },
+    {
+      "name": "research-lookup",
+      "source": "./cli-tool/components/skills/scientific/research-lookup",
+      "strict": false
+    },
+    {
+      "name": "scanpy",
+      "source": "./cli-tool/components/skills/scientific/scanpy",
+      "strict": false
+    },
+    {
+      "name": "scholar-evaluation",
+      "source": "./cli-tool/components/skills/scientific/scholar-evaluation",
+      "strict": false
+    },
+    {
+      "name": "scientific-brainstorming",
+      "source": "./cli-tool/components/skills/scientific/scientific-brainstorming",
+      "strict": false
+    },
+    {
+      "name": "scientific-critical-thinking",
+      "source": "./cli-tool/components/skills/scientific/scientific-critical-thinking",
+      "strict": false
+    },
+    {
+      "name": "scientific-schematics",
+      "source": "./cli-tool/components/skills/scientific/scientific-schematics",
+      "strict": false
+    },
+    {
+      "name": "scientific-slides",
+      "source": "./cli-tool/components/skills/scientific/scientific-slides",
+      "strict": false
+    },
+    {
+      "name": "scientific-visualization",
+      "source": "./cli-tool/components/skills/scientific/scientific-visualization",
+      "strict": false
+    },
+    {
+      "name": "scientific-writing",
+      "source": "./cli-tool/components/skills/scientific/scientific-writing",
+      "strict": false
+    },
+    {
+      "name": "scikit-bio",
+      "source": "./cli-tool/components/skills/scientific/scikit-bio",
+      "strict": false
+    },
+    {
+      "name": "scikit-learn",
+      "source": "./cli-tool/components/skills/scientific/scikit-learn",
+      "strict": false
+    },
+    {
+      "name": "scikit-survival",
+      "source": "./cli-tool/components/skills/scientific/scikit-survival",
+      "strict": false
+    },
+    {
+      "name": "scvi-tools",
+      "source": "./cli-tool/components/skills/scientific/scvi-tools",
+      "strict": false
+    },
+    {
+      "name": "seaborn",
+      "source": "./cli-tool/components/skills/scientific/seaborn",
+      "strict": false
+    },
+    {
+      "name": "shap",
+      "source": "./cli-tool/components/skills/scientific/shap",
+      "strict": false
+    },
+    {
+      "name": "simpy",
+      "source": "./cli-tool/components/skills/scientific/simpy",
+      "strict": false
+    },
+    {
+      "name": "stable-baselines3",
+      "source": "./cli-tool/components/skills/scientific/stable-baselines3",
+      "strict": false
+    },
+    {
+      "name": "statistical-analysis",
+      "source": "./cli-tool/components/skills/scientific/statistical-analysis",
+      "strict": false
+    },
+    {
+      "name": "statsmodels",
+      "source": "./cli-tool/components/skills/scientific/statsmodels",
+      "strict": false
+    },
+    {
+      "name": "string-database",
+      "source": "./cli-tool/components/skills/scientific/string-database",
+      "strict": false
+    },
+    {
+      "name": "sympy",
+      "source": "./cli-tool/components/skills/scientific/sympy",
+      "strict": false
+    },
+    {
+      "name": "torchdrug",
+      "source": "./cli-tool/components/skills/scientific/torchdrug",
+      "strict": false
+    },
+    {
+      "name": "torch_geometric",
+      "source": "./cli-tool/components/skills/scientific/torch_geometric",
+      "strict": false
+    },
+    {
+      "name": "transformers",
+      "source": "./cli-tool/components/skills/scientific/transformers",
+      "strict": false
+    },
+    {
+      "name": "treatment-plans",
+      "source": "./cli-tool/components/skills/scientific/treatment-plans",
+      "strict": false
+    },
+    {
+      "name": "umap-learn",
+      "source": "./cli-tool/components/skills/scientific/umap-learn",
+      "strict": false
+    },
+    {
+      "name": "uniprot-database",
+      "source": "./cli-tool/components/skills/scientific/uniprot-database",
+      "strict": false
+    },
+    {
+      "name": "uspto-database",
+      "source": "./cli-tool/components/skills/scientific/uspto-database",
+      "strict": false
+    },
+    {
+      "name": "vaex",
+      "source": "./cli-tool/components/skills/scientific/vaex",
+      "strict": false
+    },
+    {
+      "name": "venue-templates",
+      "source": "./cli-tool/components/skills/scientific/venue-templates",
+      "strict": false
+    },
+    {
+      "name": "zarr-python",
+      "source": "./cli-tool/components/skills/scientific/zarr-python",
+      "strict": false
+    },
+    {
+      "name": "zinc-database",
+      "source": "./cli-tool/components/skills/scientific/zinc-database",
+      "strict": false
+    },
+    {
+      "name": "active-directory-attacks",
+      "source": "./cli-tool/components/skills/security/active-directory-attacks",
+      "strict": false
+    },
+    {
+      "name": "api-fuzzing-bug-bounty",
+      "source": "./cli-tool/components/skills/security/api-fuzzing-bug-bounty",
+      "strict": false
+    },
+    {
+      "name": "api-security-best-practices",
+      "source": "./cli-tool/components/skills/security/api-security-best-practices",
+      "strict": false
+    },
+    {
+      "name": "api-security-testing",
+      "source": "./cli-tool/components/skills/security/api-security-testing",
+      "strict": false
+    },
+    {
+      "name": "aws-penetration-testing",
+      "source": "./cli-tool/components/skills/security/aws-penetration-testing",
+      "strict": false
+    },
+    {
+      "name": "broken-authentication",
+      "source": "./cli-tool/components/skills/security/broken-authentication",
+      "strict": false
+    },
+    {
+      "name": "burp-suite-testing",
+      "source": "./cli-tool/components/skills/security/burp-suite-testing",
+      "strict": false
+    },
+    {
+      "name": "cloud-penetration-testing",
+      "source": "./cli-tool/components/skills/security/cloud-penetration-testing",
+      "strict": false
+    },
+    {
+      "name": "cra-vulnerability-obligations",
+      "source": "./cli-tool/components/skills/security/cra-vulnerability-obligations",
+      "strict": false
+    },
+    {
+      "name": "ethical-hacking-methodology",
+      "source": "./cli-tool/components/skills/security/ethical-hacking-methodology",
+      "strict": false
+    },
+    {
+      "name": "file-path-traversal",
+      "source": "./cli-tool/components/skills/security/file-path-traversal",
+      "strict": false
+    },
+    {
+      "name": "file-uploads",
+      "source": "./cli-tool/components/skills/security/file-uploads",
+      "strict": false
+    },
+    {
+      "name": "google-cloud-auth",
+      "source": "./cli-tool/components/skills/security/google-cloud-auth",
+      "strict": false
+    },
+    {
+      "name": "google-cloud-waf-security",
+      "source": "./cli-tool/components/skills/security/google-cloud-waf-security",
+      "strict": false
+    },
+    {
+      "name": "html-injection-testing",
+      "source": "./cli-tool/components/skills/security/html-injection-testing",
+      "strict": false
+    },
+    {
+      "name": "idor-testing",
+      "source": "./cli-tool/components/skills/security/idor-testing",
+      "strict": false
+    },
+    {
+      "name": "incident-reporting-navigator",
+      "source": "./cli-tool/components/skills/security/incident-reporting-navigator",
+      "strict": false
+    },
+    {
+      "name": "linux-privilege-escalation",
+      "source": "./cli-tool/components/skills/security/linux-privilege-escalation",
+      "strict": false
+    },
+    {
+      "name": "metasploit-framework",
+      "source": "./cli-tool/components/skills/security/metasploit-framework",
+      "strict": false
+    },
+    {
+      "name": "pentest-checklist",
+      "source": "./cli-tool/components/skills/security/pentest-checklist",
+      "strict": false
+    },
+    {
+      "name": "pentest-commands",
+      "source": "./cli-tool/components/skills/security/pentest-commands",
+      "strict": false
+    },
+    {
+      "name": "privilege-escalation-methods",
+      "source": "./cli-tool/components/skills/security/privilege-escalation-methods",
+      "strict": false
+    },
+    {
+      "name": "red-team-tactics",
+      "source": "./cli-tool/components/skills/security/red-team-tactics",
+      "strict": false
+    },
+    {
+      "name": "red-team-tools",
+      "source": "./cli-tool/components/skills/security/red-team-tools",
+      "strict": false
+    },
+    {
+      "name": "regulatory-threat-model",
+      "source": "./cli-tool/components/skills/security/regulatory-threat-model",
+      "strict": false
+    },
+    {
+      "name": "sast-configuration",
+      "source": "./cli-tool/components/skills/security/sast-configuration",
+      "strict": false
+    },
+    {
+      "name": "scanning-tools",
+      "source": "./cli-tool/components/skills/security/scanning-tools",
+      "strict": false
+    },
+    {
+      "name": "secrets-management",
+      "source": "./cli-tool/components/skills/security/secrets-management",
+      "strict": false
+    },
+    {
+      "name": "security-audit",
+      "source": "./cli-tool/components/skills/security/security-audit",
+      "strict": false
+    },
+    {
+      "name": "security-best-practices",
+      "source": "./cli-tool/components/skills/security/security-best-practices",
+      "strict": false
+    },
+    {
+      "name": "security-ownership-map",
+      "source": "./cli-tool/components/skills/security/security-ownership-map",
+      "strict": false
+    },
+    {
+      "name": "security-threat-model",
+      "source": "./cli-tool/components/skills/security/security-threat-model",
+      "strict": false
+    },
+    {
+      "name": "shodan-reconnaissance",
+      "source": "./cli-tool/components/skills/security/shodan-reconnaissance",
+      "strict": false
+    },
+    {
+      "name": "smtp-penetration-testing",
+      "source": "./cli-tool/components/skills/security/smtp-penetration-testing",
+      "strict": false
+    },
+    {
+      "name": "sql-injection-testing",
+      "source": "./cli-tool/components/skills/security/sql-injection-testing",
+      "strict": false
+    },
+    {
+      "name": "sqlmap-database-pentesting",
+      "source": "./cli-tool/components/skills/security/sqlmap-database-pentesting",
+      "strict": false
+    },
+    {
+      "name": "ssh-penetration-testing",
+      "source": "./cli-tool/components/skills/security/ssh-penetration-testing",
+      "strict": false
+    },
+    {
+      "name": "supply-chain-guard",
+      "source": "./cli-tool/components/skills/security/supply-chain-guard",
+      "strict": false
+    },
+    {
+      "name": "threat-modeling-expert",
+      "source": "./cli-tool/components/skills/security/threat-modeling-expert",
+      "strict": false
+    },
+    {
+      "name": "top-web-vulnerabilities",
+      "source": "./cli-tool/components/skills/security/top-web-vulnerabilities",
+      "strict": false
+    },
+    {
+      "name": "vulnerability-scanner",
+      "source": "./cli-tool/components/skills/security/vulnerability-scanner",
+      "strict": false
+    },
+    {
+      "name": "web-security-testing",
+      "source": "./cli-tool/components/skills/security/web-security-testing",
+      "strict": false
+    },
+    {
+      "name": "security-webapp-testing",
+      "source": "./cli-tool/components/skills/security/webapp-testing",
+      "strict": false
+    },
+    {
+      "name": "windows-privilege-escalation",
+      "source": "./cli-tool/components/skills/security/windows-privilege-escalation",
+      "strict": false
+    },
+    {
+      "name": "wireshark-analysis",
+      "source": "./cli-tool/components/skills/security/wireshark-analysis",
+      "strict": false
+    },
+    {
+      "name": "wordpress-penetration-testing",
+      "source": "./cli-tool/components/skills/security/wordpress-penetration-testing",
+      "strict": false
+    },
+    {
+      "name": "xss-html-injection",
+      "source": "./cli-tool/components/skills/security/xss-html-injection",
+      "strict": false
+    },
+    {
+      "name": "code-review",
+      "source": "./cli-tool/components/skills/sentry/code-review",
+      "strict": false
+    },
+    {
+      "name": "commit",
+      "source": "./cli-tool/components/skills/sentry/commit",
+      "strict": false
+    },
+    {
+      "name": "create-pr",
+      "source": "./cli-tool/components/skills/sentry/create-pr",
+      "strict": false
+    },
+    {
+      "name": "deslop",
+      "source": "./cli-tool/components/skills/sentry/deslop",
+      "strict": false
+    },
+    {
+      "name": "find-bugs",
+      "source": "./cli-tool/components/skills/sentry/find-bugs",
+      "strict": false
+    },
+    {
+      "name": "iterate-pr",
+      "source": "./cli-tool/components/skills/sentry/iterate-pr",
+      "strict": false
+    },
+    {
+      "name": "footballbin-predictions",
+      "source": "./cli-tool/components/skills/sports/footballbin-predictions",
+      "strict": false
+    },
+    {
+      "name": "browser-automation",
+      "source": "./cli-tool/components/skills/utilities/browser-automation",
+      "strict": false
+    },
+    {
+      "name": "browser-extension-builder",
+      "source": "./cli-tool/components/skills/utilities/browser-extension-builder",
+      "strict": false
+    },
+    {
+      "name": "busybox-on-windows",
+      "source": "./cli-tool/components/skills/utilities/busybox-on-windows",
+      "strict": false
+    },
+    {
+      "name": "cf-crawl",
+      "source": "./cli-tool/components/skills/utilities/cf-crawl",
+      "strict": false
+    },
+    {
+      "name": "domain-name-brainstormer",
+      "source": "./cli-tool/components/skills/utilities/domain-name-brainstormer",
+      "strict": false
+    },
+    {
+      "name": "geo-fundamentals",
+      "source": "./cli-tool/components/skills/utilities/geo-fundamentals",
+      "strict": false
+    },
+    {
+      "name": "network-101",
+      "source": "./cli-tool/components/skills/utilities/network-101",
+      "strict": false
+    },
+    {
+      "name": "playwright-skill",
+      "source": "./cli-tool/components/skills/utilities/playwright-skill",
+      "strict": false
+    },
+    {
+      "name": "skill-share",
+      "source": "./cli-tool/components/skills/utilities/skill-share",
+      "strict": false
+    },
+    {
+      "name": "template-skill",
+      "source": "./cli-tool/components/skills/utilities/template-skill",
+      "strict": false
+    },
+    {
+      "name": "utilities-using-superpowers",
+      "source": "./cli-tool/components/skills/utilities/using-superpowers",
+      "strict": false
+    },
+    {
+      "name": "utilities-web-artifacts-builder",
+      "source": "./cli-tool/components/skills/utilities/web-artifacts-builder",
+      "strict": false
+    },
+    {
+      "name": "manim",
+      "source": "./cli-tool/components/skills/video/manim",
+      "strict": false
+    },
+    {
+      "name": "motion-canvas",
+      "source": "./cli-tool/components/skills/video/motion-canvas",
+      "strict": false
+    },
+    {
+      "name": "remotion",
+      "source": "./cli-tool/components/skills/video/remotion",
+      "strict": false
+    },
+    {
+      "name": "sora",
+      "source": "./cli-tool/components/skills/video/sora",
+      "strict": false
+    },
+    {
+      "name": "bright-data-best-practices",
+      "source": "./cli-tool/components/skills/web-data/bright-data-best-practices",
+      "strict": false
+    },
+    {
+      "name": "bright-data-mcp",
+      "source": "./cli-tool/components/skills/web-data/bright-data-mcp",
+      "strict": false
+    },
+    {
+      "name": "data-feeds",
+      "source": "./cli-tool/components/skills/web-data/data-feeds",
+      "strict": false
+    },
+    {
+      "name": "design-mirror",
+      "source": "./cli-tool/components/skills/web-data/design-mirror",
+      "strict": false
+    },
+    {
+      "name": "scrape",
+      "source": "./cli-tool/components/skills/web-data/scrape",
+      "strict": false
+    },
+    {
+      "name": "search",
+      "source": "./cli-tool/components/skills/web-data/search",
+      "strict": false
+    },
+    {
+      "name": "astro",
+      "source": "./cli-tool/components/skills/web-development/astro",
+      "strict": false
+    },
+    {
+      "name": "blockrun",
+      "source": "./cli-tool/components/skills/web-development/blockrun",
+      "strict": false
+    },
+    {
+      "name": "building-blog",
+      "source": "./cli-tool/components/skills/web-development/building-blog",
+      "strict": false
+    },
+    {
+      "name": "chrome-extension-developer",
+      "source": "./cli-tool/components/skills/web-development/chrome-extension-developer",
+      "strict": false
+    },
+    {
+      "name": "drizzle-orm-expert",
+      "source": "./cli-tool/components/skills/web-development/drizzle-orm-expert",
+      "strict": false
+    },
+    {
+      "name": "electron-development",
+      "source": "./cli-tool/components/skills/web-development/electron-development",
+      "strict": false
+    },
+    {
+      "name": "exa-search",
+      "source": "./cli-tool/components/skills/web-development/exa-search",
+      "strict": false
+    },
+    {
+      "name": "expo-deployment",
+      "source": "./cli-tool/components/skills/web-development/expo-deployment",
+      "strict": false
+    },
+    {
+      "name": "fastapi-endpoint",
+      "source": "./cli-tool/components/skills/web-development/fastapi-endpoint",
+      "strict": false
+    },
+    {
+      "name": "firecrawl-scraper",
+      "source": "./cli-tool/components/skills/web-development/firecrawl-scraper",
+      "strict": false
+    },
+    {
+      "name": "hono",
+      "source": "./cli-tool/components/skills/web-development/hono",
+      "strict": false
+    },
+    {
+      "name": "nextjs-app-router-patterns",
+      "source": "./cli-tool/components/skills/web-development/nextjs-app-router-patterns",
+      "strict": false
+    },
+    {
+      "name": "progressive-web-app",
+      "source": "./cli-tool/components/skills/web-development/progressive-web-app",
+      "strict": false
+    },
+    {
+      "name": "web-development-react-best-practices",
+      "source": "./cli-tool/components/skills/web-development/react-best-practices",
+      "strict": false
+    },
+    {
+      "name": "react-component-performance",
+      "source": "./cli-tool/components/skills/web-development/react-component-performance",
+      "strict": false
+    },
+    {
+      "name": "react-native-architecture",
+      "source": "./cli-tool/components/skills/web-development/react-native-architecture",
+      "strict": false
+    },
+    {
+      "name": "react-state-management",
+      "source": "./cli-tool/components/skills/web-development/react-state-management",
+      "strict": false
+    },
+    {
+      "name": "roier-seo",
+      "source": "./cli-tool/components/skills/web-development/roier-seo",
+      "strict": false
+    },
+    {
+      "name": "segment-cdp",
+      "source": "./cli-tool/components/skills/web-development/segment-cdp",
+      "strict": false
+    },
+    {
+      "name": "shadcn",
+      "source": "./cli-tool/components/skills/web-development/shadcn",
+      "strict": false
+    },
+    {
+      "name": "shopify-apps",
+      "source": "./cli-tool/components/skills/web-development/shopify-apps",
+      "strict": false
+    },
+    {
+      "name": "shopify-development",
+      "source": "./cli-tool/components/skills/web-development/shopify-development",
+      "strict": false
+    },
+    {
+      "name": "sveltekit",
+      "source": "./cli-tool/components/skills/web-development/sveltekit",
+      "strict": false
+    },
+    {
+      "name": "tailwind-design-system",
+      "source": "./cli-tool/components/skills/web-development/tailwind-design-system",
+      "strict": false
+    },
+    {
+      "name": "tanstack-query-expert",
+      "source": "./cli-tool/components/skills/web-development/tanstack-query-expert",
+      "strict": false
+    },
+    {
+      "name": "tavily-web",
+      "source": "./cli-tool/components/skills/web-development/tavily-web",
+      "strict": false
+    },
+    {
+      "name": "upstash-qstash",
+      "source": "./cli-tool/components/skills/web-development/upstash-qstash",
+      "strict": false
+    },
+    {
+      "name": "web-performance-optimization",
+      "source": "./cli-tool/components/skills/web-development/web-performance-optimization",
+      "strict": false
+    },
+    {
+      "name": "zod-validation-expert",
+      "source": "./cli-tool/components/skills/web-development/zod-validation-expert",
+      "strict": false
+    },
+    {
+      "name": "zustand-store-ts",
+      "source": "./cli-tool/components/skills/web-development/zustand-store-ts",
+      "strict": false
+    },
+    {
+      "name": "dependabot-review",
+      "source": "./cli-tool/components/skills/workflow-automation/dependabot-review",
+      "strict": false
+    },
+    {
+      "name": "github-actions-templates",
+      "source": "./cli-tool/components/skills/workflow-automation/github-actions-templates",
+      "strict": false
+    },
+    {
+      "name": "github-automation",
+      "source": "./cli-tool/components/skills/workflow-automation/github-automation",
+      "strict": false
+    },
+    {
+      "name": "workflow-automation-github-workflow-automation",
+      "source": "./cli-tool/components/skills/workflow-automation/github-workflow-automation",
+      "strict": false
+    },
+    {
+      "name": "gitops-workflow",
+      "source": "./cli-tool/components/skills/workflow-automation/gitops-workflow",
+      "strict": false
+    },
+    {
+      "name": "inngest",
+      "source": "./cli-tool/components/skills/workflow-automation/inngest",
+      "strict": false
+    },
+    {
+      "name": "jira-automation",
+      "source": "./cli-tool/components/skills/workflow-automation/jira-automation",
+      "strict": false
+    },
+    {
+      "name": "linear-automation",
+      "source": "./cli-tool/components/skills/workflow-automation/linear-automation",
+      "strict": false
+    },
+    {
+      "name": "n8n-code-javascript",
+      "source": "./cli-tool/components/skills/workflow-automation/n8n/n8n-code-javascript",
+      "strict": false
+    },
+    {
+      "name": "n8n-code-python",
+      "source": "./cli-tool/components/skills/workflow-automation/n8n/n8n-code-python",
+      "strict": false
+    },
+    {
+      "name": "n8n-expression-syntax",
+      "source": "./cli-tool/components/skills/workflow-automation/n8n/n8n-expression-syntax",
+      "strict": false
+    },
+    {
+      "name": "n8n-mcp-tools-expert",
+      "source": "./cli-tool/components/skills/workflow-automation/n8n/n8n-mcp-tools-expert",
+      "strict": false
+    },
+    {
+      "name": "n8n-node-configuration",
+      "source": "./cli-tool/components/skills/workflow-automation/n8n/n8n-node-configuration",
+      "strict": false
+    },
+    {
+      "name": "n8n-validation-expert",
+      "source": "./cli-tool/components/skills/workflow-automation/n8n/n8n-validation-expert",
+      "strict": false
+    },
+    {
+      "name": "n8n-n8n-workflow-patterns",
+      "source": "./cli-tool/components/skills/workflow-automation/n8n/n8n-workflow-patterns",
+      "strict": false
+    },
+    {
+      "name": "workflow-automation-n8n-workflow-patterns",
+      "source": "./cli-tool/components/skills/workflow-automation/n8n-workflow-patterns",
+      "strict": false
+    },
+    {
+      "name": "workflow-automation-planning-with-files",
+      "source": "./cli-tool/components/skills/workflow-automation/planning-with-files",
+      "strict": false
+    },
+    {
+      "name": "rote",
+      "source": "./cli-tool/components/skills/workflow-automation/rote",
+      "strict": false
+    },
+    {
+      "name": "slack-automation",
+      "source": "./cli-tool/components/skills/workflow-automation/slack-automation",
+      "strict": false
+    },
+    {
+      "name": "trigger-dev",
+      "source": "./cli-tool/components/skills/workflow-automation/trigger-dev",
+      "strict": false
+    },
+    {
+      "name": "workflow-automation",
+      "source": "./cli-tool/components/skills/workflow-automation/workflow-automation",
+      "strict": false
+    },
+    {
+      "name": "yeet",
+      "source": "./cli-tool/components/skills/workflow-automation/yeet",
+      "strict": false
+    },
+    {
+      "name": "zapier-make-patterns",
+      "source": "./cli-tool/components/skills/workflow-automation/zapier-make-patterns",
+      "strict": false
+    },
+    {
+      "name": "agents-accessibility",
+      "source": "./plugins/agents-accessibility",
+      "strict": false
+    },
+    {
+      "name": "agents-ai-specialists",
+      "source": "./plugins/agents-ai-specialists",
+      "strict": false
+    },
+    {
+      "name": "agents-api-graphql",
+      "source": "./plugins/agents-api-graphql",
+      "strict": false
+    },
+    {
+      "name": "agents-blockchain-web3",
+      "source": "./plugins/agents-blockchain-web3",
+      "strict": false
+    },
+    {
+      "name": "agents-business-marketing",
+      "source": "./plugins/agents-business-marketing",
+      "strict": false
+    },
+    {
+      "name": "agents-data-ai",
+      "source": "./plugins/agents-data-ai",
+      "strict": false
+    },
+    {
+      "name": "agents-database",
+      "source": "./plugins/agents-database",
+      "strict": false
+    },
+    {
+      "name": "agents-deep-research-team",
+      "source": "./plugins/agents-deep-research-team",
+      "strict": false
+    },
+    {
+      "name": "agents-development-team",
+      "source": "./plugins/agents-development-team",
+      "strict": false
+    },
+    {
+      "name": "agents-development-tools",
+      "source": "./plugins/agents-development-tools",
+      "strict": false
+    },
+    {
+      "name": "agents-devops-infrastructure",
+      "source": "./plugins/agents-devops-infrastructure",
+      "strict": false
+    },
+    {
+      "name": "agents-documentation",
+      "source": "./plugins/agents-documentation",
+      "strict": false
+    },
+    {
+      "name": "agents-expert-advisors",
+      "source": "./plugins/agents-expert-advisors",
+      "strict": false
+    },
+    {
+      "name": "agents-ffmpeg-clip-team",
+      "source": "./plugins/agents-ffmpeg-clip-team",
+      "strict": false
+    },
+    {
+      "name": "agents-finance",
+      "source": "./plugins/agents-finance",
+      "strict": false
+    },
+    {
+      "name": "agents-game-development",
+      "source": "./plugins/agents-game-development",
+      "strict": false
+    },
+    {
+      "name": "agents-git",
+      "source": "./plugins/agents-git",
+      "strict": false
+    },
+    {
+      "name": "agents-mcp-dev-team",
+      "source": "./plugins/agents-mcp-dev-team",
+      "strict": false
+    },
+    {
+      "name": "agents-modernization",
+      "source": "./plugins/agents-modernization",
+      "strict": false
+    },
+    {
+      "name": "agents-obsidian-ops-team",
+      "source": "./plugins/agents-obsidian-ops-team",
+      "strict": false
+    },
+    {
+      "name": "agents-ocr-extraction-team",
+      "source": "./plugins/agents-ocr-extraction-team",
+      "strict": false
+    },
+    {
+      "name": "agents-performance-testing",
+      "source": "./plugins/agents-performance-testing",
+      "strict": false
+    },
+    {
+      "name": "agents-podcast-creator-team",
+      "source": "./plugins/agents-podcast-creator-team",
+      "strict": false
+    },
+    {
+      "name": "agents-programming-languages",
+      "source": "./plugins/agents-programming-languages",
+      "strict": false
+    },
+    {
+      "name": "agents-realtime",
+      "source": "./plugins/agents-realtime",
+      "strict": false
+    },
+    {
+      "name": "agents-security",
+      "source": "./plugins/agents-security",
+      "strict": false
+    },
+    {
+      "name": "agents-ui-analysis",
+      "source": "./plugins/agents-ui-analysis",
+      "strict": false
+    },
+    {
+      "name": "agents-web-tools",
+      "source": "./plugins/agents-web-tools",
+      "strict": false
+    },
+    {
+      "name": "commands-analysis",
+      "source": "./plugins/commands-analysis",
+      "strict": false
+    },
+    {
+      "name": "commands-automation",
+      "source": "./plugins/commands-automation",
+      "strict": false
+    },
+    {
+      "name": "commands-azure",
+      "source": "./plugins/commands-azure",
+      "strict": false
+    },
+    {
+      "name": "commands-database",
+      "source": "./plugins/commands-database",
+      "strict": false
+    },
+    {
+      "name": "commands-deployment",
+      "source": "./plugins/commands-deployment",
+      "strict": false
+    },
+    {
+      "name": "commands-design",
+      "source": "./plugins/commands-design",
+      "strict": false
+    },
+    {
+      "name": "commands-documentation",
+      "source": "./plugins/commands-documentation",
+      "strict": false
+    },
+    {
+      "name": "commands-doordash",
+      "source": "./plugins/commands-doordash",
+      "strict": false
+    },
+    {
+      "name": "commands-game-development",
+      "source": "./plugins/commands-game-development",
+      "strict": false
+    },
+    {
+      "name": "commands-git",
+      "source": "./plugins/commands-git",
+      "strict": false
+    },
+    {
+      "name": "commands-git-workflow",
+      "source": "./plugins/commands-git-workflow",
+      "strict": false
+    },
+    {
+      "name": "commands-google-workspace",
+      "source": "./plugins/commands-google-workspace",
+      "strict": false
+    },
+    {
+      "name": "commands-marketing",
+      "source": "./plugins/commands-marketing",
+      "strict": false
+    },
+    {
+      "name": "commands-nextjs-vercel",
+      "source": "./plugins/commands-nextjs-vercel",
+      "strict": false
+    },
+    {
+      "name": "commands-orchestration",
+      "source": "./plugins/commands-orchestration",
+      "strict": false
+    },
+    {
+      "name": "commands-performance",
+      "source": "./plugins/commands-performance",
+      "strict": false
+    },
+    {
+      "name": "commands-project-management",
+      "source": "./plugins/commands-project-management",
+      "strict": false
+    },
+    {
+      "name": "commands-security",
+      "source": "./plugins/commands-security",
+      "strict": false
+    },
+    {
+      "name": "commands-setup",
+      "source": "./plugins/commands-setup",
+      "strict": false
+    },
+    {
+      "name": "commands-simulation",
+      "source": "./plugins/commands-simulation",
+      "strict": false
+    },
+    {
+      "name": "commands-svelte",
+      "source": "./plugins/commands-svelte",
+      "strict": false
+    },
+    {
+      "name": "commands-sync",
+      "source": "./plugins/commands-sync",
+      "strict": false
+    },
+    {
+      "name": "commands-team",
+      "source": "./plugins/commands-team",
+      "strict": false
+    },
+    {
+      "name": "commands-testing",
+      "source": "./plugins/commands-testing",
+      "strict": false
+    },
+    {
+      "name": "commands-utilities",
+      "source": "./plugins/commands-utilities",
+      "strict": false
+    },
+    {
+      "name": "hooks-automation",
+      "source": "./plugins/hooks-automation",
+      "strict": false
+    },
+    {
+      "name": "hooks-development-tools",
+      "source": "./plugins/hooks-development-tools",
+      "strict": false
+    },
+    {
+      "name": "hooks-doordash",
+      "source": "./plugins/hooks-doordash",
+      "strict": false
+    },
+    {
+      "name": "hooks-git",
+      "source": "./plugins/hooks-git",
+      "strict": false
+    },
+    {
+      "name": "hooks-git-workflow",
+      "source": "./plugins/hooks-git-workflow",
+      "strict": false
+    },
+    {
+      "name": "hooks-monitoring",
+      "source": "./plugins/hooks-monitoring",
+      "strict": false
+    },
+    {
+      "name": "hooks-performance",
+      "source": "./plugins/hooks-performance",
+      "strict": false
+    },
+    {
+      "name": "hooks-post-tool",
+      "source": "./plugins/hooks-post-tool",
+      "strict": false
+    },
+    {
+      "name": "hooks-pre-tool",
+      "source": "./plugins/hooks-pre-tool",
+      "strict": false
+    },
+    {
+      "name": "hooks-quality-gates",
+      "source": "./plugins/hooks-quality-gates",
+      "strict": false
+    },
+    {
+      "name": "hooks-security",
+      "source": "./plugins/hooks-security",
+      "strict": false
+    },
+    {
+      "name": "hooks-testing",
+      "source": "./plugins/hooks-testing",
+      "strict": false
+    },
+    {
+      "name": "mcps-audio",
+      "source": "./plugins/mcps-audio",
+      "strict": false
+    },
+    {
+      "name": "mcps-browser_automation",
+      "source": "./plugins/mcps-browser_automation",
+      "strict": false
+    },
+    {
+      "name": "mcps-database",
+      "source": "./plugins/mcps-database",
+      "strict": false
+    },
+    {
+      "name": "mcps-deepgraph",
+      "source": "./plugins/mcps-deepgraph",
+      "strict": false
+    },
+    {
+      "name": "mcps-deepresearch",
+      "source": "./plugins/mcps-deepresearch",
+      "strict": false
+    },
+    {
+      "name": "mcps-devtools",
+      "source": "./plugins/mcps-devtools",
+      "strict": false
+    },
+    {
+      "name": "mcps-filesystem",
+      "source": "./plugins/mcps-filesystem",
+      "strict": false
+    },
+    {
+      "name": "mcps-integration",
+      "source": "./plugins/mcps-integration",
+      "strict": false
+    },
+    {
+      "name": "mcps-marketing",
+      "source": "./plugins/mcps-marketing",
+      "strict": false
+    },
+    {
+      "name": "mcps-productivity",
+      "source": "./plugins/mcps-productivity",
+      "strict": false
+    },
+    {
+      "name": "mcps-research",
+      "source": "./plugins/mcps-research",
+      "strict": false
+    },
+    {
+      "name": "mcps-web",
+      "source": "./plugins/mcps-web",
+      "strict": false
+    },
+    {
+      "name": "mcps-web-data",
+      "source": "./plugins/mcps-web-data",
       "strict": false
     }
-  ]
+  ],
+  "description": "All skills, agents, commands, hooks, and MCP servers from claude-code-templates, packaged as installable plugins."
 }

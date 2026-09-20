@@ -1,0 +1,39 @@
+{
+  "mcpServers": {
+    "curviate": {
+      "description": "Official MCP server for the Curviate API: LinkedIn actions for AI agents (search, messaging, connections, posts, Sales Navigator, Recruiter). A thin stdio bridge to the hosted server, so the tool surface stays current with zero client-side updates.",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@curviate/mcp"
+      ],
+      "env": {
+        "CURVIATE_API_KEY": "<your-api-key>"
+      }
+    },
+    "fb-ads-mcp-server": {
+      "description": "This project provides an MCP server acting as an interface to the Meta Ads, enabling programmatic access to Meta Ads data and management features.",
+      "command": "python",
+      "args": [
+        "/path/to/your/fb-ads-mcp-server/server.py",
+        "--fb-token",
+        "YOUR_META_ACCESS_TOKEN"
+      ]
+    },
+    "google-ads": {
+      "description": "A FastMCP-powered Model Context Protocol server for Google Ads API integration with automatic OAuth 2.0 authentication",
+      "command": "/full/path/to/your/project/.venv/bin/python",
+      "args": [
+        "/full/path/to/your/project/server.py"
+      ]
+    },
+    "posthell": {
+      "description": "posthell - social media scheduler for AI agents. Shape rough notes into posts in your voice, queue drafts for human approval, read growth analytics, and (per-key opt-in) publish to 15 networks (X, LinkedIn, Instagram, TikTok, and more). Hosted remote server; create your API key in the posthell dashboard (https://www.posthell.com/mcp).",
+      "type": "http",
+      "url": "https://www.posthell.com/api/mcp",
+      "headers": {
+        "Authorization": "Bearer your_api_key"
+      }
+    }
+  }
+}
