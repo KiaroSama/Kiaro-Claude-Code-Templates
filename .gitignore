@@ -42,6 +42,8 @@ coverage
 sandbox-*/
 cloudflare-*/
 !cloudflare-workers/
+# Component directories are source, not sandbox output.
+!cli-tool/components/**/cloudflare-*/
 
 # Test directories (local only)
 test-agent-sdk/
