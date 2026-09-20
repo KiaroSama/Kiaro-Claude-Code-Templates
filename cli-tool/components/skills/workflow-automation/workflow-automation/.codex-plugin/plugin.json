@@ -1,0 +1,18 @@
+{
+  "name": "skill-workflow-automation",
+  "description": "Workflow automation is the infrastructure that makes AI agents reliable. Without durable execution, a network hiccup during a 10-step payment flow means lost money and angry customers. With it, workflows resume exactly where they left off. This skill covers the platforms (n8n, Temporal, Inngest) ...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "workflow-automation",
+    "shortDescription": "Workflow automation is the infrastructure that makes AI agents reliable. Without durable execution, a network hiccup dur",
+    "developerName": "KiaroSama",
+    "category": "Skills",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

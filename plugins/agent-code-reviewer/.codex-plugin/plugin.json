@@ -1,0 +1,18 @@
+{
+  "name": "agent-code-reviewer",
+  "description": "Use this agent when you need to conduct comprehensive code reviews focusing on code quality, security vulnerabilities, and best practices. Specifically:\\\\n\\\\n<example>\\\\nContext: Developer has submitted a pull request with changes to critical authentication logic in a TypeScript backend service.\\...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "code-reviewer",
+    "shortDescription": "Use this agent when you need to conduct comprehensive code reviews focusing on code quality, security vulnerabilities, a",
+    "developerName": "KiaroSama",
+    "category": "Agents",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

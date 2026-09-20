@@ -1,0 +1,18 @@
+{
+  "name": "mcp-markitdown",
+  "description": "Convert various file formats (PDF, Word, Excel, images, audio) to Markdown.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "markitdown",
+    "shortDescription": "Convert various file formats (PDF, Word, Excel, images, audio) to Markdown.",
+    "developerName": "KiaroSama",
+    "category": "Integrations",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

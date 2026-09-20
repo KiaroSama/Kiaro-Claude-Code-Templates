@@ -1,0 +1,18 @@
+{
+  "name": "skill-post-training-torchforge",
+  "description": "Provides guidance for PyTorch-native agentic RL using torchforge, Meta's library separating infra from algorithms. Use when you want clean RL abstractions, easy algorithm experimentation, or scalable training with Monarch and TorchTitan.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "post-training-torchforge",
+    "shortDescription": "Provides guidance for PyTorch-native agentic RL using torchforge, Meta's library separating infra from algorithms. Use w",
+    "developerName": "KiaroSama",
+    "category": "Skills",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

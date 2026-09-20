@@ -1,0 +1,18 @@
+{
+  "name": "command-refactor-code",
+  "description": "Intelligently refactor and improve code quality",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "refactor-code",
+    "shortDescription": "Intelligently refactor and improve code quality",
+    "developerName": "KiaroSama",
+    "category": "Commands",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

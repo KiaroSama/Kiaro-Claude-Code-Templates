@@ -1,0 +1,18 @@
+{
+  "name": "skill-agent-memory-systems",
+  "description": "Memory is the cornerstone of intelligent agents. Without it, every interaction starts from zero. This skill covers the architecture of agent memory: short-term (context window), long-term (vector stores), and the cognitive architectures that organize them. Key insight: Memory isn't just storage -...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "agent-memory-systems",
+    "shortDescription": "Memory is the cornerstone of intelligent agents. Without it, every interaction starts from zero. This skill covers the a",
+    "developerName": "KiaroSama",
+    "category": "Skills",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

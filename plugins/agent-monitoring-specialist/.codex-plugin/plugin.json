@@ -1,0 +1,18 @@
+{
+  "name": "agent-monitoring-specialist",
+  "description": "Monitoring and observability infrastructure specialist. Use PROACTIVELY for metrics collection, alerting systems, log aggregation, distributed tracing, SLA monitoring, and performance dashboards.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "monitoring-specialist",
+    "shortDescription": "Monitoring and observability infrastructure specialist. Use PROACTIVELY for metrics collection, alerting systems, log ag",
+    "developerName": "KiaroSama",
+    "category": "Agents",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

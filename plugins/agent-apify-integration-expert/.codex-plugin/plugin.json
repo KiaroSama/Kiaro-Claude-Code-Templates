@@ -1,0 +1,18 @@
+{
+  "name": "agent-apify-integration-expert",
+  "description": "Expert agent for integrating Apify Actors into codebases. Handles Actor selection, workflow design, implementation across JavaScript/TypeScript and Python, testing, and production-ready deployment. Use proactively whenever the user wants to scrape a website, automate a browser task, or wire an Ap...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "apify-integration-expert",
+    "shortDescription": "Expert agent for integrating Apify Actors into codebases. Handles Actor selection, workflow design, implementation acros",
+    "developerName": "KiaroSama",
+    "category": "Agents",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

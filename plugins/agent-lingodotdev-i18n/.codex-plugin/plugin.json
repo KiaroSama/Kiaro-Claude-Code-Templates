@@ -1,0 +1,18 @@
+{
+  "name": "agent-lingodotdev-i18n",
+  "description": "Expert at implementing internationalization (i18n) in web applications using a systematic, checklist-driven approach.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "lingodotdev-i18n",
+    "shortDescription": "Expert at implementing internationalization (i18n) in web applications using a systematic, checklist-driven approach.",
+    "developerName": "KiaroSama",
+    "category": "Agents",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

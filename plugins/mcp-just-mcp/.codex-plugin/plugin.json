@@ -1,0 +1,18 @@
+{
+  "name": "mcp-just-mcp",
+  "description": "Execute Just commands and task runners seamlessly from Claude Code. Manage project tasks, run build scripts, and automate development workflows with Just integration.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "just-mcp",
+    "shortDescription": "Execute Just commands and task runners seamlessly from Claude Code. Manage project tasks, run build scripts, and automat",
+    "developerName": "KiaroSama",
+    "category": "Integrations",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

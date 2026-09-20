@@ -1,0 +1,18 @@
+{
+  "name": "skill-weekly-ops-report",
+  "description": "Turn raw operational data into a weekly management report that answers exactly three questions - what changed, where is it concentrated, what needs a decision. Use when the user mentions weekly report, haftalık rapor, yönetim raporu, ops review, KPI summary, or asks to summarize operational data ...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "weekly-ops-report",
+    "shortDescription": "Turn raw operational data into a weekly management report that answers exactly three questions - what changed, where is ",
+    "developerName": "KiaroSama",
+    "category": "Skills",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

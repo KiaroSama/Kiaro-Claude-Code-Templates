@@ -1,0 +1,18 @@
+{
+  "name": "agent-powershell-7-expert",
+  "description": "Use when building cross-platform cloud automation scripts, Azure infrastructure orchestration, or CI/CD pipelines requiring PowerShell 7+ with modern .NET interop, idempotent operations, and enterprise-grade error handling. Specifically:\\\\n\\\\n<example>\\\\nContext: Team needs to automate Azure VM l...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "powershell-7-expert",
+    "shortDescription": "Use when building cross-platform cloud automation scripts, Azure infrastructure orchestration, or CI/CD pipelines requir",
+    "developerName": "KiaroSama",
+    "category": "Agents",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

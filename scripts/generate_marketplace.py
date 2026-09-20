@@ -81,7 +81,13 @@ def slugify(s):
 def emit(kind, name, desc, files):
     """files: list of (relative path inside plugin, content str)"""
     slug = slugify(name)
+    # Same component name in two categories must not share a directory, or the
+    # second one silently overwrites the first.
     d = os.path.join(GEN, f"{kind}-{slug}")
+    n = 2
+    while os.path.isdir(d):
+        d = os.path.join(GEN, f"{kind}-{slug}-{n}")
+        n += 1
     for rel, content in files:
         p = os.path.join(d, rel.replace("/", os.sep))
         os.makedirs(os.path.dirname(p), exist_ok=True)
@@ -116,6 +122,15 @@ for path in mcps:
     emit("mcp", name, desc, [(".mcp.json", json.dumps(data, indent=2) + "\n")])
 
 # ---- plugin.json per plugin + marketplace entries -----------------------
+CODEX_CATEGORY = {
+    "skill": "Skills",
+    "agent": "Agents",
+    "command": "Commands",
+    "hook": "Automation",
+    "mcp": "Integrations",
+    "mod": "Productivity",
+}
+
 seen, entries = {}, []
 for kind, name, desc, src in comps:
     base_name = slugify(f"{kind}-{name}")
@@ -141,6 +156,27 @@ for kind, name, desc, src in comps:
     if kind != "mod":  # mods ship their own manifest; leave it alone
         json.dump(manifest, open(os.path.join(cpdir, "plugin.json"), "w", encoding="utf-8"),
                   ensure_ascii=False, indent=2)
+
+    # Codex reads the same marketplace.json but wants its own plugin manifest.
+    # For mods this is purely additive: their .claude-plugin file is untouched.
+    codex = dict(manifest)
+    if kind == "mod":
+        own = json.load(open(os.path.join(cpdir, "plugin.json"), encoding="utf-8"))
+        codex.update({k: own[k] for k in ("version", "author", "license") if k in own})
+    if os.path.isdir(os.path.join(base, "skills")):
+        codex["skills"] = "./skills/"
+    codex["interface"] = {
+        "displayName": name,
+        "shortDescription": (desc or f"{kind}: {name}")[:120],
+        "developerName": "KiaroSama",
+        "category": CODEX_CATEGORY[kind],
+        "websiteURL": REPO,
+    }
+    codexdir = os.path.join(base, ".codex-plugin")
+    os.makedirs(codexdir, exist_ok=True)
+    json.dump(codex, open(os.path.join(codexdir, "plugin.json"), "w", encoding="utf-8"),
+              ensure_ascii=False, indent=2)
+
     entries.append({"name": pname, "source": "./" + src,
                     "description": manifest["description"], "category": kind})
 

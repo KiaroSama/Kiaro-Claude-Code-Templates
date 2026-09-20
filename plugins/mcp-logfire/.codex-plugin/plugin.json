@@ -1,0 +1,18 @@
+{
+  "name": "mcp-logfire",
+  "description": "Provides access to OpenTelemetry traces and metrics through Logfire.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "logfire",
+    "shortDescription": "Provides access to OpenTelemetry traces and metrics through Logfire.",
+    "developerName": "KiaroSama",
+    "category": "Integrations",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

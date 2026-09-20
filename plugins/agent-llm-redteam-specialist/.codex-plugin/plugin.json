@@ -1,0 +1,18 @@
+{
+  "name": "agent-llm-redteam-specialist",
+  "description": "Use this agent when you need to red-team a Large Language Model deployment — jailbreak probes, prompt injection harness design, output-safety evaluation, and robustness evidence for EU AI Act Article 15 or NIST AI RMF MEASURE-2.7. Covers cloud-hosted models and on-prem / air-gapped local models (...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "llm-redteam-specialist",
+    "shortDescription": "Use this agent when you need to red-team a Large Language Model deployment — jailbreak probes, prompt injection harness ",
+    "developerName": "KiaroSama",
+    "category": "Agents",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

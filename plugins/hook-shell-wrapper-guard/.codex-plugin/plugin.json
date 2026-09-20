@@ -1,0 +1,19 @@
+{
+  "name": "hook-shell-wrapper-guard",
+  "description": "Detects destructive commands hidden inside shell wrappers (sh -c, bash -c, python3 -c, node -e, perl -e, ruby -e). Complements dangerous-command-blocker by catching bypass vectors like 'sh -c \"rm -rf /\"' that evade direct command checks. Covers 8 bypass patterns: interpreter one-liners, nested wr...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "hooks": "./hooks/hooks.json",
+  "interface": {
+    "displayName": "shell-wrapper-guard",
+    "shortDescription": "Detects destructive commands hidden inside shell wrappers (sh -c, bash -c, python3 -c, node -e, perl -e, ruby -e). Compl",
+    "developerName": "KiaroSama",
+    "category": "Automation",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "skill-seo-fundamentals",
+  "description": "SEO fundamentals, E-E-A-T, Core Web Vitals, and Google algorithm principles.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "seo-fundamentals",
+    "shortDescription": "SEO fundamentals, E-E-A-T, Core Web Vitals, and Google algorithm principles.",
+    "developerName": "KiaroSama",
+    "category": "Skills",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

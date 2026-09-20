@@ -1,6 +1,6 @@
 {
-  "name": "agent-legal-advisor-2",
-  "description": "Use this agent when you need to draft contracts, review compliance requirements, develop IP protection strategies, or assess legal risks for technology businesses. Specifically:\\\\n\\\\n<example>\\\\nContext: Startup is launching a SaaS product and needs to establish foundational legal protection befo...",
+  "name": "agent-legal-advisor",
+  "description": "Use PROACTIVELY for privacy policies, terms of service, GDPR/CCPA compliance, legal notices, and regulatory documentation. Expert in technology law and data protection. Specifically:\\n\\n<example>\\nContext: A SaaS startup is preparing to launch and needs a privacy policy and terms of service befor...",
   "version": "1.0.0",
   "author": {
     "name": "KiaroSama"

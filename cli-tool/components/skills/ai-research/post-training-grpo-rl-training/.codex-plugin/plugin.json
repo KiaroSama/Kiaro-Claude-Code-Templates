@@ -1,0 +1,18 @@
+{
+  "name": "skill-post-training-grpo-rl-training",
+  "description": "Expert guidance for GRPO/RL fine-tuning with TRL for reasoning and task-specific model training",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "post-training-grpo-rl-training",
+    "shortDescription": "Expert guidance for GRPO/RL fine-tuning with TRL for reasoning and task-specific model training",
+    "developerName": "KiaroSama",
+    "category": "Skills",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "mcp-facebook-ads-mcp-server",
+  "description": "This project provides an MCP server acting as an interface to the Meta Ads, enabling programmatic access to Meta Ads data and management features.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "facebook-ads-mcp-server",
+    "shortDescription": "This project provides an MCP server acting as an interface to the Meta Ads, enabling programmatic access to Meta Ads dat",
+    "developerName": "KiaroSama",
+    "category": "Integrations",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

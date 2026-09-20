@@ -1,0 +1,18 @@
+{
+  "name": "skill-prompt-engineering-patterns",
+  "description": "Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "prompt-engineering-patterns",
+    "shortDescription": "Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability.",
+    "developerName": "KiaroSama",
+    "category": "Skills",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

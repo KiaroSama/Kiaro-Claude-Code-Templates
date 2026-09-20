@@ -1,0 +1,18 @@
+{
+  "name": "skill-gmod-addon-maker",
+  "description": "| A tool for creating and managing Garry's Mod addons, including Lua scripting, content creation, and addon packaging. Use when: developing new addons, writing Lua scripts for GMod, organizing addon files, or when user mentions Garry's Mod, GMod, Lua scripting, or addon development.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "gmod-addon-maker",
+    "shortDescription": "| A tool for creating and managing Garry's Mod addons, including Lua scripting, content creation, and addon packaging. U",
+    "developerName": "KiaroSama",
+    "category": "Skills",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

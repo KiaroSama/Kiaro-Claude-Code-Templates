@@ -1,0 +1,18 @@
+{
+  "name": "command-start",
+  "description": "Initiates the task orchestration workflow using the three-agent system (task-orchestrator, task-decomposer, and dependency-analyzer) to create a comprehensive execution plan.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "start",
+    "shortDescription": "Initiates the task orchestration workflow using the three-agent system (task-orchestrator, task-decomposer, and dependen",
+    "developerName": "KiaroSama",
+    "category": "Commands",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

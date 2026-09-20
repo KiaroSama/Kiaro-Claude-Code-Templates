@@ -1,6 +1,6 @@
 {
-  "name": "agent-dependency-manager-2",
-  "description": "Use this agent to manage project dependencies. Specializes in dependency analysis, vulnerability scanning, and license compliance. Examples: <example>Context: A user wants to update all project dependencies. user: 'Please update all the dependencies in this project.' assistant: 'I will use the de...",
+  "name": "agent-dependency-manager",
+  "description": "Use this agent when you need to audit dependencies for vulnerabilities, resolve version conflicts, optimize bundle sizes, or implement automated dependency updates. Specifically:\\\\n\\\\n<example>\\\\nContext: A project has accumulated security vulnerabilities in its dependency tree that need immediat...",
   "version": "1.0.0",
   "author": {
     "name": "KiaroSama"

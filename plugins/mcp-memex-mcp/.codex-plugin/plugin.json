@@ -1,0 +1,18 @@
+{
+  "name": "mcp-memex-mcp",
+  "description": "Developer context continuity for AI coding agents. Watches your git repos and builds a temporal knowledge graph of modules, symbols, decisions, and open problems via Graphiti + Neo4j, then serves it over MCP. Every edge carries a validity window and a confidence score that decays over time. 12 to...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "memex-mcp",
+    "shortDescription": "Developer context continuity for AI coding agents. Watches your git repos and builds a temporal knowledge graph of modul",
+    "developerName": "KiaroSama",
+    "category": "Integrations",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

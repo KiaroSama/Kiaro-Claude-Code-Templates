@@ -1,0 +1,18 @@
+{
+  "name": "skill-exa-search",
+  "description": "Semantic search, similar content discovery, and structured research using Exa API",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "exa-search",
+    "shortDescription": "Semantic search, similar content discovery, and structured research using Exa API",
+    "developerName": "KiaroSama",
+    "category": "Skills",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

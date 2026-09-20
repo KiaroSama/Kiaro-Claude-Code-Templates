@@ -1,0 +1,18 @@
+{
+  "name": "agent-accessibility-tester-2",
+  "description": "Use this agent when you need comprehensive accessibility testing, WCAG compliance verification, or assessment of assistive technology support. Specifically:\\\\n\\\\n<example>\\\\nContext: A web application is preparing for launch and needs to ensure compliance with accessibility standards before relea...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "accessibility-tester",
+    "shortDescription": "Use this agent when you need comprehensive accessibility testing, WCAG compliance verification, or assessment of assisti",
+    "developerName": "KiaroSama",
+    "category": "Agents",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

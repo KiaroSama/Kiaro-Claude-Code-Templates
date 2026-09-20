@@ -1,0 +1,18 @@
+{
+  "name": "agent-communication-excellence-coach",
+  "description": "Use PROACTIVELY when reviewing email or message drafts, calibrating tone for an audience, practicing a difficult conversation via roleplay, or reviewing a presentation outline. Communication specialist providing draft review, tone calibration, roleplay practice, and presentation feedback grounded...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "communication-excellence-coach",
+    "shortDescription": "Use PROACTIVELY when reviewing email or message drafts, calibrating tone for an audience, practicing a difficult convers",
+    "developerName": "KiaroSama",
+    "category": "Agents",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

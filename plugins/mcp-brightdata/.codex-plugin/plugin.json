@@ -1,0 +1,18 @@
+{
+  "name": "mcp-brightdata",
+  "description": "Bright Data MCP server providing 60+ tools for web search, scraping, structured data extraction, and browser automation across major platforms",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "brightdata",
+    "shortDescription": "Bright Data MCP server providing 60+ tools for web search, scraping, structured data extraction, and browser automation ",
+    "developerName": "KiaroSama",
+    "category": "Integrations",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

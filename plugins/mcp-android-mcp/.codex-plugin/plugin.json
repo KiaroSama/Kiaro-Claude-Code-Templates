@@ -1,0 +1,18 @@
+{
+  "name": "mcp-android-mcp",
+  "description": "MCP Server for interacting with Android devices. Control, inspect, and automate Android devices via ADB through Claude.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "android-mcp",
+    "shortDescription": "MCP Server for interacting with Android devices. Control, inspect, and automate Android devices via ADB through Claude.",
+    "developerName": "KiaroSama",
+    "category": "Integrations",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "hook-validate-branch-name",
+  "description": "Validate Git Flow branch naming conventions before checkout. Ensures branches follow the pattern: feature/*, release/v*.*.*, hotfix/*. Prevents creation of branches that don't follow Git Flow standards.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "hooks": "./hooks/hooks.json",
+  "interface": {
+    "displayName": "validate-branch-name",
+    "shortDescription": "Validate Git Flow branch naming conventions before checkout. Ensures branches follow the pattern: feature/*, release/v*.",
+    "developerName": "KiaroSama",
+    "category": "Automation",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

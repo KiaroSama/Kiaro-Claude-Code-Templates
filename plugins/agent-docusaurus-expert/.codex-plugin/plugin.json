@@ -1,0 +1,18 @@
+{
+  "name": "agent-docusaurus-expert",
+  "description": "Docusaurus documentation specialist. Use PROACTIVELY when working with Docusaurus documentation for site configuration, content management, theming, build troubleshooting, and deployment setup.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "docusaurus-expert",
+    "shortDescription": "Docusaurus documentation specialist. Use PROACTIVELY when working with Docusaurus documentation for site configuration, ",
+    "developerName": "KiaroSama",
+    "category": "Agents",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

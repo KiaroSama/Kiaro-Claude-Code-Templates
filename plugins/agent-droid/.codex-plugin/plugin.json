@@ -1,0 +1,18 @@
+{
+  "name": "agent-droid",
+  "description": "Use this agent for installation guidance, usage examples, and automation patterns for the Droid CLI (Factory AI), with emphasis on droid exec for CI/CD and non-interactive automation. Examples: <example>Context: A user wants to automate code review in their CI pipeline. user: 'How do I run Droid ...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "droid",
+    "shortDescription": "Use this agent for installation guidance, usage examples, and automation patterns for the Droid CLI (Factory AI), with e",
+    "developerName": "KiaroSama",
+    "category": "Agents",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

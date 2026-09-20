@@ -1,0 +1,18 @@
+{
+  "name": "agent-payment-integration-2",
+  "description": "Use this agent when implementing payment systems, integrating payment gateways, or handling financial transactions that require PCI compliance, fraud prevention, and secure transaction processing. Specifically:\\\\n\\\\n<example>\\\\nContext: An e-commerce platform needs to integrate a payment gateway ...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "payment-integration",
+    "shortDescription": "Use this agent when implementing payment systems, integrating payment gateways, or handling financial transactions that ",
+    "developerName": "KiaroSama",
+    "category": "Agents",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

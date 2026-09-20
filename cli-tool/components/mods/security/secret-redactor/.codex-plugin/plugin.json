@@ -1,0 +1,19 @@
+{
+  "name": "mod-secret-redactor",
+  "description": "Redacts API keys, tokens, JWTs, private keys and connection strings from every tool result before the model reads them, notes the redaction through context, and refuses to echo a redacted placeholder back into a Bash command. A tool.call hook in the after placement.",
+  "version": "0.2.0",
+  "author": {
+    "name": "claude-code-templates",
+    "url": "https://www.aitmpl.com"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "secret-redactor",
+    "shortDescription": "Redacts API keys, tokens, JWTs, private keys and connection strings from every tool result before the model reads them, ",
+    "developerName": "KiaroSama",
+    "category": "Productivity",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

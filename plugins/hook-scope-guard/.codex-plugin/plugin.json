@@ -1,0 +1,19 @@
+{
+  "name": "hook-scope-guard",
+  "description": "Scope guard that detects files modified outside the declared scope of a specification. When a .spec.md file contains a 'Files to Create/Modify' section, this hook compares git-modified files against the declared list. Files outside scope trigger a warning (non-blocking). Automatically excludes te...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "hooks": "./hooks/hooks.json",
+  "interface": {
+    "displayName": "scope-guard",
+    "shortDescription": "Scope guard that detects files modified outside the declared scope of a specification. When a .spec.md file contains a '",
+    "developerName": "KiaroSama",
+    "category": "Automation",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

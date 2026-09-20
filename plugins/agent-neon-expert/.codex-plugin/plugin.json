@@ -1,0 +1,18 @@
+{
+  "name": "agent-neon-expert",
+  "description": "General Neon Serverless Postgres consultant. Use PROACTIVELY for initial Neon setup, CLI/API usage, connection pooling, branching, and autoscaling questions, and for coordinating with specialized agents (neon-database-architect for schemas/ORM, neon-auth-specialist for authentication, neon-optimi...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "neon-expert",
+    "shortDescription": "General Neon Serverless Postgres consultant. Use PROACTIVELY for initial Neon setup, CLI/API usage, connection pooling, ",
+    "developerName": "KiaroSama",
+    "category": "Agents",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

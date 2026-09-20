@@ -1,0 +1,19 @@
+{
+  "name": "hook-file-backup",
+  "description": "Automatically backup files before editing. Creates timestamped backups in a .backups directory when files are modified.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "hooks": "./hooks/hooks.json",
+  "interface": {
+    "displayName": "file-backup",
+    "shortDescription": "Automatically backup files before editing. Creates timestamped backups in a .backups directory when files are modified.",
+    "developerName": "KiaroSama",
+    "category": "Automation",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

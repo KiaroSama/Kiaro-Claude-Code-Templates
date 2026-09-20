@@ -1,0 +1,18 @@
+{
+  "name": "skill-regulatory-threat-model",
+  "description": "> Use when an application or system — including one built quickly with AI coding agents — needs a security review with regulatory grounding: a STRIDE threat model, a LINDDUN privacy threat model, a dependency exposure screen against live CVE / CISA-KEV / EPSS data, or a selected, non-exhaustive s...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "regulatory-threat-model",
+    "shortDescription": "> Use when an application or system — including one built quickly with AI coding agents — needs a security review with r",
+    "developerName": "KiaroSama",
+    "category": "Skills",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

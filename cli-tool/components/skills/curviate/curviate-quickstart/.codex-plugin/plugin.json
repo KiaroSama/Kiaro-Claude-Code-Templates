@@ -1,0 +1,18 @@
+{
+  "name": "skill-curviate-quickstart",
+  "description": "The first run: install the Curviate CLI, authenticate this machine with `curviate setup`, confirm with `curviate doctor`, connect a LinkedIn account, and prove the whole path works by reading the same profile live and then from the store. Use when Curviate is being set up for the first time, when...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "curviate-quickstart",
+    "shortDescription": "The first run: install the Curviate CLI, authenticate this machine with `curviate setup`, confirm with `curviate doctor`",
+    "developerName": "KiaroSama",
+    "category": "Skills",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

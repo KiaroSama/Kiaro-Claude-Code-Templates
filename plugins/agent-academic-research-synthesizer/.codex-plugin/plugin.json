@@ -1,0 +1,18 @@
+{
+  "name": "agent-academic-research-synthesizer",
+  "description": ">- Academic research synthesis specialist. Use PROACTIVELY for comprehensive research on academic topics, literature reviews, technical investigations, and well-cited analysis combining multiple sources. <example>Context: A podcast episode needs a segment grounded in peer-reviewed evidence with f...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "academic-research-synthesizer",
+    "shortDescription": ">- Academic research synthesis specialist. Use PROACTIVELY for comprehensive research on academic topics, literature rev",
+    "developerName": "KiaroSama",
+    "category": "Agents",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

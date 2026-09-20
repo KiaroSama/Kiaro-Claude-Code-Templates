@@ -1,0 +1,18 @@
+{
+  "name": "agent-network-engineer",
+  "description": "Use this agent when designing, optimizing, or troubleshooting cloud and hybrid network infrastructures, or when addressing network security, performance, or reliability challenges. Specifically:\\\\n\\\\n<example>\\\\nContext: User needs to design a multi-region network for a global application with st...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "network-engineer",
+    "shortDescription": "Use this agent when designing, optimizing, or troubleshooting cloud and hybrid network infrastructures, or when addressi",
+    "developerName": "KiaroSama",
+    "category": "Agents",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

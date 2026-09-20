@@ -1,0 +1,18 @@
+{
+  "name": "agent-rust-mcp-expert",
+  "description": "Expert assistant for Rust MCP server development using the rmcp SDK with tokio async runtime",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "rust-mcp-expert",
+    "shortDescription": "Expert assistant for Rust MCP server development using the rmcp SDK with tokio async runtime",
+    "developerName": "KiaroSama",
+    "category": "Agents",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

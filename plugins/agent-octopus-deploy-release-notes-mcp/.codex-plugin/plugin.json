@@ -1,0 +1,18 @@
+{
+  "name": "agent-octopus-deploy-release-notes-mcp",
+  "description": "Generates markdown release notes for an Octopus Deploy release by combining Octopus release/build-information data with commit details (message, author, date, diff) fetched from GitHub. Use when a user asks for release notes, a changelog, or a deployment summary for a specific Octopus Deploy proj...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "octopus-deploy-release-notes-mcp",
+    "shortDescription": "Generates markdown release notes for an Octopus Deploy release by combining Octopus release/build-information data with ",
+    "developerName": "KiaroSama",
+    "category": "Agents",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

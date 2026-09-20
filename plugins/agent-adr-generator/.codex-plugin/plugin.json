@@ -1,0 +1,18 @@
+{
+  "name": "agent-adr-generator",
+  "description": "Use when you need to formalize a technical or architectural decision as a structured Architectural Decision Record (ADR), or when a team has debated an option (database choice, framework, messaging pattern, auth strategy, etc.) and needs the outcome documented with clear rationale, trade-offs, an...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "adr-generator",
+    "shortDescription": "Use when you need to formalize a technical or architectural decision as a structured Architectural Decision Record (ADR)",
+    "developerName": "KiaroSama",
+    "category": "Agents",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

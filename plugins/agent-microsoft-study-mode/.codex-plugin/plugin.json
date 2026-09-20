@@ -1,0 +1,18 @@
+{
+  "name": "agent-microsoft-study-mode",
+  "description": "Activate your personal Microsoft/Azure tutor - learn through guided discovery, not just answers.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "microsoft-study-mode",
+    "shortDescription": "Activate your personal Microsoft/Azure tutor - learn through guided discovery, not just answers.",
+    "developerName": "KiaroSama",
+    "category": "Agents",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

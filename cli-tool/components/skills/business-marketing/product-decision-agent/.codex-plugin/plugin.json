@@ -1,0 +1,18 @@
+{
+  "name": "skill-product-decision-agent",
+  "description": "中文产品决策 Agent。用于中国大陆互联网产品、运营、增长、商业化、数据、项目推进和组织协作场景：产品规划、需求分析、PRD、需求优先级、排期、版本规划、Roadmap、MVP、灰度、上线、迭代、增长停滞、拉新、投放、渠道、裂变、CAC、LTV、ROI、留存、转化、DAU/MAU、GMV、漏斗、社区运营、内容供给、创作者、用户运营、活动运营、私域、会员、定价、指标异常、数据口径、埋点、A/B Test、用户反馈、客服/销售反馈、竞品冲击、资源不足、项目延期、需求反复、老板临时插需求、跨部门协作、团队冲突、OKR/KPI、目标拆解、复盘等。触发时像资深互联网产品负责人一样，先判断真实问题...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "product-decision-agent",
+    "shortDescription": "中文产品决策 Agent。用于中国大陆互联网产品、运营、增长、商业化、数据、项目推进和组织协作场景：产品规划、需求分析、PRD、需求优先级、排期、版本规划、Roadmap、MVP、灰度、上线、迭代、增长停滞、拉新、投放、渠道、裂变、CAC、",
+    "developerName": "KiaroSama",
+    "category": "Skills",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

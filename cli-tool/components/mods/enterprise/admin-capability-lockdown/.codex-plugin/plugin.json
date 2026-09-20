@@ -1,0 +1,19 @@
+{
+  "name": "mod-admin-capability-lockdown",
+  "description": "Organization control mod: withholds the http and process nouns from $ so no plugin beneath it can reach the network or spawn processes, refuses user-tier plugins by name allowlist or by the $ calls their source declares, and withholds the Bash tool (shellPolicy \"deny\", default) or, in \"guardrail\"...",
+  "version": "0.2.0",
+  "author": {
+    "name": "claude-code-templates",
+    "url": "https://www.aitmpl.com"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "admin-capability-lockdown",
+    "shortDescription": "Organization control mod: withholds the http and process nouns from $ so no plugin beneath it can reach the network or s",
+    "developerName": "KiaroSama",
+    "category": "Productivity",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

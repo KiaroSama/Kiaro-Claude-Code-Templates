@@ -1,0 +1,18 @@
+{
+  "name": "agent-data-analyst",
+  "description": "Use when you need to extract insights from business data, create dashboards and reports, or perform statistical analysis to support decision-making. Specifically:\\\\n\\\\n<example>\\\\nContext: You have customer transaction data and need to understand which product segments drive the most revenue and ...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "data-analyst",
+    "shortDescription": "Use when you need to extract insights from business data, create dashboards and reports, or perform statistical analysis",
+    "developerName": "KiaroSama",
+    "category": "Agents",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

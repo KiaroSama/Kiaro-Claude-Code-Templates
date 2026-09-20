@@ -1,0 +1,18 @@
+{
+  "name": "command-system-behavior-simulator",
+  "description": "Simulate system performance under various loads with capacity planning, bottleneck identification, and optimization strategies.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "system-behavior-simulator",
+    "shortDescription": "Simulate system performance under various loads with capacity planning, bottleneck identification, and optimization stra",
+    "developerName": "KiaroSama",
+    "category": "Commands",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

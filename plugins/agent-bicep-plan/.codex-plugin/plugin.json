@@ -1,0 +1,18 @@
+{
+  "name": "agent-bicep-plan",
+  "description": "Act as implementation planner for your Azure Bicep Infrastructure as Code task.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "bicep-plan",
+    "shortDescription": "Act as implementation planner for your Azure Bicep Infrastructure as Code task.",
+    "developerName": "KiaroSama",
+    "category": "Agents",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

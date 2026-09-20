@@ -1,6 +1,6 @@
 {
-  "name": "agent-data-analyst-2",
-  "description": "Use this agent when you need quantitative analysis, statistical insights, or data-driven research. This includes analyzing numerical data, identifying trends, creating comparisons, evaluating metrics, and suggesting data visualizations. The agent excels at finding and interpreting data from stati...",
+  "name": "agent-data-analyst",
+  "description": "Use when you need to extract insights from business data, create dashboards and reports, or perform statistical analysis to support decision-making. Specifically:\\\\n\\\\n<example>\\\\nContext: You have customer transaction data and need to understand which product segments drive the most revenue and ...",
   "version": "1.0.0",
   "author": {
     "name": "KiaroSama"

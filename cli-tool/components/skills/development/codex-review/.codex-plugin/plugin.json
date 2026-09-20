@@ -1,0 +1,18 @@
+{
+  "name": "skill-codex-review",
+  "description": "Professional code review with auto CHANGELOG generation, integrated with Codex AI",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "codex-review",
+    "shortDescription": "Professional code review with auto CHANGELOG generation, integrated with Codex AI",
+    "developerName": "KiaroSama",
+    "category": "Skills",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

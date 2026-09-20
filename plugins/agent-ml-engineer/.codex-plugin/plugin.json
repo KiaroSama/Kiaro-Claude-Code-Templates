@@ -1,0 +1,18 @@
+{
+  "name": "agent-ml-engineer",
+  "description": "Use this agent when building production ML systems end-to-end - training pipelines, initial model serving/deployment, and automated retraining - covering the full lifecycle from data validation through training, validation, and initial deployment. For deep inference-serving performance optimizati...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "ml-engineer",
+    "shortDescription": "Use this agent when building production ML systems end-to-end - training pipelines, initial model serving/deployment, an",
+    "developerName": "KiaroSama",
+    "category": "Agents",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

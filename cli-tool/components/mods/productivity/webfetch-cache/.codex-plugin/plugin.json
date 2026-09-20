@@ -1,0 +1,19 @@
+{
+  "name": "mod-webfetch-cache",
+  "description": "Short-circuits repeated WebFetch calls for the same URL and prompt within a session, answering { result } from cache without a network round trip. A tool.call hook with TTL and size limits.",
+  "version": "0.2.0",
+  "author": {
+    "name": "claude-code-templates",
+    "url": "https://www.aitmpl.com"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "webfetch-cache",
+    "shortDescription": "Short-circuits repeated WebFetch calls for the same URL and prompt within a session, answering { result } from cache wit",
+    "developerName": "KiaroSama",
+    "category": "Productivity",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

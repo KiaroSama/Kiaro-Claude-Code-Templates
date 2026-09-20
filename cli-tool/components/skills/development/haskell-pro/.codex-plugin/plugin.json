@@ -1,0 +1,18 @@
+{
+  "name": "skill-haskell-pro",
+  "description": "Expert Haskell engineer specializing in advanced type systems, pure",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "haskell-pro",
+    "shortDescription": "Expert Haskell engineer specializing in advanced type systems, pure",
+    "developerName": "KiaroSama",
+    "category": "Skills",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

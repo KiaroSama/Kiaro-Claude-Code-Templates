@@ -1,0 +1,19 @@
+{
+  "name": "hook-telegram-detailed-notifications",
+  "description": "Send detailed Telegram notifications with session information when Claude Code finishes. Includes working directory, session duration, and system info. Requires TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID environment variables.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "hooks": "./hooks/hooks.json",
+  "interface": {
+    "displayName": "telegram-detailed-notifications",
+    "shortDescription": "Send detailed Telegram notifications with session information when Claude Code finishes. Includes working directory, ses",
+    "developerName": "KiaroSama",
+    "category": "Automation",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "hook-console-log-cleaner",
+  "description": "Warns about console.log statements when editing files on production branches (main/master). Helps prevent debug code from reaching production.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "hooks": "./hooks/hooks.json",
+  "interface": {
+    "displayName": "console-log-cleaner",
+    "shortDescription": "Warns about console.log statements when editing files on production branches (main/master). Helps prevent debug code fro",
+    "developerName": "KiaroSama",
+    "category": "Automation",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

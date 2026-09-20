@@ -1,0 +1,18 @@
+{
+  "name": "mcp-datalikers",
+  "description": "DataLikers hosted MCP — 50+ Instagram & TikTok data tools: user search by demographics (gender, age, country, city), engagement analytics, posts, comments, hashtags, stories, highlights and trending tracks. Get an API key at https://datalikers.com/tokens (100 free requests on signup, no credit ca...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "datalikers",
+    "shortDescription": "DataLikers hosted MCP — 50+ Instagram & TikTok data tools: user search by demographics (gender, age, country, city), eng",
+    "developerName": "KiaroSama",
+    "category": "Integrations",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

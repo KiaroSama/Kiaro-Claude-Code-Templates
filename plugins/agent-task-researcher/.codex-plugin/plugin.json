@@ -1,0 +1,18 @@
+{
+  "name": "agent-task-researcher",
+  "description": "Task research specialist for comprehensive project analysis - Brought to you by microsoft/edge-ai",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "task-researcher",
+    "shortDescription": "Task research specialist for comprehensive project analysis - Brought to you by microsoft/edge-ai",
+    "developerName": "KiaroSama",
+    "category": "Agents",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "agent-se-technical-writer",
+  "description": "Technical writing specialist for creating developer documentation, technical blogs, tutorials, and educational content",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "se-technical-writer",
+    "shortDescription": "Technical writing specialist for creating developer documentation, technical blogs, tutorials, and educational content",
+    "developerName": "KiaroSama",
+    "category": "Agents",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

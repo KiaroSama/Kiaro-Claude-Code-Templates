@@ -1,0 +1,18 @@
+{
+  "name": "skill-eval-genius",
+  "description": ">- Decide whether an AI/LLM/agent/retrieval system needs an eval, where it fits in the dev process, which one to run, and how to read the result; then design, gate, judge, and defend it. Not ordinary unit tests.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "eval-genius",
+    "shortDescription": ">- Decide whether an AI/LLM/agent/retrieval system needs an eval, where it fits in the dev process, which one to run, an",
+    "developerName": "KiaroSama",
+    "category": "Skills",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

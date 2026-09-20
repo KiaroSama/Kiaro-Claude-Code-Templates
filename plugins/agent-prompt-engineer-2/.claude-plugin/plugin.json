@@ -1,0 +1,11 @@
+{
+  "name": "agent-prompt-engineer-2",
+  "description": "A specialized chat mode for analyzing and improving prompts. Every user input is treated as a prompt to be improved. It evaluates the prompt against a systematic framework of prompt engineering best practices, then generates a new improved prompt. Use this agent when you need to turn vague or inc...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

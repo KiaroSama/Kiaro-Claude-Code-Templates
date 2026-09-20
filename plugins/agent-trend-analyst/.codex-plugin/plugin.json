@@ -1,0 +1,18 @@
+{
+  "name": "agent-trend-analyst",
+  "description": "Use when analyzing emerging patterns, predicting industry shifts, or developing future scenarios to inform strategic planning and competitive positioning. Specifically:\\\\n\\\\n<example>\\\\nContext: A software company wants to understand how their market will evolve over the next 3-5 years to guide p...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "trend-analyst",
+    "shortDescription": "Use when analyzing emerging patterns, predicting industry shifts, or developing future scenarios to inform strategic pla",
+    "developerName": "KiaroSama",
+    "category": "Agents",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

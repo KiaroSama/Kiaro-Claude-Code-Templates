@@ -1,0 +1,18 @@
+{
+  "name": "agent-context-manager-2",
+  "description": "Use for managing shared state, information retrieval, and data synchronization when multiple agents need coordinated access to context and metadata. Specifically:\\\\n\\\\n<example>\\\\nContext: A multi-agent workflow is underway with 5 specialized agents (code-reviewer, test-automator, security-audito...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "context-manager",
+    "shortDescription": "Use for managing shared state, information retrieval, and data synchronization when multiple agents need coordinated acc",
+    "developerName": "KiaroSama",
+    "category": "Agents",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

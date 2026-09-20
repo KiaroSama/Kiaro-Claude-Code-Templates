@@ -1,0 +1,18 @@
+{
+  "name": "command-fix-issue",
+  "description": "Identify and resolve code issues",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "fix-issue",
+    "shortDescription": "Identify and resolve code issues",
+    "developerName": "KiaroSama",
+    "category": "Commands",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

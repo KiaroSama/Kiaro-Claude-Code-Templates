@@ -1,0 +1,18 @@
+{
+  "name": "command-svelte-test-coverage",
+  "description": "Analyze test coverage, identify testing gaps, and provide recommendations for improving test coverage in Svelte/SvelteKit projects.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "svelte-test-coverage",
+    "shortDescription": "Analyze test coverage, identify testing gaps, and provide recommendations for improving test coverage in Svelte/SvelteKi",
+    "developerName": "KiaroSama",
+    "category": "Commands",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

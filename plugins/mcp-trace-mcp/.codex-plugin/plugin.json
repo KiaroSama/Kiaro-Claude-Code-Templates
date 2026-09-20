@@ -1,0 +1,18 @@
+{
+  "name": "mcp-trace-mcp",
+  "description": "Framework-aware code intelligence — semantic navigation, impact analysis, and refactoring across 87 framework integrations and 80 languages. 30–60% token reduction across a typical session, up to 99% on individual structured navigation calls.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "trace-mcp",
+    "shortDescription": "Framework-aware code intelligence — semantic navigation, impact analysis, and refactoring across 87 framework integratio",
+    "developerName": "KiaroSama",
+    "category": "Integrations",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "agent-php-mcp-expert",
+  "description": "Expert assistant for PHP MCP server development using the official PHP SDK with attribute-based discovery",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "php-mcp-expert",
+    "shortDescription": "Expert assistant for PHP MCP server development using the official PHP SDK with attribute-based discovery",
+    "developerName": "KiaroSama",
+    "category": "Agents",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

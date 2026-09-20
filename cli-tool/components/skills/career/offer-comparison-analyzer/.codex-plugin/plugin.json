@@ -1,0 +1,18 @@
+{
+  "name": "skill-offer-comparison-analyzer",
+  "description": "Compare multiple job offers side-by-side with total compensation analysis. Use when the user has multiple offers and wants to compare salary, equity, benefits, or total comp.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "offer-comparison-analyzer",
+    "shortDescription": "Compare multiple job offers side-by-side with total compensation analysis. Use when the user has multiple offers and wan",
+    "developerName": "KiaroSama",
+    "category": "Skills",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

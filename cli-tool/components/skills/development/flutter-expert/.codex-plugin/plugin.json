@@ -1,0 +1,18 @@
+{
+  "name": "skill-flutter-expert",
+  "description": "Master Flutter development with Dart 3, advanced widgets, and multi-platform deployment.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "flutter-expert",
+    "shortDescription": "Master Flutter development with Dart 3, advanced widgets, and multi-platform deployment.",
+    "developerName": "KiaroSama",
+    "category": "Skills",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

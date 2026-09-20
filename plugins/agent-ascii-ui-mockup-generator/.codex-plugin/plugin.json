@@ -1,0 +1,18 @@
+{
+  "name": "agent-ascii-ui-mockup-generator",
+  "description": "Specialist in creating ASCII mockups for UI concepts, generating multiple visualization options for layouts, forms, dashboards, and interfaces before implementation",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "ascii-ui-mockup-generator",
+    "shortDescription": "Specialist in creating ASCII mockups for UI concepts, generating multiple visualization options for layouts, forms, dash",
+    "developerName": "KiaroSama",
+    "category": "Agents",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "hook-simple-notifications",
+  "description": "Send desktop notifications when Claude Code finishes working or needs user input. Works on macOS and Linux systems.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "hooks": "./hooks/hooks.json",
+  "interface": {
+    "displayName": "simple-notifications",
+    "shortDescription": "Send desktop notifications when Claude Code finishes working or needs user input. Works on macOS and Linux systems.",
+    "developerName": "KiaroSama",
+    "category": "Automation",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

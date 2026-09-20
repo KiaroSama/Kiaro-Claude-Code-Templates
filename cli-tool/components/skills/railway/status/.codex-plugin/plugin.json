@@ -1,0 +1,18 @@
+{
+  "name": "skill-status",
+  "description": "Check current Railway project status for this directory. Use when user asks \"railway status\", \"is it running\", \"what's deployed\", \"deployment status\", or about uptime. NOT for variables or configuration queries - use railway-environment skill for those.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "status",
+    "shortDescription": "Check current Railway project status for this directory. Use when user asks \"railway status\", \"is it running\", \"what's d",
+    "developerName": "KiaroSama",
+    "category": "Skills",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

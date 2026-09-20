@@ -1,0 +1,18 @@
+{
+  "name": "agent-command-expert",
+  "description": "CLI command development specialist for the claude-code-templates system. Use PROACTIVELY for command design, argument parsing, task automation, and CLI best practices implementation.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "command-expert",
+    "shortDescription": "CLI command development specialist for the claude-code-templates system. Use PROACTIVELY for command design, argument pa",
+    "developerName": "KiaroSama",
+    "category": "Agents",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

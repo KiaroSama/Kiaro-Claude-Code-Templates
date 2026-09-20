@@ -1,0 +1,18 @@
+{
+  "name": "command-create-pull-request",
+  "description": "This guide explains how to create pull requests using GitHub CLI in our project.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "create-pull-request",
+    "shortDescription": "This guide explains how to create pull requests using GitHub CLI in our project.",
+    "developerName": "KiaroSama",
+    "category": "Commands",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

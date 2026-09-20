@@ -1,0 +1,18 @@
+{
+  "name": "mcp-tinyfish",
+  "description": "TinyFish Web Agent - Web browsing and data extraction via MCP with real-time progress streaming, async tasks, and stealth browser profiles. Requires a TinyFish account (tinyfish.ai) with active subscription. Uses OAuth 2.1 authentication.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "tinyfish",
+    "shortDescription": "TinyFish Web Agent - Web browsing and data extraction via MCP with real-time progress streaming, async tasks, and stealt",
+    "developerName": "KiaroSama",
+    "category": "Integrations",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

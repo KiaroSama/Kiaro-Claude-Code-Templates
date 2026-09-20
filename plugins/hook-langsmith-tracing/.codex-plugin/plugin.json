@@ -1,0 +1,19 @@
+{
+  "name": "hook-langsmith-tracing",
+  "description": "Automatically send Claude Code conversation traces to LangSmith for monitoring and analysis. Prerequisites: jq (brew install jq on macOS or sudo apt-get install jq on Linux), curl and uuidgen (usually pre-installed), LangSmith account and API key. Configuration: Install langsmith-tracing setting ...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "hooks": "./hooks/hooks.json",
+  "interface": {
+    "displayName": "langsmith-tracing",
+    "shortDescription": "Automatically send Claude Code conversation traces to LangSmith for monitoring and analysis. Prerequisites: jq (brew ins",
+    "developerName": "KiaroSama",
+    "category": "Automation",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

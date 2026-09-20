@@ -1,0 +1,18 @@
+{
+  "name": "skill-root-cause-pareto",
+  "description": "Build a decision-grade Pareto for downtime, defects, complaints or delays - with unit-of-measure discipline, category hygiene, exposure normalization and a follow-up metric. Use when the user mentions pareto analysis, kök neden, duruş analizi, downtime, arıza analizi, defect ranking, şikayet anal...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "root-cause-pareto",
+    "shortDescription": "Build a decision-grade Pareto for downtime, defects, complaints or delays - with unit-of-measure discipline, category hy",
+    "developerName": "KiaroSama",
+    "category": "Skills",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

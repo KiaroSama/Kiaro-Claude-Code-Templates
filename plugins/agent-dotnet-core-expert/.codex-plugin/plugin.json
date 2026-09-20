@@ -1,0 +1,18 @@
+{
+  "name": "agent-dotnet-core-expert",
+  "description": "Use when building .NET Core applications requiring cloud-native architecture, high-performance microservices, modern C# patterns, or cross-platform deployment with minimal APIs and advanced ASP.NET Core features. Specifically:\\\\n\\\\n<example>\\\\nContext: Building a microservices platform with multi...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "dotnet-core-expert",
+    "shortDescription": "Use when building .NET Core applications requiring cloud-native architecture, high-performance microservices, modern C# ",
+    "developerName": "KiaroSama",
+    "category": "Agents",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "agent-flutter-expert",
+  "description": "Use when building cross-platform mobile applications with Flutter 3+ that require custom UI implementation, complex state management, native platform integrations, or performance optimization across iOS/Android/Web. Specifically:\\\\n\\\\n<example>\\\\nContext: Building a feature-rich social media app ...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "flutter-expert",
+    "shortDescription": "Use when building cross-platform mobile applications with Flutter 3+ that require custom UI implementation, complex stat",
+    "developerName": "KiaroSama",
+    "category": "Agents",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

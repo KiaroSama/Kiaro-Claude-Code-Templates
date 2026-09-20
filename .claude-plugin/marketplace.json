@@ -43,7 +43,7 @@
     },
     {
       "name": "agent-accessibility-tester-2",
-      "source": "./plugins/agent-accessibility-tester",
+      "source": "./plugins/agent-accessibility-tester-2",
       "description": "Use this agent when you need comprehensive accessibility testing, WCAG compliance verification, or assessment of assistive technology support. Specifically:\\\\n\\\\n<example>\\\\nContext: A web application is preparing for launch and needs to ensure compliance with accessibility standards before relea...",
       "category": "agent"
     },
@@ -169,7 +169,7 @@
     },
     {
       "name": "agent-architect-reviewer-2",
-      "source": "./plugins/agent-architect-reviewer",
+      "source": "./plugins/agent-architect-reviewer-2",
       "description": "Use this agent to review code for architectural consistency and patterns. Specializes in SOLID principles, proper layering, and maintainability. Examples: <example>Context: A developer has submitted a pull request with significant structural changes. user: 'Please review the architecture of this ...",
       "category": "agent"
     },
@@ -499,7 +499,7 @@
     },
     {
       "name": "agent-context-manager-2",
-      "source": "./plugins/agent-context-manager",
+      "source": "./plugins/agent-context-manager-2",
       "description": "Use for managing shared state, information retrieval, and data synchronization when multiple agents need coordinated access to context and metadata. Specifically:\\\\n\\\\n<example>\\\\nContext: A multi-agent workflow is underway with 5 specialized agents (code-reviewer, test-automator, security-audito...",
       "category": "agent"
     },
@@ -571,7 +571,7 @@
     },
     {
       "name": "agent-data-analyst-2",
-      "source": "./plugins/agent-data-analyst",
+      "source": "./plugins/agent-data-analyst-2",
       "description": "Use this agent when you need quantitative analysis, statistical insights, or data-driven research. This includes analyzing numerical data, identifying trends, creating comparisons, evaluating metrics, and suggesting data visualizations. The agent excels at finding and interpreting data from stati...",
       "category": "agent"
     },
@@ -655,7 +655,7 @@
     },
     {
       "name": "agent-dependency-manager-2",
-      "source": "./plugins/agent-dependency-manager",
+      "source": "./plugins/agent-dependency-manager-2",
       "description": "Use this agent to manage project dependencies. Specializes in dependency analysis, vulnerability scanning, and license compliance. Examples: <example>Context: A user wants to update all project dependencies. user: 'Please update all the dependencies in this project.' assistant: 'I will use the de...",
       "category": "agent"
     },
@@ -673,7 +673,7 @@
     },
     {
       "name": "agent-devops-engineer-2",
-      "source": "./plugins/agent-devops-engineer",
+      "source": "./plugins/agent-devops-engineer-2",
       "description": "Use this agent when building or optimizing infrastructure automation, CI/CD pipelines, containerization strategies, and deployment workflows to accelerate software delivery while maintaining reliability and security. Specifically:\\\\n\\\\n<example>\\\\nContext: A team has repetitive manual infrastruct...",
       "category": "agent"
     },
@@ -1003,7 +1003,7 @@
     },
     {
       "name": "agent-incident-responder-2",
-      "source": "./plugins/agent-incident-responder",
+      "source": "./plugins/agent-incident-responder-2",
       "description": "Handles production incidents with urgency and precision. Use IMMEDIATELY when production issues occur. Coordinates debugging, implements fixes, and documents post-mortems.",
       "category": "agent"
     },
@@ -1117,7 +1117,7 @@
     },
     {
       "name": "agent-legal-advisor-2",
-      "source": "./plugins/agent-legal-advisor",
+      "source": "./plugins/agent-legal-advisor-2",
       "description": "Use this agent when you need to draft contracts, review compliance requirements, develop IP protection strategies, or assess legal risks for technology businesses. Specifically:\\\\n\\\\n<example>\\\\nContext: Startup is launching a SaaS product and needs to establish foundational legal protection befo...",
       "category": "agent"
     },
@@ -1483,7 +1483,7 @@
     },
     {
       "name": "agent-payment-integration-2",
-      "source": "./plugins/agent-payment-integration",
+      "source": "./plugins/agent-payment-integration-2",
       "description": "Use this agent when implementing payment systems, integrating payment gateways, or handling financial transactions that require PCI compliance, fraud prevention, and secure transaction processing. Specifically:\\\\n\\\\n<example>\\\\nContext: An e-commerce platform needs to integrate a payment gateway ...",
       "category": "agent"
     },
@@ -1501,7 +1501,7 @@
     },
     {
       "name": "agent-performance-engineer-2",
-      "source": "./plugins/agent-performance-engineer",
+      "source": "./plugins/agent-performance-engineer-2",
       "description": "Profile applications, optimize bottlenecks, and implement caching strategies. Handles load testing, CDN setup, and query optimization. Use PROACTIVELY for performance issues or optimization tasks.",
       "category": "agent"
     },
@@ -1723,7 +1723,7 @@
     },
     {
       "name": "agent-prompt-engineer-2",
-      "source": "./plugins/agent-prompt-engineer",
+      "source": "./plugins/agent-prompt-engineer-2",
       "description": "A specialized chat mode for analyzing and improving prompts. Every user input is treated as a prompt to be improved. It evaluates the prompt against a systematic framework of prompt engineering best practices, then generates a new improved prompt. Use this agent when you need to turn vague or inc...",
       "category": "agent"
     },
@@ -1753,7 +1753,7 @@
     },
     {
       "name": "agent-quant-analyst-2",
-      "source": "./plugins/agent-quant-analyst",
+      "source": "./plugins/agent-quant-analyst-2",
       "description": "Use this agent when you need to develop quantitative trading strategies, build financial models with rigorous mathematical foundations, or conduct advanced risk analytics for derivatives and portfolios. Invoke this agent for statistical arbitrage strategy development, backtesting with historical ...",
       "category": "agent"
     },
@@ -2035,7 +2035,7 @@
     },
     {
       "name": "agent-security-engineer-2",
-      "source": "./plugins/agent-security-engineer",
+      "source": "./plugins/agent-security-engineer-2",
       "description": "Use this agent when implementing comprehensive security solutions across infrastructure, building automated security controls into CI/CD pipelines, or establishing compliance and vulnerability management programs. Invoke for threat modeling, zero-trust architecture design, security automation imp...",
       "category": "agent"
     },
@@ -2311,7 +2311,7 @@
     },
     {
       "name": "agent-test-automator-2",
-      "source": "./plugins/agent-test-automator",
+      "source": "./plugins/agent-test-automator-2",
       "description": "Create comprehensive test suites with unit, integration, and e2e tests. Sets up CI pipelines, mocking strategies, and test data. Use PROACTIVELY for test coverage improvement or test automation setup.",
       "category": "agent"
     },
@@ -2473,7 +2473,7 @@
     },
     {
       "name": "agent-vital-health-content-agent-2",
-      "source": "./plugins/agent-vital-health-content-agent",
+      "source": "./plugins/agent-vital-health-content-agent-2",
       "description": "agent: vital-health-content-agent",
       "category": "agent"
     },
@@ -2731,7 +2731,7 @@
     },
     {
       "name": "command-commit-2",
-      "source": "./plugins/command-commit",
+      "source": "./plugins/command-commit-2",
       "description": "Create git commits aligned with task completion, maintaining clean version control synchronized with task progress.",
       "category": "command"
     },
@@ -4057,7 +4057,7 @@
     },
     {
       "name": "command-release-2",
-      "source": "./plugins/command-release",
+      "source": "./plugins/command-release-2",
       "description": "---",
       "category": "command"
     },

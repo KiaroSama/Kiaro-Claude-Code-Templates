@@ -1,0 +1,18 @@
+{
+  "name": "skill-internet-court",
+  "description": "The trust layer for agent-to-agent commerce — natural-language mandates, delegated permissions (ERC-7710), x402 payments, escrow, and dispute resolution as one open, catch-all skill. Use for agent mandates, delegated permissions, GenLayer supervision, revocation, x402 payments, escrow, verificati...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "internet-court",
+    "shortDescription": "The trust layer for agent-to-agent commerce — natural-language mandates, delegated permissions (ERC-7710), x402 payments",
+    "developerName": "KiaroSama",
+    "category": "Skills",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

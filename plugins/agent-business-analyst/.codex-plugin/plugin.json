@@ -1,0 +1,18 @@
+{
+  "name": "agent-business-analyst",
+  "description": "Use when analyzing business processes, gathering requirements from stakeholders, or identifying process improvement opportunities to drive operational efficiency and measurable business value. Specifically:\\\\n\\\\n<example>\\\\nContext: A company needs to understand their customer onboarding process ...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "business-analyst",
+    "shortDescription": "Use when analyzing business processes, gathering requirements from stakeholders, or identifying process improvement oppo",
+    "developerName": "KiaroSama",
+    "category": "Agents",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

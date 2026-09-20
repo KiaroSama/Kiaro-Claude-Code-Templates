@@ -1,0 +1,18 @@
+{
+  "name": "agent-git-workflow-manager",
+  "description": "Use this agent when you need to design, establish, or optimize Git workflows, branching strategies, and merge management for a project or team. Specifically:\\\\n\\\\n<example>\\\\nContext: A development team is experiencing frequent merge conflicts and unclear branching practices, and the manager want...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "git-workflow-manager",
+    "shortDescription": "Use this agent when you need to design, establish, or optimize Git workflows, branching strategies, and merge management",
+    "developerName": "KiaroSama",
+    "category": "Agents",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

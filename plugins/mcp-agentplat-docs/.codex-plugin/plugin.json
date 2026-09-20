@@ -1,0 +1,18 @@
+{
+  "name": "mcp-agentplat-docs",
+  "description": "Read-only AgentPlat documentation MCP for Agent Rooms, Agent Mesh, governed multi-agent runtimes, inference control, trust, and evidence boundaries.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "agentplat-docs",
+    "shortDescription": "Read-only AgentPlat documentation MCP for Agent Rooms, Agent Mesh, governed multi-agent runtimes, inference control, tru",
+    "developerName": "KiaroSama",
+    "category": "Integrations",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

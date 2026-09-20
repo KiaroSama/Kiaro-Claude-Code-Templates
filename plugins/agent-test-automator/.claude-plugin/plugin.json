@@ -1,6 +1,6 @@
 {
-  "name": "agent-test-automator-2",
-  "description": "Create comprehensive test suites with unit, integration, and e2e tests. Sets up CI pipelines, mocking strategies, and test data. Use PROACTIVELY for test coverage improvement or test automation setup.",
+  "name": "agent-test-automator",
+  "description": "Use this agent when you need to build, implement, or enhance automated test frameworks, create test scripts, or integrate testing into CI/CD pipelines. Specifically:\\\\n\\\\n<example>\\\\nContext: A team has identified a set of manual test cases that need to be automated to reduce regression testing t...",
   "version": "1.0.0",
   "author": {
     "name": "KiaroSama"

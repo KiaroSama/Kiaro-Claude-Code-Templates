@@ -1,0 +1,18 @@
+{
+  "name": "mcp-postgresql-documentation",
+  "description": "PostgreSQL documentation and skills for writing better Postgres code",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "postgresql-documentation",
+    "shortDescription": "PostgreSQL documentation and skills for writing better Postgres code",
+    "developerName": "KiaroSama",
+    "category": "Integrations",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

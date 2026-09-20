@@ -1,6 +1,6 @@
 {
-  "name": "agent-prompt-engineer-2",
-  "description": "A specialized chat mode for analyzing and improving prompts. Every user input is treated as a prompt to be improved. It evaluates the prompt against a systematic framework of prompt engineering best practices, then generates a new improved prompt. Use this agent when you need to turn vague or inc...",
+  "name": "agent-prompt-engineer",
+  "description": "Use this agent when you need to design, optimize, test, or evaluate prompts for Claude (or other LLMs) in production systems. Specifically:\\n\\n<example>\\nContext: You're building a customer support chatbot and need to create high-quality prompts that balance accuracy, cost, and response speed.\\nu...",
   "version": "1.0.0",
   "author": {
     "name": "KiaroSama"

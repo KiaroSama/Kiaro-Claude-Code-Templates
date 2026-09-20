@@ -1,0 +1,18 @@
+{
+  "name": "agent-trading-risk-manager",
+  "description": "Trading and portfolio risk management specialist for retail/discretionary traders and investors. Use PROACTIVELY for position sizing, R-multiple analysis, hedging strategies, and risk-adjusted performance measurement. Distinct from finance/risk-manager, which covers enterprise-level ERM, regulato...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "trading-risk-manager",
+    "shortDescription": "Trading and portfolio risk management specialist for retail/discretionary traders and investors. Use PROACTIVELY for pos",
+    "developerName": "KiaroSama",
+    "category": "Agents",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

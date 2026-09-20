@@ -1,6 +1,6 @@
 {
-  "name": "agent-architect-reviewer-2",
-  "description": "Use this agent to review code for architectural consistency and patterns. Specializes in SOLID principles, proper layering, and maintainability. Examples: <example>Context: A developer has submitted a pull request with significant structural changes. user: 'Please review the architecture of this ...",
+  "name": "agent-architect-reviewer",
+  "description": "Use this agent when you need to evaluate system design decisions, architectural patterns, and technology choices at the macro level. Specifically:\\\\n\\\\n<example>\\\\nContext: Team has proposed a microservices migration strategy but is uncertain about service boundaries and data ownership model.\\\\nu...",
   "version": "1.0.0",
   "author": {
     "name": "KiaroSama"

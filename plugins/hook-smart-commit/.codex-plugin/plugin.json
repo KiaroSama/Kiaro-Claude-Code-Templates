@@ -1,0 +1,19 @@
+{
+  "name": "hook-smart-commit",
+  "description": "Intelligent git commit creation with automatic message generation and validation. Creates meaningful commits based on file changes.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "hooks": "./hooks/hooks.json",
+  "interface": {
+    "displayName": "smart-commit",
+    "shortDescription": "Intelligent git commit creation with automatic message generation and validation. Creates meaningful commits based on fi",
+    "developerName": "KiaroSama",
+    "category": "Automation",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

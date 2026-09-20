@@ -1,0 +1,18 @@
+{
+  "name": "agent-dependency-manager",
+  "description": "Use this agent when you need to audit dependencies for vulnerabilities, resolve version conflicts, optimize bundle sizes, or implement automated dependency updates. Specifically:\\\\n\\\\n<example>\\\\nContext: A project has accumulated security vulnerabilities in its dependency tree that need immediat...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "dependency-manager",
+    "shortDescription": "Use this agent when you need to audit dependencies for vulnerabilities, resolve version conflicts, optimize bundle sizes",
+    "developerName": "KiaroSama",
+    "category": "Agents",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

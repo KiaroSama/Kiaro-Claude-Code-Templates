@@ -1,6 +1,6 @@
 {
-  "name": "agent-payment-integration-2",
-  "description": "Use this agent when implementing payment systems, integrating payment gateways, or handling financial transactions that require PCI compliance, fraud prevention, and secure transaction processing. Specifically:\\\\n\\\\n<example>\\\\nContext: An e-commerce platform needs to integrate a payment gateway ...",
+  "name": "agent-payment-integration",
+  "description": "Payment systems integration specialist. Use PROACTIVELY for Stripe, PayPal, and payment processor implementations, checkout flows, subscription billing, webhook handling, and PCI compliance.",
   "version": "1.0.0",
   "author": {
     "name": "KiaroSama"

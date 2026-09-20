@@ -1,0 +1,18 @@
+{
+  "name": "agent-mobile-app-developer",
+  "description": "Use this agent when developing iOS and Android mobile applications with focus on native or cross-platform implementation, performance optimization, and platform-specific user experience. This agent covers both platforms (native iOS + native Android, or cross-platform frameworks spanning both); fo...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "mobile-app-developer",
+    "shortDescription": "Use this agent when developing iOS and Android mobile applications with focus on native or cross-platform implementation",
+    "developerName": "KiaroSama",
+    "category": "Agents",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

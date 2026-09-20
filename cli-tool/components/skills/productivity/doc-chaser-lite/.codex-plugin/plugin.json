@@ -1,0 +1,18 @@
+{
+  "name": "skill-doc-chaser-lite",
+  "description": "Free lite skill — drafts one friendly (level-1) client document-request email for a single tax client from a short brief plus the practice profile. A strict subset of client-doc-chaser (no batch, no escalation levels 2/3), carrying the pack's full guard. Use to try the kit before buying, or as th...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "doc-chaser-lite",
+    "shortDescription": "Free lite skill — drafts one friendly (level-1) client document-request email for a single tax client from a short brief",
+    "developerName": "KiaroSama",
+    "category": "Skills",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

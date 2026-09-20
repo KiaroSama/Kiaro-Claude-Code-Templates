@@ -1,0 +1,18 @@
+{
+  "name": "agent-kotlin-mcp-expert",
+  "description": "Expert assistant for building Model Context Protocol (MCP) servers in Kotlin using the official SDK.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "kotlin-mcp-expert",
+    "shortDescription": "Expert assistant for building Model Context Protocol (MCP) servers in Kotlin using the official SDK.",
+    "developerName": "KiaroSama",
+    "category": "Agents",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "skill-pc-games",
+  "description": "PC and console game development principles. Engine selection, platform features, optimization strategies.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "pc-games",
+    "shortDescription": "PC and console game development principles. Engine selection, platform features, optimization strategies.",
+    "developerName": "KiaroSama",
+    "category": "Skills",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

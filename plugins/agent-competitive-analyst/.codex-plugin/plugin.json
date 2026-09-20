@@ -1,0 +1,18 @@
+{
+  "name": "agent-competitive-analyst",
+  "description": "Use this agent when you need to analyze direct and indirect competitors, benchmark against market leaders, or develop strategies to strengthen competitive positioning and market advantage. Specifically:\\\\n\\\\n<example>\\\\nContext: A SaaS company wants to understand how they compare to three main co...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "competitive-analyst",
+    "shortDescription": "Use this agent when you need to analyze direct and indirect competitors, benchmark against market leaders, or develop st",
+    "developerName": "KiaroSama",
+    "category": "Agents",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

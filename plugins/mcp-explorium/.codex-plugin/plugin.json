@@ -1,0 +1,18 @@
+{
+  "name": "mcp-explorium",
+  "description": "Explorium MCP — live B2B company and contact data (150M+ businesses, 800M+ professionals, 4,000+ signals, 50+ data sources) for lead-list building, prospect enrichment, executive discovery, firmographics, technographics, funding signals, and multi-step GTM workflows. Supports two auth modes: (1) ...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "explorium",
+    "shortDescription": "Explorium MCP — live B2B company and contact data (150M+ businesses, 800M+ professionals, 4,000+ signals, 50+ data sourc",
+    "developerName": "KiaroSama",
+    "category": "Integrations",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

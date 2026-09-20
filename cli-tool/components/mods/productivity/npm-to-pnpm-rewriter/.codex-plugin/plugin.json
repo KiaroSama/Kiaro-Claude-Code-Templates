@@ -1,0 +1,19 @@
+{
+  "name": "mod-npm-to-pnpm-rewriter",
+  "description": "Rewrites npm and npx invocations to pnpm (or yarn / bun) before the Bash tool runs them and tells the model what ran through context. A tool.call hook that forwards a modified event (the modifying placement).",
+  "version": "0.2.0",
+  "author": {
+    "name": "claude-code-templates",
+    "url": "https://www.aitmpl.com"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "npm-to-pnpm-rewriter",
+    "shortDescription": "Rewrites npm and npx invocations to pnpm (or yarn / bun) before the Bash tool runs them and tells the model what ran thr",
+    "developerName": "KiaroSama",
+    "category": "Productivity",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

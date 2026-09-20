@@ -1,0 +1,18 @@
+{
+  "name": "skill-agent-messaging",
+  "description": "Send and receive cryptographically signed messages between AI agents using the Agent Messaging Protocol (AMP). Use when the user asks to \"send a message to an agent\", \"check agent inbox\", \"message another agent\", \"reply to a message\", \"notify an agent\", or any inter-agent communication task.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "agent-messaging",
+    "shortDescription": "Send and receive cryptographically signed messages between AI agents using the Agent Messaging Protocol (AMP). Use when ",
+    "developerName": "KiaroSama",
+    "category": "Skills",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

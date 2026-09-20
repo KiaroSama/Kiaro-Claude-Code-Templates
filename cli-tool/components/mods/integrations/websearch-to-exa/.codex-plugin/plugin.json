@@ -1,0 +1,19 @@
+{
+  "name": "mod-websearch-to-exa",
+  "description": "Overrides the built-in WebSearch tool and routes queries to the Exa search API through $.http.fetch, answering in WebSearch's own result shape, with automatic fallback to the built-in search. A tool.call hook that replaces a core tool.",
+  "version": "0.2.0",
+  "author": {
+    "name": "claude-code-templates",
+    "url": "https://www.aitmpl.com"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "websearch-to-exa",
+    "shortDescription": "Overrides the built-in WebSearch tool and routes queries to the Exa search API through $.http.fetch, answering in WebSea",
+    "developerName": "KiaroSama",
+    "category": "Productivity",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

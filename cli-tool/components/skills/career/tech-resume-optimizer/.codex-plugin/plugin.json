@@ -1,0 +1,18 @@
+{
+  "name": "skill-tech-resume-optimizer",
+  "description": "Optimize resumes for software engineering, product management, and technical roles. Use when the user mentions software engineer, developer, PM, data scientist, ML, DevOps, or other technical role resumes.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "tech-resume-optimizer",
+    "shortDescription": "Optimize resumes for software engineering, product management, and technical roles. Use when the user mentions software ",
+    "developerName": "KiaroSama",
+    "category": "Skills",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

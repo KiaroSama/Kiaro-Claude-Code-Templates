@@ -1,0 +1,18 @@
+{
+  "name": "mcp-posthell",
+  "description": "posthell - social media scheduler for AI agents. Shape rough notes into posts in your voice, queue drafts for human approval, read growth analytics, and (per-key opt-in) publish to 15 networks (X, LinkedIn, Instagram, TikTok, and more). Hosted remote server; create your API key in the posthell da...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "posthell",
+    "shortDescription": "posthell - social media scheduler for AI agents. Shape rough notes into posts in your voice, queue drafts for human appr",
+    "developerName": "KiaroSama",
+    "category": "Integrations",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "agent-backend-architect",
+  "description": "Backend system architecture and API design specialist. Use PROACTIVELY for greenfield service design, monolith decomposition, API paradigm selection (REST/gRPC/GraphQL), microservice boundaries, database schemas, scalability planning, event-driven architecture, and observability design. This agen...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "backend-architect",
+    "shortDescription": "Backend system architecture and API design specialist. Use PROACTIVELY for greenfield service design, monolith decomposi",
+    "developerName": "KiaroSama",
+    "category": "Agents",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

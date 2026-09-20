@@ -1,0 +1,18 @@
+{
+  "name": "skill-telegram-bot-builder",
+  "description": "This skill should be used when the user asks to \"create a Telegram bot\", \"build a Telegram chatbot\", \"set up a Telegram webhook\", \"add inline keyboards to a bot\", \"handle Telegram callback queries\", \"implement Telegram payments\", \"send media via Telegram bot\", \"configure Telegram bot commands\", \"...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "telegram-bot-builder",
+    "shortDescription": "This skill should be used when the user asks to \"create a Telegram bot\", \"build a Telegram chatbot\", \"set up a Telegram ",
+    "developerName": "KiaroSama",
+    "category": "Skills",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

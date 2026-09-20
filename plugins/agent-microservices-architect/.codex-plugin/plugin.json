@@ -1,0 +1,18 @@
+{
+  "name": "agent-microservices-architect",
+  "description": "Use when designing distributed system architecture, decomposing monolithic applications into independent microservices, or establishing communication patterns between services at scale. Specifically:\\\\n\\\\n<example>\\\\nContext: A company has a monolithic e-commerce application becoming difficult to...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "microservices-architect",
+    "shortDescription": "Use when designing distributed system architecture, decomposing monolithic applications into independent microservices, ",
+    "developerName": "KiaroSama",
+    "category": "Agents",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

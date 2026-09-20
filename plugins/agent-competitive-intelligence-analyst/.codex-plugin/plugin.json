@@ -1,0 +1,18 @@
+{
+  "name": "agent-competitive-intelligence-analyst",
+  "description": "Competitive intelligence and market research specialist. Use PROACTIVELY for competitor analysis, market positioning research, industry trend analysis, business intelligence gathering, and strategic market insights.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "competitive-intelligence-analyst",
+    "shortDescription": "Competitive intelligence and market research specialist. Use PROACTIVELY for competitor analysis, market positioning res",
+    "developerName": "KiaroSama",
+    "category": "Agents",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

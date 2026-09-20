@@ -1,0 +1,18 @@
+{
+  "name": "command-svelte-test",
+  "description": "Create comprehensive tests for Svelte components and SvelteKit routes, including unit tests, component tests, and E2E tests.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "svelte-test",
+    "shortDescription": "Create comprehensive tests for Svelte components and SvelteKit routes, including unit tests, component tests, and E2E te",
+    "developerName": "KiaroSama",
+    "category": "Commands",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

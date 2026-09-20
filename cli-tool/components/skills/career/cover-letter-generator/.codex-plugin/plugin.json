@@ -1,0 +1,18 @@
+{
+  "name": "skill-cover-letter-generator",
+  "description": "Create personalized, compelling cover letters from a resume and job description. Use when the user asks for a cover letter, application letter, or motivation letter for a specific role.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "cover-letter-generator",
+    "shortDescription": "Create personalized, compelling cover letters from a resume and job description. Use when the user asks for a cover lett",
+    "developerName": "KiaroSama",
+    "category": "Skills",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

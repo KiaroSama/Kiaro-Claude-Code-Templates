@@ -1,0 +1,18 @@
+{
+  "name": "mcp-nable",
+  "description": "Local-first FinOps server for cloud and AI spend. Answers cost questions across AWS, Azure, GCP, Kubernetes and 15+ SaaS and AI providers, detects anomalies against a rolling baseline, tracks LLM spend by model, and drafts the Terraform fix as a pull request a human reviews. Runs on your machine:...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "nable",
+    "shortDescription": "Local-first FinOps server for cloud and AI spend. Answers cost questions across AWS, Azure, GCP, Kubernetes and 15+ SaaS",
+    "developerName": "KiaroSama",
+    "category": "Integrations",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

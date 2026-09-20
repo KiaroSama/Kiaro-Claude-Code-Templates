@@ -1,0 +1,18 @@
+{
+  "name": "mcp-local-mcp",
+  "description": "Connect Claude Code to 160+ native macOS apps — Mail, Calendar, Contacts, Messages, Notes, Reminders, Finder, Safari, Teams, Slack, WhatsApp, OneDrive, Google Drive, Microsoft 365, Outlook, Word, Excel, PowerPoint, and more. All tools run locally with no API keys or cloud data copies. Requires th...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "local-mcp",
+    "shortDescription": "Connect Claude Code to 160+ native macOS apps — Mail, Calendar, Contacts, Messages, Notes, Reminders, Finder, Safari, Te",
+    "developerName": "KiaroSama",
+    "category": "Integrations",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

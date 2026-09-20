@@ -1,0 +1,18 @@
+{
+  "name": "agent-critical-thinking",
+  "description": "Challenge assumptions and encourage critical thinking to ensure the best possible solution and outcomes.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "critical-thinking",
+    "shortDescription": "Challenge assumptions and encourage critical thinking to ensure the best possible solution and outcomes.",
+    "developerName": "KiaroSama",
+    "category": "Agents",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "agent-llm-architect",
+  "description": "Use when designing LLM systems for production, implementing fine-tuning or RAG architectures, optimizing inference serving infrastructure, or managing multi-model deployments. Specifically:\\\\n\\\\n<example>\\\\nContext: A startup needs to deploy a custom LLM application with sub-200ms latency, fine-t...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "llm-architect",
+    "shortDescription": "Use when designing LLM systems for production, implementing fine-tuning or RAG architectures, optimizing inference servi",
+    "developerName": "KiaroSama",
+    "category": "Agents",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

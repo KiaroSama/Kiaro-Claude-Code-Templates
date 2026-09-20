@@ -1,0 +1,18 @@
+{
+  "name": "agent-sales-engineer",
+  "description": "Use this agent when you need to conduct technical pre-sales activities including solution architecture, proof-of-concept development, and technical demonstrations for complex sales deals. Specifically:\\\\n\\\\n<example>\\\\nContext: A prospect with complex technical requirements needs a custom solutio...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "sales-engineer",
+    "shortDescription": "Use this agent when you need to conduct technical pre-sales activities including solution architecture, proof-of-concept",
+    "developerName": "KiaroSama",
+    "category": "Agents",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

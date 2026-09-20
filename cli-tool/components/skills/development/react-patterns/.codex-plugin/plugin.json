@@ -1,0 +1,18 @@
+{
+  "name": "skill-react-patterns",
+  "description": "Modern React patterns and principles. Hooks, composition, performance, TypeScript best practices.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "react-patterns",
+    "shortDescription": "Modern React patterns and principles. Hooks, composition, performance, TypeScript best practices.",
+    "developerName": "KiaroSama",
+    "category": "Skills",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

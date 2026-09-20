@@ -1,0 +1,18 @@
+{
+  "name": "skill-x-twitter-scraper",
+  "description": "Use when the user wants to integrate with the X (Twitter) API via Xquik to search tweets, look up user profiles, extract followers, run giveaway draws, monitor accounts, or access trending topics. Also use when the user mentions 'Xquik,' 'Twitter API,' 'X API,' 'tweet scraper,' 'follower extracti...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "x-twitter-scraper",
+    "shortDescription": "Use when the user wants to integrate with the X (Twitter) API via Xquik to search tweets, look up user profiles, extract",
+    "developerName": "KiaroSama",
+    "category": "Skills",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

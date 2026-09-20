@@ -1,0 +1,19 @@
+{
+  "name": "mod-protected-paths-guard",
+  "description": "Denies Edit, Write and NotebookEdit calls on sensitive paths (.env files, lockfiles, CI workflows, git internals, private keys) with a glob allowlist override. A tool.call hook with an array matcher.",
+  "version": "0.2.0",
+  "author": {
+    "name": "claude-code-templates",
+    "url": "https://www.aitmpl.com"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "protected-paths-guard",
+    "shortDescription": "Denies Edit, Write and NotebookEdit calls on sensitive paths (.env files, lockfiles, CI workflows, git internals, privat",
+    "developerName": "KiaroSama",
+    "category": "Productivity",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

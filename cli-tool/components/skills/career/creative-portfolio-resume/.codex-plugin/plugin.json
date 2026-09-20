@@ -1,0 +1,18 @@
+{
+  "name": "skill-creative-portfolio-resume",
+  "description": "Balance visual design with ATS compatibility for creative roles. Use when the user is in design, art, writing, marketing creative, or any visual/creative field and needs a resume that looks distinctive but still parses.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "creative-portfolio-resume",
+    "shortDescription": "Balance visual design with ATS compatibility for creative roles. Use when the user is in design, art, writing, marketing",
+    "developerName": "KiaroSama",
+    "category": "Skills",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

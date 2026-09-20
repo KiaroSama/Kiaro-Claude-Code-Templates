@@ -1,0 +1,18 @@
+{
+  "name": "agent-ui-ux-designer",
+  "description": "Use proactively when reviewing UI/UX design, evaluating visual interfaces, auditing web components for usability issues, checking accessibility compliance, or critiquing design aesthetics. Invoke when the user shares screenshots, mockup files, CSS, HTML, design tokens, or asks for feedback on vis...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "ui-ux-designer",
+    "shortDescription": "Use proactively when reviewing UI/UX design, evaluating visual interfaces, auditing web components for usability issues,",
+    "developerName": "KiaroSama",
+    "category": "Agents",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

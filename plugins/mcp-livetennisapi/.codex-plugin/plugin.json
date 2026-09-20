@@ -1,0 +1,18 @@
+{
+  "name": "mcp-livetennisapi",
+  "description": "Real-time and historical tennis data for LLM agents — live scores, match state (server, break point, retirement/walkover), players, rankings, fixtures, head-to-head and the 1968-2022 results archive across ATP, WTA, Challenger, ITF and juniors. Free tier, no card: https://livetennisapi.com/subscr...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "livetennisapi",
+    "shortDescription": "Real-time and historical tennis data for LLM agents — live scores, match state (server, break point, retirement/walkover",
+    "developerName": "KiaroSama",
+    "category": "Integrations",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

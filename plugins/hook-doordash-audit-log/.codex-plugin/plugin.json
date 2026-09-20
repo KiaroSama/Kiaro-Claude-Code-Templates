@@ -1,0 +1,19 @@
+{
+  "name": "hook-doordash-audit-log",
+  "description": "Append-only audit log of every DoorDash CLI (dd-cli) invocation made through Claude Code. A PostToolUse hook records one versioned JSON line per dd-cli command (timestamp, session, cwd, command with tokens stripped, event type derived from the command itself - search / cart_mutation / checkout_ur...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "hooks": "./hooks/hooks.json",
+  "interface": {
+    "displayName": "doordash-audit-log",
+    "shortDescription": "Append-only audit log of every DoorDash CLI (dd-cli) invocation made through Claude Code. A PostToolUse hook records one",
+    "developerName": "KiaroSama",
+    "category": "Automation",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

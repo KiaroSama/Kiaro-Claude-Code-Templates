@@ -1,0 +1,18 @@
+{
+  "name": "mod-tetris",
+  "description": "Tetris above the Claude Code prompt: fit the falling pieces and clear lines. Plays while Claude works, pauses when the turn ends, keeps your best score; zero tokens. A single game split out of cc-arcade (MIT, Seza Akgün). Needs function hooks (early access) and an interactive terminal with a mouse.",
+  "version": "0.2.0",
+  "author": {
+    "name": "Seza Akgün"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "tetris",
+    "shortDescription": "Tetris above the Claude Code prompt: fit the falling pieces and clear lines. Plays while Claude works, pauses when the t",
+    "developerName": "KiaroSama",
+    "category": "Productivity",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

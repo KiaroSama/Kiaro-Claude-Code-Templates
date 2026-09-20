@@ -1,0 +1,18 @@
+{
+  "name": "skill-doordash-group-orders",
+  "description": "Group food ordering through the DoorDash CLI (dd-cli) from a persistent team roster. One request (\\\"lunch for the team\\\") fans out into a single merged cart with every line attributed to its eater via a person-to-cart-item-id ledger, per-person cost split with fee proration, payer rotation histor...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "doordash-group-orders",
+    "shortDescription": "Group food ordering through the DoorDash CLI (dd-cli) from a persistent team roster. One request (\\\"lunch for the team\\\"",
+    "developerName": "KiaroSama",
+    "category": "Skills",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

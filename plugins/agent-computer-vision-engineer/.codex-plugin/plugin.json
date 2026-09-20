@@ -1,0 +1,18 @@
+{
+  "name": "agent-computer-vision-engineer",
+  "description": "Use this agent for image/video analysis systems requiring classical or trainable CV models: object detection, face recognition, OCR/document analysis, real-time video and multi-object tracking, image quality assessment, and model optimization/deployment (ONNX, TensorRT, edge). Specifically:\\\\n\\\\n...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "computer-vision-engineer",
+    "shortDescription": "Use this agent for image/video analysis systems requiring classical or trainable CV models: object detection, face recog",
+    "developerName": "KiaroSama",
+    "category": "Agents",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

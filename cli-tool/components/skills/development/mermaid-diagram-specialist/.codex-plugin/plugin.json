@@ -1,0 +1,18 @@
+{
+  "name": "skill-mermaid-diagram-specialist",
+  "description": "Mermaid diagram specialist for creating flowcharts, sequence diagrams, ERDs, and architecture visualizations",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "mermaid-diagram-specialist",
+    "shortDescription": "Mermaid diagram specialist for creating flowcharts, sequence diagrams, ERDs, and architecture visualizations",
+    "developerName": "KiaroSama",
+    "category": "Skills",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

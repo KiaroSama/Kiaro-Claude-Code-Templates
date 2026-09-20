@@ -1,0 +1,18 @@
+{
+  "name": "mcp-grafana",
+  "description": "A Model Context Protocol server for interacting with Grafana dashboards and monitoring. Supports both self-hosted Grafana instances and Grafana Cloud.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "grafana",
+    "shortDescription": "A Model Context Protocol server for interacting with Grafana dashboards and monitoring. Supports both self-hosted Grafan",
+    "developerName": "KiaroSama",
+    "category": "Integrations",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

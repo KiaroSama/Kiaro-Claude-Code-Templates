@@ -1,0 +1,18 @@
+{
+  "name": "skill-resume-version-manager",
+  "description": "Track different resume versions, maintain a master resume, and manage tailored variants. Use when the user mentions managing multiple resume versions, master resume, or organizing tailored copies.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "resume-version-manager",
+    "shortDescription": "Track different resume versions, maintain a master resume, and manage tailored variants. Use when the user mentions mana",
+    "developerName": "KiaroSama",
+    "category": "Skills",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

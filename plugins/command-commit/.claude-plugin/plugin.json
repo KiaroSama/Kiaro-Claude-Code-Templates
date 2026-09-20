@@ -1,6 +1,6 @@
 {
-  "name": "command-commit-2",
-  "description": "Create git commits aligned with task completion, maintaining clean version control synchronized with task progress.",
+  "name": "command-commit",
+  "description": "---",
   "version": "1.0.0",
   "author": {
     "name": "KiaroSama"

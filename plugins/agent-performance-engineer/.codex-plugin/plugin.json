@@ -1,0 +1,18 @@
+{
+  "name": "agent-performance-engineer",
+  "description": "Use this agent when you need to identify and eliminate performance bottlenecks in applications, databases, or infrastructure systems, and when baseline performance metrics need improvement. Specifically:\\\\n\\\\n<example>\\\\nContext: An API is responding slowly in production with response times avera...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "performance-engineer",
+    "shortDescription": "Use this agent when you need to identify and eliminate performance bottlenecks in applications, databases, or infrastruc",
+    "developerName": "KiaroSama",
+    "category": "Agents",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

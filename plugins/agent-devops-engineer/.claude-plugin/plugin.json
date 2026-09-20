@@ -1,6 +1,6 @@
 {
-  "name": "agent-devops-engineer-2",
-  "description": "Use this agent when building or optimizing infrastructure automation, CI/CD pipelines, containerization strategies, and deployment workflows to accelerate software delivery while maintaining reliability and security. Specifically:\\\\n\\\\n<example>\\\\nContext: A team has repetitive manual infrastruct...",
+  "name": "agent-devops-engineer",
+  "description": "DevOps and infrastructure specialist for CI/CD, deployment automation, and cloud operations. Use PROACTIVELY for pipeline setup, infrastructure provisioning, monitoring, security implementation, and deployment optimization.",
   "version": "1.0.0",
   "author": {
     "name": "KiaroSama"

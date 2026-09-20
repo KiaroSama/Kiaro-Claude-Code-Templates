@@ -1,0 +1,19 @@
+{
+  "name": "hook-worktree-ghostty",
+  "description": "Worktree Ghostty Layout. Opens a 3-panel Ghostty layout when creating worktrees: Claude Code (left) | lazygit (top-right) / yazi (bottom-right). Creates worktrees in a sibling directory (../worktrees/<repo>/<name>/) and cleans up on removal. macOS only. Requires: jq, Ghostty terminal, lazygit, ya...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "hooks": "./hooks/hooks.json",
+  "interface": {
+    "displayName": "worktree-ghostty",
+    "shortDescription": "Worktree Ghostty Layout. Opens a 3-panel Ghostty layout when creating worktrees: Claude Code (left) | lazygit (top-right",
+    "developerName": "KiaroSama",
+    "category": "Automation",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

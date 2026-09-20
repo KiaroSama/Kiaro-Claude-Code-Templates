@@ -1,0 +1,18 @@
+{
+  "name": "skill-performance-profiling",
+  "description": "Performance profiling principles. Measurement, analysis, and optimization techniques.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "performance-profiling",
+    "shortDescription": "Performance profiling principles. Measurement, analysis, and optimization techniques.",
+    "developerName": "KiaroSama",
+    "category": "Skills",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

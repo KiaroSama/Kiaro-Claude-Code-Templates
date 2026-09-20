@@ -1,0 +1,18 @@
+{
+  "name": "agent-agent-installer",
+  "description": "Use this agent when the user wants to discover, browse, or install Claude Code agents from the awesome-claude-code-subagents repository. Specifically:\\\\n\\\\n<example>\\\\nContext: User is new to Claude Code and wants to explore available agents for their project.\\\\nuser: \\\"Show me what agents are av...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "agent-installer",
+    "shortDescription": "Use this agent when the user wants to discover, browse, or install Claude Code agents from the awesome-claude-code-subag",
+    "developerName": "KiaroSama",
+    "category": "Agents",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

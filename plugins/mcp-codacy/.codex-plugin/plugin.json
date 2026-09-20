@@ -1,0 +1,18 @@
+{
+  "name": "mcp-codacy",
+  "description": "MCP Server for the Codacy API, enabling access to repositories, files, quality, coverage, security and more.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "codacy",
+    "shortDescription": "MCP Server for the Codacy API, enabling access to repositories, files, quality, coverage, security and more.",
+    "developerName": "KiaroSama",
+    "category": "Integrations",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}
