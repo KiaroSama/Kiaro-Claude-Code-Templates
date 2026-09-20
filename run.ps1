@@ -164,7 +164,16 @@ try {
                 throw 'fetch failed'
             }
             $before = (Invoke-Git rev-parse HEAD).Output.Trim()
-            $merge = Invoke-Git merge --no-edit upstream/main
+            if ($DryRun) {
+                # A merge would create a local commit, so a dry run only reports.
+                $behind = (Invoke-Git rev-list --count 'HEAD..upstream/main').Output.Trim()
+                if ($behind -eq '0') { Write-Ok 'already up to date with upstream' }
+                else { Write-Note "dry run: $behind upstream commit(s) would be merged" }
+                $merge = [pscustomobject]@{ ExitCode = 0 }
+            }
+            else {
+                $merge = Invoke-Git merge --no-edit upstream/main
+            }
             if ($merge.ExitCode -ne 0) {
                 # These paths are generated catalog output; upstream's copy wins.
                 $generated = @('docs/components.json', 'dashboard/public')
@@ -190,7 +199,10 @@ try {
                 Write-Note "resolved generated catalog files from upstream: $($conflicts -join ', ')"
             }
             $after = (Invoke-Git rev-parse HEAD).Output.Trim()
-            if ($before -eq $after) {
+            if ($DryRun) {
+                # nothing merged; the dry-run message above already reported it
+            }
+            elseif ($before -eq $after) {
                 Write-Ok 'already up to date with upstream'
             }
             else {

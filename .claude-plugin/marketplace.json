@@ -9654,6 +9654,12 @@
       "category": "skill"
     },
     {
+      "name": "skill-pudu-task-telemetry",
+      "source": "./cli-tool/components/skills/development/pudu-task-telemetry",
+      "description": "Measure local AI task latency, token usage, errors and verified outcomes using Pudu AI hardware evidence and installed Ollama models. Use when comparing local task runs, choosing a local model for a bounded subtask, or recording reproducible task telemetry.",
+      "category": "skill"
+    },
+    {
       "name": "skill-pufferlib",
       "source": "./cli-tool/components/skills/scientific/pufferlib",
       "description": "This skill should be used when working with reinforcement learning tasks including high-performance RL training, custom environment development, vectorized parallel simulation, multi-agent systems, or integration with existing RL environments (Gymnasium, PettingZoo, Atari, Procgen, etc.). Use thi...",
@@ -11139,6 +11145,12 @@
       "name": "skill-workorai",
       "source": "./cli-tool/components/skills/career/workorai",
       "description": "WorkorAI talent marketplace skill: candidate job search and employer hiring with white-box match explanations via the WorkorAI MCP server (https://workorai.com/mcp). Use when the user asks to find a job, apply to jobs, respond to employer invitations, or when an employer wants to post jobs, searc...",
+      "category": "skill"
+    },
+    {
+      "name": "skill-workspace-orchestration",
+      "source": "./cli-tool/components/skills/development/workspace-orchestration",
+      "description": "Use when working in a persistent-slot workspace that uses docko. Covers slot claims, delegated teammate inheritance, and the rule that code edits inside slots/ require an active claim.",
       "category": "skill"
     },
     {
