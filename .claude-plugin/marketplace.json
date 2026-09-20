@@ -1,0 +1,20 @@
+{
+  "name": "kiaro-cct-skills",
+  "owner": {
+    "name": "KiaroSama"
+  },
+  "plugins": [
+    {
+      "name": "telegram-bot-builder",
+      "source": "./cli-tool/components/skills/enterprise-communication/telegram-bot-builder",
+      "description": "Telegram bot builder skill",
+      "strict": false
+    },
+    {
+      "name": "telegram-mini-app",
+      "source": "./cli-tool/components/skills/enterprise-communication/telegram-mini-app",
+      "description": "Telegram mini app skill",
+      "strict": false
+    }
+  ]
+}
