@@ -1,5 +1,5 @@
 {
-  "name": "web-quality-audit",
+  "name": "skill-web-quality-audit",
   "description": "Comprehensive web quality audit covering performance, accessibility, SEO, and best practices. Use when asked to \"audit my site\", \"review web quality\", \"run lighthouse audit\", \"check page quality\", or \"optimize my website\".",
   "version": "1.0.0",
   "author": {

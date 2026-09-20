@@ -1,0 +1,11 @@
+{
+  "name": "agent-vercel-deployment-specialist",
+  "description": "Expert in Vercel platform features, edge functions, middleware, and deployment strategies. Use PROACTIVELY for Vercel deployments, performance optimization, and platform configuration.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

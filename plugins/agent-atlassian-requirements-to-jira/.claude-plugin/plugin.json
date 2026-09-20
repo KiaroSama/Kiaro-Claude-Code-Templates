@@ -1,0 +1,11 @@
+{
+  "name": "agent-atlassian-requirements-to-jira",
+  "description": "Transform requirements documents into structured Jira epics and user stories with intelligent duplicate detection, change management, and user-approved creation workflow.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

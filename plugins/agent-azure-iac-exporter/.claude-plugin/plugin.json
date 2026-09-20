@@ -1,0 +1,11 @@
+{
+  "name": "agent-azure-iac-exporter",
+  "description": "Export existing Azure resources to Infrastructure as Code templates via Azure Resource Graph analysis, Azure Resource Manager API calls, and azure-iac-generator integration. Use this skill when the user asks to export, convert, migrate, or extract existing Azure resources to IaC templates (Bicep,...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

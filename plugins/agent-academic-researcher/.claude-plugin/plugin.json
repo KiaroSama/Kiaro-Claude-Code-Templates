@@ -1,0 +1,11 @@
+{
+  "name": "agent-academic-researcher",
+  "description": ">- Academic research specialist for scholarly sources, peer-reviewed papers, and academic literature. Use PROACTIVELY for research paper analysis, literature reviews, citation tracking, and academic methodology evaluation. <example>Context: The research-orchestrator has kicked off Phase 4 paralle...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "agent-chaos-engineer",
+  "description": "Use this agent when you need to design and execute controlled failure experiments, validate system resilience before incidents occur, or conduct game day exercises to test your team's incident response capabilities. Specifically:\\\\n\\\\n<example>\\\\nContext: A microservices platform has recently exp...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

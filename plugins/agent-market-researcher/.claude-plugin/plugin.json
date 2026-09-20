@@ -1,0 +1,11 @@
+{
+  "name": "agent-market-researcher",
+  "description": "Use this agent when you need to analyze markets, understand consumer behavior, assess competitive landscapes, and size opportunities to inform business strategy and market entry decisions. Specifically:\\\\n\\\\n<example>\\\\nContext: A startup is planning to enter a new industry segment and needs comp...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

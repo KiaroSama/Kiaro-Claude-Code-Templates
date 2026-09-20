@@ -1,0 +1,11 @@
+{
+  "name": "agent-git-flow-manager",
+  "description": "Git Flow workflow manager. Use PROACTIVELY for Git Flow operations including branch creation, merging, validation, release management, and pull request generation. Handles feature, release, and hotfix branches.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

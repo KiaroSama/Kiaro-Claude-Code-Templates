@@ -1,0 +1,11 @@
+{
+  "name": "agent-documentation-engineer",
+  "description": "Use this agent when you need to create, architect, or overhaul comprehensive documentation systems including API docs, tutorials, guides, and developer-friendly content that keeps pace with code changes. Specifically:\\\\n\\\\n<example>\\\\nContext: A project has grown from 3 to 15 engineers but lacks ...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

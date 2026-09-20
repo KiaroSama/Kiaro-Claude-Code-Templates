@@ -1,0 +1,12 @@
+{
+  "name": "hook-performance-monitor",
+  "description": "Monitor system performance during Claude Code operations. Tracks CPU, memory usage, and execution time for performance optimization.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "hooks": "./hooks/hooks.json"
+}

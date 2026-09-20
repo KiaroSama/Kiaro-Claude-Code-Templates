@@ -1,5 +1,5 @@
 {
-  "name": "speech",
+  "name": "skill-speech",
   "description": "Use when the user asks for text-to-speech narration or voiceover, accessibility reads, audio prompts, or batch speech generation. OpenAI remains the default; Atlas Cloud is an explicit optional backend for asynchronous multilingual speech. Custom voice creation is out of scope.",
   "version": "1.0.0",
   "author": {

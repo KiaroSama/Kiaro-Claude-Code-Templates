@@ -1,6 +1,6 @@
 {
-  "name": "vr-ar",
-  "description": "VR/AR development principles. Comfort, interaction, performance requirements. allowed-tools: Read, Write, Edit, Glob, Grep",
+  "name": "skill-vr-ar",
+  "description": "VR/AR development principles. Comfort, interaction, performance requirements.",
   "version": "1.0.0",
   "author": {
     "name": "KiaroSama"

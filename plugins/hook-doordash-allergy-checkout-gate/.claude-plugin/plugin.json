@@ -1,0 +1,12 @@
+{
+  "name": "hook-doordash-allergy-checkout-gate",
+  "description": "Deterministic allergy tripwire for DoorDash CLI (dd-cli) checkouts. Before any 'dd-cli order checkout-url' (direct or via the dd-guard wrapper) it verifies that a fresh vetted-cart dump exists for that cart (written by the doordash-allergy-shield skill after vetting) and independently re-greps th...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "hooks": "./hooks/hooks.json"
+}

@@ -1,5 +1,5 @@
 {
-  "name": "rag-implementation",
+  "name": "skill-rag-implementation",
   "description": "Retrieval-Augmented Generation patterns including chunking, embeddings, vector stores, and retrieval optimization Use when: rag, retrieval augmented, vector search, embeddings, semantic search.",
   "version": "1.0.0",
   "author": {

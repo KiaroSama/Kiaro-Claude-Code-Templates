@@ -1,5 +1,5 @@
 {
-  "name": "drugbank-database",
+  "name": "skill-drugbank-database",
   "description": "Access and analyze comprehensive drug information from the DrugBank database including drug properties, interactions, targets, pathways, chemical structures, and pharmacology data. This skill should be used when working with pharmaceutical data, drug discovery research, pharmacology studies, drug...",
   "version": "1.0.0",
   "author": {

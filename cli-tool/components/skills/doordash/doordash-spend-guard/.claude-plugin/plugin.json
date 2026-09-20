@@ -1,5 +1,5 @@
 {
-  "name": "doordash-spend-guard",
+  "name": "skill-doordash-spend-guard",
   "description": "Hard spending policy for agent-driven DoorDash ordering through the DoorDash CLI (dd-cli). Per-order ceiling, daily/weekly/monthly caps, cooldown between orders, and blocked hours — enforced deterministically by routing every cart-mutation and checkout through the dd-guard wrapper script, which p...",
   "version": "1.0.0",
   "author": {

@@ -1,5 +1,5 @@
 {
-  "name": "core-components",
+  "name": "skill-core-components",
   "description": "Core component library and design system patterns. Use when building UI, using design tokens, or working with the component library.",
   "version": "1.0.0",
   "author": {

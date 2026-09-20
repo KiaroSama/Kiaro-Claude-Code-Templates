@@ -1,5 +1,5 @@
 {
-  "name": "incident-reporting-navigator",
+  "name": "skill-incident-reporting-navigator",
   "description": "> Use when a security incident, data breach, or actively exploited vulnerability raises the question \"who must we notify, where, and by when?\" Screens one incident across the EU reporting regimes — NIS2, GDPR, DORA, and the Cyber Resilience Act — determines which duties fire for each involved ent...",
   "version": "1.0.0",
   "author": {

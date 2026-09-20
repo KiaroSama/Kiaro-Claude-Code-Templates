@@ -1,5 +1,5 @@
 {
-  "name": "create-pr",
+  "name": "skill-create-pr",
   "description": "Create pull requests following Sentry conventions. Use when opening PRs, writing PR descriptions, or preparing changes for review. Follows Sentry's code review guidelines.",
   "version": "1.0.0",
   "author": {

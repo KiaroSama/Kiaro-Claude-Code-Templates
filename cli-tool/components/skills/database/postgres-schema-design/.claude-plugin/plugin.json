@@ -1,5 +1,5 @@
 {
-  "name": "postgres-schema-design",
+  "name": "skill-postgres-schema-design",
   "description": "Comprehensive PostgreSQL-specific table design reference covering data types, indexing, constraints, performance patterns, and advanced features",
   "version": "1.0.0",
   "author": {

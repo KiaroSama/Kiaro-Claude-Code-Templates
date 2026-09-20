@@ -1,5 +1,5 @@
 {
-  "name": "curviate-premium",
+  "name": "skill-curviate-premium",
   "description": "Drive LinkedIn Sales Navigator and Recruiter through the Curviate CLI. Covers `sales-nav` (search, profile, message, lead and account lists, save-lead, save-account) and `recruiter` (projects, pipeline, talent-search, save-candidate, project jobs, applicants, message, profile, search), and what c...",
   "version": "1.0.0",
   "author": {

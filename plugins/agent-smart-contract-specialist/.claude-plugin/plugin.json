@@ -1,0 +1,11 @@
+{
+  "name": "agent-smart-contract-specialist",
+  "description": "Use this agent for smart contract architecture and design-pattern advisory work — choosing proxy/upgrade patterns, designing storage layouts, defining module boundaries, and selecting token/protocol standards — rather than day-to-day implementation or security auditing. Examples: <example>Context...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

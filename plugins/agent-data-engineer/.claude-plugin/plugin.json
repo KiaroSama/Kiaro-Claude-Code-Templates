@@ -1,0 +1,11 @@
+{
+  "name": "agent-data-engineer",
+  "description": "Use PROACTIVELY when you need to design, build, or optimize data pipelines, dbt transformation models, ETL/ELT processes, and data infrastructure spanning Kafka, BigQuery, Databricks, Snowflake, and Iceberg lakehouses. Invoke when designing data platforms, implementing pipeline orchestration, han...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

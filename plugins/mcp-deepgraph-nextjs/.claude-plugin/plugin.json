@@ -1,0 +1,11 @@
+{
+  "name": "mcp-deepgraph-nextjs",
+  "description": "Deep code analysis and visualization for Next.js projects. Understand component relationships, dependencies, and architecture patterns.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

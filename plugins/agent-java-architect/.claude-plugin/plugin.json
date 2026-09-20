@@ -1,0 +1,11 @@
+{
+  "name": "agent-java-architect",
+  "description": "Use this agent when designing enterprise Java architectures, migrating Spring Boot applications, or establishing microservices patterns for scalable cloud-native systems. Specifically:\\\\n\\\\n<example>\\\\nContext: A team needs to refactor a monolithic Spring application into microservices with prope...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

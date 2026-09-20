@@ -1,5 +1,5 @@
 {
-  "name": "architecture-decision-records",
+  "name": "skill-architecture-decision-records",
   "description": "Comprehensive patterns for creating, maintaining, and managing Architecture Decision Records (ADRs) that capture the context and rationale behind significant technical decisions.",
   "version": "1.0.0",
   "author": {

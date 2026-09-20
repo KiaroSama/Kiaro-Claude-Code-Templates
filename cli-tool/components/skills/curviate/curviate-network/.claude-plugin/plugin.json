@@ -1,5 +1,5 @@
 {
-  "name": "curviate-network",
+  "name": "skill-curviate-network",
   "description": "Grow and manage a LinkedIn network with the Curviate CLI. Covers `connect` (send with a note, sent, received, accept, decline, cancel), `profile follow`/`unfollow`, `profile relations`, `profile followers` and `profile following`, the de-duplication signal for a connect loop, and the invitation p...",
   "version": "1.0.0",
   "author": {

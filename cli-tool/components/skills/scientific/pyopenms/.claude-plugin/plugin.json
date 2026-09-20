@@ -1,5 +1,5 @@
 {
-  "name": "pyopenms",
+  "name": "skill-pyopenms",
   "description": "Python interface to OpenMS for mass spectrometry data analysis. Use for LC-MS/MS proteomics and metabolomics workflows including file handling (mzML, mzXML, mzTab, FASTA, pepXML, protXML, mzIdentML), signal processing, feature detection, peptide identification, and quantitative analysis. Apply wh...",
   "version": "1.0.0",
   "author": {

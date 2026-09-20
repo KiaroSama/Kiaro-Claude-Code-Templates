@@ -1,5 +1,5 @@
 {
-  "name": "browser-automation",
+  "name": "skill-browser-automation",
   "description": "Browser automation powers web testing, scraping, and AI agent interactions. The difference between a flaky script and a reliable system comes down to understanding selectors, waiting strategies, and anti-detection patterns. This skill covers Playwright (recommended) and Puppeteer, with patterns f...",
   "version": "1.0.0",
   "author": {

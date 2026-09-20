@@ -1,5 +1,5 @@
 {
-  "name": "pdf-fill-studio",
+  "name": "skill-pdf-fill-studio",
   "description": "Fill any PDF locally and place each value precisely in a visual editor. Use when the user wants to fill out a PDF form, enter data into a PDF, complete a tax/insurance/bank form, or position text on a flat/scanned PDF. Handles flat (field-less) PDFs, per-character (comb) fields, and native AcroFo...",
   "version": "1.0.0",
   "author": {

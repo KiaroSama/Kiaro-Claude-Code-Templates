@@ -1,0 +1,11 @@
+{
+  "name": "command-svelte-migrate",
+  "description": "Migrate Svelte/SvelteKit projects between versions, adopt new features like runes, and handle breaking changes.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

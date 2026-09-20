@@ -1,0 +1,11 @@
+{
+  "name": "agent-market-research-analyst",
+  "description": "Market research and competitive analysis specialist. Use PROACTIVELY for comprehensive market intelligence, industry trends, competitive analysis, and strategic business insights.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

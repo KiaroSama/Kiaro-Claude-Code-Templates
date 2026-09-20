@@ -1,6 +1,6 @@
 {
-  "name": "react-patterns",
-  "description": "Modern React patterns and principles. Hooks, composition, performance, TypeScript best practices. allowed-tools: Read, Write, Edit, Glob, Grep",
+  "name": "skill-react-patterns",
+  "description": "Modern React patterns and principles. Hooks, composition, performance, TypeScript best practices.",
   "version": "1.0.0",
   "author": {
     "name": "KiaroSama"

@@ -1,5 +1,5 @@
 {
-  "name": "gke-basics",
+  "name": "skill-gke-basics",
   "description": "Plans, creates, and configures production-ready Google Kubernetes Engine (GKE) clusters using the golden path Autopilot configuration. Covers networking, security, observability, scaling, cost optimization, and AI/ML inference on GKE.",
   "version": "1.0.0",
   "author": {

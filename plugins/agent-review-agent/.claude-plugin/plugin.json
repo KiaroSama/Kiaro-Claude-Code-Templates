@@ -1,0 +1,11 @@
+{
+  "name": "agent-review-agent",
+  "description": "Obsidian vault quality assurance specialist. Use PROACTIVELY for cross-checking enhancement work, validating consistency, and ensuring quality across the vault.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

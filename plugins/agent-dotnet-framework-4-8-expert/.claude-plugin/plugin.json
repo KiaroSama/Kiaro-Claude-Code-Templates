@@ -1,0 +1,11 @@
+{
+  "name": "agent-dotnet-framework-4-8-expert",
+  "description": "Use this agent when working on legacy .NET Framework 4.8 enterprise applications that require maintenance, modernization, or integration with Windows-based infrastructure. Specifically:\\\\n\\\\n<example>\\\\nContext: User has a legacy ASP.NET Web Forms application running on .NET Framework 4.8 that ne...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

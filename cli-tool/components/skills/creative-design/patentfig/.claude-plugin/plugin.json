@@ -1,5 +1,5 @@
 {
-  "name": "patentfig",
+  "name": "skill-patentfig",
   "description": "Generate patent-office-compliant figures via the PatentFig AI API — patent line art from text (PNG or SVG), vectorize drawings to SVG/DXF/vector PDF, AI-upscale images, and convert to filing-ready TIFF/PDF/PNG. Use when the user asks for patent drawings, patent figures, invention diagrams, USPTO/...",
   "version": "1.0.0",
   "author": {

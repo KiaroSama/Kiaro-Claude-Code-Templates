@@ -1,0 +1,11 @@
+{
+  "name": "command-resume",
+  "description": "Resume work on existing task orchestrations after session loss or context switch.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

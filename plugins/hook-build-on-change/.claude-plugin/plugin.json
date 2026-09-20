@@ -1,0 +1,12 @@
+{
+  "name": "hook-build-on-change",
+  "description": "Automatically trigger build processes when source files change. Detects common build tools and runs appropriate build commands.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "hooks": "./hooks/hooks.json"
+}

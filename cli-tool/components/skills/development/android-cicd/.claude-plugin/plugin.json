@@ -1,5 +1,5 @@
 {
-  "name": "android-cicd",
+  "name": "skill-android-cicd",
   "description": "Automated Android CI/CD pipeline to Google Play — supports TWA, React Native, Flutter, and native Android. Run npx android-cicd to set up keystore generation, GitHub Secrets, and a multi-stage workflow (internal/alpha/beta/production) with auto-bump versionCode.",
   "version": "1.0.0",
   "author": {

@@ -1,0 +1,11 @@
+{
+  "name": "agent-azure-principal-architect",
+  "description": "Provide expert Azure Principal Architect guidance using Azure Well-Architected Framework principles and Microsoft best practices.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

@@ -1,5 +1,5 @@
 {
-  "name": "cloud-sql-basics",
+  "name": "skill-cloud-sql-basics",
   "description": "Creates and manages Cloud SQL instances for MySQL, PostgreSQL, and SQL Server. Handles backups, high availability, and secure connectivity for relational database workloads on Google Cloud.",
   "version": "1.0.0",
   "author": {

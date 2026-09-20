@@ -1,0 +1,12 @@
+{
+  "name": "hook-deployment-health-monitor",
+  "description": "Monitor deployment status, error rates, and performance metrics, sending notifications for failed deployments or performance degradation. Tracks Vercel deployment health, monitors build success/failure rates, and provides alerts for deployment issues. Setup: Export 'export VERCEL_TOKEN=your_token...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "hooks": "./hooks/hooks.json"
+}

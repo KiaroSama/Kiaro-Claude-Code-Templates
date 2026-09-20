@@ -1,0 +1,11 @@
+{
+  "name": "agent-api-documenter",
+  "description": "Use this agent when creating or improving API documentation, writing OpenAPI specifications, building interactive documentation portals, or generating code examples for APIs. Specifically:\\\\n\\\\n<example>\\\\nContext: A REST API has been built with multiple endpoints but lacks formal documentation o...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

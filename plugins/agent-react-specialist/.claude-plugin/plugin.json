@@ -1,0 +1,11 @@
+{
+  "name": "agent-react-specialist",
+  "description": "Use when optimizing existing React applications for performance, implementing advanced React 19+ features, or solving complex state management and architectural challenges within React codebases. Specifically:\\n\\n<example>\\nContext: Production React app experiencing performance degradation with 8...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "agent-project-supervisor-orchestrator",
+  "description": "Project workflow orchestrator. Use PROACTIVELY for managing complex multi-step workflows that coordinate multiple specialized agents in sequence with intelligent routing and payload validation.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

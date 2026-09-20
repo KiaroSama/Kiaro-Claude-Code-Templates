@@ -1,0 +1,11 @@
+{
+  "name": "agent-ai-agent-audit-specialist",
+  "description": "Use this agent when you need to design, validate, or harden forensic audit trails for AI coding agents (Claude Code, Cursor, Codex CLI, Aider) operating in regulated environments. Focuses on tamper-evident logging, hash-chain integrity, and framework mapping for the NIST AI RMF, EU AI Act Annex I...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

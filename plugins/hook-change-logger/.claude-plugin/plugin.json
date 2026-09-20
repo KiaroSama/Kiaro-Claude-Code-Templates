@@ -1,0 +1,12 @@
+{
+  "name": "hook-change-logger",
+  "description": "Log every file mutation to CSV for demo prep. Records timestamp, tool, file path, action, and details for Edit, MultiEdit, Write, and Bash operations. Output: .claude/critical_log_changes.csv",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "hooks": "./hooks/hooks.json"
+}

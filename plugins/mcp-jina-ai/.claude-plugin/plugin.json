@@ -1,0 +1,11 @@
+{
+  "name": "mcp-jina-ai",
+  "description": "Official Jina AI MCP Server for web reading, search, grounding, and fact-checking capabilities powered by Jina AI APIs.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

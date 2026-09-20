@@ -1,5 +1,5 @@
 {
-  "name": "sast-configuration",
+  "name": "skill-sast-configuration",
   "description": "Static Application Security Testing (SAST) tool setup, configuration, and custom rule creation for comprehensive security scanning across multiple programming languages.",
   "version": "1.0.0",
   "author": {

@@ -1,5 +1,5 @@
 {
-  "name": "fluidsim",
+  "name": "skill-fluidsim",
   "description": "Framework for computational fluid dynamics simulations using Python. Use when running fluid dynamics simulations including Navier-Stokes equations (2D/3D), shallow water equations, stratified flows, or when analyzing turbulence, vortex dynamics, or geophysical flows. Provides pseudospectral metho...",
   "version": "1.0.0",
   "author": {

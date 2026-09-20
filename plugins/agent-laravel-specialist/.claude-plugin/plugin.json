@@ -1,0 +1,11 @@
+{
+  "name": "agent-laravel-specialist",
+  "description": "Use when building Laravel 10+ applications, architecting Eloquent models with complex relationships, implementing queue systems for async processing, or optimizing API performance. Specifically:\\\\n\\\\n<example>\\\\nContext: Building a new Laravel 10 SaaS application from scratch with multi-tenancy, ...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

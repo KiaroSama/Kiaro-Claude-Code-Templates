@@ -1,0 +1,11 @@
+{
+  "name": "agent-project-manager",
+  "description": "Use this agent when you need to establish project plans, track execution progress, manage risks, control budget/schedule, and coordinate stakeholders across complex initiatives. Specifically:\\\\n\\\\n<example>\\\\nContext: A software team is starting a major product release with multiple dependencies ...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "agent-slack-expert",
+  "description": "Use this agent when developing Slack applications, implementing Slack API integrations, or reviewing Slack bot code for security and best practices. Specifically:\\\\n\\\\n<example>\\\\nContext: Developer is building a new Slack bot using @slack/bolt that needs to handle app mentions, respond to slash ...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

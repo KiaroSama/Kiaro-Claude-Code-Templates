@@ -1,5 +1,5 @@
 {
-  "name": "curviate-inbox",
+  "name": "skill-curviate-inbox",
   "description": "Read and send LinkedIn messages with the Curviate CLI. Covers `inbox` (list, get, messages, search, mark-read), `inboxes` (personal and company-page discovery), `message` (new, send, get, edit, delete, react, attachment, InMail), replying as a company page, retrieval mode (`--mode`/`--max-age`) o...",
   "version": "1.0.0",
   "author": {

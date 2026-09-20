@@ -1,5 +1,5 @@
 {
-  "name": "agent-memory-mcp",
+  "name": "skill-agent-memory-mcp",
   "description": "A hybrid memory system that provides persistent, searchable knowledge management for AI agents (Architecture, Patterns, Decisions).",
   "version": "1.0.0",
   "author": {

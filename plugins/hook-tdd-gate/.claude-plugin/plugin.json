@@ -1,0 +1,12 @@
+{
+  "name": "hook-tdd-gate",
+  "description": "Test-Driven Development enforcement hook. Blocks editing production code files (.cs, .py, .ts, .go, .rs, .rb, .php, .java, .kt, .swift, .dart) unless a corresponding test file exists. Forces the TDD workflow: write tests first, then implement. Automatically skips config files, migrations, DTOs, t...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "hooks": "./hooks/hooks.json"
+}

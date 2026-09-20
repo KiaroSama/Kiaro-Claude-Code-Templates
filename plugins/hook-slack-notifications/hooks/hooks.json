@@ -1,0 +1,24 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "if [[ -n \"$SLACK_WEBHOOK_URL\" ]]; then MESSAGE='{\"text\":\"\ud83e\udd16 Claude Code finished working at $(date '+%Y-%m-%d %H:%M:%S')\"}'; curl -s -X POST \"$SLACK_WEBHOOK_URL\" -H \"Content-type: application/json\" -d \"$MESSAGE\" >/dev/null 2>&1 || echo \"Failed to send Slack notification\"; else echo \"\u26a0\ufe0f Slack notification skipped: Set SLACK_WEBHOOK_URL environment variable\"; fi"
+          }
+        ]
+      }
+    ],
+    "SubagentStop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "if [[ -n \"$SLACK_WEBHOOK_URL\" ]]; then MESSAGE='{\"text\":\"\ud83c\udfaf Claude Code subagent completed task at $(date '+%Y-%m-%d %H:%M:%S')\"}'; curl -s -X POST \"$SLACK_WEBHOOK_URL\" -H \"Content-type: application/json\" -d \"$MESSAGE\" >/dev/null 2>&1 || echo \"Failed to send Slack notification\"; else echo \"\u26a0\ufe0f Slack notification skipped: Set SLACK_WEBHOOK_URL environment variable\"; fi"
+          }
+        ]
+      }
+    ]
+  }
+}

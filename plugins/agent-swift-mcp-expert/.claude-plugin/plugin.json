@@ -1,0 +1,11 @@
+{
+  "name": "agent-swift-mcp-expert",
+  "description": "Expert assistance for building Model Context Protocol servers in Swift using modern concurrency features and the official MCP Swift SDK.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

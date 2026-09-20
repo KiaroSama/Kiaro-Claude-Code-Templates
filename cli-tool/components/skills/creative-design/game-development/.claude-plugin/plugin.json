@@ -1,6 +1,6 @@
 {
-  "name": "game-development",
-  "description": "Game development orchestrator. Routes to platform-specific skills based on project needs. allowed-tools: Read, Write, Edit, Glob, Grep, Bash",
+  "name": "skill-game-development",
+  "description": "Game development orchestrator. Routes to platform-specific skills based on project needs.",
   "version": "1.0.0",
   "author": {
     "name": "KiaroSama"

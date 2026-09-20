@@ -1,0 +1,11 @@
+{
+  "name": "agent-rails-expert",
+  "description": "Use when building or modernizing Rails applications requiring full-stack development, Hotwire reactivity, real-time features, or Rails-idiomatic patterns for maximum productivity. Specifically:\\\\n\\\\n<example>\\\\nContext: Building a new Rails 8.1 SaaS application from scratch with real-time notific...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

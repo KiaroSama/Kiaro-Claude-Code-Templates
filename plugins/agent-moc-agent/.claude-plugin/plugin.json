@@ -1,0 +1,11 @@
+{
+  "name": "agent-moc-agent",
+  "description": "Obsidian Map of Content specialist. Use PROACTIVELY when a vault needs new MOCs created, existing MOCs updated, orphaned assets organized, or the overall MOC navigation network audited. Specifically:\\n\\n<example>\\nContext: A developer has added dozens of new notes across several topic folders but...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

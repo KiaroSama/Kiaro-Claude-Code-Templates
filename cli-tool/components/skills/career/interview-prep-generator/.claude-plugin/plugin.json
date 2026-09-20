@@ -1,5 +1,5 @@
 {
-  "name": "interview-prep-generator",
+  "name": "skill-interview-prep-generator",
   "description": "Generate STAR stories, practice questions, and talking points from a resume. Use when the user mentions interview prep, behavioral questions, STAR method, mock interview, or preparing for an upcoming interview.",
   "version": "1.0.0",
   "author": {

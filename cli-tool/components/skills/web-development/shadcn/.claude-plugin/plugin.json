@@ -1,6 +1,6 @@
 {
-  "name": "shadcn",
-  "description": "Manages shadcn/ui components and projects, providing context, documentation, and usage patterns for building modern design systems. user-invocable: false",
+  "name": "skill-shadcn",
+  "description": "Manages shadcn/ui components and projects, providing context, documentation, and usage patterns for building modern design systems.",
   "version": "1.0.0",
   "author": {
     "name": "KiaroSama"

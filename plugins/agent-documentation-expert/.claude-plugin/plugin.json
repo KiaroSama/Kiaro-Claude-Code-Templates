@@ -1,0 +1,11 @@
+{
+  "name": "agent-documentation-expert",
+  "description": "Use this agent to create, improve, and maintain project documentation. Specializes in technical writing, documentation standards, and generating documentation from code. Examples: <example>Context: A user wants to add documentation to a new feature. user: 'Please help me document this new API end...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

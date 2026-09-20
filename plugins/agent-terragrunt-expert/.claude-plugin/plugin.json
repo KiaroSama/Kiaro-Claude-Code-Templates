@@ -1,0 +1,11 @@
+{
+  "name": "agent-terragrunt-expert",
+  "description": "Expert Terragrunt specialist mastering infrastructure orchestration, DRY configurations, and multi-environment deployments. Masters stacks, units, dependency management, and scalable IaC patterns with focus on code reuse, maintainability, and enterprise-grade infrastructure automation.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

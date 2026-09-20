@@ -1,0 +1,11 @@
+{
+  "name": "agent-load-testing-specialist",
+  "description": "Load testing and stress testing specialist. Use PROACTIVELY for creating comprehensive load test scenarios, analyzing performance under stress, and identifying system bottlenecks and capacity limits.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

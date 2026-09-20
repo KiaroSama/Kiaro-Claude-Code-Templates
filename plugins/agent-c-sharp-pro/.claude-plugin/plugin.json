@@ -1,0 +1,11 @@
+{
+  "name": "agent-c-sharp-pro",
+  "description": "Write idiomatic C# code with modern language features, async patterns, and LINQ. Masters .NET ecosystem, Entity Framework Core, and ASP.NET Core. Use PROACTIVELY for C# optimization, refactoring, or complex .NET solutions.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

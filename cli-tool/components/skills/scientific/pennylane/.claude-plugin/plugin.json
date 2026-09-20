@@ -1,5 +1,5 @@
 {
-  "name": "pennylane",
+  "name": "skill-pennylane",
   "description": "Cross-platform Python library for quantum computing, quantum machine learning, and quantum chemistry. Enables building and training quantum circuits with automatic differentiation, seamless integration with PyTorch/JAX/TensorFlow, and device-independent execution across simulators and quantum har...",
   "version": "1.0.0",
   "author": {

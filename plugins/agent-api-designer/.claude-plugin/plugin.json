@@ -1,0 +1,11 @@
+{
+  "name": "agent-api-designer",
+  "description": "Use this agent when designing new APIs, creating API specifications, or refactoring existing API architecture for scalability and developer experience. Invoke when you need REST/GraphQL/gRPC endpoint design, OpenAPI 3.2 documentation, authentication patterns, API versioning strategies, or protoco...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

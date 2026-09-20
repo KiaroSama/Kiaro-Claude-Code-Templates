@@ -1,5 +1,5 @@
 {
-  "name": "fastmcp-server",
+  "name": "skill-fastmcp-server",
   "description": "Complete guide for building MCP servers with FastMCP 3.0 - tools, resources, authentication, providers, middleware, and deployment. Use when creating Python MCP servers or integrating AI models with external tools and data.",
   "version": "1.0.0",
   "author": {

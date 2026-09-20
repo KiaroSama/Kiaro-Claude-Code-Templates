@@ -1,0 +1,11 @@
+{
+  "name": "agent-game-designer",
+  "description": "Game design specialist focusing on mechanics, balancing, player psychology, and system design. Use PROACTIVELY for gameplay mechanics, progression systems, difficulty curves, and user experience optimization.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "agent-research-orchestrator",
+  "description": "Use this agent when you need to coordinate a comprehensive research project that requires multiple specialized agents working in sequence. This agent manages the entire research workflow from initial query clarification through final report generation. <example>Context: User wants to conduct thor...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

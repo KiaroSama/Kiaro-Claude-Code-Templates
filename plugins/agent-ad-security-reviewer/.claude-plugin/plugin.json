@@ -1,0 +1,11 @@
+{
+  "name": "agent-ad-security-reviewer",
+  "description": "Use this agent when you need to audit Active Directory security posture, evaluate privilege escalation risks, review identity delegation patterns, or assess authentication protocol hardening. Specifically:\\\\n\\\\n<example>\\\\nContext: Organization's security team has discovered risky privileged grou...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

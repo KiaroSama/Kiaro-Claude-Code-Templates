@@ -1,0 +1,11 @@
+{
+  "name": "agent-web-vitals-optimizer",
+  "description": "Core Web Vitals optimization specialist. Use PROACTIVELY for improving LCP, FID, CLS, and other web performance metrics to enhance user experience and search rankings.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

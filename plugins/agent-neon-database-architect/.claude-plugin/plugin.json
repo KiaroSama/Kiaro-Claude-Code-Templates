@@ -1,0 +1,11 @@
+{
+  "name": "agent-neon-database-architect",
+  "description": "Neon database architecture specialist. Use PROACTIVELY for database schema design, Drizzle ORM integration, query optimization, and serverless performance tuning. Expert in connection management and database migrations.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "mcp-footballbin-predictions",
+  "description": "AI-powered football match predictions for Premier League and Champions League. Returns half-time scores, full-time scores, next goal scorer, corner counts, and key player analysis. Public endpoint, no API key required.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

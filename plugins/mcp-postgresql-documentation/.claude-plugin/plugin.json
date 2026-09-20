@@ -1,0 +1,11 @@
+{
+  "name": "mcp-postgresql-documentation",
+  "description": "PostgreSQL documentation and skills for writing better Postgres code",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

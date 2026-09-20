@@ -1,0 +1,12 @@
+{
+  "name": "hook-vercel-auto-deploy",
+  "description": "Automatically trigger Vercel deployments when code changes are committed, with environment-specific deployment strategies and rollback on failure. Setup: Export environment variables 'export VERCEL_TOKEN=your_token' and 'export VERCEL_PROJECT_ID=your_project_id' (get your token from vercel.com/ac...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "hooks": "./hooks/hooks.json"
+}

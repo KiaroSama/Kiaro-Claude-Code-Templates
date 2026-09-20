@@ -1,5 +1,5 @@
 {
-  "name": "biomni",
+  "name": "skill-biomni",
   "description": "Autonomous biomedical AI agent framework for executing complex research tasks across genomics, drug discovery, molecular biology, and clinical analysis. Use this skill when conducting multi-step biomedical research including CRISPR screening design, single-cell RNA-seq analysis, ADMET prediction,...",
   "version": "1.0.0",
   "author": {

@@ -1,5 +1,5 @@
 {
-  "name": "prometheus-configuration",
+  "name": "skill-prometheus-configuration",
   "description": "Complete guide to Prometheus setup, metric collection, scrape configuration, and recording rules.",
   "version": "1.0.0",
   "author": {

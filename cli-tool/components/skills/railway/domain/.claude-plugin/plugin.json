@@ -1,5 +1,5 @@
 {
-  "name": "domain",
+  "name": "skill-domain",
   "description": "Add, view, or remove domains for Railway services. Use when user wants to add a domain, generate a railway domain, check current domains, get the URL for a service, or remove a domain.",
   "version": "1.0.0",
   "author": {

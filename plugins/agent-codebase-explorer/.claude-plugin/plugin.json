@@ -1,0 +1,11 @@
+{
+  "name": "agent-codebase-explorer",
+  "description": "| Deep-dive analysis of unfamiliar codebases. Generates a structured mental model of any project — tech stack, architecture, patterns, entry points, data flow — and optionally creates a CLAUDE.md with findings. <example> User: Explore this codebase and tell me how it works Agent: Runs 6-phase dis...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

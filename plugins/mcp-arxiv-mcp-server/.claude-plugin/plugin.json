@@ -1,0 +1,11 @@
+{
+  "name": "mcp-arxiv-mcp-server",
+  "description": "Search, download, and analyze academic papers from arXiv. Supports full-text search, paper retrieval, and local storage for research workflows.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

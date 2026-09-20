@@ -1,0 +1,11 @@
+{
+  "name": "agent-mcp-server-architect",
+  "description": "MCP server architecture and implementation specialist. Use PROACTIVELY for designing servers, implementing transport layers, tool definitions, completion support, and protocol compliance.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

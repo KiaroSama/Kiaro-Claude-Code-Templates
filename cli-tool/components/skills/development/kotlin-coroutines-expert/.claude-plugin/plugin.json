@@ -1,5 +1,5 @@
 {
-  "name": "kotlin-coroutines-expert",
+  "name": "skill-kotlin-coroutines-expert",
   "description": "Expert patterns for Kotlin Coroutines and Flow, covering structured concurrency, error handling, and testing.",
   "version": "1.0.0",
   "author": {

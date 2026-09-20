@@ -1,5 +1,5 @@
 {
-  "name": "root-cause-pareto",
+  "name": "skill-root-cause-pareto",
   "description": "Build a decision-grade Pareto for downtime, defects, complaints or delays - with unit-of-measure discipline, category hygiene, exposure normalization and a follow-up metric. Use when the user mentions pareto analysis, kök neden, duruş analizi, downtime, arıza analizi, defect ranking, şikayet anal...",
   "version": "1.0.0",
   "author": {

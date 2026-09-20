@@ -1,5 +1,5 @@
 {
-  "name": "gemini-api-agent-platform",
+  "name": "skill-gemini-api-agent-platform",
   "description": "Guides the usage of the Gemini API on Agent Platform with the Google Gen AI SDK for enterprise AI applications. Covers SDK usage (Python, JS/TS, Go, Java, C#), capabilities like Live API, tools, multimedia generation, caching, and batch prediction.",
   "version": "1.0.0",
   "author": {

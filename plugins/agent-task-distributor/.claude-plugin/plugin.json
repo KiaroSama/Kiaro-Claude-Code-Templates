@@ -1,0 +1,11 @@
+{
+  "name": "agent-task-distributor",
+  "description": "Use when distributing tasks across multiple agents or workers, managing queues, and balancing workloads to maximize throughput while respecting priorities and deadlines. Specifically:\\\\n\\\\n<example>\\\\nContext: A code review system needs to distribute 500 pull requests across 8 specialist agents (...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

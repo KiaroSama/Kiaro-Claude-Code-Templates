@@ -1,0 +1,11 @@
+{
+  "name": "agent-research-analyst",
+  "description": "Use this agent when you need comprehensive research across multiple sources with synthesis of findings into actionable insights, trend identification, and detailed reporting. Specifically:\\\\n\\\\n<example>\\\\nContext: A company is planning to enter a new technology market and needs deep research on ...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

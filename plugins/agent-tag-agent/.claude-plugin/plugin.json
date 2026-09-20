@@ -1,0 +1,11 @@
+{
+  "name": "agent-tag-agent",
+  "description": "Obsidian tag taxonomy specialist. Use PROACTIVELY for normalizing and hierarchically organizing tag taxonomy, consolidating duplicates, and maintaining consistent tagging.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

@@ -1,5 +1,5 @@
 {
-  "name": "curviate-engage",
+  "name": "skill-curviate-engage",
   "description": "Create and engage with LinkedIn content using the Curviate CLI. Covers `post` (get, create, react, unreact, reactions, delete, save, saved, unsave, user-posts, user-reactions), `comment` (list, add, reply, edit, delete, replies, react, unreact, reactions, user), `feed home` and `notification`. Ca...",
   "version": "1.0.0",
   "author": {

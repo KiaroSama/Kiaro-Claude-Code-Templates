@@ -1,5 +1,5 @@
 {
-  "name": "curviate-search",
+  "name": "skill-curviate-search",
   "description": "Find people, companies, posts, jobs, service providers and groups on LinkedIn with the Curviate CLI. Covers `search people|companies|posts|jobs|services|groups`, running a pasted LinkedIn search URL directly, the `group` read commands, pagination with `--all`, and the filter traps that silently r...",
   "version": "1.0.0",
   "author": {

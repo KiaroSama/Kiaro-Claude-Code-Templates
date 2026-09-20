@@ -1,0 +1,11 @@
+{
+  "name": "agent-terraform-engineer",
+  "description": "Use when building, refactoring, or scaling infrastructure as code using Terraform with focus on multi-cloud deployments, module architecture, and enterprise-grade state management. Specifically:\\\\n\\\\n<example>\\\\nContext: Team needs to migrate AWS infrastructure from manual console provisioning to...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

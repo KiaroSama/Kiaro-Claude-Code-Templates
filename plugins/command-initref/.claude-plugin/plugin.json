@@ -1,0 +1,11 @@
+{
+  "name": "command-initref",
+  "description": "Build a reference for the implementation details of this project. Use provided summarize tool to get summary of the files. Avoid reading the content of many files yourself, as we might hit usage limits. Do read the content of important files though. Use the returned summaries to create reference ...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

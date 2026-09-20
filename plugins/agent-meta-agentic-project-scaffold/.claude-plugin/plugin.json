@@ -1,0 +1,11 @@
+{
+  "name": "agent-meta-agentic-project-scaffold",
+  "description": "Meta agentic project creation assistant to help users create and manage project workflows effectively.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "agent-database-admin",
+  "description": "Database administration specialist for PostgreSQL, MySQL, MongoDB, and Redis operations, backups, replication, and monitoring. Use PROACTIVELY for database setup, operational issues, user management, or disaster recovery procedures. For deep PostgreSQL-specific tuning, use postgres-pro; for pure ...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

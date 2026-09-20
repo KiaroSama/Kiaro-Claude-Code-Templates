@@ -1,0 +1,12 @@
+{
+  "name": "hook-dangerous-command-blocker",
+  "description": "Advanced protection against dangerous shell commands with multi-level security. Blocks catastrophic operations (rm -rf /, dd, mkfs), protects critical paths (.claude/, .git/, node_modules/), and warns about suspicious patterns. Features: catastrophic command blocking, critical path protection, sm...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "hooks": "./hooks/hooks.json"
+}

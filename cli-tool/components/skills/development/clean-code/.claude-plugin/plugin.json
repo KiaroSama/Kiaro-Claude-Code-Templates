@@ -1,6 +1,6 @@
 {
-  "name": "clean-code",
-  "description": "Pragmatic coding standards - concise, direct, no over-engineering, no unnecessary comments allowed-tools: Read, Write, Edit",
+  "name": "skill-clean-code",
+  "description": "Pragmatic coding standards - concise, direct, no over-engineering, no unnecessary comments",
   "version": "1.0.0",
   "author": {
     "name": "KiaroSama"

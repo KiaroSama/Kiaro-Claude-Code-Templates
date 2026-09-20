@@ -1,6 +1,6 @@
 {
-  "name": "multiplayer",
-  "description": "Multiplayer game development principles. Architecture, networking, synchronization. allowed-tools: Read, Write, Edit, Glob, Grep, Bash",
+  "name": "skill-multiplayer",
+  "description": "Multiplayer game development principles. Architecture, networking, synchronization.",
   "version": "1.0.0",
   "author": {
     "name": "KiaroSama"

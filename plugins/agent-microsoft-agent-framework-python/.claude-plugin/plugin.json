@@ -1,0 +1,11 @@
+{
+  "name": "agent-microsoft-agent-framework-python",
+  "description": "Create, update, refactor, explain or work with code using the Python version of Microsoft Agent Framework.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

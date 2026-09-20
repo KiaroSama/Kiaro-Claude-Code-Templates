@@ -1,5 +1,5 @@
 {
-  "name": "molfeat",
+  "name": "skill-molfeat",
   "description": "Molecular featurization for ML (100+ featurizers). ECFP, MACCS, descriptors, pretrained models (ChemBERTa), convert SMILES to features, for QSAR and molecular ML.",
   "version": "1.0.0",
   "author": {

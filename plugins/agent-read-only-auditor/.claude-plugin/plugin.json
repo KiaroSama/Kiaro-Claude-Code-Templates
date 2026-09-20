@@ -1,0 +1,11 @@
+{
+  "name": "agent-read-only-auditor",
+  "description": "Use this agent when you need a security audit that is guaranteed to make no changes to the codebase. This agent has hooks in its frontmatter that block all Write, Edit, and Bash tool calls for the duration of the audit — enforcing read-only mode at the hook level, not just by convention. Invoke f...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

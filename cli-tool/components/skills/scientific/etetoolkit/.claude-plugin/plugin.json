@@ -1,5 +1,5 @@
 {
-  "name": "etetoolkit",
+  "name": "skill-etetoolkit",
   "description": "Phylogenetic tree toolkit (ETE). Tree manipulation (Newick/NHX), evolutionary event detection, orthology/paralogy, NCBI taxonomy, visualization (PDF/SVG), for phylogenomics.",
   "version": "1.0.0",
   "author": {

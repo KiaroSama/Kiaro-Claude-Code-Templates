@@ -1,0 +1,11 @@
+{
+  "name": "command-log",
+  "description": "Log work from orchestrated tasks to external project management tools like Linear, Obsidian, Jira, or GitHub Issues.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

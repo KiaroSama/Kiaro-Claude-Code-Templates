@@ -1,0 +1,11 @@
+{
+  "name": "agent-ai-ethics-advisor",
+  "description": "AI ethics and responsible AI development specialist. Use when reviewing an AI system for bias, fairness violations, or regulatory compliance gaps; when generating a model card, algorithmic impact assessment, or ethics review document; or when an AI feature touches a protected class or high-stakes...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

@@ -1,5 +1,5 @@
 {
-  "name": "langfuse",
+  "name": "skill-langfuse",
   "description": "Expert in Langfuse - the open-source LLM observability platform. Covers tracing, prompt management, evaluation, datasets, and integration with LangChain, LlamaIndex, and OpenAI. Essential for debugging, monitoring, and improving LLM applications in production. Use when: langfuse, llm observabilit...",
   "version": "1.0.0",
   "author": {

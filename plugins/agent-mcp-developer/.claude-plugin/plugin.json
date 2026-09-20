@@ -1,0 +1,11 @@
+{
+  "name": "agent-mcp-developer",
+  "description": "Use this agent when you need to build, debug, or optimize Model Context Protocol (MCP) servers and clients that connect AI systems to external tools and data sources. Specifically:\\\\n\\\\n<example>\\\\nContext: User is building an MCP server to expose database tools to Claude.\\\\nuser: \\\"I need to cre...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "mcp-browser-use-mcp-server",
+  "description": "An MCP server that enables AI agents to control web browsers using browser-use.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

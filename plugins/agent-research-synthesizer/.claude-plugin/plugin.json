@@ -1,0 +1,11 @@
+{
+  "name": "agent-research-synthesizer",
+  "description": "Use this agent when you need to consolidate and synthesize findings from multiple research sources or specialist researchers into a unified, comprehensive analysis. This agent excels at merging diverse perspectives, identifying patterns across sources, highlighting contradictions, and creating st...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

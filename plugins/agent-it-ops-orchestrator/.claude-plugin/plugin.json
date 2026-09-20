@@ -1,0 +1,11 @@
+{
+  "name": "agent-it-ops-orchestrator",
+  "description": "Use for orchestrating complex IT operations tasks that span multiple domains (PowerShell automation, .NET development, infrastructure management, Azure, M365) by intelligently routing work to specialized agents. Specifically:\\\\n\\\\n<example>\\\\nContext: An organization needs to audit stale Active D...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

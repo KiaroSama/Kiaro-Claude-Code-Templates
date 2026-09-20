@@ -1,5 +1,5 @@
 {
-  "name": "performance-optimizer",
+  "name": "skill-performance-optimizer",
   "description": "Identifies and fixes performance bottlenecks in code, databases, and APIs. Measures before and after to prove improvements.",
   "version": "1.0.0",
   "author": {

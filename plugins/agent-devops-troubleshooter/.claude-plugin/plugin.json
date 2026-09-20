@@ -1,0 +1,11 @@
+{
+  "name": "agent-devops-troubleshooter",
+  "description": "Production troubleshooting and incident response specialist. Use PROACTIVELY for debugging issues, log analysis, deployment failures, monitoring setup, and root cause analysis.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

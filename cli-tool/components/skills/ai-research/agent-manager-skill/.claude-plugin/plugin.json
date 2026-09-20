@@ -1,5 +1,5 @@
 {
-  "name": "agent-manager-skill",
+  "name": "skill-agent-manager-skill",
   "description": "Manage multiple local CLI agents via tmux sessions (start/stop/monitor/assign) with cron-friendly scheduling.",
   "version": "1.0.0",
   "author": {

@@ -1,0 +1,11 @@
+{
+  "name": "agent-tdd-red",
+  "description": "Guide test-first development by writing failing tests that describe desired behaviour from GitHub issue context before implementation exists.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

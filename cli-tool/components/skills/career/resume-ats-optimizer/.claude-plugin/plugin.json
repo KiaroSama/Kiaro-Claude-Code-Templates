@@ -1,5 +1,5 @@
 {
-  "name": "resume-ats-optimizer",
+  "name": "skill-resume-ats-optimizer",
   "description": "Optimize resumes for Applicant Tracking Systems, check ATS compatibility, and analyze keyword match. Use when the user mentions ATS, applicant tracking, keyword optimization, parsing, or getting past resume screening software.",
   "version": "1.0.0",
   "author": {

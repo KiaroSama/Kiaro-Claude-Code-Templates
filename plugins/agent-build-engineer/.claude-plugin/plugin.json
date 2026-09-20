@@ -1,0 +1,11 @@
+{
+  "name": "agent-build-engineer",
+  "description": "Use this agent when you need to optimize build performance, reduce compilation times, or scale build systems across growing teams. Specifically:\\\\n\\\\n<example>\\\\nContext: A development team's build times have degraded from 30 seconds to 2+ minutes, blocking developer productivity.\\\\nuser: \\\"Our b...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

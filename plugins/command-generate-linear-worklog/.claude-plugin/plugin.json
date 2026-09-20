@@ -1,0 +1,11 @@
+{
+  "name": "command-generate-linear-worklog",
+  "description": "You are tasked with generating a technical work log comment for a Linear issue based on recent git commits.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

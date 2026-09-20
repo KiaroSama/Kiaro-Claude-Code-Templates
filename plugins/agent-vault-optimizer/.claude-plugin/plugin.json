@@ -1,0 +1,11 @@
+{
+  "name": "agent-vault-optimizer",
+  "description": "Obsidian vault performance optimization specialist. Use PROACTIVELY for analyzing vault performance, optimizing file sizes, managing large attachments, and improving search indexing.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

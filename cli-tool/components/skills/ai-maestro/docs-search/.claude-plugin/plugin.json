@@ -1,5 +1,5 @@
 {
-  "name": "docs-search",
+  "name": "skill-docs-search",
   "description": "Search auto-generated codebase documentation for function signatures, API docs, class definitions, and code comments. Use when the user asks to \"search docs\", \"find documentation\", \"look up a function\", \"check the API\", or before implementing changes to verify correct signatures and patterns.",
   "version": "1.0.0",
   "author": {

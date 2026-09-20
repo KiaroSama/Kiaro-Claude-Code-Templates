@@ -1,0 +1,11 @@
+{
+  "name": "agent-se-product-manager-advisor",
+  "description": "Product management guidance for creating GitHub issues, aligning business value with user needs, and making data-driven product decisions",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

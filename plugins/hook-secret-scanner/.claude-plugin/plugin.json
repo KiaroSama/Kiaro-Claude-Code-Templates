@@ -1,0 +1,12 @@
+{
+  "name": "hook-secret-scanner",
+  "description": "Automatically detects hardcoded secrets before git commits. Scans for API keys from 30+ providers (Anthropic: sk-ant-..., OpenAI: sk-..., AWS: AKIA..., Stripe: sk_live_..., Google: AIza..., GitHub: ghp_..., Vercel, Supabase, Hugging Face: hf_..., Replicate: r8_..., Groq: gsk_..., Databricks: dapi...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "hooks": "./hooks/hooks.json"
+}

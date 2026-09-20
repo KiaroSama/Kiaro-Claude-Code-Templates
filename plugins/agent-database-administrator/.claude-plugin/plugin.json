@@ -1,0 +1,11 @@
+{
+  "name": "agent-database-administrator",
+  "description": "Use this agent when optimizing database performance, implementing high-availability architectures, setting up disaster recovery, or managing database infrastructure for production systems. Specifically:\\\\n\\\\n<example>\\\\nContext: A company's PostgreSQL database is experiencing slow query performan...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

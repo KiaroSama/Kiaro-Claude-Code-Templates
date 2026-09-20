@@ -1,0 +1,11 @@
+{
+  "name": "agent-nextjs-architecture-expert",
+  "description": "Master of Next.js best practices, App Router, Server Components, and performance optimization. Use PROACTIVELY for Next.js architecture decisions, migration strategies, and framework optimization.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

@@ -1,5 +1,5 @@
 {
-  "name": "gcp-cloud-run",
+  "name": "skill-gcp-cloud-run",
   "description": "Specialized skill for building production-ready serverless applications on GCP. Covers Cloud Run services (containerized), Cloud Run Functions (event-driven), cold start optimization, and event-driven architecture with Pub/Sub.",
   "version": "1.0.0",
   "author": {

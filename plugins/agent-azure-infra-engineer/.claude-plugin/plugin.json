@@ -1,0 +1,11 @@
+{
+  "name": "agent-azure-infra-engineer",
+  "description": "Use when designing, deploying, or managing Azure infrastructure with focus on network architecture, Entra ID integration, PowerShell automation, and Bicep IaC. Specifically:\\\\n\\\\n<example>\\\\nContext: Building a multi-region Azure infrastructure with hybrid identity and secure networking for an en...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

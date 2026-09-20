@@ -1,6 +1,6 @@
 {
-  "name": "hypothesis-generation",
-  "description": "Generate testable hypotheses. Formulate from observations, design experiments, explore competing explanations, develop predictions, propose mechanisms, for scientific inquiry across domains.\" allowed-tools: [Read, Write, Edit, Bash]",
+  "name": "skill-hypothesis-generation",
+  "description": "Generate testable hypotheses. Formulate from observations, design experiments, explore competing explanations, develop predictions, propose mechanisms, for scientific inquiry across domains.",
   "version": "1.0.0",
   "author": {
     "name": "KiaroSama"

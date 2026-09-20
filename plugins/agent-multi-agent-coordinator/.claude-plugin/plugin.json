@@ -1,0 +1,11 @@
+{
+  "name": "agent-multi-agent-coordinator",
+  "description": "Use when coordinating multiple concurrent agents that need to communicate, share state, synchronize work, and handle distributed failures across a system. Specifically:\\\\n\\\\n<example>\\\\nContext: A data pipeline has 8 specialized agents running in parallel—data-ingestion, validation, transformatio...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

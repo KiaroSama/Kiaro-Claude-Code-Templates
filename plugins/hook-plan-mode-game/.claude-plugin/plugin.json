@@ -1,0 +1,12 @@
+{
+  "name": "hook-plan-mode-game",
+  "description": "Play games while Claude plans. Launches a browser game (Dino Runner, Snake, or Flappy Bird) automatically when Claude enters Plan Mode via EnterPlanMode or /plan. A live activity panel shows Claude's tool calls in real time. The game pauses when Claude needs input (AskUserQuestion) and shows a co...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "hooks": "./hooks/hooks.json"
+}

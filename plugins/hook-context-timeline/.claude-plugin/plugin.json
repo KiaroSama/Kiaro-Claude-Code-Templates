@@ -1,0 +1,12 @@
+{
+  "name": "hook-context-timeline",
+  "description": "Real-time browser visualization of Claude Code's context window and subagent/tool execution as a git-graph timeline. Opens http://localhost:7878 on SessionStart with a vertical timeline (most recent on top), one column per agent (main + subagents branching from their Task tool call). Tool calls a...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "hooks": "./hooks/hooks.json"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "hook-prevent-direct-push",
+  "description": "Prevent direct pushes to protected branches (main, develop). Blocks git push commands targeting main or develop branches to enforce Git Flow workflow. Requires using feature/release/hotfix branches and pull requests instead of direct commits to protected branches.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "hooks": "./hooks/hooks.json"
+}

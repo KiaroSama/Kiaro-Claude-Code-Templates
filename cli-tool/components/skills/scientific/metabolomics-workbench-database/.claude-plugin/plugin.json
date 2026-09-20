@@ -1,5 +1,5 @@
 {
-  "name": "metabolomics-workbench-database",
+  "name": "skill-metabolomics-workbench-database",
   "description": "Access NIH Metabolomics Workbench via REST API (4,200+ studies). Query metabolites, RefMet nomenclature, MS/NMR data, m/z searches, study metadata, for metabolomics and biomarker discovery.",
   "version": "1.0.0",
   "author": {

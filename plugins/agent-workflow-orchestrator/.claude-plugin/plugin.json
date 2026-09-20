@@ -1,0 +1,11 @@
+{
+  "name": "agent-workflow-orchestrator",
+  "description": "Use this agent when you need to design, implement, or optimize complex business process workflows with multiple states, error handling, and transaction management. Specifically:\\\\n\\\\n<example>\\\\nContext: You're building an e-commerce order processing system with payment validation, inventory chec...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "agent-principal-software-engineer",
+  "description": "Provide principal-level software engineering guidance with focus on engineering excellence, technical leadership, and pragmatic implementation.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "agent-refactoring-specialist",
+  "description": "Use when you need to transform poorly structured, complex, or duplicated code into clean, maintainable systems while preserving all existing behavior. Specifically:\\\\n\\\\n<example>\\\\nContext: A codebase has methods exceeding 200 lines, deeply nested conditionals, and 15% code duplication across si...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

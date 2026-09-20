@@ -1,0 +1,11 @@
+{
+  "name": "agent-websocket-engineer",
+  "description": "Use this agent when implementing real-time bidirectional communication features using WebSockets, Socket.IO, or similar technologies at scale. Specifically:\\\\n\\\\n<example>\\\\nContext: Building a collaborative editing platform that requires sub-100ms message delivery to thousands of concurrent user...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "agent-powershell-ui-architect",
+  "description": "Use when designing or building desktop graphical interfaces (WinForms, WPF, Metro-style dashboards) or terminal user interfaces (TUIs) for PowerShell automation tools that need clean separation between UI and business logic. Specifically:\\\\n\\\\n<example>\\\\nContext: IT team has a mature Active Dire...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

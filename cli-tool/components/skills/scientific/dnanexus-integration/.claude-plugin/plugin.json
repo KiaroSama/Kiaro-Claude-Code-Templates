@@ -1,5 +1,5 @@
 {
-  "name": "dnanexus-integration",
+  "name": "skill-dnanexus-integration",
   "description": "DNAnexus cloud genomics platform. Build apps/applets, manage data (upload/download), dxpy Python SDK, run workflows, FASTQ/BAM/VCF, for genomics pipeline development and execution.",
   "version": "1.0.0",
   "author": {

@@ -1,0 +1,11 @@
+{
+  "name": "agent-repo-publication-auditor",
+  "description": "Use this agent before a repository becomes public — a first release, an internal project being open-sourced, or a private repo about to be flipped. It audits what publication actually exposes: the full commit history rather than the working tree, the author email on every commit, credential shape...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

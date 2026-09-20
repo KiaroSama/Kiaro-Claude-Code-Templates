@@ -1,5 +1,5 @@
 {
-  "name": "scrape",
+  "name": "skill-scrape",
   "description": "Scrape any webpage as clean markdown via Bright Data Web Unlocker API. Bypasses bot detection and CAPTCHA. Requires BRIGHTDATA_API_KEY and BRIGHTDATA_UNLOCKER_ZONE environment variables.",
   "version": "1.0.0",
   "author": {

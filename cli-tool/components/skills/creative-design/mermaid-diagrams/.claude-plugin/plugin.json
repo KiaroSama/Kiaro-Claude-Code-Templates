@@ -1,5 +1,5 @@
 {
-  "name": "mermaid-diagrams",
+  "name": "skill-mermaid-diagrams",
   "description": "Comprehensive guide for creating software diagrams using Mermaid syntax. Use when users need to create, visualize, or document software through diagrams including class diagrams (domain modeling, object-oriented design), sequence diagrams (application flows, API interactions, code execution), flo...",
   "version": "1.0.0",
   "author": {

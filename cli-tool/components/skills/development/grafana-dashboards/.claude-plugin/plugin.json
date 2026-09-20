@@ -1,5 +1,5 @@
 {
-  "name": "grafana-dashboards",
+  "name": "skill-grafana-dashboards",
   "description": "Create and manage production-ready Grafana dashboards for comprehensive system observability.",
   "version": "1.0.0",
   "author": {

@@ -1,5 +1,5 @@
 {
-  "name": "naming-analyzer",
+  "name": "skill-naming-analyzer",
   "description": "Suggest better variable, function, and class names based on context and conventions.",
   "version": "1.0.0",
   "author": {

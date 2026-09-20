@@ -1,5 +1,5 @@
 {
-  "name": "gepetto",
+  "name": "skill-gepetto",
   "description": "Creates detailed, sectionized implementation plans through research, stakeholder interviews, and multi-LLM review. Use when planning features that need thorough pre-implementation analysis.",
   "version": "1.0.0",
   "author": {

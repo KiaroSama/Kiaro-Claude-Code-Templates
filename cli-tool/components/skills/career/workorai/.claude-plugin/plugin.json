@@ -1,5 +1,5 @@
 {
-  "name": "workorai",
+  "name": "skill-workorai",
   "description": "WorkorAI talent marketplace skill: candidate job search and employer hiring with white-box match explanations via the WorkorAI MCP server (https://workorai.com/mcp). Use when the user asks to find a job, apply to jobs, respond to employer invitations, or when an employer wants to post jobs, searc...",
   "version": "1.0.0",
   "author": {

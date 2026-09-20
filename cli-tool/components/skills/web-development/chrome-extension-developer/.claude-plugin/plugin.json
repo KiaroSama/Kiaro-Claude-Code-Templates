@@ -1,5 +1,5 @@
 {
-  "name": "chrome-extension-developer",
+  "name": "skill-chrome-extension-developer",
   "description": "Expert in building Chrome Extensions using Manifest V3. Covers background scripts, service workers, content scripts, and cross-context communication.",
   "version": "1.0.0",
   "author": {

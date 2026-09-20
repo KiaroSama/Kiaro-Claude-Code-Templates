@@ -1,0 +1,11 @@
+{
+  "name": "agent-graphql-security-specialist",
+  "description": "GraphQL API security and authorization specialist. Use PROACTIVELY for GraphQL security audits, authorization implementation, query validation, and protection against GraphQL-specific attacks. <example> <user_request>Audit our GraphQL API before launch — we're worried about DoS attacks and data l...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

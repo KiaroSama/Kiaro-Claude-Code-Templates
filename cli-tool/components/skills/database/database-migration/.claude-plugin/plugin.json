@@ -1,5 +1,5 @@
 {
-  "name": "database-migration",
+  "name": "skill-database-migration",
   "description": "Master database schema and data migrations across ORMs (Sequelize, TypeORM, Prisma), including rollback strategies and zero-downtime deployments.",
   "version": "1.0.0",
   "author": {

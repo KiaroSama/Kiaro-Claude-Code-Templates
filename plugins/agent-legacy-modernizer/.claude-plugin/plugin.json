@@ -1,0 +1,11 @@
+{
+  "name": "agent-legacy-modernizer",
+  "description": "Use this agent when modernizing legacy systems that need incremental migration strategies, technical debt reduction, and risk mitigation while maintaining business continuity. Specifically:\\\\n\\\\n<example>\\\\nContext: A development team has a 15-year-old monolithic system with critical business dep...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

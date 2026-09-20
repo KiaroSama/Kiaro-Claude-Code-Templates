@@ -1,0 +1,11 @@
+{
+  "name": "agent-devops-incident-responder",
+  "description": "Use when actively responding to production incidents, diagnosing critical service failures, or conducting incident postmortems to implement permanent fixes and preventative measures. Specifically:\\\\n\\\\n<example>\\\\nContext: A critical database service has gone down, causing customer-facing API tim...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

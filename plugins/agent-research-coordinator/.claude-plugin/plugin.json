@@ -1,0 +1,11 @@
+{
+  "name": "agent-research-coordinator",
+  "description": "Use this agent when you need to strategically plan and coordinate complex research tasks across multiple specialist researchers. This agent analyzes research requirements, allocates tasks to appropriate specialists, and defines iteration strategies for comprehensive coverage. <example>Context: Th...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

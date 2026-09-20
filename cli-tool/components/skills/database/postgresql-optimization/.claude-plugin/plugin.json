@@ -1,5 +1,5 @@
 {
-  "name": "postgresql-optimization",
+  "name": "skill-postgresql-optimization",
   "description": "PostgreSQL database optimization workflow for query tuning, indexing strategies, performance analysis, and production database management.",
   "version": "1.0.0",
   "author": {

@@ -1,5 +1,5 @@
 {
-  "name": "devil",
+  "name": "skill-devil",
   "description": "> Reviews a product document (PRD, spec, design brief) BEFORE implementation to surface holes — undefined edge cases, missing states, policy gaps — by attacking what the document is SILENT about (things unwritten, and things written only for the happy path). Acts as a strict \"sign-off manager,\" r...",
   "version": "1.0.0",
   "author": {

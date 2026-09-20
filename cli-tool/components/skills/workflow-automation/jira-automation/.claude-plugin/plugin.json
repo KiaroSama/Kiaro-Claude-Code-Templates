@@ -1,5 +1,5 @@
 {
-  "name": "jira-automation",
+  "name": "skill-jira-automation",
   "description": "Automate Jira tasks via Rube MCP (Composio): issues, projects, sprints, boards, comments, users. Always search tools first for current schemas.",
   "version": "1.0.0",
   "author": {

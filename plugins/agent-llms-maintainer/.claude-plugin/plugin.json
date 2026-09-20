@@ -1,0 +1,11 @@
+{
+  "name": "agent-llms-maintainer",
+  "description": "LLMs.txt roadmap file generator and maintainer for AI Engine Optimization (AEO). Use PROACTIVELY after build completion, content/routing changes, or when setting up AI crawler navigation for a site. Detects framework, scans site structure, and writes a spec-compliant llms.txt file.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

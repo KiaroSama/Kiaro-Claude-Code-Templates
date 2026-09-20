@@ -1,6 +1,6 @@
 {
-  "name": "mobile-games",
-  "description": "Mobile game development principles. Touch input, battery, performance, app stores. allowed-tools: Read, Write, Edit, Glob, Grep",
+  "name": "skill-mobile-games",
+  "description": "Mobile game development principles. Touch input, battery, performance, app stores.",
   "version": "1.0.0",
   "author": {
     "name": "KiaroSama"

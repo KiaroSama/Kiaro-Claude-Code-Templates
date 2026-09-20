@@ -1,0 +1,11 @@
+{
+  "name": "agent-agent-organizer",
+  "description": "Use when assembling and optimizing multi-agent teams to execute complex projects that require careful task decomposition, agent capability matching, and workflow coordination. Specifically:\\\\n\\\\n<example>\\\\nContext: A complex feature development project needs to be broken down and assigned to a s...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

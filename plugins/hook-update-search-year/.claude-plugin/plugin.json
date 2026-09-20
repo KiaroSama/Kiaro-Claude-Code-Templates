@@ -1,0 +1,12 @@
+{
+  "name": "hook-update-search-year",
+  "description": "Automatically adds current year to WebSearch queries when no year is specified. This hook intercepts WebSearch tool usage and appends the current year to queries that don't already contain a year, ensuring search results are current and relevant.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "hooks": "./hooks/hooks.json"
+}

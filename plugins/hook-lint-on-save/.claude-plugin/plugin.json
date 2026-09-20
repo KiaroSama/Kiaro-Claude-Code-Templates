@@ -1,0 +1,12 @@
+{
+  "name": "hook-lint-on-save",
+  "description": "Automatically run linting tools after file modifications. Supports ESLint for JavaScript/TypeScript, Pylint for Python, and RuboCop for Ruby.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "hooks": "./hooks/hooks.json"
+}

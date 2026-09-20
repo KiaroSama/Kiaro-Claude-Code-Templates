@@ -1,0 +1,11 @@
+{
+  "name": "mcp-searxng",
+  "description": "MCP Server for SearXNG, a privacy-respecting metasearch engine. Perform web searches across multiple search engines without tracking.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

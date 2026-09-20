@@ -1,5 +1,5 @@
 {
-  "name": "helm-chart-scaffolding",
+  "name": "skill-helm-chart-scaffolding",
   "description": "Comprehensive guidance for creating, organizing, and managing Helm charts for packaging and deploying Kubernetes applications.",
   "version": "1.0.0",
   "author": {

@@ -1,0 +1,12 @@
+{
+  "name": "hook-discord-notifications",
+  "description": "Send Discord notifications when Claude Code finishes working. Requires DISCORD_WEBHOOK_URL environment variable. Get webhook URL from Discord Server Settings -> Integrations -> Webhooks.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "hooks": "./hooks/hooks.json"
+}

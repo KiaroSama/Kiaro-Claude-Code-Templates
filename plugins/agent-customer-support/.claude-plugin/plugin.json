@@ -1,0 +1,11 @@
+{
+  "name": "agent-customer-support",
+  "description": "Customer support and documentation specialist. Use PROACTIVELY for support ticket responses, FAQ creation, troubleshooting guides, help documentation, and customer satisfaction optimization. Specifically:\\n\\n<example>\\nContext: A customer emails in confused about why their exported report is miss...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

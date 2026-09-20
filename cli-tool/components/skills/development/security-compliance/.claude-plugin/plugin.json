@@ -1,5 +1,5 @@
 {
-  "name": "security-compliance",
+  "name": "skill-security-compliance",
   "description": "Guides security professionals in implementing defense-in-depth security architectures, achieving compliance with industry frameworks (SOC2, ISO27001, GDPR, HIPAA), conducting threat modeling and risk assessments, managing security operations and incident response, and embedding security throughou...",
   "version": "1.0.0",
   "author": {

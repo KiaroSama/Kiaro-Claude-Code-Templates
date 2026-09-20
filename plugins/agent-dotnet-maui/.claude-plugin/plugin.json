@@ -1,0 +1,11 @@
+{
+  "name": "agent-dotnet-maui",
+  "description": "Support development of .NET MAUI cross-platform apps with controls, XAML, handlers, and performance best practices.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

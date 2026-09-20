@@ -1,0 +1,11 @@
+{
+  "name": "agent-episode-orchestrator",
+  "description": "Episode workflow orchestrator. Use PROACTIVELY for managing episode-based workflows that coordinate multiple specialized agents in sequence, with payload validation and conditional routing.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

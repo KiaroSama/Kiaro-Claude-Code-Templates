@@ -1,5 +1,5 @@
 {
-  "name": "tavily-web",
+  "name": "skill-tavily-web",
   "description": "Web search, content extraction, crawling, and research capabilities using Tavily API",
   "version": "1.0.0",
   "author": {

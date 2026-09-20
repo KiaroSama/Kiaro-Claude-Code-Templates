@@ -1,5 +1,5 @@
 {
-  "name": "statsmodels",
+  "name": "skill-statsmodels",
   "description": "Statistical modeling toolkit. OLS, GLM, logistic, ARIMA, time series, hypothesis tests, diagnostics, AIC/BIC, for rigorous statistical inference and econometric analysis.",
   "version": "1.0.0",
   "author": {

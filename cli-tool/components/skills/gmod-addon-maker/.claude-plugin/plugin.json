@@ -1,5 +1,5 @@
 {
-  "name": "gmod-addon-maker",
+  "name": "skill-gmod-addon-maker",
   "description": "| A tool for creating and managing Garry's Mod addons, including Lua scripting, content creation, and addon packaging. Use when: developing new addons, writing Lua scripts for GMod, organizing addon files, or when user mentions Garry's Mod, GMod, Lua scripting, or addon development.",
   "version": "1.0.0",
   "author": {

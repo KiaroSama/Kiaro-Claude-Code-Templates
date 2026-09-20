@@ -1,0 +1,11 @@
+{
+  "name": "agent-hackathon-ai-strategist",
+  "description": "Use when a team needs strategic guidance at any stage of a hackathon — from initial ideation through pitch delivery. Specifically:\\n\\n<example>\\nContext: A team of four arrives at a 24-hour AI hackathon with no idea, a vague interest in healthcare, and two hours before the kick-off presentation d...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

@@ -1,5 +1,5 @@
 {
-  "name": "pymc",
+  "name": "skill-pymc",
   "description": "Bayesian modeling with PyMC. Build hierarchical models, MCMC (NUTS), variational inference, LOO/WAIC comparison, posterior checks, for probabilistic programming and inference.",
   "version": "1.0.0",
   "author": {

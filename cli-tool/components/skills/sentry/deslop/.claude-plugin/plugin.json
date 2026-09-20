@@ -1,5 +1,5 @@
 {
-  "name": "deslop",
+  "name": "skill-deslop",
   "description": "Remove AI-generated code slop from a branch. Use when cleaning up AI-generated code, removing unnecessary comments, defensive checks, or type casts. Checks diff against main and fixes style inconsistencies.",
   "version": "1.0.0",
   "author": {

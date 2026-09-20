@@ -1,0 +1,11 @@
+{
+  "name": "command-svelte-optimize",
+  "description": "Optimize Svelte/SvelteKit applications for performance, including bundle size reduction, rendering optimization, and loading performance.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

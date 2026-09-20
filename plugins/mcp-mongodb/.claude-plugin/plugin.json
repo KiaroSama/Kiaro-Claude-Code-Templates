@@ -1,0 +1,11 @@
+{
+  "name": "mcp-mongodb",
+  "description": "A Model Context Protocol server to connect to MongoDB databases and MongoDB Atlas Clusters.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

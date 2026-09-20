@@ -1,0 +1,11 @@
+{
+  "name": "agent-mcp-security-auditor",
+  "description": "MCP server security specialist. Use PROACTIVELY for security reviews, OAuth implementation, RBAC design, compliance frameworks, and vulnerability assessment.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

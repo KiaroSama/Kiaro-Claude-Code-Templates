@@ -1,5 +1,5 @@
 {
-  "name": "development-dispatching-parallel-agents",
+  "name": "skill-dispatching-parallel-agents-2",
   "description": "Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies",
   "version": "1.0.0",
   "author": {

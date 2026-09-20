@@ -1,5 +1,5 @@
 {
-  "name": "qiskit",
+  "name": "skill-qiskit",
   "description": "Comprehensive quantum computing toolkit for building, optimizing, and executing quantum circuits. Use when working with quantum algorithms, simulations, or quantum hardware including (1) Building quantum circuits with gates and measurements, (2) Running quantum algorithms (VQE, QAOA, Grover), (3)...",
   "version": "1.0.0",
   "author": {

@@ -1,0 +1,11 @@
+{
+  "name": "command-svelte-test-fix",
+  "description": "Troubleshoot and fix failing tests in Svelte/SvelteKit projects, including debugging test issues and resolving common testing problems.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "agent-mcp-m365-agent-expert",
+  "description": "Expert assistant for building MCP-based declarative agents for Microsoft 365 Copilot with Model Context Protocol integration",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

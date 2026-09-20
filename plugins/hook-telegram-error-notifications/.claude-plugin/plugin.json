@@ -1,0 +1,12 @@
+{
+  "name": "hook-telegram-error-notifications",
+  "description": "Send Telegram notifications when Claude Code encounters long-running operations or when tools take significant time. Helps monitor productivity and catch potential issues. Requires TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID environment variables.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "hooks": "./hooks/hooks.json"
+}

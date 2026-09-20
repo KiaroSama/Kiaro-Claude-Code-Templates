@@ -1,5 +1,5 @@
 {
-  "name": "dotnet-backend",
+  "name": "skill-dotnet-backend",
   "description": "Build ASP.NET Core 8+ backend services with EF Core, auth, background jobs, and production API patterns.",
   "version": "1.0.0",
   "author": {

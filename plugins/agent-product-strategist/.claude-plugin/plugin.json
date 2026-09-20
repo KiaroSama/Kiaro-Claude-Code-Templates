@@ -1,0 +1,11 @@
+{
+  "name": "agent-product-strategist",
+  "description": "Product strategy and roadmap planning specialist. Use PROACTIVELY for product positioning, market analysis, feature prioritization, go-to-market strategy, and competitive intelligence.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

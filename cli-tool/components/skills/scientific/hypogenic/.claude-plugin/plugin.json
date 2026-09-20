@@ -1,5 +1,5 @@
 {
-  "name": "hypogenic",
+  "name": "skill-hypogenic",
   "description": "Automated hypothesis generation and testing using large language models. Use this skill when generating scientific hypotheses from datasets, combining literature insights with empirical data, testing hypotheses against observational data, or conducting systematic hypothesis exploration for resear...",
   "version": "1.0.0",
   "author": {

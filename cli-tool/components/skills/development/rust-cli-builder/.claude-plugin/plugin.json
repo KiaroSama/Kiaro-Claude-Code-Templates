@@ -1,5 +1,5 @@
 {
-  "name": "rust-cli-builder",
+  "name": "skill-rust-cli-builder",
   "description": "Plan and build production-ready Rust CLI tools using clap for argument parsing, with subcommands, config file support, colored output, and proper error handling. Uses interview-driven planning to clarify commands, input/output formats, and distribution strategy before writing any code.",
   "version": "1.0.0",
   "author": {

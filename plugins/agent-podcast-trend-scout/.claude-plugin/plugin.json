@@ -1,0 +1,11 @@
+{
+  "name": "agent-podcast-trend-scout",
+  "description": "Podcast trend analysis specialist. Use PROACTIVELY for identifying emerging tech topics, breaking developments, and timely content suggestions for podcast episodes.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "mcp-sentry-local",
+  "description": "Official Sentry MCP Server (local). Run Sentry integration locally via npx for debugging, error tracking, and performance monitoring.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

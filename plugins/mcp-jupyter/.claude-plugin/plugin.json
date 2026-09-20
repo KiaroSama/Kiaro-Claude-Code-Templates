@@ -1,0 +1,11 @@
+{
+  "name": "mcp-jupyter",
+  "description": "Model Context Protocol server for Jupyter notebooks. Execute code, manage notebooks, and interact with Jupyter kernels directly from Claude.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

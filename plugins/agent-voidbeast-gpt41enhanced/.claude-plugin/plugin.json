@@ -1,0 +1,11 @@
+{
+  "name": "agent-voidbeast-gpt41enhanced",
+  "description": "4.1 voidBeast_GPT41Enhanced 1.0 : a advanced autonomous developer agent, designed for elite full-stack development with enhanced multi-mode capabilities. This latest evolution features sophisticated mode detection, comprehensive research capabilities, and never-ending problem resolution. Plan/Act...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

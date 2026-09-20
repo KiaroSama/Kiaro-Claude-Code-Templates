@@ -1,0 +1,12 @@
+{
+  "name": "hook-file-protection",
+  "description": "Protect critical files from accidental modification. Prevents editing of important system files, configuration files, and production code.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "hooks": "./hooks/hooks.json"
+}

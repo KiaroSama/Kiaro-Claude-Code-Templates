@@ -1,5 +1,5 @@
 {
-  "name": "microservices-patterns",
+  "name": "skill-microservices-patterns",
   "description": "Master microservices architecture patterns including service boundaries, inter-service communication, data management, and resilience patterns for building distributed systems.",
   "version": "1.0.0",
   "author": {

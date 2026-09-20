@@ -1,5 +1,5 @@
 {
-  "name": "geopandas",
+  "name": "skill-geopandas",
   "description": "Python library for working with geospatial vector data including shapefiles, GeoJSON, and GeoPackage files. Use when working with geographic data for spatial analysis, geometric operations, coordinate transformations, spatial joins, overlay operations, choropleth mapping, or any task involving re...",
   "version": "1.0.0",
   "author": {

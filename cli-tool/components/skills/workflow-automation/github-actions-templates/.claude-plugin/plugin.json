@@ -1,5 +1,5 @@
 {
-  "name": "github-actions-templates",
+  "name": "skill-github-actions-templates",
   "description": "Production-ready GitHub Actions workflow patterns for testing, building, and deploying applications.",
   "version": "1.0.0",
   "author": {

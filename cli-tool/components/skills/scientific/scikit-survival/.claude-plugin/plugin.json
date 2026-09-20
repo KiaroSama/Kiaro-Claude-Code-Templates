@@ -1,5 +1,5 @@
 {
-  "name": "scikit-survival",
+  "name": "skill-scikit-survival",
   "description": "Comprehensive toolkit for survival analysis and time-to-event modeling in Python using scikit-survival. Use this skill when working with censored survival data, performing time-to-event analysis, fitting Cox models, Random Survival Forests, Gradient Boosting models, or Survival SVMs, evaluating s...",
   "version": "1.0.0",
   "author": {

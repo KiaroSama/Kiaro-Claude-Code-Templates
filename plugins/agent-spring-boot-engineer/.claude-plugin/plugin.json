@@ -1,0 +1,11 @@
+{
+  "name": "agent-spring-boot-engineer",
+  "description": "Use this agent when building enterprise Spring Boot 3+ applications requiring microservices architecture, cloud-native deployment, or reactive programming patterns. Specifically:\\\\n\\\\n<example>\\\\nContext: User needs to design and implement a microservices architecture with Spring Cloud components...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

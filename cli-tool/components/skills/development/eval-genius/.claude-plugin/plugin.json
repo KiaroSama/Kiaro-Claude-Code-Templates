@@ -1,5 +1,5 @@
 {
-  "name": "eval-genius",
+  "name": "skill-eval-genius",
   "description": ">- Decide whether an AI/LLM/agent/retrieval system needs an eval, where it fits in the dev process, which one to run, and how to read the result; then design, gate, judge, and defend it. Not ordinary unit tests.",
   "version": "1.0.0",
   "author": {

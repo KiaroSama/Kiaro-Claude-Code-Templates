@@ -1,0 +1,11 @@
+{
+  "name": "agent-url-context-validator",
+  "description": "URL validation and contextual analysis specialist. Use PROACTIVELY for validating links not just for functionality but also for contextual appropriateness and alignment with surrounding content.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

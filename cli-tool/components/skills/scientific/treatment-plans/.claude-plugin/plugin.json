@@ -1,5 +1,5 @@
 {
-  "name": "treatment-plans",
+  "name": "skill-treatment-plans",
   "description": "Generate concise (3-4 page), focused medical treatment plans in LaTeX/PDF format for all clinical specialties. Supports general medical treatment, rehabilitation therapy, mental health care, chronic disease management, perioperative care, and pain management. Includes SMART goal frameworks, evide...",
   "version": "1.0.0",
   "author": {

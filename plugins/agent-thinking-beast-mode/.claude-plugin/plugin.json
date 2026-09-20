@@ -1,0 +1,11 @@
+{
+  "name": "agent-thinking-beast-mode",
+  "description": "Use this agent for long-running, autonomous multi-step engineering tasks that must be driven to full completion without handing control back early — e.g., \"fix this failing test suite and don't stop until every test passes,\" \"implement this feature end-to-end including tests,\" or \"track down this...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}
