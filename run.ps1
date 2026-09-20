@@ -27,6 +27,14 @@ param(
 $ErrorActionPreference = 'Stop'
 $script:ExitCode = 0
 
+# Child processes emit UTF-8; without this their output is decoded with the
+# console code page and lands in the log as mojibake.
+try {
+    [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)
+    $OutputEncoding = [System.Text.UTF8Encoding]::new($false)
+}
+catch { }
+
 # --- relaunch in PowerShell 7 when available (guarded against loops) --------
 if ($PSVersionTable.PSVersion.Major -lt 6 -and -not $env:KIARO_LAUNCHER_RELAUNCHED) {
     $pwsh = Get-Command pwsh -ErrorAction SilentlyContinue
