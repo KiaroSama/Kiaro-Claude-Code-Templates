@@ -245,13 +245,24 @@ try {
             throw 'commit failed'
         }
         Write-Ok "committed $((Invoke-Git rev-parse --short HEAD).Output.Trim())"
+    }
 
-        $push = Invoke-Git push origin HEAD
-        if ($push.ExitCode -ne 0) {
-            Stop-WithError 'PUSH' 'Push failed.' 'Check your GitHub authentication, then push manually.'
-            throw 'push failed'
+    # Push whenever this branch is ahead of its remote - an upstream merge
+    # alone produces commits even when the generated output did not change.
+    if (-not $DryRun) {
+        $branch = (Invoke-Git rev-parse --abbrev-ref HEAD).Output.Trim()
+        $ahead = (Invoke-Git rev-list --count "origin/$branch..HEAD").Output.Trim()
+        if ($ahead -match '^\d+$' -and [int]$ahead -gt 0) {
+            $push = Invoke-Git push origin HEAD
+            if ($push.ExitCode -ne 0) {
+                Stop-WithError 'PUSH' 'Push failed.' 'Check your GitHub authentication, then push manually.'
+                throw 'push failed'
+            }
+            Write-Ok "pushed $ahead commit(s) to origin/$branch"
         }
-        Write-Ok 'pushed to origin'
+        else {
+            Write-Ok 'origin is already up to date'
+        }
     }
 
     # --- 6. refresh the local marketplace ------------------------------------
