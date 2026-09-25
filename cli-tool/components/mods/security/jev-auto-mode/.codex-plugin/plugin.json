@@ -1,0 +1,19 @@
+{
+  "name": "mod-jev-auto-mode",
+  "description": "A permission layer driven by a JSON policy: allow, ask or deny every tool call (Bash, edits, web, MCP, subagents, skills), every slash command or skill you type, and every skill preloaded into a subagent. Rules decide first (deny > ask > allow, compound Bash commands split); what no rule covers c...",
+  "version": "0.1.0",
+  "author": {
+    "name": "claude-code-templates",
+    "url": "https://www.aitmpl.com"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "jev-auto-mode",
+    "shortDescription": "A permission layer driven by a JSON policy: allow, ask or deny every tool call (Bash, edits, web, MCP, subagents, skills",
+    "developerName": "KiaroSama",
+    "category": "Productivity",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

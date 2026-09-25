@@ -1,0 +1,18 @@
+{
+  "name": "skill-ai-release-hunter",
+  "description": "Daily digest of AI releases from Anthropic, Meta, Vercel Labs, OpenAI and Google GitHub repos, the Claude Cowork changelog, the claude.dev blog and Hacker News, deduplicated against a local state file and sent by email. Use when the user asks for a daily AI news digest, to scan AI labs for new re...",
+  "version": "1.0.0",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "ai-release-hunter",
+    "shortDescription": "Daily digest of AI releases from Anthropic, Meta, Vercel Labs, OpenAI and Google GitHub repos, the Claude Cowork changel",
+    "developerName": "KiaroSama",
+    "category": "Skills",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

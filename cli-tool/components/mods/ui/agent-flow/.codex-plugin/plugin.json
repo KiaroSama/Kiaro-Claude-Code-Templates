@@ -1,0 +1,19 @@
+{
+  "name": "mod-agent-flow",
+  "description": "A side pane that draws the session's agent flow live: the main loop's context window, every subagent it spawns as a tree, and for each one the context handed down (its prompt, or the whole parent context for a fork), what it did with it (steps, tools, context size) and the answer it handed back u...",
+  "version": "0.1.0",
+  "author": {
+    "name": "claude-code-templates",
+    "url": "https://www.aitmpl.com"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "agent-flow",
+    "shortDescription": "A side pane that draws the session's agent flow live: the main loop's context window, every subagent it spawns as a tree",
+    "developerName": "KiaroSama",
+    "category": "Productivity",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "mod-jev-skill-suggestion",
-  "description": "Keeps the skill listing out of the context window and lets TypeSafe's Jev, a System One decision model, suggest at most one skill per prompt from the skills' descriptions, the way TypeSafe's skill-suggestion cookbook does: one request ranks every skill and asks whether the prompt needs a skill at...",
+  "description": "Keeps the skill listing out of the context window and lets TypeSafe's Jev, a System One decision model, pick at most one skill per prompt from the skills' descriptions, the way TypeSafe's skill-suggestion cookbook does: one request ranks every skill and asks whether the prompt needs a skill at al...",
   "version": "0.1.0",
   "author": {
     "name": "claude-code-templates",
@@ -11,7 +11,7 @@
   "license": "MIT",
   "interface": {
     "displayName": "jev-skill-suggestion",
-    "shortDescription": "Keeps the skill listing out of the context window and lets TypeSafe's Jev, a System One decision model, suggest at most ",
+    "shortDescription": "Keeps the skill listing out of the context window and lets TypeSafe's Jev, a System One decision model, pick at most one",
     "developerName": "KiaroSama",
     "category": "Productivity",
     "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"

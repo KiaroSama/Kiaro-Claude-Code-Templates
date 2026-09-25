@@ -1,0 +1,19 @@
+{
+  "name": "mod-jev-guardrails",
+  "description": "Screens every prompt going into the conversation and every reply coming out of it with TypeSafe's Jev, a System One decision model, the way TypeSafe's guardrails cookbook does: one request per message asks a battery of hazard questions (jailbreak, harm or a crime, a diagnosis or a dosage, self-ha...",
+  "version": "0.1.0",
+  "author": {
+    "name": "claude-code-templates",
+    "url": "https://www.aitmpl.com"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "jev-guardrails",
+    "shortDescription": "Screens every prompt going into the conversation and every reply coming out of it with TypeSafe's Jev, a System One deci",
+    "developerName": "KiaroSama",
+    "category": "Productivity",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

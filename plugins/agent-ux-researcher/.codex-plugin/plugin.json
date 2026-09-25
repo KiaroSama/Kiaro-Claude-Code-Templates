@@ -1,6 +1,6 @@
 {
   "name": "agent-ux-researcher",
-  "description": "Use this agent when you need to conduct user research, analyze user behavior, or generate actionable insights to validate design decisions and uncover user needs. Invoke when you need usability testing, user interviews, survey design, analytics interpretation, persona development, or competitive ...",
+  "description": "Use this agent when you need to design user research plans, analyze user-supplied data (interview transcripts, analytics, notes/transcripts from session recordings you provide), and generate actionable insights to validate design decisions and uncover user needs. Invoke when you need usability-te...",
   "version": "1.0.0",
   "author": {
     "name": "KiaroSama"
@@ -10,7 +10,7 @@
   "license": "MIT",
   "interface": {
     "displayName": "ux-researcher",
-    "shortDescription": "Use this agent when you need to conduct user research, analyze user behavior, or generate actionable insights to validat",
+    "shortDescription": "Use this agent when you need to design user research plans, analyze user-supplied data (interview transcripts, analytics",
     "developerName": "KiaroSama",
     "category": "Agents",
     "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"

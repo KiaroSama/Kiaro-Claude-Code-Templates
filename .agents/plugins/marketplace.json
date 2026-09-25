@@ -11285,6 +11285,18 @@
       "category": "Productivity"
     },
     {
+      "name": "mod-agent-flow",
+      "source": {
+        "source": "local",
+        "path": "./cli-tool/components/mods/ui/agent-flow"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
       "name": "mod-aitmpl",
       "source": {
         "source": "local",
@@ -11357,10 +11369,46 @@
       "category": "Productivity"
     },
     {
+      "name": "mod-git-sidebar",
+      "source": {
+        "source": "local",
+        "path": "./cli-tool/components/mods/ui/git-sidebar"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
       "name": "mod-invaders",
       "source": {
         "source": "local",
         "path": "./cli-tool/components/mods/games/invaders"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "mod-jev-auto-mode",
+      "source": {
+        "source": "local",
+        "path": "./cli-tool/components/mods/security/jev-auto-mode"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "mod-jev-guardrails",
+      "source": {
+        "source": "local",
+        "path": "./cli-tool/components/mods/security/jev-guardrails"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -11949,6 +11997,18 @@
       "source": {
         "source": "local",
         "path": "./cli-tool/components/skills/business-marketing/ai-product"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Skills"
+    },
+    {
+      "name": "skill-ai-release-hunter",
+      "source": {
+        "source": "local",
+        "path": "./cli-tool/components/skills/ai-research/ai-release-hunter"
       },
       "policy": {
         "installation": "AVAILABLE",
