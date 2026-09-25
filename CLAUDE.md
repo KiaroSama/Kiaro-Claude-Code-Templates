@@ -17,7 +17,8 @@ npm run version:set -- X.Y.Z   # Sync versions without creating a commit or tag
 npm publish --ignore-scripts=false  # Publish and run the trusted prepublish guard
 
 # Component catalog
-python scripts/generate_components_json.py  # Update docs/components.json
+python scripts/generate_components_json.py                   # Update docs/components.json (pulls download counts from Supabase: minutes)
+python scripts/generate_components_json.py --skip-downloads  # Same, keeping the counts already in the catalog: seconds
 
 # Dashboard + API (Astro on Cloudflare Pages)
 cd dashboard && npm run build  # Build before deploy
@@ -63,7 +64,7 @@ const API_KEY = process.env.GOOGLE_API_KEY;
 **Settings** (60+) - Claude Code configuration files
 **Hooks** (39+) - Automation triggers
 **Loops** (18+) - Autonomous agentic workflows (goal + interval + stop condition) that reference other components
-**Mods** (10, EARLY ACCESS) - Claude Mods: plugins whose behaviour lives in a function-hooks module (`register(on, options)` hooking engine events as `($, e, next)` middleware). Anthropic's reference is [anthropics/claude-code/mods](https://github.com/anthropics/claude-code/tree/main/mods) (three built-in mods + `mods/types/claude-code.d.ts`); discussion in [anthropics/claude-code#91870](https://github.com/anthropics/claude-code/issues/91870). Mods load in Claude Code >= 2.1.259 with `CLAUDE_CODE_ENABLE_FUNCTION_HOOKS=1`; the `$` API may change between releases. Each mod is a complete plugin directory in Anthropic's `mods/` layout: `cli-tool/components/mods/{category}/{name}/` with `.claude-plugin/plugin.json` (name, description, `userConfig` — options are read from user/managed settings `pluginConfigs[name].options`, never project settings), `hooks/hooks.json` (`modules`), any number of hooks-modules under `hooks/` (relative imports allowed), optional `types/`, `tests/`, and a `README.md` the site shows. The generator uses README.md as content and ships every text file in the per-component content file (`files`), so the site explorer and the send-to-repo flow have the whole plugin. `--mod` (alias `--function-hook`) downloads the directory recursively (like a skill) and writes it verbatim to `.claude/skills/{name}/`, which Claude Code auto-loads as `{name}@skills-dir` — **only in a trusted project** (see "Debugging a mod that seems silent" below). Third-party mods are vendored as-is with LICENSE + attribution (e.g. `games/cc-arcade`). **Every module must typecheck against `cli-tool/components/mods/types/claude-code.d.ts`** (`cd cli-tool/components/mods && npx -y -p typescript@5 tsc -p tsconfig.json`; CI runs it in `mods-typecheck.yml`). Rules from the engine: import types only from `'claude-code'`, spell `$` as `$.noun.event(...)` at the call site (never pass `$` to a helper), treat `e` as frozen, deny with `{ deny }` without calling `next` (returning `{}` is fail-open). When Anthropic bumps the API, regenerate the d.ts with `CLAUDE_CODE_ENABLE_FUNCTION_HOOKS=1 claude -p "/plugin-types <dir>"` on a current Claude Code and re-run tsc (the header's first line names the writing version; currently 2.1.278, which added `prompt.attachment` — the per-attachment hook `jev-skill-suggestion` uses to withhold the `skill_listing` system-reminder). Keep the early-access banner (listing page, detail page, blog) until the flag is gone. Old URLs (`/function-hooks`, `/component/function-hook/*`) redirect via `dashboard/public/_redirects`.
+**Mods** (10, EARLY ACCESS) - Claude Mods: plugins whose behaviour lives in a function-hooks module (`register(on, options)` hooking engine events as `($, e, next)` middleware). Anthropic's reference is [anthropics/claude-code/mods](https://github.com/anthropics/claude-code/tree/main/mods) (three built-in mods + `mods/types/claude-code.d.ts`); discussion in [anthropics/claude-code#91870](https://github.com/anthropics/claude-code/issues/91870). Mods load in Claude Code >= 2.1.259 with `CLAUDE_CODE_ENABLE_FUNCTION_HOOKS=1`; the `$` API may change between releases. Each mod is a complete plugin directory in Anthropic's `mods/` layout: `cli-tool/components/mods/{category}/{name}/` with `.claude-plugin/plugin.json` (name, description, `userConfig` — options are read from user/managed settings `pluginConfigs[name].options`, never project settings), `hooks/hooks.json` (`modules`), any number of hooks-modules under `hooks/` (relative imports allowed), optional `commands/*.md` (slash commands the plugin ships; a `skill.prompt` hook may rewrite their prompt at run time), `types/`, `tests/`, and a `README.md` the site shows. The generator uses README.md as content and ships every text file in the per-component content file (`files`), so the site explorer and the send-to-repo flow have the whole plugin. `--mod` (alias `--function-hook`) downloads the directory recursively (like a skill) and writes it verbatim to `.claude/skills/{name}/`, which Claude Code auto-loads as `{name}@skills-dir` — **only in a trusted project** (see "Debugging a mod that seems silent" below). Third-party mods are vendored as-is with LICENSE + attribution (e.g. `games/cc-arcade`). **Every module must typecheck against `cli-tool/components/mods/types/claude-code.d.ts`** (`cd cli-tool/components/mods && npx -y -p typescript@5 tsc -p tsconfig.json`; CI runs it in `mods-typecheck.yml`). Rules from the engine: import types only from `'claude-code'`, spell `$` as `$.noun.event(...)` at the call site (never pass `$` to a helper), treat `e` as frozen, deny with `{ deny }` without calling `next` (returning `{}` is fail-open). When Anthropic bumps the API, regenerate the d.ts with `CLAUDE_CODE_ENABLE_FUNCTION_HOOKS=1 claude -p "/plugin-types <dir>"` on a current Claude Code and re-run tsc (the header's first line names the writing version; currently 2.1.278, which added `prompt.attachment` — the per-attachment hook `jev-skill-suggestion` uses to withhold the `skill_listing` system-reminder). Note `/context`'s "Skills" row is estimated from the roster and does not reflect that hook; a mod can ship `commands/*.md` and rewrite their prompt in `skill.prompt` (that is how `/jev-skill-suggestion:setup` hides every skill as `user-invocable-only` while the mod injects the chosen `SKILL.md` itself). Keep the early-access banner (listing page, detail page, blog) until the flag is gone. Old URLs (`/function-hooks`, `/component/function-hook/*`) redirect via `dashboard/public/_redirects`.
 **Templates** (14+) - Complete project configurations
 
 #### Debugging a mod that seems silent (verified 2026-09-19 on Claude Code 2.1.278)
@@ -130,7 +131,7 @@ the workflow:
 
 | Workflow | Regenerate + commit the catalog? |
 |----------|----------------------------------|
-| Maintainer working directly on this repo (local branch, sync PRs, agent-driven migrations) | ✅ Yes — run the script and commit the output with the component |
+| Maintainer working directly on this repo (local branch, sync PRs, agent-driven migrations) | ✅ Yes — run the script (`--skip-downloads` is enough for a content change) and commit the output with the component |
 | **External contributor PR (fork)** | ❌ **No** — the PR must only contain files under `cli-tool/components/` (plus supporting files). The catalog is regenerated automatically after merge (`update-json-data.yml` daily cron, or a maintainer). |
 
 Why: the generated JSON files are single-line blobs that change on every
@@ -139,11 +140,20 @@ conflict. `.github/workflows/generated-files-guard.yml` fails any
 non-maintainer PR that touches them and posts revert instructions; the
 `component-pr-welcome.yml` bot also warns about it up front.
 
+Two workflows regenerate them on `main`: `update-component-content.yml`
+runs on every push that touches `cli-tool/components/**` with
+`--skip-downloads` (content only, seconds) and then dispatches `deploy.yml`
+(its own push uses `GITHUB_TOKEN`, which never triggers other workflows, so
+without that the new catalog would not reach aitmpl.com), and `update-json-data.yml`
+(daily cron) refreshes the download counts by pulling the whole
+`component_downloads` table from Supabase (minutes) — that table has one
+row per download, which is what makes a full run slow.
+
 When reviewing a contributor PR that includes these files, ask them to revert
 with `git checkout origin/main -- docs/components.json dashboard/public/` rather
 than resolving the conflict by hand.
 
-**Mods (`cli-tool/components/mods/`) are plugin directories, not `.md` files.** Creating one: `mods/{category}/{name}/` with `.claude-plugin/plugin.json`, `hooks/hooks.json`, the hooks-modules under `hooks/`, a `README.md`, optionally `types/` and `tests/`. Before review: `cd cli-tool/components/mods && npx -y -p typescript@5 tsc -p tsconfig.json` and `claude plugin validate cli-tool/components/mods/{category}/{name}`. The component-reviewer applies this checklist to a mod:
+**Mods (`cli-tool/components/mods/`) are plugin directories, not `.md` files.** Creating one: `mods/{category}/{name}/` with `.claude-plugin/plugin.json`, `hooks/hooks.json`, the hooks-modules under `hooks/`, a `README.md`, optionally `commands/`, `types/` and `tests/`. Before review: `cd cli-tool/components/mods && npx -y -p typescript@5 tsc -p tsconfig.json` and `claude plugin validate cli-tool/components/mods/{category}/{name}`. The component-reviewer applies this checklist to a mod:
 - ✅ `plugin.json` parses, has `name` (= directory name), `description`, `license`, and `author`/`repository` (attribution for vendored code)
 - ✅ `hooks/hooks.json` has a non-empty `modules` list and every entry exists under `hooks/`
 - ✅ Modules import types only from `'claude-code'`, use relative imports, spell `$` as `$.noun.event(...)`, never shadow `h` in a surface module
@@ -551,7 +561,7 @@ All of the above are served as static Cloudflare Pages assets with
 
 ### Legacy Static Site (docs/)
 
-The `docs/` directory contains the old static HTML site (no longer deployed to www). Blog articles in `docs/blog/` are still referenced externally.
+The `docs/` directory contains the old static HTML site (no longer deployed to www). GitHub Pages still builds it from repository settings and publishes it at `davila7.github.io/claude-code-templates`; nothing in production depends on that, and every article canonicalises to `aitmpl.com`. Blog articles in `docs/blog/` are still referenced externally.
 
 ### Blog Article Creation
 
@@ -565,6 +575,15 @@ This automatically:
 1. Generates AI cover image
 2. Creates HTML with SEO optimization
 3. Updates `docs/blog/blog-articles.json`
+
+**The site serves `dashboard/public/blog/`, not `docs/blog/`.** The skill writes
+only the `docs/` copy, so after creating an article you must mirror it across —
+the article directory, its cover under `assets/`, and the new entry in
+`blog-articles.json` — or it never appears on aitmpl.com. Three articles were
+stranded this way before 2026-09-20. `daily-blog-discord.yml` picks from
+`docs/blog/blog-articles.json` and links to `aitmpl.com/blog/<slug>/`, so an
+unmirrored article is posted to Discord as a 404. Keep the two
+`blog-articles.json` files identical.
 
 ## Code Standards
 

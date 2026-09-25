@@ -189,15 +189,53 @@ def run_security_validation():
         print(f"⚠️ Error running security validation: {e}")
         return {}
 
+def previous_download_stats(catalog_path='docs/components.json'):
+    """
+    The download counts already in the generated catalog, keyed the way
+    fetch_download_stats() keys them (type/category/name, templates/name,
+    plugins/name). Used by --skip-downloads: a content-only regeneration
+    keeps yesterday's counts instead of resetting them to 0, and the daily
+    cron brings them up to date.
+    """
+    try:
+        with open(catalog_path, 'r', encoding='utf-8') as f:
+            catalog = json.load(f)
+    except (OSError, ValueError) as e:
+        print(f"⚠️ Warning: could not read {catalog_path} ({e}); download counts start at 0")
+        return {}
+    counts = {}
+    for component_type, entries in catalog.items():
+        if not isinstance(entries, list):
+            continue
+        for entry in entries:
+            if not isinstance(entry, dict) or 'downloads' not in entry:
+                continue
+            name = entry.get('name')
+            if component_type == 'templates':
+                key = f"templates/{name}"
+            elif component_type == 'plugins':
+                key = f"plugins/{name}"
+            else:
+                key = f"{component_type}/{entry.get('category')}/{name}"
+            counts[key] = entry['downloads']
+    print(f"📊 Keeping {len(counts)} download counts from {catalog_path} (--skip-downloads)")
+    return counts
+
+
 def fetch_download_stats():
     """
     Fetch download statistics from Supabase
     Returns a dictionary with component_type-component_name as key and download count as value
-    Supports: agents, commands, mcps, settings, hooks, sandbox, skills, templates, plugins
+    Supports: agents, commands, mcps, settings, hooks, sandbox, skills, loops, mods,
+    templates, plugins
     """
     print("📊 Fetching download statistics from Supabase...")
 
     # Define type mapping once (DRY principle)
+    # Maps the raw `component_type` in Supabase to the plural directory name under
+    # cli-tool/components/. `function-hook` is the pre-#910 name for `mod` and older
+    # CLI versions still write it, so it has to map to 'mods' too or those downloads
+    # are looked up under a key no component has and silently dropped.
     TYPE_MAPPING = {
         'agent': 'agents',
         'command': 'commands',
@@ -205,6 +243,10 @@ def fetch_download_stats():
         'hook': 'hooks',
         'mcp': 'mcps',
         'skill': 'skills',
+        'loop': 'loops',
+        'mod': 'mods',
+        'function-hook': 'mods',
+        'function-hooks': 'mods',
         'template': 'templates',
         'plugin': 'plugins',
         'sandbox': 'sandbox'
@@ -309,7 +351,8 @@ def fetch_download_stats():
                     component_type, category, component_name = parts
                     mapped_type = TYPE_MAPPING.get(component_type, component_type + 's')
                     final_key = f"{mapped_type}/{category}/{component_name}"
-                    download_counts[final_key] = count
+                    # Several raw types can share one key (e.g. mod + function-hook)
+                    download_counts[final_key] = download_counts.get(final_key, 0) + count
             
             print(f"✅ Fetched and aggregated {len(download_counts)} component download stats")
             return download_counts
@@ -340,7 +383,7 @@ def fetch_download_stats():
                     # Map to plural form using TYPE_MAPPING constant
                     mapped_type = TYPE_MAPPING.get(component_type, component_type + 's')
                     key = f"{mapped_type}/{category}/{actual_name}"
-                    download_counts[key] = total_downloads
+                    download_counts[key] = download_counts.get(key, 0) + total_downloads
                 
                 print(f"✅ Fetched stats for {len(download_counts)} components from download_stats")
                 return download_counts
@@ -372,7 +415,7 @@ def scan_directory_recursively(directory_path, relative_to_path=None):
     
     return files_list
 
-def generate_components_json():
+def generate_components_json(skip_downloads=False):
     """
     Scans the cli-tool/components and cli-tool/templates directories and generates a components.json file
     for the static website, including the content of each file and download statistics.
@@ -386,8 +429,10 @@ def generate_components_json():
     # Run security validation
     security_metadata = run_security_validation()
 
-    # Fetch download statistics
-    download_stats = fetch_download_stats()
+    # Fetch download statistics. Pulling the whole component_downloads table
+    # from Supabase is what makes a run take minutes; a content-only refresh
+    # keeps the counts the catalog already has.
+    download_stats = previous_download_stats(output_path) if skip_downloads else fetch_download_stats()
     component_types = ['agents', 'commands', 'mcps', 'settings', 'hooks', 'sandbox', 'skills', 'loops', 'mods']
 
     print(f"Starting scan of {components_base_path} and {templates_base_path}...")
@@ -1048,4 +1093,9 @@ def generate_components_json():
     print("--------------------------")
 
 if __name__ == '__main__':
-    generate_components_json()
+    import argparse
+    parser = argparse.ArgumentParser(description='Generate docs/components.json and the dashboard/public artifacts')
+    parser.add_argument('--skip-downloads', action='store_true',
+                        help='do not query Supabase; keep the download counts already in docs/components.json (seconds instead of minutes)')
+    args = parser.parse_args()
+    generate_components_json(skip_downloads=args.skip_downloads)
