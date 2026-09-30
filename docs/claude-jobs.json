@@ -1,10 +1,11 @@
 {
-  "lastUpdated": "2026-09-29T09:25:08.268293+00:00",
-  "totalJobs": 91,
+  "lastUpdated": "2026-09-30T09:15:04.665637+00:00",
+  "totalJobs": 92,
   "sources": [
     "Anthropic",
     "HackerNews",
-    "RemoteOK"
+    "RemoteOK",
+    "WeWorkRemotely"
   ],
   "jobs": [
     {
@@ -166,6 +167,27 @@
         "PostgreSQL",
         "GCP",
         "GraphQL"
+      ],
+      "companyIcon": ""
+    },
+    {
+      "id": "wwr-acculynx-senior-software-engineer",
+      "company": "AccuLynx",
+      "position": "Senior Software Engineer",
+      "location": "Remote",
+      "remote": true,
+      "salary": "",
+      "description": "Headquarters: Beloit, WI URL: http://acculynx.com Senior Software Engineer AccuLynx is a fast-growing SaaS provider of business management software for roofing contractors. With more than 10 years in the business and impressive year-over-year revenue growth, we have quickly established ourselves as...",
+      "applyUrl": "https://weworkremotely.com/remote-jobs/acculynx-senior-software-engineer",
+      "source": "WeWorkRemotely",
+      "sourceUrl": "https://weworkremotely.com/remote-jobs/acculynx-senior-software-engineer",
+      "postedAt": "2026-09-15T14:12:47+00:00",
+      "tags": [
+        "Go",
+        "Claude Code",
+        "Copilot",
+        "Vue.js",
+        "Redis"
       ],
       "companyIcon": ""
     },
