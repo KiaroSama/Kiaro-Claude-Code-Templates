@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-30T09:15:04.665637+00:00",
-  "totalJobs": 92,
+  "lastUpdated": "2026-10-01T09:43:15.356013+00:00",
+  "totalJobs": 94,
   "sources": [
     "Anthropic",
     "HackerNews",
@@ -8,6 +8,27 @@
     "WeWorkRemotely"
   ],
   "jobs": [
+    {
+      "id": "anth-5439830008",
+      "company": "Anthropic",
+      "position": "Applied AI Architect, International Policy",
+      "location": "San Francisco, CA | New York City, NY | Washington, DC",
+      "remote": false,
+      "salary": "",
+      "description": "As a member of the International Policy Applied AI team at Anthropic, you will be a trusted technical advisor to governments, AI Safety Institutes (AISIs), and multilateral institutions. You'll use your technical skills and your experience with government partners to help them understand frontier...",
+      "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5439830008",
+      "source": "Anthropic",
+      "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5439830008",
+      "postedAt": "2026-09-30T11:40:43-04:00",
+      "tags": [
+        "Python",
+        "Rust",
+        "AWS",
+        "Claude Code",
+        "Anthropic"
+      ],
+      "companyIcon": "https://www.anthropic.com/favicon.ico"
+    },
     {
       "id": "anth-5397654008",
       "company": "Anthropic",
@@ -71,11 +92,11 @@
     {
       "id": "anth-5428790008",
       "company": "Anthropic",
-      "position": "GTM Enablement Trainer, Claude Products",
+      "position": "Sales Enablement Partner, Claude Products",
       "location": "San Francisco, CA | New York City, NY",
       "remote": false,
       "salary": "",
-      "description": "As the GTM Enablement Trainer, Claude Products, you'll teach Anthropic's global field organization how to use our products, both to do their own work better and to position Claude credibly with customers. Anthropic ships quickly, and the surface area of what we build is growing faster than any...",
+      "description": "As the Sales Enablement Partner, Claude Products, you'll teach Anthropic's global field organization how to use our products, both to do their own work better and to position Claude credibly with customers. Anthropic ships quickly, and the surface area of what we build is growing faster than any...",
       "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5428790008",
       "source": "Anthropic",
       "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5428790008",
@@ -164,6 +185,26 @@
         "TypeScript",
         "JavaScript",
         "Go",
+        "PostgreSQL",
+        "GCP",
+        "GraphQL"
+      ],
+      "companyIcon": ""
+    },
+    {
+      "id": "wwr-sticker-mule-ai-agent-engineer",
+      "company": "Sticker Mule",
+      "position": "AI agent engineer",
+      "location": "Remote",
+      "remote": true,
+      "salary": "$150,000–$250,000",
+      "description": "Headquarters: New York, NY URL: https://www.stickermule.com Sticker Mule is building the most lucrative commerce platform on the Internet by combining software, manufacturing, and AI in one stack. We're hiring an engineer to build, run and manage a team of AI agents to help us innovate faster,...",
+      "applyUrl": "https://weworkremotely.com/remote-jobs/sticker-mule-ai-agent-engineer",
+      "source": "WeWorkRemotely",
+      "sourceUrl": "https://weworkremotely.com/remote-jobs/sticker-mule-ai-agent-engineer",
+      "postedAt": "2026-09-16T12:24:17+00:00",
+      "tags": [
+        "TypeScript",
         "PostgreSQL",
         "GCP",
         "GraphQL"
@@ -1746,7 +1787,7 @@
     {
       "id": "anth-5146298008",
       "company": "Anthropic",
-      "position": "Staff Software Engineer, Billing Platform",
+      "position": "Staff+ Software Engineer, Billing Platform",
       "location": "San Francisco, CA | New York City, NY | Seattle, WA",
       "remote": false,
       "salary": "",
