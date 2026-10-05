@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-04T09:16:17.975257+00:00",
-  "totalJobs": 86,
+  "lastUpdated": "2026-10-05T09:56:51.113082+00:00",
+  "totalJobs": 89,
   "sources": [
     "Anthropic",
     "HackerNews",
@@ -8,6 +8,44 @@
     "WeWorkRemotely"
   ],
   "jobs": [
+    {
+      "id": "hn-49962075",
+      "company": "Revieve Oy",
+      "position": "Senior Product Engineer",
+      "location": "REMOTE [Europe / (GMT+2)]",
+      "remote": true,
+      "salary": "",
+      "description": "Revieve (Helsinki, with a US office and a team in Asia) builds AI, AR and computer-vision personalization for beauty brands and retailers: skin analysis, virtual try-on and product recommendations. We work with 120+ brands and retailers in 40+ countries, and our product reaches millions of end...",
+      "applyUrl": "https://news.ycombinator.com/item?id=49962075",
+      "source": "HackerNews",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49962075",
+      "postedAt": "2026-10-05T08:17:54+00:00",
+      "tags": [
+        "React",
+        "TypeScript",
+        "Claude Code"
+      ],
+      "companyIcon": ""
+    },
+    {
+      "id": "hn-49961551",
+      "company": "AssumeAI",
+      "position": "Senior AI Engineer",
+      "location": "REMOTE (UK)",
+      "remote": true,
+      "salary": "",
+      "description": "We are a fast-growing AI startup. We help SMEs find where AI will produce a measurable return, then build the systems that deliver it: AI agents, Claude skills and production-grade business software, up to full business and enterprise systems. Stack: Claude Code, Vercel, Supabase. A good fit for...",
+      "applyUrl": "https://news.ycombinator.com/item?id=49961551",
+      "source": "HackerNews",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49961551",
+      "postedAt": "2026-10-05T07:01:46+00:00",
+      "tags": [
+        "Python",
+        "Supabase",
+        "Claude Code"
+      ],
+      "companyIcon": ""
+    },
     {
       "id": "hn-49946276",
       "company": "Mattermost",
@@ -250,6 +288,27 @@
         "Anthropic"
       ],
       "companyIcon": "https://www.anthropic.com/favicon.ico"
+    },
+    {
+      "id": "wwr-steuart-nutrition-software-developer-ai-coding",
+      "company": "STEUART NUTRITION",
+      "position": "Software Developer AI Coding",
+      "location": "Remote",
+      "remote": true,
+      "salary": "",
+      "description": "Headquarters: Minnesota URL: https://www.steuartnutrition.com/ About us Steuart Nutrition is a GMP-certified contract manufacturer making powders, liquids, capsules and stick packs for growing wellness brands. We run on Extreme Ownership, clear communication and fast turnaround, and we want a...",
+      "applyUrl": "https://weworkremotely.com/remote-jobs/steuart-nutrition-software-developer-ai-coding",
+      "source": "WeWorkRemotely",
+      "sourceUrl": "https://weworkremotely.com/remote-jobs/steuart-nutrition-software-developer-ai-coding",
+      "postedAt": "2026-09-23T15:03:18+00:00",
+      "tags": [
+        "TypeScript",
+        "JavaScript",
+        "Python",
+        "Cursor",
+        "Copilot"
+      ],
+      "companyIcon": ""
     },
     {
       "id": "anth-5382518008",
