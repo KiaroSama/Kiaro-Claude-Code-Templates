@@ -212,7 +212,7 @@ try {
                     ForEach-Object { $_.Trim() } | Where-Object { $_ })
                 $unknown = @($conflicts | Where-Object {
                         $path = $_
-                        -not ($path -eq 'docs/components.json' -or $path -match '^dashboard/public/(components\.json|counts\.json|search-index\.json|components/|component-content/)')
+                        -not ($path -in @('docs/components.json', 'docs/claude-jobs.json', 'dashboard/public/claude-jobs.json') -or $path -match '^dashboard/public/(components\.json|counts\.json|search-index\.json|components/|component-content/)')
                     })
                 if ($unknown.Count -gt 0) {
                     Invoke-Git merge --abort | Out-Null
