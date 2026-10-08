@@ -144,9 +144,7 @@ try {
     }
     $hasClaude = [bool](Get-Command claude -ErrorAction SilentlyContinue)
     Write-Ok 'git and python found'
-    if (-not $hasClaude) {
-        Write-Log WARNING 'PREREQ' '  claude CLI not found - the marketplace refresh will be skipped'
-    }
+    if (-not $hasClaude) { throw 'claude CLI is required to update and verify installed plugins.' }
 
     if ((Invoke-Git rev-parse --is-inside-work-tree).ExitCode -ne 0) {
         Stop-WithError 'PREREQ' 'This folder is not a git repository.' 'Run the launcher from inside the cloned repository.'
@@ -268,12 +266,12 @@ try {
         Write-Note "dry run: $n file(s) would be committed and pushed"
     }
     else {
-        $changedPaths = @((Invoke-Git ls-files -m -d -o --exclude-standard).Output -split "`n" | Where-Object { $_ })
+        $changedPaths = @((Invoke-Git ls-files --modified --deleted --others --exclude-standard).Output -split "`n" | Where-Object { $_ })
         $unknownPaths = @($changedPaths | Where-Object {
-            $_ -notmatch '^(plugins/|\.claude-plugin/marketplace\.json$|\.agents/plugins/marketplace\.json$|cli-tool/components/(skills|mods)/.+/\.(claude|codex)-plugin/plugin\.json$)'
+            $_ -notmatch '^(plugins/|client-plugins/antigravity/|\.(claude|cursor)-plugin/marketplace\.json$|\.agents/plugins/marketplace\.json$|cli-tool/components/(skills|mods)/.+/\.(claude|codex|cursor)-plugin/plugin\.json$)'
         })
         if ($unknownPaths.Count) { throw 'Unexpected files changed during generation; refusing to stage them.' }
-        Invoke-Git add -A -- plugins .claude-plugin/marketplace.json .agents/plugins/marketplace.json cli-tool/components/skills cli-tool/components/mods | Out-Null
+        Invoke-Git add -A -- plugins client-plugins/antigravity .claude-plugin/marketplace.json .cursor-plugin/marketplace.json .agents/plugins/marketplace.json cli-tool/components/skills cli-tool/components/mods | Out-Null
         $commit = Invoke-Git commit -m 'chore: regenerate marketplace'
         if ($commit.ExitCode -ne 0) {
             Stop-WithError 'COMMIT' 'Could not create the commit.' 'See the log for the git error.'

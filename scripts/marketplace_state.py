@@ -9,7 +9,7 @@ import shutil
 
 MARKETPLACE = 'Kiaro-Claude-Code-Templates'
 RUNTIME = {'.git', '.in_use', '.orphaned_at', '__pycache__'}
-METADATA = {'.claude-plugin', '.codex-plugin'}
+METADATA = {'.claude-plugin', '.codex-plugin', '.cursor-plugin'}
 
 
 def linked(path):

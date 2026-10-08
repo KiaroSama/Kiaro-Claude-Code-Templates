@@ -2,9 +2,9 @@ name: Marketplace Maintenance
 on:
   push:
     branches: [main]
-    paths: ['run.ps1', 'scripts/launcher-process.ps1', 'scripts/marketplace_state.py', 'scripts/test_marketplace_state.py', 'scripts/generate_marketplace.py', '.github/workflows/marketplace-maintenance.yml']
+    paths: ['run.ps1', 'scripts/launcher-process.ps1', 'scripts/marketplace_state.py', 'scripts/test_marketplace_state.py', 'scripts/generate_marketplace.py', 'scripts/generate_client_plugins.py', '.github/workflows/marketplace-maintenance.yml']
   pull_request:
-    paths: ['run.ps1', 'scripts/launcher-process.ps1', 'scripts/marketplace_state.py', 'scripts/test_marketplace_state.py', 'scripts/generate_marketplace.py', '.github/workflows/marketplace-maintenance.yml']
+    paths: ['run.ps1', 'scripts/launcher-process.ps1', 'scripts/marketplace_state.py', 'scripts/test_marketplace_state.py', 'scripts/generate_marketplace.py', 'scripts/generate_client_plugins.py', '.github/workflows/marketplace-maintenance.yml']
 permissions:
   contents: read
 jobs:
@@ -12,8 +12,8 @@ jobs:
     runs-on: windows-latest
     timeout-minutes: 5
     steps:
-      - uses: actions/checkout@v5
-      - uses: actions/setup-python@v6
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
         with:
           python-version: '3.13'
       - name: Offline regression checks

@@ -38,6 +38,27 @@ class MarketplaceStateTests(unittest.TestCase):
             self.assertTrue(paths[2].exists())
             self.assertTrue(foreign.exists())
 
+    def test_native_client_skill_layout(self):
+        import json
+        from generate_client_plugins import generate_clients
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            source = root / 'source'
+            (source / '.claude-plugin').mkdir(parents=True)
+            (source / 'SKILL.md').write_text('---\nname: example\ndescription: Real skill\n---\nInstructions', encoding='utf-8')
+            manifest = dict(name='skill-example', description='Example', version='1.0.1',
+                            author={'name': 'Author'}, homepage='https://example.com',
+                            repository='https://example.com', license='MIT')
+            (source / '.claude-plugin/plugin.json').write_text(json.dumps(manifest), encoding='utf-8')
+            entries = [dict(name='skill-example', source='./source', description='Example', category='skill')]
+            generate_clients(root, entries, 'https://example.com')
+            cursor = json.loads((source / '.cursor-plugin/plugin.json').read_text(encoding='utf-8'))
+            self.assertEqual(cursor['skills'], './SKILL.md')
+            native = root / 'client-plugins/antigravity/skill-example'
+            self.assertEqual((native / 'skills/example/SKILL.md').read_bytes(), (source / 'SKILL.md').read_bytes())
+            self.assertEqual(set(json.loads((native / 'plugin.json').read_text(encoding='utf-8'))), {'name', 'description'})
+            self.assertFalse((native / 'skills/example/.claude-plugin').exists())
+
     def test_missing_or_linked_content_fails_closed(self):
         with tempfile.TemporaryDirectory() as folder:
             root = Path(folder)

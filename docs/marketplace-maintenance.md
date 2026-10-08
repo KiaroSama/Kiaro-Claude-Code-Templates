@@ -39,6 +39,27 @@ sensitive paths and any external-command output before sharing a support excerpt
 Real operational logs are retained for troubleshooting; no automatic retention purge.
 For captured automation set `KIARO_LAUNCHER_NOPAUSE=1` to suppress the close prompt.
 
+## Cursor and Antigravity
+
+The generator also writes `.cursor-plugin/marketplace.json` and per-component
+Cursor manifests for skills, agents, commands and MCPs. Import this repository as
+an authorized Cursor marketplace. Claude hooks and function-hook mods are excluded:
+their event/API contracts are not Cursor-compatible.
+
+Antigravity packages are individual directories under `client-plugins/antigravity/`,
+each with a native root `plugin.json`. Skills use `skills/<name>/SKILL.md`, agents
+use `agents/`, and MCPs use `mcp_config.json`. Install an individual directory using
+`agy plugin install <local-directory>` or copy a selected package to the documented
+workspace `.agents/plugins/` location. Antigravity currently documents only its
+official named marketplace; this repository does not invent a custom marketplace
+schema. Claude commands, hooks and mods are not advertised as native Antigravity
+components. The launcher regenerates these packages but does not install or enable
+them in either application.
+
+Native layout/source parity is checked. Actual Cursor/Antigravity loading requires
+those clients; their runtime behavior is not verified here. Skills that mention
+Claude-specific tools may need adaptation even when their package loads correctly.
+
 ## Regression checks
 
 Run `python -B -m unittest discover -s scripts -p test_marketplace_state.py`.

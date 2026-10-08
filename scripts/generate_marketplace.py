@@ -219,5 +219,8 @@ os.makedirs(agents_dir, exist_ok=True)
 json.dump(agents_mf, open(os.path.join(agents_dir, "marketplace.json"), "w", encoding="utf-8"),
           ensure_ascii=False, indent=2)
 
+from generate_client_plugins import generate_clients
+generate_clients(ROOT, entries, REPO)
+
 from collections import Counter
 print(Counter(e["category"] for e in entries), "TOTAL:", len(entries))
