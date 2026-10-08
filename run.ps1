@@ -12,8 +12,8 @@
     documents as generated output.
 
 .PARAMETER DryRun
-    Run every read-only step and the generator, but make no commit, no push
-    and no marketplace refresh.
+    Report synchronization state without changing generated files, commits,
+    installed plugins or cache. A diagnostic log is still written.
 
 .PARAMETER SkipSync
     Skip the upstream fetch/merge; only regenerate, commit, push and refresh.
@@ -51,6 +51,10 @@ if ($PSVersionTable.PSVersion.Major -lt 6 -and -not $env:KIARO_LAUNCHER_RELAUNCH
 # --- paths: always relative to this script, never the caller's CWD ----------
 $Root = Split-Path -Parent $MyInvocation.MyCommand.Path
 Set-Location -LiteralPath $Root
+if ($PSVersionTable.PSVersion.Major -lt 7) { throw 'PowerShell 7 is required for bounded process execution.' }
+. (Join-Path $Root 'scripts/launcher-process.ps1')
+$RunLock = $null
+$ClaudeConfig = if ($env:CLAUDE_CONFIG_DIR) { $env:CLAUDE_CONFIG_DIR } else { Join-Path $env:USERPROFILE '.claude' }
 
 # --- logging ----------------------------------------------------------------
 $LogFile = $null
@@ -84,7 +88,8 @@ function Write-Log {
     $ts = [DateTime]::UtcNow.ToString('yyyy-MM-dd HH:mm:ss')
     $line = "[$ts UTC] [$Level] [$Component] $Message"
     if ($LogFile) {
-        try { Add-Content -LiteralPath $LogFile -Value $line -Encoding utf8 } catch { }
+        try { Add-Content -LiteralPath $LogFile -Value $line -Encoding utf8 }
+        catch { Write-Warning 'File logging failed; continuing with console diagnostics.'; $script:LogFile = $null }
     }
     if (-not $Quiet) {
         switch ($Level) {
@@ -102,10 +107,11 @@ function Write-Note { param([string]$Text) Write-Log INFO 'NOTE' "  $Text" -Colo
 function Invoke-Git {
     param([Parameter(ValueFromRemainingArguments)][string[]]$GitArgs)
     Write-Log DEBUG 'GIT' ("git " + ($GitArgs -join ' ')) -Quiet
-    $out = & git @GitArgs 2>&1
-    $code = $LASTEXITCODE
-    if ($out) { Write-Log DEBUG 'GIT' ($out -join [Environment]::NewLine) -Quiet }
-    [pscustomobject]@{ Output = ($out -join [Environment]::NewLine); ExitCode = $code }
+    $result = Invoke-LauncherProcess -Executable git -Arguments $GitArgs
+    if ($result.ExitCode -ne 0 -and $GitArgs[0] -notin @('merge', 'commit', 'push', 'fetch')) {
+        throw "Git command failed: $($GitArgs -join ' ') $($result.Output)"
+    }
+    $result
 }
 
 function Stop-WithError {
@@ -126,6 +132,8 @@ Write-Host ''
 Write-Log INFO 'START' "launcher started (DryRun=$DryRun SkipSync=$SkipSync PS=$($PSVersionTable.PSVersion))" -Quiet
 
 try {
+    $lockPath = Join-Path $logDir 'maintenance.lock'
+    $RunLock = [System.IO.File]::Open($lockPath, 'OpenOrCreate', 'ReadWrite', 'None')
     # --- 1. prerequisites ---------------------------------------------------
     Write-Step '1/6  Checking prerequisites'
     foreach ($tool in 'git', 'python') {
@@ -154,6 +162,21 @@ try {
         throw 'dirty tree'
     }
     Write-Ok 'working tree is clean'
+    $branch = (Invoke-Git branch --show-current).Output.Trim()
+    if ($branch -ne 'main') { throw 'Maintenance requires the main branch.' }
+    if ((Invoke-Git remote get-url origin).Output.Trim() -ne 'https://github.com/KiaroSama/Kiaro-Claude-Code-Templates.git') {
+        throw 'Unexpected origin; refusing to publish to another repository.'
+    }
+    if (-not $DryRun) {
+        Invoke-Git config user.email 'Kiaro.Sama.Dev@gmail.com' | Out-Null
+        foreach ($identity in 'GIT_AUTHOR_IDENT', 'GIT_COMMITTER_IDENT') {
+            if ((Invoke-Git var $identity).Output -notmatch '<Kiaro\.Sama\.Dev@gmail\.com>') { throw 'Git identity override is not approved.' }
+        }
+        $originFetch = Invoke-Git fetch origin main
+        if ($originFetch.ExitCode -ne 0) { throw 'Origin fetch failed.' }
+        $originMerge = Invoke-Git merge --no-edit origin/main
+        if ($originMerge.ExitCode -ne 0) { Invoke-Git merge --abort | Out-Null; throw 'Origin merge failed; user changes preserved.' }
+    }
 
     # --- 3. sync with upstream ----------------------------------------------
     if ($SkipSync) {
@@ -189,7 +212,7 @@ try {
                     ForEach-Object { $_.Trim() } | Where-Object { $_ })
                 $unknown = @($conflicts | Where-Object {
                         $path = $_
-                        -not (@($generated | Where-Object { $path -like "$_*" }).Count)
+                        -not ($path -eq 'docs/components.json' -or $path -match '^dashboard/public/(components\.json|counts\.json|search-index\.json|components/|component-content/)')
                     })
                 if ($unknown.Count -gt 0) {
                     Invoke-Git merge --abort | Out-Null
@@ -226,14 +249,13 @@ try {
         Stop-WithError 'GENERATE' 'Generator not found: scripts/generate_marketplace.py' 'Make sure the repository is complete.'
         throw 'no generator'
     }
-    $genOut = & python $generator 2>&1
-    if ($LASTEXITCODE -ne 0) {
-        Write-Log ERROR 'GENERATE' ($genOut -join [Environment]::NewLine)
-        Stop-WithError 'GENERATE' 'The generator failed.' 'See the log for the Python error.'
-        throw 'generator failed'
+    if ($DryRun) { Write-Note 'dry run: generator writes skipped' }
+    else {
+        $generatedResult = Invoke-LauncherProcess -Executable python -Arguments @('-B', $generator)
+        if ($generatedResult.ExitCode -ne 0) { throw "Generator failed: $($generatedResult.Output)" }
+        Write-Log INFO 'GENERATE' $generatedResult.Output -Quiet
+        Write-Ok $generatedResult.Output
     }
-    Write-Log INFO 'GENERATE' ($genOut -join [Environment]::NewLine) -Quiet
-    Write-Ok ((@($genOut)[-1] -replace '^\s+', ''))
 
     # --- 5. commit and push --------------------------------------------------
     Write-Step '5/6  Committing and pushing'
@@ -246,7 +268,12 @@ try {
         Write-Note "dry run: $n file(s) would be committed and pushed"
     }
     else {
-        Invoke-Git add -A | Out-Null
+        $changedPaths = @((Invoke-Git ls-files -m -d -o --exclude-standard).Output -split "`n" | Where-Object { $_ })
+        $unknownPaths = @($changedPaths | Where-Object {
+            $_ -notmatch '^(plugins/|\.claude-plugin/marketplace\.json$|\.agents/plugins/marketplace\.json$|cli-tool/components/(skills|mods)/.+/\.(claude|codex)-plugin/plugin\.json$)'
+        })
+        if ($unknownPaths.Count) { throw 'Unexpected files changed during generation; refusing to stage them.' }
+        Invoke-Git add -A -- plugins .claude-plugin/marketplace.json .agents/plugins/marketplace.json cli-tool/components/skills cli-tool/components/mods | Out-Null
         $commit = Invoke-Git commit -m 'chore: regenerate marketplace'
         if ($commit.ExitCode -ne 0) {
             Stop-WithError 'COMMIT' 'Could not create the commit.' 'See the log for the git error.'
@@ -282,16 +309,27 @@ try {
         Write-Log WARNING 'REFRESH' '  claude CLI not found - run "claude plugin marketplace update Kiaro-Claude-Code-Templates" yourself'
     }
     else {
-        $refresh = & claude plugin marketplace update Kiaro-Claude-Code-Templates 2>&1
-        Write-Log INFO 'REFRESH' ($refresh -join [Environment]::NewLine) -Quiet
-        if ($LASTEXITCODE -ne 0) {
-            Write-Log WARNING 'REFRESH' '  marketplace refresh failed - see the log'
-            $script:ExitCode = 1
+        $refresh = Invoke-LauncherProcess -Executable claude -Arguments @('plugin', 'marketplace', 'update', 'Kiaro-Claude-Code-Templates')
+        Write-Log INFO 'REFRESH' $refresh.Output -Quiet
+        if ($refresh.ExitCode -ne 0) { throw 'Marketplace refresh failed; cache cleanup skipped.' }
+        $registryPath = Join-Path $ClaudeConfig 'plugins/installed_plugins.json'
+        $registry = Get-Content -LiteralPath $registryPath -Raw -Encoding utf8 | ConvertFrom-Json
+        $installs = @($registry.plugins.PSObject.Properties | Where-Object { $_.Name.EndsWith('@Kiaro-Claude-Code-Templates') })
+        foreach ($plugin in $installs) {
+            foreach ($install in $plugin.Value) {
+                $cwd = if ($install.scope -in @('project', 'local')) { $install.projectPath } else { $Root }
+                if (-not $cwd -or -not (Test-Path -LiteralPath $cwd -PathType Container)) { throw "Missing installation project: $($plugin.Name)" }
+                $update = Invoke-LauncherProcess -Executable claude -Arguments @('plugin', 'update', $plugin.Name, '--scope', $install.scope) -WorkingDirectory $cwd
+                Write-Log INFO 'UPDATE' "$($plugin.Name) scope=$($install.scope): $($update.Output)" -Quiet
+                if ($update.ExitCode -ne 0) { throw "Plugin update failed: $($plugin.Name) scope=$($install.scope)" }
+            }
         }
-        else {
-            Write-Ok 'marketplace refreshed'
-            Write-Note 'restart the Claude desktop app to see the new list'
-        }
+        $stateHelper = Join-Path $Root 'scripts/marketplace_state.py'
+        $verified = Invoke-LauncherProcess -Executable python -Arguments @('-B', $stateHelper, '--root', $Root, '--config', $ClaudeConfig, '--prune')
+        Write-Log INFO 'VERIFY' $verified.Output
+        if ($verified.ExitCode -ne 0) { throw 'Installed-content verification failed; obsolete cache retained.' }
+        Write-Ok 'marketplace and installed plugins verified'
+        Write-Note 'reload plugins or restart sessions to release old active cache versions'
     }
 }
 catch {
@@ -299,6 +337,9 @@ catch {
         Write-Log ERROR 'FATAL' $_.Exception.Message
         $script:ExitCode = 1
     }
+}
+finally {
+    if ($RunLock) { $RunLock.Dispose() }
 }
 
 Write-Host ''

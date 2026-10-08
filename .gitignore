@@ -98,3 +98,22 @@ docs/component-content/
 /.codex/
 /.agents/*
 !/.agents/plugins/
+
+# Local workspace protection
+/.ai/
+/.specify/
+/specs/
+/secrets.md
+/explain-AI.md
+/reference.md
+/CLAUDE.md
+/.claude/
+/.kiro/
+/.cursor/
+/.cline/
+/graphify-out/
+/.codebase-memory/
+/plans/
+.ignoreme
+**/.ignoreme
+/.ci-work/

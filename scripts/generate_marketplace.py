@@ -10,11 +10,16 @@ Settings are intentionally excluded: they are settings.json config, not a
 plugin component type. Mods ship their own plugin.json and are left untouched.
 """
 import json, os, re, shutil
+from marketplace_state import content_version
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 REPO = "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
 COMP = os.path.join(ROOT, "cli-tool", "components")
 GEN = os.path.join(ROOT, "plugins")
+MARKETPLACE_FILE = os.path.join(ROOT, ".claude-plugin", "marketplace.json")
+previous = json.load(open(MARKETPLACE_FILE, encoding="utf-8"))["plugins"] if os.path.isfile(MARKETPLACE_FILE) else []
+previous_names = {e["source"].removeprefix("./"): e["name"] for e in previous}
+reserved_names = set(previous_names.values())
 
 def clip(s, n=300):
     s = " ".join(str(s).split()).strip().strip('"\'')
@@ -134,8 +139,8 @@ CODEX_CATEGORY = {
 seen, entries = {}, []
 for kind, name, desc, src in comps:
     base_name = slugify(f"{kind}-{name}")
-    pname, n = base_name, 2
-    while pname in seen:
+    pname, n = previous_names.get(src, base_name), 2
+    while pname in seen or (src not in previous_names and pname in reserved_names):
         pname = f"{base_name}-{n}"
         n += 1
     seen[pname] = src
@@ -145,12 +150,14 @@ for kind, name, desc, src in comps:
     manifest = {
         "name": pname,
         "description": desc or f"{kind}: {name}",
-        "version": "1.0.0",
+        "version": content_version(base),
         "author": {"name": "KiaroSama"},
         "homepage": REPO,
         "repository": REPO,
         "license": "MIT",
     }
+    if kind == "skill":
+        manifest["skills"] = ["./"]
     if kind == "hook":
         manifest["hooks"] = "./hooks/hooks.json"
     if kind != "mod":  # mods ship their own manifest; leave it alone
@@ -163,7 +170,9 @@ for kind, name, desc, src in comps:
     if kind == "mod":
         own = json.load(open(os.path.join(cpdir, "plugin.json"), encoding="utf-8"))
         codex.update({k: own[k] for k in ("version", "author", "license") if k in own})
-    if os.path.isdir(os.path.join(base, "skills")):
+    if kind == "skill":
+        codex["skills"] = "./"
+    elif os.path.isdir(os.path.join(base, "skills")):
         codex["skills"] = "./skills/"
     codex["interface"] = {
         "displayName": name,
