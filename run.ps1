@@ -81,7 +81,7 @@ function Write-Log {
     param(
         [Parameter(Mandatory)][ValidateSet('DEBUG', 'INFO', 'WARNING', 'ERROR')][string]$Level,
         [Parameter(Mandatory)][string]$Component,
-        [Parameter(Mandatory)][string]$Message,
+        [Parameter(Mandatory)][AllowEmptyString()][string]$Message,
         [System.ConsoleColor]$Color = [System.ConsoleColor]::Gray,
         [switch]$Quiet
     )
