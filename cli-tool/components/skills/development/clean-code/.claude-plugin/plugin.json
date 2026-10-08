@@ -1,11 +1,14 @@
 {
   "name": "skill-clean-code",
   "description": "Pragmatic coding standards - concise, direct, no over-engineering, no unnecessary comments",
-  "version": "1.0.0",
+  "version": "1.0.240420579676069",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
-  "license": "MIT"
+  "license": "MIT",
+  "skills": [
+    "./"
+  ]
 }

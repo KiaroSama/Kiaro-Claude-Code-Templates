@@ -164,7 +164,7 @@
     {
       "name": "agent-architect-reviewer",
       "source": "./plugins/agent-architect-reviewer",
-      "description": "Use this agent when you need to evaluate system design decisions, architectural patterns, and technology choices at the macro level. Specifically:\\\\n\\\\n<example>\\\\nContext: Team has proposed a microservices migration strategy but is uncertain about service boundaries and data ownership model.\\\\nu...",
+      "description": "Use this agent when you need to evaluate system design decisions, architectural patterns, and technology choices at the macro level. Use PROACTIVELY before major refactors, technology-stack decisions, or microservice boundary changes. Specifically:\\\\n\\\\n<example>\\\\nContext: Team has proposed a mi...",
       "category": "agent"
     },
     {
@@ -548,7 +548,7 @@
     {
       "name": "agent-custom-agent-foundry",
       "source": "./plugins/agent-custom-agent-foundry",
-      "description": "Expert at designing and creating VS Code custom agents with optimal configurations",
+      "description": "|- Use this agent when the user wants to design or scaffold a custom chat participant/agent for GitHub Copilot in VS Code (`.agent.md` files living under `.github/agents/`), including tool selection, handoff chains, and prompt structure for the VS Code Copilot Chat schema. This is NOT for buildin...",
       "category": "agent"
     },
     {
@@ -830,7 +830,7 @@
     {
       "name": "agent-error-detective",
       "source": "./plugins/agent-error-detective",
-      "description": "Use this agent when you need to diagnose why errors are occurring in your system, correlate errors across services, identify root causes, and prevent future failures. Specifically:\\\\n\\\\n<example>\\\\nContext: Production system is experiencing intermittent failures across multiple microservices with...",
+      "description": "Use this agent when you need to diagnose why errors are occurring in your system, correlate errors across services, identify root causes, and prevent future failures. Specifically:\\n\\n<example>\\nContext: Production system is experiencing intermittent failures across multiple microservices with un...",
       "category": "agent"
     },
     {
@@ -1476,14 +1476,14 @@
       "category": "agent"
     },
     {
-      "name": "agent-payment-integration",
-      "source": "./plugins/agent-payment-integration",
-      "description": "Payment systems integration specialist. Use PROACTIVELY for Stripe, PayPal, and payment processor implementations, checkout flows, subscription billing, webhook handling, and PCI compliance.",
+      "name": "agent-payment-gateway-integrator",
+      "source": "./plugins/agent-payment-gateway-integrator",
+      "description": "Use PROACTIVELY for Stripe, PayPal, and Square integrations: checkout flows, subscription billing, webhook handling, idempotency, PCI scope reduction, and SCA/3DS2 compliance. Specifically:\\n\\n<example>\\nContext: An e-commerce site needs to add Stripe checkout for one-time purchases.\\nuser: \\\"We ...",
       "category": "agent"
     },
     {
-      "name": "agent-payment-integration-2",
-      "source": "./plugins/agent-payment-integration-2",
+      "name": "agent-payment-integration",
+      "source": "./plugins/agent-payment-integration",
       "description": "Use this agent when implementing payment systems, integrating payment gateways, or handling financial transactions that require PCI compliance, fraud prevention, and secure transaction processing. Specifically:\\\\n\\\\n<example>\\\\nContext: An e-commerce platform needs to integrate a payment gateway ...",
       "category": "agent"
     },
@@ -1694,7 +1694,7 @@
     {
       "name": "agent-product-strategist",
       "source": "./plugins/agent-product-strategist",
-      "description": "Product strategy and roadmap planning specialist. Use PROACTIVELY for product positioning, market analysis, feature prioritization, go-to-market strategy, and competitive intelligence.",
+      "description": "Use this agent when you need to synthesize market and competitive inputs into product positioning, a prioritized roadmap, or a go-to-market plan. Specifically:\\n\\n<example>\\nContext: A SaaS company has market-sizing and competitor research in hand and needs a positioning strategy and roadmap.\\nus...",
       "category": "agent"
     },
     {
@@ -5508,6 +5508,12 @@
       "category": "mcp"
     },
     {
+      "name": "mcp-pricewin",
+      "source": "./plugins/mcp-pricewin",
+      "description": "Live hotel and flight prices compared across Booking.com, Agoda, Trip.com and Traveloka, in USD, with links to book at the source. Can send a booking request to a direct-listed partner hotel (no payment; the guest pays at the property). Public endpoint, no API key required.",
+      "category": "mcp"
+    },
+    {
       "name": "mcp-pulumi",
       "source": "./plugins/mcp-pulumi",
       "description": "The Pulumi Model Context Protocol (MCP) server enables advanced Infrastructure as Code development capabilities for connected agents, providing tools for cloud resource discovery and management using Pulumi Cloud and the Pulumi CLI.",
@@ -5636,7 +5642,7 @@
     {
       "name": "mod-2048",
       "source": "./cli-tool/components/mods/games/2048",
-      "description": "2048 above the Claude Code prompt: slide and merge tiles up to 2048. Plays while Claude works, pauses when the turn ends, keeps your best score; zero tokens. A single game split out of cc-arcade (MIT, Seza Akgün). Needs function hooks (early access) and an interactive terminal with a mouse.",
+      "description": "2048 above the Claude Code prompt: slide and merge tiles up to 2048. Plays while Claude works, pauses when the turn ends, keeps your best score; zero tokens. A single game split out of cc-arcade (MIT, Seza Akgün). Needs an interactive terminal with a mouse.",
       "category": "mod"
     },
     {
@@ -5654,7 +5660,7 @@
     {
       "name": "mod-aitmpl",
       "source": "./cli-tool/components/mods/productivity/aitmpl",
-      "description": "/aitmpl opens a component browser above the prompt: the aitmpl.com catalog (agents, commands, MCPs, settings, hooks, skills, loops, mods) read live from the site's public JSON through $.http.fetch. Pick a type or a trending component, filter, page, open a component and install it from there ($.pr...",
+      "description": "/aitmpl opens a side pane for the aitmpl.com catalog: search box, the site's Browse menu with an icon, colour and count per type, an Installed section (agents, commands, skills and mods found in .claude/ and ~/.claude/), a Popular/Results list with download counts, and view/install on every row. ...",
       "category": "mod"
     },
     {
@@ -5666,7 +5672,13 @@
     {
       "name": "mod-cc-arcade",
       "source": "./cli-tool/components/mods/games/cc-arcade",
-      "description": "Games above the Claude Code prompt (snake, Tetris, 2048, Minesweeper, Flappy, Pong, typing test, Space Invaders, Doom) plus a pet that grows as Claude tests, commits and edits. Clones of the genre, not affiliated with or endorsed by Tetris Holding, Taito, Atari or id Software. Needs function hook...",
+      "description": "Games above the Claude Code prompt (snake, Tetris, 2048, Minesweeper, Flappy, Pong, typing test, Space Invaders, Doom) plus a pet that grows as Claude tests, commits and edits. Clones of the genre, not affiliated with or endorsed by Tetris Holding, Taito, Atari or id Software. Needs an interactiv...",
+      "category": "mod"
+    },
+    {
+      "name": "mod-chess",
+      "source": "./cli-tool/components/mods/games/chess",
+      "description": "Play chess against Claude (or Jev, when a Jev key is set) in a side pane while you work. Click a piece and a square, or type a move; Claude answers through a fork of the session, Jev through TypeSafe's decision API, and the pane shows the tokens each move cost as the API reported them, and the ru...",
       "category": "mod"
     },
     {
@@ -5678,13 +5690,13 @@
     {
       "name": "mod-doom",
       "source": "./cli-tool/components/mods/games/doom",
-      "description": "Doom above the Claude Code prompt: a corridor shooter: imps, a shotgun, and the floor below. Plays while Claude works, pauses when the turn ends, keeps your best score; zero tokens. A single game split out of cc-arcade (MIT, Seza Akgün). Needs function hooks (early access) and an interactive term...",
+      "description": "Doom above the Claude Code prompt: a corridor shooter: imps, a shotgun, and the floor below. Plays while Claude works, pauses when the turn ends, keeps your best score; zero tokens. A single game split out of cc-arcade (MIT, Seza Akgün). Needs an interactive terminal with a mouse.",
       "category": "mod"
     },
     {
       "name": "mod-flappy",
       "source": "./cli-tool/components/mods/games/flappy",
-      "description": "Flappy above the Claude Code prompt: flap through the gaps in the pipes. Plays while Claude works, pauses when the turn ends, keeps your best score; zero tokens. A single game split out of cc-arcade (MIT, Seza Akgün). Needs function hooks (early access) and an interactive terminal with a mouse.",
+      "description": "Flappy above the Claude Code prompt: flap through the gaps in the pipes. Plays while Claude works, pauses when the turn ends, keeps your best score; zero tokens. A single game split out of cc-arcade (MIT, Seza Akgün). Needs an interactive terminal with a mouse.",
       "category": "mod"
     },
     {
@@ -5696,7 +5708,7 @@
     {
       "name": "mod-invaders",
       "source": "./cli-tool/components/mods/games/invaders",
-      "description": "Space Invaders above the Claude Code prompt: shoot each wave before it lands. Plays while Claude works, pauses when the turn ends, keeps your best score; zero tokens. A single game split out of cc-arcade (MIT, Seza Akgün). Needs function hooks (early access) and an interactive terminal with a mouse.",
+      "description": "Space Invaders above the Claude Code prompt: shoot each wave before it lands. Plays while Claude works, pauses when the turn ends, keeps your best score; zero tokens. A single game split out of cc-arcade (MIT, Seza Akgün). Needs an interactive terminal with a mouse.",
       "category": "mod"
     },
     {
@@ -5724,15 +5736,39 @@
       "category": "mod"
     },
     {
+      "name": "mod-jev-skill-typeahead",
+      "source": "./cli-tool/components/mods/productivity/jev-skill-typeahead",
+      "description": "Shows, while you type, the skills and subagents Claude will probably call for your prompt: reads the draft on every edit and lists them in the band above the prompt, ranked by keyword match (English or Spanish). When you pause, Jev (TypeSafe's decision model) decides which one will be called and ...",
+      "category": "mod"
+    },
+    {
+      "name": "mod-jev-vercel-sandbox",
+      "source": "./cli-tool/components/mods/security/jev-vercel-sandbox",
+      "description": "A Vercel Sandbox Claude sends work to on purpose: long test runs in the background, someone else's repository, an installer of unknown origin, a bulk change to preview as a patch, a clean build. TypeSafe's Jev reads each Bash command and spots those jobs; by default you are asked whether it runs ...",
+      "category": "mod"
+    },
+    {
       "name": "mod-large-edit-confirmation",
       "source": "./cli-tool/components/mods/security/large-edit-confirmation",
       "description": "Asks the user, in the engine's AskUserQuestion dialog ($.ui.ask), before Claude edits or overwrites a file larger than a configurable line count; denies by default when nobody can answer (headless runs). A tool.call hook on Edit and Write using $.fs.read.",
       "category": "mod"
     },
     {
+      "name": "mod-linear-tickets",
+      "source": "./cli-tool/components/mods/integrations/linear-tickets",
+      "description": "Your Linear tickets in a side pane, with their status and a chart of how you are progressing: tickets grouped by state (in progress, todo, backlog, done), a stacked status bar, a bar chart of tickets closed per day over the last two weeks and, when your tickets sit in a cycle, that cycle's scope ...",
+      "category": "mod"
+    },
+    {
       "name": "mod-minesweeper",
       "source": "./cli-tool/components/mods/games/minesweeper",
-      "description": "Minesweeper above the Claude Code prompt: open every cell that is not a mine. Plays while Claude works, pauses when the turn ends, keeps your best score; zero tokens. A single game split out of cc-arcade (MIT, Seza Akgün). Needs function hooks (early access) and an interactive terminal with a mouse.",
+      "description": "Minesweeper above the Claude Code prompt: open every cell that is not a mine. Plays while Claude works, pauses when the turn ends, keeps your best score; zero tokens. A single game split out of cc-arcade (MIT, Seza Akgün). Needs an interactive terminal with a mouse.",
+      "category": "mod"
+    },
+    {
+      "name": "mod-neon-branch-per-session",
+      "source": "./cli-tool/components/mods/integrations/neon-branch-per-session",
+      "description": "A Neon database branch for each Claude Code session: created from your default (or chosen) branch when the session starts, handed to every command Claude runs as DATABASE_URL, and set to expire on its own (or deleted when the session ends). Claude can migrate, seed and break the branch without to...",
       "category": "mod"
     },
     {
@@ -5744,13 +5780,13 @@
     {
       "name": "mod-pacman",
       "source": "./cli-tool/components/mods/games/pacman",
-      "description": "Pac-Man above the Claude Code prompt: a 19×15 maze, four ghosts that chase, scatter and flee, power pellets, three lives and faster levels. Plays while Claude works, pauses when the turn ends, keeps your best score; zero tokens. Needs function hooks (early access) and an interactive terminal.",
+      "description": "Pac-Man above the Claude Code prompt: a 19×15 maze, four ghosts that chase, scatter and flee, power pellets, three lives and faster levels. Plays while Claude works, pauses when the turn ends, keeps your best score; zero tokens. Needs an interactive terminal.",
       "category": "mod"
     },
     {
       "name": "mod-pet",
       "source": "./cli-tool/components/mods/games/pet",
-      "description": "A virtual pet above the Claude Code prompt that grows as Claude works: passing tests, commits and edits grant XP and mood, failing tests cost mood, idling drains it; egg → baby → kid → adult → legend. Zero tokens. Split out of cc-arcade (MIT, Seza Akgün). Needs function hooks (early access) and a...",
+      "description": "A virtual pet above the Claude Code prompt that grows as Claude works: passing tests, commits and edits grant XP and mood, failing tests cost mood, idling drains it; egg → baby → kid → adult → legend. Zero tokens. Split out of cc-arcade (MIT, Seza Akgün). Needs an interactive terminal.",
       "category": "mod"
     },
     {
@@ -5762,7 +5798,13 @@
     {
       "name": "mod-pong",
       "source": "./cli-tool/components/mods/games/pong",
-      "description": "Pong above the Claude Code prompt: first to 5 against the computer. Plays while Claude works, pauses when the turn ends, keeps your best score; zero tokens. A single game split out of cc-arcade (MIT, Seza Akgün). Needs function hooks (early access) and an interactive terminal with a mouse.",
+      "description": "Pong above the Claude Code prompt: first to 5 against the computer. Plays while Claude works, pauses when the turn ends, keeps your best score; zero tokens. A single game split out of cc-arcade (MIT, Seza Akgün). Needs an interactive terminal with a mouse.",
+      "category": "mod"
+    },
+    {
+      "name": "mod-prompt-cache-control",
+      "source": "./cli-tool/components/mods/observability/prompt-cache-control",
+      "description": "Prompt-cache meter above the Claude Code prompt: how many tokens each request read from, wrote to and sent past the cache, a live countdown to the cache's expiry, and what to do about it (keep going, compact or clear). The TTL follows Claude Code's own rules for your account (1 hour on a Claude s...",
       "category": "mod"
     },
     {
@@ -5778,15 +5820,21 @@
       "category": "mod"
     },
     {
+      "name": "mod-session-time-machine",
+      "source": "./cli-tool/components/mods/productivity/session-time-machine",
+      "description": "/timemachine draws the session as a timeline of prompts, tool calls and turn ends from its own transcript. Press a point and give a new instruction: the mod writes a copy of the transcript cut there under a new session id and gives you the `claude --resume` command that continues it, so you can t...",
+      "category": "mod"
+    },
+    {
       "name": "mod-snake",
       "source": "./cli-tool/components/mods/games/snake",
-      "description": "Snake above the Claude Code prompt: eat, grow, and keep off the walls and yourself. Plays while Claude works, pauses when the turn ends, keeps your best score; zero tokens. A single game split out of cc-arcade (MIT, Seza Akgün). Needs function hooks (early access) and an interactive terminal with...",
+      "description": "Snake above the Claude Code prompt: eat, grow, and keep off the walls and yourself. Plays while Claude works, pauses when the turn ends, keeps your best score; zero tokens. A single game split out of cc-arcade (MIT, Seza Akgün). Needs an interactive terminal with a mouse.",
       "category": "mod"
     },
     {
       "name": "mod-tetris",
       "source": "./cli-tool/components/mods/games/tetris",
-      "description": "Tetris above the Claude Code prompt: fit the falling pieces and clear lines. Plays while Claude works, pauses when the turn ends, keeps your best score; zero tokens. A single game split out of cc-arcade (MIT, Seza Akgün). Needs function hooks (early access) and an interactive terminal with a mouse.",
+      "description": "Tetris above the Claude Code prompt: fit the falling pieces and clear lines. Plays while Claude works, pauses when the turn ends, keeps your best score; zero tokens. A single game split out of cc-arcade (MIT, Seza Akgün). Needs an interactive terminal with a mouse.",
       "category": "mod"
     },
     {
@@ -5804,13 +5852,19 @@
     {
       "name": "mod-typing-test",
       "source": "./cli-tool/components/mods/games/typing-test",
-      "description": "Typing test above the Claude Code prompt: retype a line of code as fast as you can. Plays while Claude works, pauses when the turn ends, keeps your best score; zero tokens. A single game split out of cc-arcade (MIT, Seza Akgün). Needs function hooks (early access) and an interactive terminal with...",
+      "description": "Typing test above the Claude Code prompt: retype a line of code as fast as you can. Plays while Claude works, pauses when the turn ends, keeps your best score; zero tokens. A single game split out of cc-arcade (MIT, Seza Akgün). Needs an interactive terminal with a mouse.",
       "category": "mod"
     },
     {
       "name": "mod-universal-audit-log",
       "source": "./cli-tool/components/mods/observability/universal-audit-log",
       "description": "One hook on * that records every event on $ (tool calls, prompts, turns, other plugins' fs/http/process calls) as JSON lines with origin plugin and tier, duration and outcome, including denials. Buffered and flushed to a JSONL file through $.fs at the end of every turn.",
+      "category": "mod"
+    },
+    {
+      "name": "mod-vercel-deploys",
+      "source": "./cli-tool/components/mods/integrations/vercel-deploys",
+      "description": "Your Vercel projects in a side pane: each connected site with the state of its latest deployment (building, ready, failed), the production domain, the Git commit behind it and whether the site answers right now. It polls Vercel's REST API (faster while something builds) and toasts when a deployme...",
       "category": "mod"
     },
     {
@@ -9537,6 +9591,12 @@
       "name": "skill-premium-web-design",
       "source": "./cli-tool/components/skills/creative-design/premium-web-design",
       "description": "> Create premium, Awwwards-quality website designs as React (.jsx) components that look like they were built by a top-tier agency charging $50k+ per project. Use this skill whenever the user asks for a website, landing page, portfolio, or web component that should look expensive, premium, luxury,...",
+      "category": "skill"
+    },
+    {
+      "name": "skill-pricewin-travel-search",
+      "source": "./cli-tool/components/skills/web-data/pricewin-travel-search",
+      "description": "Search and compare live hotel and flight prices with the PriceWin MCP server, look up one named hotel, inspect OpenTravel direct listings, send a booking request to a partner hotel (no payment; the guest pays at the property), and cancel one. Use when the user asks to find hotels or flights for d...",
       "category": "skill"
     },
     {

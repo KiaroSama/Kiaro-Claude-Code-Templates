@@ -1,13 +1,14 @@
 {
   "name": "skill-pricing-strategy",
   "description": "When the user wants help with pricing decisions, packaging, or monetization strategy. Also use when the user mentions 'pricing,' 'pricing tiers,' 'freemium,' 'free trial,' 'packaging,' 'price increase,' 'value metric,' 'Van Westendorp,' 'willingness to pay,' or 'monetization.' This skill covers p...",
-  "version": "1.0.0",
+  "version": "1.0.243997658755894",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "pricing-strategy",
     "shortDescription": "When the user wants help with pricing decisions, packaging, or monetization strategy. Also use when the user mentions 'p",

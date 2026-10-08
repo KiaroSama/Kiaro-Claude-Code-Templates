@@ -1,11 +1,14 @@
 {
   "name": "skill-django-pro",
   "description": "Master Django 5.x with async views, DRF, Celery, and Django Channels. Build scalable web applications with proper architecture, testing, and deployment.",
-  "version": "1.0.0",
+  "version": "1.0.105179545393986",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
-  "license": "MIT"
+  "license": "MIT",
+  "skills": [
+    "./"
+  ]
 }

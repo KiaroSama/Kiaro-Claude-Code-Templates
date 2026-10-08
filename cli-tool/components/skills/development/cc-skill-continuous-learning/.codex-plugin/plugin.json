@@ -1,13 +1,14 @@
 {
   "name": "skill-cc-skill-continuous-learning",
   "description": "Development skill from everything-claude-code",
-  "version": "1.0.0",
+  "version": "1.0.226051502138680",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "cc-skill-continuous-learning",
     "shortDescription": "Development skill from everything-claude-code",

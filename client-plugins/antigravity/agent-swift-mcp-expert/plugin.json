@@ -1,0 +1,4 @@
+{
+  "name": "agent-swift-mcp-expert",
+  "description": "Expert assistance for building Model Context Protocol servers in Swift using modern concurrency features and the official MCP Swift SDK."
+}

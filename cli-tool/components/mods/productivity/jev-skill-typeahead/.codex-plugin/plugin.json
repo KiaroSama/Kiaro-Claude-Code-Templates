@@ -1,0 +1,19 @@
+{
+  "name": "mod-jev-skill-typeahead",
+  "description": "Shows, while you type, the skills and subagents Claude will probably call for your prompt: reads the draft on every edit and lists them in the band above the prompt, ranked by keyword match (English or Spanish). When you pause, Jev (TypeSafe's decision model) decides which one will be called and ...",
+  "version": "0.1.0",
+  "author": {
+    "name": "claude-code-templates",
+    "url": "https://www.aitmpl.com"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "jev-skill-typeahead",
+    "shortDescription": "Shows, while you type, the skills and subagents Claude will probably call for your prompt: reads the draft on every edit",
+    "developerName": "KiaroSama",
+    "category": "Productivity",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

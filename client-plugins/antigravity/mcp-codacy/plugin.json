@@ -1,0 +1,4 @@
+{
+  "name": "mcp-codacy",
+  "description": "MCP Server for the Codacy API, enabling access to repositories, files, quality, coverage, security and more."
+}

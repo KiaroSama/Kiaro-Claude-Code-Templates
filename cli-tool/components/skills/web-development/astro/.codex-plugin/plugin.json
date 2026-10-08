@@ -1,13 +1,14 @@
 {
   "name": "skill-astro",
   "description": "Build content-focused websites with Astro — zero JS by default, islands architecture, multi-framework components, and Markdown/MDX support.",
-  "version": "1.0.0",
+  "version": "1.0.211694382686343",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "astro",
     "shortDescription": "Build content-focused websites with Astro — zero JS by default, islands architecture, multi-framework components, and Ma",

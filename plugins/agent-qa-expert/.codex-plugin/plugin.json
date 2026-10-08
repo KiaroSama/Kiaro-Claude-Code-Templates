@@ -1,7 +1,7 @@
 {
   "name": "agent-qa-expert",
   "description": "Use this agent when you need comprehensive quality assurance strategy, test planning across the entire development cycle, or quality metrics analysis to improve overall software quality. Specifically:\\\\n\\\\n<example>\\\\nContext: A development team is about to start a critical 6-month feature develo...",
-  "version": "1.0.0",
+  "version": "1.0.1079229077872",
   "author": {
     "name": "KiaroSama"
   },

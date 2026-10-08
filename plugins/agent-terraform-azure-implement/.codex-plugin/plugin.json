@@ -1,7 +1,7 @@
 {
   "name": "agent-terraform-azure-implement",
   "description": "Act as an Azure Terraform Infrastructure as Code coding specialist that creates and reviews Terraform for Azure resources.",
-  "version": "1.0.0",
+  "version": "1.0.40273884410247",
   "author": {
     "name": "KiaroSama"
   },

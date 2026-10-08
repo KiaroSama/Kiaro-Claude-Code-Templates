@@ -1,0 +1,4 @@
+{
+  "name": "mcp-github-official",
+  "description": "GitHub's official MCP Server. Interact with GitHub repositories, issues, pull requests, and more directly from Claude."
+}

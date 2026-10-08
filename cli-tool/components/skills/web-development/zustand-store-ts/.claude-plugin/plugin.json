@@ -1,11 +1,14 @@
 {
   "name": "skill-zustand-store-ts",
   "description": "Create Zustand stores following established patterns with proper TypeScript types and middleware.",
-  "version": "1.0.0",
+  "version": "1.0.99974366982166",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
-  "license": "MIT"
+  "license": "MIT",
+  "skills": [
+    "./"
+  ]
 }

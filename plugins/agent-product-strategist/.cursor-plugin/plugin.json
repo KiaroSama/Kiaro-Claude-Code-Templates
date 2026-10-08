@@ -1,0 +1,12 @@
+{
+  "name": "agent-product-strategist",
+  "description": "Use this agent when you need to synthesize market and competitive inputs into product positioning, a prioritized roadmap, or a go-to-market plan. Specifically:\\n\\n<example>\\nContext: A SaaS company has market-sizing and competitor research in hand and needs a positioning strategy and roadmap.\\nus...",
+  "version": "1.0.217335836548325",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "agents": "./agents/*.md"
+}

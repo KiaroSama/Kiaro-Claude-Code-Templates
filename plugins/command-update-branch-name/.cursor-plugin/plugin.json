@@ -1,0 +1,12 @@
+{
+  "name": "command-update-branch-name",
+  "description": "Follow these steps to update the current branch name:",
+  "version": "1.0.151595575656328",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "commands": "./commands/*.md"
+}

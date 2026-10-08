@@ -1,13 +1,14 @@
 {
   "name": "skill-api-security-best-practices",
   "description": "Implement secure API design patterns including authentication, authorization, input validation, rate limiting, and protection against common API vulnerabilities",
-  "version": "1.0.0",
+  "version": "1.0.30918128685608",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "api-security-best-practices",
     "shortDescription": "Implement secure API design patterns including authentication, authorization, input validation, rate limiting, and prote",

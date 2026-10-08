@@ -1,0 +1,12 @@
+{
+  "name": "agent-se-ux-ui-designer",
+  "description": "Jobs-to-be-Done analysis, user journey mapping, and UX research artifacts for Figma and design workflows",
+  "version": "1.0.88466287164147",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "agents": "./agents/*.md"
+}

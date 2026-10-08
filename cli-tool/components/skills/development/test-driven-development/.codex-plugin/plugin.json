@@ -1,13 +1,14 @@
 {
   "name": "skill-test-driven-development",
   "description": "Use when implementing any feature or bugfix, before writing implementation code",
-  "version": "1.0.0",
+  "version": "1.0.1208814616358",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "test-driven-development",
     "shortDescription": "Use when implementing any feature or bugfix, before writing implementation code",

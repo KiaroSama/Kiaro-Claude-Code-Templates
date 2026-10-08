@@ -1,7 +1,7 @@
 {
   "name": "mcp-mongodb",
   "description": "A Model Context Protocol server to connect to MongoDB databases and MongoDB Atlas Clusters.",
-  "version": "1.0.0",
+  "version": "1.0.218893845473351",
   "author": {
     "name": "KiaroSama"
   },

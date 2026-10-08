@@ -1,0 +1,12 @@
+{
+  "name": "command-supabase-schema-sync",
+  "description": "---",
+  "version": "1.0.21187592970491",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "commands": "./commands/*.md"
+}

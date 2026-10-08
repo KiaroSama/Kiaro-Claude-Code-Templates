@@ -1,13 +1,14 @@
 {
   "name": "skill-tanstack-query-expert",
   "description": "Expert in TanStack Query (React Query) — asynchronous state management. Covers data fetching, stale time configuration, mutations, optimistic updates, and Next.js App Router (SSR) integration.",
-  "version": "1.0.0",
+  "version": "1.0.152773854738335",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "tanstack-query-expert",
     "shortDescription": "Expert in TanStack Query (React Query) — asynchronous state management. Covers data fetching, stale time configuration, ",

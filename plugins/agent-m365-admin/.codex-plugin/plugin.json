@@ -1,7 +1,7 @@
 {
   "name": "agent-m365-admin",
   "description": "Use when automating Microsoft 365 administrative tasks including Exchange Online mailbox provisioning, Teams collaboration management, SharePoint site configuration, license lifecycle management, and Graph API-driven identity automation. Specifically:\\\\n\\\\n<example>\\\\nContext: Enterprise onboardi...",
-  "version": "1.0.0",
+  "version": "1.0.162953559662992",
   "author": {
     "name": "KiaroSama"
   },

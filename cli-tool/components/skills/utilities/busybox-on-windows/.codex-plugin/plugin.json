@@ -1,13 +1,14 @@
 {
   "name": "skill-busybox-on-windows",
   "description": "How to use a Win32 build of BusyBox to run many of the standard UNIX command line tools on Windows.",
-  "version": "1.0.0",
+  "version": "1.0.80427117322185",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "busybox-on-windows",
     "shortDescription": "How to use a Win32 build of BusyBox to run many of the standard UNIX command line tools on Windows.",

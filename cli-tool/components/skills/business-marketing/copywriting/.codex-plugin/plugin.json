@@ -1,13 +1,14 @@
 {
   "name": "skill-copywriting",
   "description": "When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user says \"write copy for,\" \"improve this copy,\" \"rewrite this page,\" \"marketing copy,\" \"headline help,...",
-  "version": "1.0.0",
+  "version": "1.0.117907100742117",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "copywriting",
     "shortDescription": "When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages, prici",

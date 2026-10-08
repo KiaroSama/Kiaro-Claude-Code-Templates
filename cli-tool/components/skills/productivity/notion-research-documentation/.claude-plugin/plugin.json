@@ -1,11 +1,14 @@
 {
   "name": "skill-notion-research-documentation",
   "description": "Research across Notion and synthesize into structured documentation; use when gathering info from multiple Notion sources to produce briefs, comparisons, or reports with citations.",
-  "version": "1.0.0",
+  "version": "1.0.17349062587012",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
-  "license": "MIT"
+  "license": "MIT",
+  "skills": [
+    "./"
+  ]
 }

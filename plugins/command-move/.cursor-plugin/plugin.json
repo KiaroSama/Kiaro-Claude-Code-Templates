@@ -1,0 +1,12 @@
+{
+  "name": "command-move",
+  "description": "Move tasks between status folders following the task management protocol.",
+  "version": "1.0.268667652385705",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "commands": "./commands/*.md"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "mod-linear-tickets",
+  "description": "Your Linear tickets in a side pane, with their status and a chart of how you are progressing: tickets grouped by state (in progress, todo, backlog, done), a stacked status bar, a bar chart of tickets closed per day over the last two weeks and, when your tickets sit in a cycle, that cycle's scope ...",
+  "version": "0.1.0",
+  "author": {
+    "name": "claude-code-templates",
+    "url": "https://www.aitmpl.com"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "linear-tickets",
+    "shortDescription": "Your Linear tickets in a side pane, with their status and a chart of how you are progressing: tickets grouped by state (",
+    "developerName": "KiaroSama",
+    "category": "Productivity",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

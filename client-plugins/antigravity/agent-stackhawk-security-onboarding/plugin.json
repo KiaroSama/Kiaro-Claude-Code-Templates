@@ -1,0 +1,4 @@
+{
+  "name": "agent-stackhawk-security-onboarding",
+  "description": "Automatically set up StackHawk security testing for your repository with generated configuration and GitHub Actions workflow"
+}

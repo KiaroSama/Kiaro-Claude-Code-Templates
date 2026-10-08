@@ -1,7 +1,7 @@
 {
   "name": "agent-connection-agent",
   "description": "Obsidian vault connection specialist. Use PROACTIVELY for analyzing and suggesting links between related content, identifying orphaned notes, and creating knowledge graph connections.",
-  "version": "1.0.0",
+  "version": "1.0.217270366860973",
   "author": {
     "name": "KiaroSama"
   },

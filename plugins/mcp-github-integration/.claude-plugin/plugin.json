@@ -1,7 +1,7 @@
 {
   "name": "mcp-github-integration",
   "description": "Direct GitHub API integration for repository management, issue tracking, pull requests, and collaborative development workflows.",
-  "version": "1.0.0",
+  "version": "1.0.183211181340605",
   "author": {
     "name": "KiaroSama"
   },

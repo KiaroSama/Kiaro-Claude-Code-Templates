@@ -1,7 +1,7 @@
 {
   "name": "agent-timestamp-precision-specialist",
   "description": "Frame-accurate timestamp extraction specialist. Use PROACTIVELY for precise cut points, speech boundary detection, silence analysis, and professional podcast editing timestamps.",
-  "version": "1.0.0",
+  "version": "1.0.88272546406244",
   "author": {
     "name": "KiaroSama"
   },

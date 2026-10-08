@@ -1,13 +1,14 @@
 {
   "name": "skill-create-plan",
   "description": "Create a concise plan. Use when a user explicitly asks for a plan related to a coding task.",
-  "version": "1.0.0",
+  "version": "1.0.199810370469187",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "create-plan",
     "shortDescription": "Create a concise plan. Use when a user explicitly asks for a plan related to a coding task.",

@@ -1,11 +1,14 @@
 {
   "name": "skill-c-pro",
   "description": "Write efficient C code with proper memory management, pointer",
-  "version": "1.0.0",
+  "version": "1.0.274529186035856",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
-  "license": "MIT"
+  "license": "MIT",
+  "skills": [
+    "./"
+  ]
 }

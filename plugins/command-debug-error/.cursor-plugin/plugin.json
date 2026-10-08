@@ -1,0 +1,12 @@
+{
+  "name": "command-debug-error",
+  "description": "Systematically debug and fix errors",
+  "version": "1.0.9275338225892",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "commands": "./commands/*.md"
+}

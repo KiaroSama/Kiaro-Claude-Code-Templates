@@ -1,7 +1,7 @@
 {
   "name": "agent-general-purpose",
   "description": "Default agent for handling complex, multi-step tasks with automatic delegation capabilities",
-  "version": "1.0.0",
+  "version": "1.0.109575162612942",
   "author": {
     "name": "KiaroSama"
   },

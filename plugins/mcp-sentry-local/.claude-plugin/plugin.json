@@ -1,7 +1,7 @@
 {
   "name": "mcp-sentry-local",
   "description": "Official Sentry MCP Server (local). Run Sentry integration locally via npx for debugging, error tracking, and performance monitoring.",
-  "version": "1.0.0",
+  "version": "1.0.246210153435981",
   "author": {
     "name": "KiaroSama"
   },

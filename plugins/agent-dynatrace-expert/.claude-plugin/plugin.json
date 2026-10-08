@@ -1,7 +1,7 @@
 {
   "name": "agent-dynatrace-expert",
   "description": "The Dynatrace Expert Agent integrates observability and security capabilities directly into GitHub workflows, enabling development teams to investigate incidents, validate deployments, triage errors, detect performance regressions, validate releases, and manage security vulnerabilities by autonom...",
-  "version": "1.0.0",
+  "version": "1.0.118346252452208",
   "author": {
     "name": "KiaroSama"
   },

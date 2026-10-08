@@ -1,0 +1,12 @@
+{
+  "name": "skill-dotnet-backend",
+  "description": "Build ASP.NET Core 8+ backend services with EF Core, auth, background jobs, and production API patterns.",
+  "version": "1.0.218342185884535",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "skills": "./SKILL.md"
+}

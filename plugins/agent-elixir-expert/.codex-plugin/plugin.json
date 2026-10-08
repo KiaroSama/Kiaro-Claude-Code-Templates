@@ -1,7 +1,7 @@
 {
   "name": "agent-elixir-expert",
   "description": "Use this agent when you need to build fault-tolerant, concurrent systems leveraging OTP patterns, GenServer architectures, and Phoenix framework for real-time applications. Specifically:\\\\n\\\\n<example>\\\\nContext: Building a real-time chat application with WebSocket support, process supervision, a...",
-  "version": "1.0.0",
+  "version": "1.0.239854108200793",
   "author": {
     "name": "KiaroSama"
   },

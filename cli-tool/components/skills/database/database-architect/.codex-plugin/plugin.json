@@ -1,13 +1,14 @@
 {
   "name": "skill-database-architect",
   "description": "Expert database architect specializing in data layer design from scratch, technology selection, schema modeling, and scalable database architectures.",
-  "version": "1.0.0",
+  "version": "1.0.243427198618835",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "database-architect",
     "shortDescription": "Expert database architect specializing in data layer design from scratch, technology selection, schema modeling, and sca",

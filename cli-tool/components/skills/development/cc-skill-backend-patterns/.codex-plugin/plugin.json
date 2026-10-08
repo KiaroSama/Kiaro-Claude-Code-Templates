@@ -1,13 +1,14 @@
 {
   "name": "skill-cc-skill-backend-patterns",
   "description": "Backend architecture patterns, API design, database optimization, and server-side best practices for Node.js, Express, and Next.js API routes.",
-  "version": "1.0.0",
+  "version": "1.0.146589726638146",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "cc-skill-backend-patterns",
     "shortDescription": "Backend architecture patterns, API design, database optimization, and server-side best practices for Node.js, Express, a",

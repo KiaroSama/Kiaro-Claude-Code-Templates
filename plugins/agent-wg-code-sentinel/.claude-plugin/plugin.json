@@ -1,7 +1,7 @@
 {
   "name": "agent-wg-code-sentinel",
   "description": "Ask WG Code Sentinel to review your code for security issues.",
-  "version": "1.0.0",
+  "version": "1.0.226398754845064",
   "author": {
     "name": "KiaroSama"
   },

@@ -1,0 +1,12 @@
+{
+  "name": "command-persona-content-creator",
+  "description": "---",
+  "version": "1.0.95766426763808",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "commands": "./commands/*.md"
+}

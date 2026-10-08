@@ -1,0 +1,19 @@
+{
+  "name": "mod-jev-vercel-sandbox",
+  "description": "A Vercel Sandbox Claude sends work to on purpose: long test runs in the background, someone else's repository, an installer of unknown origin, a bulk change to preview as a patch, a clean build. TypeSafe's Jev reads each Bash command and spots those jobs; by default you are asked whether it runs ...",
+  "version": "0.3.0",
+  "author": {
+    "name": "claude-code-templates",
+    "url": "https://www.aitmpl.com"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "jev-vercel-sandbox",
+    "shortDescription": "A Vercel Sandbox Claude sends work to on purpose: long test runs in the background, someone else's repository, an instal",
+    "developerName": "KiaroSama",
+    "category": "Productivity",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

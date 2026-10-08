@@ -1,7 +1,7 @@
 {
   "name": "agent-accessibility-tester",
   "description": "Use this agent when conducting comprehensive accessibility audits, WCAG 2.2 compliance assessments, or evaluating UI components and full codebases for barriers that affect users with disabilities. Invoke when you need structured findings mapped to specific WCAG criteria, hybrid automated-plus-man...",
-  "version": "1.0.0",
+  "version": "1.0.164831707023087",
   "author": {
     "name": "KiaroSama"
   },

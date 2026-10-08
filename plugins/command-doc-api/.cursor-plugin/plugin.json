@@ -1,0 +1,12 @@
+{
+  "name": "command-doc-api",
+  "description": "---",
+  "version": "1.0.57696921623687",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "commands": "./commands/*.md"
+}

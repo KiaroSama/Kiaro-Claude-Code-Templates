@@ -1,7 +1,7 @@
 {
   "name": "hook-conventional-commits",
   "description": "Enforce conventional commit message format for all git commits. Validates commit messages follow the pattern: type(scope): description. Supported types: feat, fix, docs, style, refactor, perf, test, chore, ci, build, revert. Ensures consistent commit history for changelog generation and semantic ...",
-  "version": "1.0.0",
+  "version": "1.0.20547228175423",
   "author": {
     "name": "KiaroSama"
   },

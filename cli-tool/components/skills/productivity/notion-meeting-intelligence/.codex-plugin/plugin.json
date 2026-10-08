@@ -1,13 +1,14 @@
 {
   "name": "skill-notion-meeting-intelligence",
   "description": "Prepare meeting materials with Notion context and Codex research; use when gathering context, drafting agendas/pre-reads, and tailoring materials to attendees.",
-  "version": "1.0.0",
+  "version": "1.0.118627985895949",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "notion-meeting-intelligence",
     "shortDescription": "Prepare meeting materials with Notion context and Codex research; use when gathering context, drafting agendas/pre-reads",

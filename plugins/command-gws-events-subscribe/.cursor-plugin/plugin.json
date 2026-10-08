@@ -1,0 +1,12 @@
+{
+  "name": "command-gws-events-subscribe",
+  "description": "---",
+  "version": "1.0.232679700133084",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "commands": "./commands/*.md"
+}

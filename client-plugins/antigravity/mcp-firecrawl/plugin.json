@@ -1,0 +1,4 @@
+{
+  "name": "mcp-firecrawl",
+  "description": "A Model Context Protocol (MCP) server implementation that integrates with Firecrawl for web scraping capabilities."
+}

@@ -1,11 +1,14 @@
 {
   "name": "skill-nextjs-best-practices",
   "description": "Next.js App Router principles. Server Components, data fetching, routing patterns.",
-  "version": "1.0.0",
+  "version": "1.0.33964918301377",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
-  "license": "MIT"
+  "license": "MIT",
+  "skills": [
+    "./"
+  ]
 }

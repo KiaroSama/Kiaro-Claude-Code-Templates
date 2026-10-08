@@ -1,0 +1,12 @@
+{
+  "name": "command-svelte-debug",
+  "description": "Help debug Svelte and SvelteKit issues by analyzing error messages, stack traces, and common problems.",
+  "version": "1.0.25733821005672",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "commands": "./commands/*.md"
+}

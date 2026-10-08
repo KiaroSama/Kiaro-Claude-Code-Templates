@@ -1,7 +1,7 @@
 {
   "name": "hook-edit-audit-log",
   "description": "Log all file edits to a project-local audit file with timestamps. Records every Edit tool usage to .claude/edit-log.txt for tracking changes across sessions. Requires jq.",
-  "version": "1.0.0",
+  "version": "1.0.125645877365911",
   "author": {
     "name": "KiaroSama"
   },

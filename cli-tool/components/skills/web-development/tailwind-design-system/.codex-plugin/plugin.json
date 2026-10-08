@@ -1,13 +1,14 @@
 {
   "name": "skill-tailwind-design-system",
   "description": "Build production-ready design systems with Tailwind CSS, including design tokens, component variants, responsive patterns, and accessibility.",
-  "version": "1.0.0",
+  "version": "1.0.242375014780207",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "tailwind-design-system",
     "shortDescription": "Build production-ready design systems with Tailwind CSS, including design tokens, component variants, responsive pattern",

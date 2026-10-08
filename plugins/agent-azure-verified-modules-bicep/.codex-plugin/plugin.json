@@ -1,7 +1,7 @@
 {
   "name": "agent-azure-verified-modules-bicep",
   "description": "Create, update, or review Azure IaC in Bicep using Azure Verified Modules (AVM).",
-  "version": "1.0.0",
+  "version": "1.0.193989285072105",
   "author": {
     "name": "KiaroSama"
   },

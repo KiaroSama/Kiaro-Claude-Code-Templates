@@ -1,7 +1,7 @@
 {
   "name": "mcp-railway",
   "description": "Railway MCP server provides seamless integration with Railway's deployment platform, enabling Claude to manage projects, deployments, and infrastructure directly from the CLI.",
-  "version": "1.0.0",
+  "version": "1.0.101074027038639",
   "author": {
     "name": "KiaroSama"
   },

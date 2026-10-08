@@ -1,7 +1,7 @@
 {
   "name": "hook-git-add-changes",
   "description": "Automatically stage changes in git after file modifications for easier commit workflow. This hook runs 'git add' on any file that Claude edits or writes, automatically staging changes for the next commit. Includes error suppression so it won't fail in non-git repositories. Helps streamline the de...",
-  "version": "1.0.0",
+  "version": "1.0.168486452492136",
   "author": {
     "name": "KiaroSama"
   },

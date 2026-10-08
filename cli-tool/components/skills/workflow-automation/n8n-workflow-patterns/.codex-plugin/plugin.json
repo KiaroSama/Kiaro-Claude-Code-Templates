@@ -1,13 +1,14 @@
 {
   "name": "skill-n8n-workflow-patterns-2",
   "description": "Proven architectural patterns for building n8n workflows.",
-  "version": "1.0.0",
+  "version": "1.0.178139048204389",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "n8n-workflow-patterns",
     "shortDescription": "Proven architectural patterns for building n8n workflows.",

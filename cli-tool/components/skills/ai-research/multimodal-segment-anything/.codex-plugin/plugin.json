@@ -1,13 +1,14 @@
 {
   "name": "skill-multimodal-segment-anything",
   "description": "Foundation model for image segmentation with zero-shot transfer. Use when you need to segment any object in images using points, boxes, or masks as prompts, or automatically generate all object masks in an image.",
-  "version": "1.0.0",
+  "version": "1.0.238122333364445",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "multimodal-segment-anything",
     "shortDescription": "Foundation model for image segmentation with zero-shot transfer. Use when you need to segment any object in images using",

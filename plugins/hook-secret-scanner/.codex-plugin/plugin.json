@@ -1,7 +1,7 @@
 {
   "name": "hook-secret-scanner",
   "description": "Automatically detects hardcoded secrets before git commits. Scans for API keys from 30+ providers (Anthropic: sk-ant-..., OpenAI: sk-..., AWS: AKIA..., Stripe: sk_live_..., Google: AIza..., GitHub: ghp_..., Vercel, Supabase, Hugging Face: hf_..., Replicate: r8_..., Groq: gsk_..., Databricks: dapi...",
-  "version": "1.0.0",
+  "version": "1.0.144821416950490",
   "author": {
     "name": "KiaroSama"
   },

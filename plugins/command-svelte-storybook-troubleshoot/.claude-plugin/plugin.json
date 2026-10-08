@@ -1,7 +1,7 @@
 {
   "name": "command-svelte-storybook-troubleshoot",
   "description": "Diagnose and fix common Storybook issues in SvelteKit projects, including build errors, module problems, and configuration issues.",
-  "version": "1.0.0",
+  "version": "1.0.242660325604371",
   "author": {
     "name": "KiaroSama"
   },

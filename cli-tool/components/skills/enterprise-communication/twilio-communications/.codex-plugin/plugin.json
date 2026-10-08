@@ -1,13 +1,14 @@
 {
   "name": "skill-twilio-communications",
   "description": "Build communication features with Twilio: SMS messaging, voice calls, WhatsApp Business API, and user verification (2FA). Covers the full spectrum from simple notifications to complex IVR systems and multi-channel authentication. Critical focus on compliance, rate limits, and error handling. Use ...",
-  "version": "1.0.0",
+  "version": "1.0.78923004735326",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "twilio-communications",
     "shortDescription": "Build communication features with Twilio: SMS messaging, voice calls, WhatsApp Business API, and user verification (2FA)",

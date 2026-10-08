@@ -1,0 +1,12 @@
+{
+  "name": "command-optimize",
+  "description": "Analyze and optimize task orchestrations to improve efficiency, reduce bottlenecks, and maximize team productivity.",
+  "version": "1.0.174368076411584",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "commands": "./commands/*.md"
+}

@@ -1,7 +1,7 @@
 {
   "name": "agent-tech-debt-remediation-plan",
   "description": "Generate technical debt remediation plans for code, tests, and documentation.",
-  "version": "1.0.0",
+  "version": "1.0.226712902344990",
   "author": {
     "name": "KiaroSama"
   },

@@ -1,0 +1,12 @@
+{
+  "name": "command-test-coverage",
+  "description": "---",
+  "version": "1.0.96420663820416",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "commands": "./commands/*.md"
+}

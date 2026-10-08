@@ -1,0 +1,12 @@
+{
+  "name": "command-recipe-schedule-recurring-event",
+  "description": "---",
+  "version": "1.0.260177495179296",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "commands": "./commands/*.md"
+}

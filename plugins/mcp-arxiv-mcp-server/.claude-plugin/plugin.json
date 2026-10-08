@@ -1,7 +1,7 @@
 {
   "name": "mcp-arxiv-mcp-server",
   "description": "Search, download, and analyze academic papers from arXiv. Supports full-text search, paper retrieval, and local storage for research workflows.",
-  "version": "1.0.0",
+  "version": "1.0.87012595823494",
   "author": {
     "name": "KiaroSama"
   },

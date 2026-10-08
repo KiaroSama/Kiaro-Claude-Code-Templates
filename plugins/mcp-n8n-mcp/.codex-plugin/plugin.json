@@ -1,7 +1,7 @@
 {
   "name": "mcp-n8n-mcp",
   "description": "Build and manage n8n workflows directly from Claude. Includes a pre-built database with all n8n node documentation for workflow automation.",
-  "version": "1.0.0",
+  "version": "1.0.29689460706450",
   "author": {
     "name": "KiaroSama"
   },

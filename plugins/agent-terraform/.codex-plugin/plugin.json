@@ -1,7 +1,7 @@
 {
   "name": "agent-terraform",
   "description": "Terraform infrastructure specialist with automated HCP Terraform workflows. Leverages Terraform MCP server for registry integration, workspace management, and run orchestration. Generates compliant code using latest provider/module versions, manages private registries, automates variable sets, an...",
-  "version": "1.0.0",
+  "version": "1.0.155598030470863",
   "author": {
     "name": "KiaroSama"
   },

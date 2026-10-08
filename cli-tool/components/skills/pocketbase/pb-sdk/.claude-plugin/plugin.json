@@ -1,11 +1,14 @@
 {
   "name": "skill-pb-sdk",
   "description": "JavaScript SDK usage for PocketBase client applications. Use when calling PocketBase from frontend or Node.js, authenticating users, subscribing to realtime events, uploading files, or working with the PocketBase JS/TS SDK. Covers CRUD, auth flows, authStore, realtime SSE, file handling, batch op...",
-  "version": "1.0.0",
+  "version": "1.0.83768706454186",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
-  "license": "MIT"
+  "license": "MIT",
+  "skills": [
+    "./"
+  ]
 }

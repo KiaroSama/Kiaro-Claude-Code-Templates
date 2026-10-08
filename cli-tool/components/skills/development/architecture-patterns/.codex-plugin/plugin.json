@@ -1,13 +1,14 @@
 {
   "name": "skill-architecture-patterns",
   "description": "Master proven backend architecture patterns including Clean Architecture, Hexagonal Architecture, and Domain-Driven Design to build maintainable, testable, and scalable systems.",
-  "version": "1.0.0",
+  "version": "1.0.150440119753010",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "architecture-patterns",
     "shortDescription": "Master proven backend architecture patterns including Clean Architecture, Hexagonal Architecture, and Domain-Driven Desi",

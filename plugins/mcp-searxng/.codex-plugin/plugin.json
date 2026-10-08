@@ -1,7 +1,7 @@
 {
   "name": "mcp-searxng",
   "description": "MCP Server for SearXNG, a privacy-respecting metasearch engine. Perform web searches across multiple search engines without tracking.",
-  "version": "1.0.0",
+  "version": "1.0.112224795502704",
   "author": {
     "name": "KiaroSama"
   },

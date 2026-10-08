@@ -1,0 +1,12 @@
+{
+  "name": "command-find",
+  "description": "Search and locate tasks across all orchestrations using various criteria.",
+  "version": "1.0.76609083919162",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "commands": "./commands/*.md"
+}

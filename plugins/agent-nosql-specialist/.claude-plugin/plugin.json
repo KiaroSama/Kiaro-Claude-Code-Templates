@@ -1,7 +1,7 @@
 {
   "name": "agent-nosql-specialist",
   "description": "NoSQL database specialist for MongoDB, Redis, Cassandra, and document/key-value stores. Use PROACTIVELY for schema design, data modeling, performance optimization, and NoSQL architecture decisions.",
-  "version": "1.0.0",
+  "version": "1.0.81785980119730",
   "author": {
     "name": "KiaroSama"
   },

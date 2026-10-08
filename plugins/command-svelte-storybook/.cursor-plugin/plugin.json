@@ -1,0 +1,12 @@
+{
+  "name": "command-svelte-storybook",
+  "description": "General-purpose Storybook assistance for SvelteKit projects, including setup guidance, best practices, and common tasks.",
+  "version": "1.0.36470844005503",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "commands": "./commands/*.md"
+}

@@ -1,7 +1,7 @@
 {
   "name": "agent-amplitude-experiment-implementation",
   "description": "This custom agent uses Amplitude's MCP tools to deploy new experiments inside of Amplitude, enabling seamless variant testing capabilities and rollout of product features.",
-  "version": "1.0.0",
+  "version": "1.0.227880977833023",
   "author": {
     "name": "KiaroSama"
   },

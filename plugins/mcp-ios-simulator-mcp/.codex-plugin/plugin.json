@@ -1,7 +1,7 @@
 {
   "name": "mcp-ios-simulator-mcp",
   "description": "Control iOS Simulator directly from Claude Code. Launch apps, take screenshots, manage device states, and streamline mobile development workflows.",
-  "version": "1.0.0",
+  "version": "1.0.260849208379676",
   "author": {
     "name": "KiaroSama"
   },

@@ -1,0 +1,12 @@
+{
+  "name": "mcp-stripe",
+  "description": "Let your AI agents interact with the Stripe API by using our MCP server.",
+  "version": "1.0.44044671691069",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "mcpServers": "./.mcp.json"
+}

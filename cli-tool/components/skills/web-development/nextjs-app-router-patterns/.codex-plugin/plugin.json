@@ -1,13 +1,14 @@
 {
   "name": "skill-nextjs-app-router-patterns",
   "description": "Comprehensive patterns for Next.js 14+ App Router architecture, Server Components, and modern full-stack React development.",
-  "version": "1.0.0",
+  "version": "1.0.157692308477470",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "nextjs-app-router-patterns",
     "shortDescription": "Comprehensive patterns for Next.js 14+ App Router architecture, Server Components, and modern full-stack React developme",

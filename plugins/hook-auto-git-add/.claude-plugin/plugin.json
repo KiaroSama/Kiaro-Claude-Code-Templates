@@ -1,7 +1,7 @@
 {
   "name": "hook-auto-git-add",
   "description": "Automatically stage modified files with git add after editing. Helps maintain a clean git workflow by staging changes as they're made.",
-  "version": "1.0.0",
+  "version": "1.0.138558864652679",
   "author": {
     "name": "KiaroSama"
   },

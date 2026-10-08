@@ -1,0 +1,12 @@
+{
+  "name": "command-all-tools",
+  "description": "Display all available development tools",
+  "version": "1.0.175464858954455",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "commands": "./commands/*.md"
+}

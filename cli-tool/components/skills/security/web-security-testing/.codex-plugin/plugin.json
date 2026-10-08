@@ -1,13 +1,14 @@
 {
   "name": "skill-web-security-testing",
   "description": "Web application security testing workflow for OWASP Top 10 vulnerabilities including injection, XSS, authentication flaws, and access control issues.",
-  "version": "1.0.0",
+  "version": "1.0.268275485490801",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "web-security-testing",
     "shortDescription": "Web application security testing workflow for OWASP Top 10 vulnerabilities including injection, XSS, authentication flaw",

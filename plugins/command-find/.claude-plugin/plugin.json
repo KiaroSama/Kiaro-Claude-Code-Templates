@@ -1,7 +1,7 @@
 {
   "name": "command-find",
   "description": "Search and locate tasks across all orchestrations using various criteria.",
-  "version": "1.0.0",
+  "version": "1.0.76609083919162",
   "author": {
     "name": "KiaroSama"
   },

@@ -1,7 +1,7 @@
 {
   "name": "agent-context-manager",
   "description": "Context management specialist for multi-agent workflows and long-running tasks. Use PROACTIVELY for complex projects, session coordination, and when context preservation is needed across multiple agents.",
-  "version": "1.0.0",
+  "version": "1.0.69709001940586",
   "author": {
     "name": "KiaroSama"
   },

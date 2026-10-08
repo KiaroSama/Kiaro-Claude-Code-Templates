@@ -1,7 +1,7 @@
 {
   "name": "hook-dependency-checker",
   "description": "Advanced dependency analysis and security checking. Monitors for outdated packages, security vulnerabilities, and license compatibility.",
-  "version": "1.0.0",
+  "version": "1.0.116353243947047",
   "author": {
     "name": "KiaroSama"
   },

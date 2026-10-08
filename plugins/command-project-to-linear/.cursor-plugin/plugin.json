@@ -1,0 +1,12 @@
+{
+  "name": "command-project-to-linear",
+  "description": "---",
+  "version": "1.0.192409849564105",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "commands": "./commands/*.md"
+}

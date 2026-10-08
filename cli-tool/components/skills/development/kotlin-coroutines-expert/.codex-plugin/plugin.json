@@ -1,13 +1,14 @@
 {
   "name": "skill-kotlin-coroutines-expert",
   "description": "Expert patterns for Kotlin Coroutines and Flow, covering structured concurrency, error handling, and testing.",
-  "version": "1.0.0",
+  "version": "1.0.103894768478027",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "kotlin-coroutines-expert",
     "shortDescription": "Expert patterns for Kotlin Coroutines and Flow, covering structured concurrency, error handling, and testing.",

@@ -1,0 +1,12 @@
+{
+  "name": "agent-general-purpose",
+  "description": "Default agent for handling complex, multi-step tasks with automatic delegation capabilities",
+  "version": "1.0.109575162612942",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "agents": "./agents/*.md"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "mcp-github-official",
+  "description": "GitHub's official MCP Server. Interact with GitHub repositories, issues, pull requests, and more directly from Claude.",
+  "version": "1.0.192438223920672",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "mcpServers": "./.mcp.json"
+}

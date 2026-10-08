@@ -1,0 +1,4 @@
+{
+  "name": "mcp-mysql-integration",
+  "description": "Connect to MySQL databases for direct data access, queries, and database management within Claude Code workflows."
+}

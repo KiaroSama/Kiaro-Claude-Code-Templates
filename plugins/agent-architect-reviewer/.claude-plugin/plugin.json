@@ -1,7 +1,7 @@
 {
   "name": "agent-architect-reviewer",
-  "description": "Use this agent when you need to evaluate system design decisions, architectural patterns, and technology choices at the macro level. Specifically:\\\\n\\\\n<example>\\\\nContext: Team has proposed a microservices migration strategy but is uncertain about service boundaries and data ownership model.\\\\nu...",
-  "version": "1.0.0",
+  "description": "Use this agent when you need to evaluate system design decisions, architectural patterns, and technology choices at the macro level. Use PROACTIVELY before major refactors, technology-stack decisions, or microservice boundary changes. Specifically:\\\\n\\\\n<example>\\\\nContext: Team has proposed a mi...",
+  "version": "1.0.27948503813007",
   "author": {
     "name": "KiaroSama"
   },

@@ -1,7 +1,7 @@
 {
   "name": "agent-bicep-implement",
   "description": "Act as an Azure Bicep Infrastructure as Code coding specialist that creates Bicep templates.",
-  "version": "1.0.0",
+  "version": "1.0.279708602365288",
   "author": {
     "name": "KiaroSama"
   },

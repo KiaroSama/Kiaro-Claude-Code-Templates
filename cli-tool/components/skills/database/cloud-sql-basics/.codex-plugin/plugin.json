@@ -1,13 +1,14 @@
 {
   "name": "skill-cloud-sql-basics",
   "description": "Creates and manages Cloud SQL instances for MySQL, PostgreSQL, and SQL Server. Handles backups, high availability, and secure connectivity for relational database workloads on Google Cloud.",
-  "version": "1.0.0",
+  "version": "1.0.43528654681422",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "cloud-sql-basics",
     "shortDescription": "Creates and manages Cloud SQL instances for MySQL, PostgreSQL, and SQL Server. Handles backups, high availability, and s",

@@ -1,7 +1,7 @@
 {
   "name": "hook-context-timeline",
   "description": "Real-time browser visualization of Claude Code's context window and subagent/tool execution as a git-graph timeline. Opens http://localhost:7878 on SessionStart with a vertical timeline (most recent on top), one column per agent (main + subagents branching from their Task tool call). Tool calls a...",
-  "version": "1.0.0",
+  "version": "1.0.242612663578244",
   "author": {
     "name": "KiaroSama"
   },

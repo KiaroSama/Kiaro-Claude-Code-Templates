@@ -1,7 +1,7 @@
 {
   "name": "agent-nia-oracle",
   "description": "Expert research agent specialized in leveraging Nia's knowledge tools. Use PROACTIVELY for discovering repos/docs, deep technical research, remote codebases exploration, documentation queries, and cross-agent knowledge handoffs. Automatically indexes and searches discovered resources.",
-  "version": "1.0.0",
+  "version": "1.0.51307603418913",
   "author": {
     "name": "KiaroSama"
   },

@@ -1,7 +1,7 @@
 {
   "name": "agent-mongodb-performance-advisor",
   "description": "Analyze MongoDB database performance, offer query and index optimization insights and provide actionable recommendations to improve overall usage of the database.",
-  "version": "1.0.0",
+  "version": "1.0.120069826381731",
   "author": {
     "name": "KiaroSama"
   },

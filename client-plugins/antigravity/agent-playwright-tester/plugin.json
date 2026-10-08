@@ -1,0 +1,4 @@
+{
+  "name": "agent-playwright-tester",
+  "description": "Testing mode for Playwright tests"
+}

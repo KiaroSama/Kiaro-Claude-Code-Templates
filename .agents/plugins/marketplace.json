@@ -2945,10 +2945,10 @@
       "category": "Agents"
     },
     {
-      "name": "agent-payment-integration",
+      "name": "agent-payment-gateway-integrator",
       "source": {
         "source": "local",
-        "path": "./plugins/agent-payment-integration"
+        "path": "./plugins/agent-payment-gateway-integrator"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -2957,10 +2957,10 @@
       "category": "Agents"
     },
     {
-      "name": "agent-payment-integration-2",
+      "name": "agent-payment-integration",
       "source": {
         "source": "local",
-        "path": "./plugins/agent-payment-integration-2"
+        "path": "./plugins/agent-payment-integration"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -11009,6 +11009,18 @@
       "category": "Integrations"
     },
     {
+      "name": "mcp-pricewin",
+      "source": {
+        "source": "local",
+        "path": "./plugins/mcp-pricewin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
       "name": "mcp-pulumi",
       "source": {
         "source": "local",
@@ -11333,6 +11345,18 @@
       "category": "Productivity"
     },
     {
+      "name": "mod-chess",
+      "source": {
+        "source": "local",
+        "path": "./cli-tool/components/mods/games/chess"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
       "name": "mod-diff-invaders",
       "source": {
         "source": "local",
@@ -11441,6 +11465,30 @@
       "category": "Productivity"
     },
     {
+      "name": "mod-jev-skill-typeahead",
+      "source": {
+        "source": "local",
+        "path": "./cli-tool/components/mods/productivity/jev-skill-typeahead"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "mod-jev-vercel-sandbox",
+      "source": {
+        "source": "local",
+        "path": "./cli-tool/components/mods/security/jev-vercel-sandbox"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
       "name": "mod-large-edit-confirmation",
       "source": {
         "source": "local",
@@ -11453,10 +11501,34 @@
       "category": "Productivity"
     },
     {
+      "name": "mod-linear-tickets",
+      "source": {
+        "source": "local",
+        "path": "./cli-tool/components/mods/integrations/linear-tickets"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
       "name": "mod-minesweeper",
       "source": {
         "source": "local",
         "path": "./cli-tool/components/mods/games/minesweeper"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "mod-neon-branch-per-session",
+      "source": {
+        "source": "local",
+        "path": "./cli-tool/components/mods/integrations/neon-branch-per-session"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -11525,6 +11597,18 @@
       "category": "Productivity"
     },
     {
+      "name": "mod-prompt-cache-control",
+      "source": {
+        "source": "local",
+        "path": "./cli-tool/components/mods/observability/prompt-cache-control"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
       "name": "mod-protected-paths-guard",
       "source": {
         "source": "local",
@@ -11541,6 +11625,18 @@
       "source": {
         "source": "local",
         "path": "./cli-tool/components/mods/security/secret-redactor"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "mod-session-time-machine",
+      "source": {
+        "source": "local",
+        "path": "./cli-tool/components/mods/productivity/session-time-machine"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -11613,6 +11709,18 @@
       "source": {
         "source": "local",
         "path": "./cli-tool/components/mods/observability/universal-audit-log"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "mod-vercel-deploys",
+      "source": {
+        "source": "local",
+        "path": "./cli-tool/components/mods/integrations/vercel-deploys"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -19065,6 +19173,18 @@
       "source": {
         "source": "local",
         "path": "./cli-tool/components/skills/creative-design/premium-web-design"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Skills"
+    },
+    {
+      "name": "skill-pricewin-travel-search",
+      "source": {
+        "source": "local",
+        "path": "./cli-tool/components/skills/web-data/pricewin-travel-search"
       },
       "policy": {
         "installation": "AVAILABLE",

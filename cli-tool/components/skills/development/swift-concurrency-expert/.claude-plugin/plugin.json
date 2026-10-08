@@ -1,11 +1,14 @@
 {
   "name": "skill-swift-concurrency-expert",
   "description": "Review and fix Swift concurrency issues such as actor isolation and Sendable violations.",
-  "version": "1.0.0",
+  "version": "1.0.22919676768560",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
-  "license": "MIT"
+  "license": "MIT",
+  "skills": [
+    "./"
+  ]
 }

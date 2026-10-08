@@ -1,13 +1,14 @@
 {
   "name": "skill-scientific-slides",
   "description": "Build slide decks and presentations for research talks. Use this for making PowerPoint slides, conference presentations, seminar talks, research presentations, thesis defense slides, or any scientific talk. Provides slide structure, design templates, timing guidance, and visual validation. Works ...",
-  "version": "1.0.0",
+  "version": "1.0.123803628790981",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "scientific-slides",
     "shortDescription": "Build slide decks and presentations for research talks. Use this for making PowerPoint slides, conference presentations,",

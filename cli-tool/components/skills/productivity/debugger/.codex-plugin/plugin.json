@@ -1,13 +1,14 @@
 {
   "name": "skill-debugger",
   "description": "Debugging specialist for errors, test failures, and unexpected behavior. Use proactively when encountering any issues. ",
-  "version": "1.0.0",
+  "version": "1.0.197880515893888",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "debugger",
     "shortDescription": "Debugging specialist for errors, test failures, and unexpected behavior. Use proactively when encountering any issues. ",

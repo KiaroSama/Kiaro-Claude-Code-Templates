@@ -1,7 +1,7 @@
 {
   "name": "agent-technical-researcher",
   "description": "Use this agent when you need to analyze code repositories, technical documentation, implementation details, or evaluate technical solutions. This includes researching GitHub projects, reviewing API documentation, finding code examples, assessing code quality, tracking version histories, or compar...",
-  "version": "1.0.0",
+  "version": "1.0.22905168436714",
   "author": {
     "name": "KiaroSama"
   },

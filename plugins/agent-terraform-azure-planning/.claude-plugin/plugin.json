@@ -1,7 +1,7 @@
 {
   "name": "agent-terraform-azure-planning",
   "description": "Act as implementation planner for your Azure Terraform Infrastructure as Code task.",
-  "version": "1.0.0",
+  "version": "1.0.171421178700392",
   "author": {
     "name": "KiaroSama"
   },

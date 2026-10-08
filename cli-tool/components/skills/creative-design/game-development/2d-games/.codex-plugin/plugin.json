@@ -1,13 +1,14 @@
 {
   "name": "skill-2d-games",
   "description": "2D game development principles. Sprites, tilemaps, physics, camera.",
-  "version": "1.0.0",
+  "version": "1.0.218756296283155",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "2d-games",
     "shortDescription": "2D game development principles. Sprites, tilemaps, physics, camera.",

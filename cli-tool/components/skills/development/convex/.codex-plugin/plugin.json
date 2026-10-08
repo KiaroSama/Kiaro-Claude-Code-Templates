@@ -1,13 +1,14 @@
 {
   "name": "skill-convex",
   "description": "Convex reactive backend expert: schema design, TypeScript functions, real-time subscriptions, auth, file storage, scheduling, and deployment.",
-  "version": "1.0.0",
+  "version": "1.0.114216902588442",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "convex",
     "shortDescription": "Convex reactive backend expert: schema design, TypeScript functions, real-time subscriptions, auth, file storage, schedu",

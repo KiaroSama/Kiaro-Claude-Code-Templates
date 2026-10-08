@@ -1,13 +1,14 @@
 {
   "name": "skill-agents-crewai",
   "description": "Multi-agent orchestration framework for autonomous AI collaboration. Use when building teams of specialized agents working together on complex tasks, when you need role-based agent collaboration with memory, or for production workflows requiring sequential/hierarchical execution. Built without La...",
-  "version": "1.0.0",
+  "version": "1.0.102291934952333",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "agents-crewai",
     "shortDescription": "Multi-agent orchestration framework for autonomous AI collaboration. Use when building teams of specialized agents worki",

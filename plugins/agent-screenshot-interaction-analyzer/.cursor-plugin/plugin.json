@@ -1,0 +1,12 @@
+{
+  "name": "agent-screenshot-interaction-analyzer",
+  "description": "Analyzes user interaction flows, clickable elements, and state transitions from UI screenshots",
+  "version": "1.0.92823111783760",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "agents": "./agents/*.md"
+}

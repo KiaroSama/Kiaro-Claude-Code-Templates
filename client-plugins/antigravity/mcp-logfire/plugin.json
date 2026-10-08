@@ -1,0 +1,4 @@
+{
+  "name": "mcp-logfire",
+  "description": "Provides access to OpenTelemetry traces and metrics through Logfire."
+}

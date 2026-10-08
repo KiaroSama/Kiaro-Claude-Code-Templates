@@ -1,13 +1,14 @@
 {
   "name": "skill-nowait",
   "description": "Implements the NOWAIT technique for efficient reasoning in R1-style LLMs. Use when optimizing inference of reasoning models (QwQ, DeepSeek-R1, Phi4-Reasoning, Qwen3, Kimi-VL, QvQ), reducing chain-of-thought token usage by 27-51% while preserving accuracy. Triggers on \"optimize reasoning\", \"reduce...",
-  "version": "1.0.0",
+  "version": "1.0.156959454321547",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "nowait",
     "shortDescription": "Implements the NOWAIT technique for efficient reasoning in R1-style LLMs. Use when optimizing inference of reasoning mod",

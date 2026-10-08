@@ -1,13 +1,14 @@
 {
   "name": "skill-incident-responder",
   "description": "Expert SRE incident responder specializing in rapid problem resolution, modern observability, and comprehensive incident management.",
-  "version": "1.0.0",
+  "version": "1.0.251262574560592",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "incident-responder",
     "shortDescription": "Expert SRE incident responder specializing in rapid problem resolution, modern observability, and comprehensive incident",

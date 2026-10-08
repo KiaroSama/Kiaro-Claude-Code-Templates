@@ -1,0 +1,12 @@
+{
+  "name": "agent-context7",
+  "description": "Expert in latest library versions, best practices, and correct syntax using up-to-date documentation",
+  "version": "1.0.204009378996389",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "agents": "./agents/*.md"
+}

@@ -1,7 +1,7 @@
 {
   "name": "hook-plan-gate",
   "description": "Planning gate that warns when editing production code without an approved specification. Checks for recent .spec.md files in the project directory (last 14 days). If no spec is found, shows a warning suggesting to create one first. Non-blocking (exit 0) — acts as a reminder, not a hard gate. Supp...",
-  "version": "1.0.0",
+  "version": "1.0.63642944421655",
   "author": {
     "name": "KiaroSama"
   },

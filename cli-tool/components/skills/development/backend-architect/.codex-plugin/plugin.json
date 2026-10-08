@@ -1,13 +1,14 @@
 {
   "name": "skill-backend-architect",
   "description": "Expert backend architect specializing in scalable API design, microservices architecture, and distributed systems.",
-  "version": "1.0.0",
+  "version": "1.0.37689466821548",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "backend-architect",
     "shortDescription": "Expert backend architect specializing in scalable API design, microservices architecture, and distributed systems.",

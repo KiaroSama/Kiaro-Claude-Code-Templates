@@ -1,7 +1,7 @@
 {
   "name": "mcp-browser-use-mcp-server",
   "description": "An MCP server that enables AI agents to control web browsers using browser-use.",
-  "version": "1.0.0",
+  "version": "1.0.15971186963077",
   "author": {
     "name": "KiaroSama"
   },

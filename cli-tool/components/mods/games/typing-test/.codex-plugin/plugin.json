@@ -1,6 +1,6 @@
 {
   "name": "mod-typing-test",
-  "description": "Typing test above the Claude Code prompt: retype a line of code as fast as you can. Plays while Claude works, pauses when the turn ends, keeps your best score; zero tokens. A single game split out of cc-arcade (MIT, Seza Akgün). Needs function hooks (early access) and an interactive terminal with...",
+  "description": "Typing test above the Claude Code prompt: retype a line of code as fast as you can. Plays while Claude works, pauses when the turn ends, keeps your best score; zero tokens. A single game split out of cc-arcade (MIT, Seza Akgün). Needs an interactive terminal with a mouse.",
   "version": "0.2.0",
   "author": {
     "name": "Seza Akgün"

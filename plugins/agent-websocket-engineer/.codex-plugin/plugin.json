@@ -1,7 +1,7 @@
 {
   "name": "agent-websocket-engineer",
   "description": "Use this agent when implementing real-time bidirectional communication features using WebSockets, Socket.IO, or similar technologies at scale. Specifically:\\\\n\\\\n<example>\\\\nContext: Building a collaborative editing platform that requires sub-100ms message delivery to thousands of concurrent user...",
-  "version": "1.0.0",
+  "version": "1.0.106435755306952",
   "author": {
     "name": "KiaroSama"
   },

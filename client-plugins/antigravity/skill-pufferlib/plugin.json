@@ -1,0 +1,4 @@
+{
+  "name": "skill-pufferlib",
+  "description": "This skill should be used when working with reinforcement learning tasks including high-performance RL training, custom environment development, vectorized parallel simulation, multi-agent systems, or integration with existing RL environments (Gymnasium, PettingZoo, Atari, Procgen, etc.). Use thi..."
+}

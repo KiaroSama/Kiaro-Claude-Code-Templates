@@ -1,0 +1,4 @@
+{
+  "name": "mcp-alpaca-trading",
+  "description": "Trading platform MCP server enabling stock, ETF, crypto, and options trading via Alpaca's API. Supports market data, portfolio management, and order execution."
+}

@@ -1,0 +1,12 @@
+{
+  "name": "agent-database-optimization",
+  "description": "Database performance optimization and query tuning specialist. Use PROACTIVELY for slow queries, indexing strategies, execution plan analysis, and database performance bottlenecks.",
+  "version": "1.0.276051112905690",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "agents": "./agents/*.md"
+}

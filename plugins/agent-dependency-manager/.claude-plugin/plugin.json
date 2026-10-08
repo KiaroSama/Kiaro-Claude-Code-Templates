@@ -1,7 +1,7 @@
 {
   "name": "agent-dependency-manager",
   "description": "Use this agent when you need to audit dependencies for vulnerabilities, resolve version conflicts, optimize bundle sizes, or implement automated dependency updates. Specifically:\\\\n\\\\n<example>\\\\nContext: A project has accumulated security vulnerabilities in its dependency tree that need immediat...",
-  "version": "1.0.0",
+  "version": "1.0.122654300240788",
   "author": {
     "name": "KiaroSama"
   },

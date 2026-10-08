@@ -1,13 +1,14 @@
 {
   "name": "skill-skill-creation-guide",
   "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.",
-  "version": "1.0.0",
+  "version": "1.0.181374222375241",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "skill-creation-guide",
     "shortDescription": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an exist",

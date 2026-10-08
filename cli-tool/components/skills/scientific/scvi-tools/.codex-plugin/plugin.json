@@ -1,13 +1,14 @@
 {
   "name": "skill-scvi-tools",
   "description": "This skill should be used when working with single-cell omics data analysis using scvi-tools, including scRNA-seq, scATAC-seq, CITE-seq, spatial transcriptomics, and other single-cell modalities. Use this skill for probabilistic modeling, batch correction, dimensionality reduction, differential e...",
-  "version": "1.0.0",
+  "version": "1.0.246913250500507",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "scvi-tools",
     "shortDescription": "This skill should be used when working with single-cell omics data analysis using scvi-tools, including scRNA-seq, scATA",

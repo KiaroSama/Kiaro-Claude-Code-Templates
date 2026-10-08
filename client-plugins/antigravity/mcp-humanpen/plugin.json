@@ -1,0 +1,4 @@
+{
+  "name": "mcp-humanpen",
+  "description": "Document-level AI humanizer — rewrite a whole .docx/.pptx, selected passages, or Turnitin/iThenticate-flagged text in place, keeping formatting, tables, citations and formulas intact."
+}

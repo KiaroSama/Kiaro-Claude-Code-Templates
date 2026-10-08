@@ -1,7 +1,7 @@
 {
   "name": "mcp-android-mcp",
   "description": "MCP Server for interacting with Android devices. Control, inspect, and automate Android devices via ADB through Claude.",
-  "version": "1.0.0",
+  "version": "1.0.44775203946839",
   "author": {
     "name": "KiaroSama"
   },

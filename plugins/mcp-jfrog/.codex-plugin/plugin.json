@@ -1,7 +1,7 @@
 {
   "name": "mcp-jfrog",
   "description": "JFrog MCP Server: providing your agents with direct access to JFrog Platform services.",
-  "version": "1.0.0",
+  "version": "1.0.158765391360610",
   "author": {
     "name": "KiaroSama"
   },

@@ -1,7 +1,7 @@
 {
   "name": "agent-postgresql-dba",
   "description": "Work with PostgreSQL databases using the PostgreSQL extension.",
-  "version": "1.0.0",
+  "version": "1.0.208374988539268",
   "author": {
     "name": "KiaroSama"
   },

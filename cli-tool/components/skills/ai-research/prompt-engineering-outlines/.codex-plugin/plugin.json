@@ -1,13 +1,14 @@
 {
   "name": "skill-prompt-engineering-outlines",
   "description": "Guarantee valid JSON/XML/code structure during generation, use Pydantic models for type-safe outputs, support local models (Transformers, vLLM), and maximize inference speed with Outlines - dottxt.ai's structured generation library",
-  "version": "1.0.0",
+  "version": "1.0.184768336234037",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "prompt-engineering-outlines",
     "shortDescription": "Guarantee valid JSON/XML/code structure during generation, use Pydantic models for type-safe outputs, support local mode",

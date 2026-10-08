@@ -1,0 +1,12 @@
+{
+  "name": "mcp-microsoft-clarity",
+  "description": "mcp: microsoft-clarity",
+  "version": "1.0.119522895597024",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "mcpServers": "./.mcp.json"
+}

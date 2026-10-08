@@ -1,7 +1,7 @@
 {
   "name": "agent-tdd-refactor",
   "description": "Improve code quality, apply security best practices, and enhance design whilst maintaining green tests and GitHub issue compliance.",
-  "version": "1.0.0",
+  "version": "1.0.129903914388483",
   "author": {
     "name": "KiaroSama"
   },

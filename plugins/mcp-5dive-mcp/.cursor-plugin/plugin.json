@@ -1,0 +1,12 @@
+{
+  "name": "mcp-5dive-mcp",
+  "description": "Model Context Protocol (stdio) server for 5dive. Exposes the 5dive agent-fleet CLI (tasks, agents, digest) as MCP tools.",
+  "version": "1.0.92516657161475",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "mcpServers": "./.mcp.json"
+}

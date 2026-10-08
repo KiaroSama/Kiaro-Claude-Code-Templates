@@ -1,7 +1,7 @@
 {
   "name": "mcp-elasticsearch",
   "description": "MCP server for connecting to Elasticsearch data and indices. Supports search queries, mappings, ES|QL, and shard information through natural language interactions.",
-  "version": "1.0.0",
+  "version": "1.0.14894417530774",
   "author": {
     "name": "KiaroSama"
   },

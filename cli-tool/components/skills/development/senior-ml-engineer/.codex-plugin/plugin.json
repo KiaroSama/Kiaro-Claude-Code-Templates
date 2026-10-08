@@ -1,13 +1,14 @@
 {
   "name": "skill-senior-ml-engineer",
   "description": "World-class ML engineering skill for productionizing ML models, MLOps, and building scalable ML systems. Expertise in PyTorch, TensorFlow, model deployment, feature stores, model monitoring, and ML infrastructure. Includes LLM integration, fine-tuning, RAG systems, and agentic AI. Use when deploy...",
-  "version": "1.0.0",
+  "version": "1.0.268246628169062",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "senior-ml-engineer",
     "shortDescription": "World-class ML engineering skill for productionizing ML models, MLOps, and building scalable ML systems. Expertise in Py",

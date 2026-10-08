@@ -1,7 +1,7 @@
 {
   "name": "command-svelte-test-coverage",
   "description": "Analyze test coverage, identify testing gaps, and provide recommendations for improving test coverage in Svelte/SvelteKit projects.",
-  "version": "1.0.0",
+  "version": "1.0.155782201749662",
   "author": {
     "name": "KiaroSama"
   },

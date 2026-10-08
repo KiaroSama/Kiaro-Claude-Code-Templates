@@ -1,7 +1,7 @@
 {
   "name": "mcp-jina-ai",
   "description": "Official Jina AI MCP Server for web reading, search, grounding, and fact-checking capabilities powered by Jina AI APIs.",
-  "version": "1.0.0",
+  "version": "1.0.158864127660251",
   "author": {
     "name": "KiaroSama"
   },

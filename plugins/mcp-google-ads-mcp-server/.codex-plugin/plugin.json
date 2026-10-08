@@ -1,7 +1,7 @@
 {
   "name": "mcp-google-ads-mcp-server",
   "description": "A FastMCP-powered Model Context Protocol server for Google Ads API integration with automatic OAuth 2.0 authentication",
-  "version": "1.0.0",
+  "version": "1.0.127338024006421",
   "author": {
     "name": "KiaroSama"
   },

@@ -1,0 +1,4 @@
+{
+  "name": "mcp-redis",
+  "description": "Official Redis MCP Server providing natural language interface for Redis databases. Query, manage, and interact with Redis data through Claude."
+}

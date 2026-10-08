@@ -1,0 +1,12 @@
+{
+  "name": "command-status",
+  "description": "Check the current status of tasks in the orchestration system with various filtering and reporting options.",
+  "version": "1.0.80843772457527",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "commands": "./commands/*.md"
+}

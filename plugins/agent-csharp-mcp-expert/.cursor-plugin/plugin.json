@@ -1,0 +1,12 @@
+{
+  "name": "agent-csharp-mcp-expert",
+  "description": "Expert assistant for developing Model Context Protocol (MCP) servers in C#",
+  "version": "1.0.62530864257089",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "agents": "./agents/*.md"
+}

@@ -1,13 +1,14 @@
 {
   "name": "skill-multimodal-whisper",
   "description": "OpenAI's general-purpose speech recognition model. Supports 99 languages, transcription, translation to English, and language identification. Six model sizes from tiny (39M params) to large (1550M params). Use for speech-to-text, podcast transcription, or multilingual audio processing. Best for r...",
-  "version": "1.0.0",
+  "version": "1.0.83687450463681",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "multimodal-whisper",
     "shortDescription": "OpenAI's general-purpose speech recognition model. Supports 99 languages, transcription, translation to English, and lan",

@@ -1,0 +1,12 @@
+{
+  "name": "agent-sales-automator",
+  "description": "Sales automation and outreach specialist. Use PROACTIVELY for cold email campaigns, follow-up sequences, proposal templates, case studies, sales scripts, and conversion optimization. Specifically:\\n\\n<example>\\nContext: A founder wants a cold outreach sequence for a new B2B SaaS product targeting...",
+  "version": "1.0.184224614599983",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "agents": "./agents/*.md"
+}

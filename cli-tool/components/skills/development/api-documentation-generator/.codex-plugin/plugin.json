@@ -1,13 +1,14 @@
 {
   "name": "skill-api-documentation-generator",
   "description": "Generate comprehensive, developer-friendly API documentation from code, including endpoints, parameters, examples, and best practices",
-  "version": "1.0.0",
+  "version": "1.0.57194449811031",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "api-documentation-generator",
     "shortDescription": "Generate comprehensive, developer-friendly API documentation from code, including endpoints, parameters, examples, and b",

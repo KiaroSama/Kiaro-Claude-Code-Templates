@@ -1,0 +1,12 @@
+{
+  "name": "command-optimize-build",
+  "description": "Optimize build processes and speed",
+  "version": "1.0.207934597040152",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "commands": "./commands/*.md"
+}

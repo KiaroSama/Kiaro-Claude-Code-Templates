@@ -1,0 +1,12 @@
+{
+  "name": "skill-powershell-windows",
+  "description": "PowerShell Windows patterns. Critical pitfalls, operator syntax, error handling.",
+  "version": "1.0.9092982898102",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "skills": "./SKILL.md"
+}

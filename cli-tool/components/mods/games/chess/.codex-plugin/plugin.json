@@ -1,0 +1,19 @@
+{
+  "name": "mod-chess",
+  "description": "Play chess against Claude (or Jev, when a Jev key is set) in a side pane while you work. Click a piece and a square, or type a move; Claude answers through a fork of the session, Jev through TypeSafe's decision API, and the pane shows the tokens each move cost as the API reported them, and the ru...",
+  "version": "0.1.0",
+  "author": {
+    "name": "claude-code-templates",
+    "url": "https://www.aitmpl.com"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "chess",
+    "shortDescription": "Play chess against Claude (or Jev, when a Jev key is set) in a side pane while you work. Click a piece and a square, or ",
+    "developerName": "KiaroSama",
+    "category": "Productivity",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

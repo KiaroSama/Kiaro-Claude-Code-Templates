@@ -1,0 +1,4 @@
+{
+  "name": "agent-custom-agent-foundry",
+  "description": "|- Use this agent when the user wants to design or scaffold a custom chat participant/agent for GitHub Copilot in VS Code (`.agent.md` files living under `.github/agents/`), including tool selection, handoff chains, and prompt structure for the VS Code Copilot Chat schema. This is NOT for buildin..."
+}

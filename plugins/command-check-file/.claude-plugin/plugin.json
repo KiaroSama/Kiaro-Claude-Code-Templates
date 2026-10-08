@@ -1,7 +1,7 @@
 {
   "name": "command-check-file",
   "description": "Perform comprehensive analysis of $ARGUMENTS to identify code quality issues, security vulnerabilities, and optimization opportunities.",
-  "version": "1.0.0",
+  "version": "1.0.243877994495229",
   "author": {
     "name": "KiaroSama"
   },

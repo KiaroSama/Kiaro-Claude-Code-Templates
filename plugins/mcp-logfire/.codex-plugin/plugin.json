@@ -1,7 +1,7 @@
 {
   "name": "mcp-logfire",
   "description": "Provides access to OpenTelemetry traces and metrics through Logfire.",
-  "version": "1.0.0",
+  "version": "1.0.250600031223571",
   "author": {
     "name": "KiaroSama"
   },

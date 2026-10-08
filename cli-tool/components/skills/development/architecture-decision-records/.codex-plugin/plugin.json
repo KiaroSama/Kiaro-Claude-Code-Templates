@@ -1,13 +1,14 @@
 {
   "name": "skill-architecture-decision-records",
   "description": "Comprehensive patterns for creating, maintaining, and managing Architecture Decision Records (ADRs) that capture the context and rationale behind significant technical decisions.",
-  "version": "1.0.0",
+  "version": "1.0.21823675916164",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "architecture-decision-records",
     "shortDescription": "Comprehensive patterns for creating, maintaining, and managing Architecture Decision Records (ADRs) that capture the con",

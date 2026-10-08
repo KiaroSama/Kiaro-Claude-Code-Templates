@@ -1,7 +1,7 @@
 {
   "name": "command-clean-branches",
   "description": "Clean up merged and stale git branches",
-  "version": "1.0.0",
+  "version": "1.0.179565478806096",
   "author": {
     "name": "KiaroSama"
   },

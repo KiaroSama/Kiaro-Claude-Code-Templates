@@ -1,7 +1,7 @@
 {
   "name": "agent-bicep-plan",
   "description": "Act as implementation planner for your Azure Bicep Infrastructure as Code task.",
-  "version": "1.0.0",
+  "version": "1.0.169910023122531",
   "author": {
     "name": "KiaroSama"
   },

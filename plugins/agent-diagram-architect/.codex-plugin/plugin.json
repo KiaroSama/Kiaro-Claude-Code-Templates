@@ -1,7 +1,7 @@
 {
   "name": "agent-diagram-architect",
   "description": "Create technical diagrams in multiple formats (ASCII, Mermaid, PlantUML, Draw.io). Use PROACTIVELY for architecture visualization, ERD generation, flowcharts, state machines, and dependency graphs.",
-  "version": "1.0.0",
+  "version": "1.0.144188409957121",
   "author": {
     "name": "KiaroSama"
   },

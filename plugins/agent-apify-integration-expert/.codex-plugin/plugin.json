@@ -1,7 +1,7 @@
 {
   "name": "agent-apify-integration-expert",
   "description": "Expert agent for integrating Apify Actors into codebases. Handles Actor selection, workflow design, implementation across JavaScript/TypeScript and Python, testing, and production-ready deployment. Use proactively whenever the user wants to scrape a website, automate a browser task, or wire an Ap...",
-  "version": "1.0.0",
+  "version": "1.0.266225606706473",
   "author": {
     "name": "KiaroSama"
   },

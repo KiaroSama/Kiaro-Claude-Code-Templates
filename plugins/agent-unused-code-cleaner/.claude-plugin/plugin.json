@@ -1,7 +1,7 @@
 {
   "name": "agent-unused-code-cleaner",
   "description": "Detects and removes unused code (imports, functions, classes) across multiple languages. Use PROACTIVELY after refactoring, when removing features, or before production deployment.",
-  "version": "1.0.0",
+  "version": "1.0.164452128846251",
   "author": {
     "name": "KiaroSama"
   },

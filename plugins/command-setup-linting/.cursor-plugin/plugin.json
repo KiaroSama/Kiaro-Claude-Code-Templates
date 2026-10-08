@@ -1,0 +1,12 @@
+{
+  "name": "command-setup-linting",
+  "description": "---",
+  "version": "1.0.265096471098525",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "commands": "./commands/*.md"
+}

@@ -1,11 +1,14 @@
 {
   "name": "skill-systematic-debugging",
   "description": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes",
-  "version": "1.0.0",
+  "version": "1.0.210884451646105",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
-  "license": "MIT"
+  "license": "MIT",
+  "skills": [
+    "./"
+  ]
 }

@@ -1,0 +1,4 @@
+{
+  "name": "skill-pricewin-travel-search",
+  "description": "Search and compare live hotel and flight prices with the PriceWin MCP server, look up one named hotel, inspect OpenTravel direct listings, send a booking request to a partner hotel (no payment; the guest pays at the property), and cancel one. Use when the user asks to find hotels or flights for d..."
+}

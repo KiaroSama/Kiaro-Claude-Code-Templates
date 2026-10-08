@@ -1,11 +1,14 @@
 {
   "name": "skill-writing-plans",
   "description": "Use when you have a spec or requirements for a multi-step task, before touching code",
-  "version": "1.0.0",
+  "version": "1.0.159595930924974",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
-  "license": "MIT"
+  "license": "MIT",
+  "skills": [
+    "./"
+  ]
 }

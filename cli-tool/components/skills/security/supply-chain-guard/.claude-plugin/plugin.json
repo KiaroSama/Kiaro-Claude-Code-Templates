@@ -1,11 +1,14 @@
 {
   "name": "skill-supply-chain-guard",
   "description": "Detect and remediate software supply chain attacks in npm, PyPI, crates.io, GitHub Actions, and CI/CD pipelines by scanning for known compromised packages, malicious versions, filesystem IOCs, C2 indicators, and CI/CD misconfigurations.",
-  "version": "1.0.0",
+  "version": "1.0.186779711291779",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
-  "license": "MIT"
+  "license": "MIT",
+  "skills": [
+    "./"
+  ]
 }

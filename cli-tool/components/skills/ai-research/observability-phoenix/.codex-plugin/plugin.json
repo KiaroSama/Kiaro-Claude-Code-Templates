@@ -1,13 +1,14 @@
 {
   "name": "skill-observability-phoenix",
   "description": "Open-source AI observability platform for LLM tracing, evaluation, and monitoring. Use when debugging LLM applications with detailed traces, running evaluations on datasets, or monitoring production AI systems with real-time insights.",
-  "version": "1.0.0",
+  "version": "1.0.71541098831250",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "observability-phoenix",
     "shortDescription": "Open-source AI observability platform for LLM tracing, evaluation, and monitoring. Use when debugging LLM applications w",

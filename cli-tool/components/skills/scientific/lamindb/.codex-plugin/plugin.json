@@ -1,13 +1,14 @@
 {
   "name": "skill-lamindb",
   "description": "This skill should be used when working with LaminDB, an open-source data framework for biology that makes data queryable, traceable, reproducible, and FAIR. Use when managing biological datasets (scRNA-seq, spatial, flow cytometry, etc.), tracking computational workflows, curating and validating ...",
-  "version": "1.0.0",
+  "version": "1.0.83031959822677",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "lamindb",
     "shortDescription": "This skill should be used when working with LaminDB, an open-source data framework for biology that makes data queryable",

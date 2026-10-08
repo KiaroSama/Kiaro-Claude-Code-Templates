@@ -1,7 +1,7 @@
 {
   "name": "agent-web3-integration-specialist",
   "description": "Use this agent when building Web3 frontend applications and wallet integrations. Specializes in blockchain connectivity, wallet interactions (RainbowKit, Reown, WalletConnect), wagmi/viem, and dApp development. Examples: <example>Context: User needs to connect wallet to React app user: 'How do I ...",
-  "version": "1.0.0",
+  "version": "1.0.174309322173066",
   "author": {
     "name": "KiaroSama"
   },

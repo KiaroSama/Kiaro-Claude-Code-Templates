@@ -1,11 +1,14 @@
 {
   "name": "skill-remotion",
   "description": "Best practices and comprehensive guide for Remotion - programmatic video creation in React with animations, compositions, and media handling",
-  "version": "1.0.0",
+  "version": "1.0.72735083297648",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
-  "license": "MIT"
+  "license": "MIT",
+  "skills": [
+    "./"
+  ]
 }

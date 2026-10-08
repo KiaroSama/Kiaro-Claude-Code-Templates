@@ -1,11 +1,14 @@
 {
   "name": "skill-react-component-performance",
   "description": "Diagnose slow React components and suggest targeted performance fixes.",
-  "version": "1.0.0",
+  "version": "1.0.188397467418870",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
-  "license": "MIT"
+  "license": "MIT",
+  "skills": [
+    "./"
+  ]
 }

@@ -1,13 +1,14 @@
 {
   "name": "skill-electron-development",
   "description": "Master Electron desktop app development with secure IPC, contextIsolation, preload scripts, multi-process architecture, electron-builder packaging, code signing, and auto-update.",
-  "version": "1.0.0",
+  "version": "1.0.165733424804451",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "electron-development",
     "shortDescription": "Master Electron desktop app development with secure IPC, contextIsolation, preload scripts, multi-process architecture, ",

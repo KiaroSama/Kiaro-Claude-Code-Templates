@@ -1,7 +1,7 @@
 {
   "name": "hook-doordash-group-checkout-gate",
   "description": "Live allergen re-check for DoorDash CLI group orders. When a checkout runs for a cart that has a doordash-group-orders round ledger (.dd/round-*.json), this hook itself runs 'dd-cli cart show', joins cart lines to eaters via the person-to-cart-item-id ledger, and re-derives allergen conflicts aga...",
-  "version": "1.0.0",
+  "version": "1.0.135152554187397",
   "author": {
     "name": "KiaroSama"
   },

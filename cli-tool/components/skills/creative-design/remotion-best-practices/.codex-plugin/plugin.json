@@ -1,13 +1,14 @@
 {
   "name": "skill-remotion-best-practices",
   "description": "Best practices for Remotion - Video creation in React",
-  "version": "1.0.0",
+  "version": "1.0.180008636611358",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "remotion-best-practices",
     "shortDescription": "Best practices for Remotion - Video creation in React",

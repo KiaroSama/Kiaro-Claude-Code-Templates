@@ -1,0 +1,4 @@
+{
+  "name": "mcp-arxiv-mcp-server",
+  "description": "Search, download, and analyze academic papers from arXiv. Supports full-text search, paper retrieval, and local storage for research workflows."
+}

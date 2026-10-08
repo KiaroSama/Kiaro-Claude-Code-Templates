@@ -1,7 +1,7 @@
 {
   "name": "agent-test-generator",
   "description": "Analyzes code changes and generates comprehensive test cases by understanding existing test patterns, edge cases, and testing conventions in the codebase",
-  "version": "1.0.0",
+  "version": "1.0.125615939452306",
   "author": {
     "name": "KiaroSama"
   },

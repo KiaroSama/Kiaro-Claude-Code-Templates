@@ -1,0 +1,12 @@
+{
+  "name": "skill-github-actions-templates",
+  "description": "Production-ready GitHub Actions workflow patterns for testing, building, and deploying applications.",
+  "version": "1.0.88008520819352",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "skills": "./SKILL.md"
+}

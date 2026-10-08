@@ -1,0 +1,4 @@
+{
+  "name": "skill-secrets-management",
+  "description": "Secure secrets management practices for CI/CD pipelines using Vault, AWS Secrets Manager, and other tools."
+}

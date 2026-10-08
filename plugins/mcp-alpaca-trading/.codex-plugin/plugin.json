@@ -1,7 +1,7 @@
 {
   "name": "mcp-alpaca-trading",
   "description": "Trading platform MCP server enabling stock, ETF, crypto, and options trading via Alpaca's API. Supports market data, portfolio management, and order execution.",
-  "version": "1.0.0",
+  "version": "1.0.158814609132523",
   "author": {
     "name": "KiaroSama"
   },

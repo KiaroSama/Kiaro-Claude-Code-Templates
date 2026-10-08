@@ -1,13 +1,14 @@
 {
   "name": "skill-humanizer",
   "description": "| Remove signs of AI-generated writing from text. Use when editing or reviewing text to make it sound more natural and human-written. Based on Wikipedia's comprehensive \"Signs of AI writing\" guide. Detects and fixes patterns including: inflated symbolism, promotional language, superficial -ing an...",
-  "version": "1.0.0",
+  "version": "1.0.60911496844158",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "humanizer",
     "shortDescription": "| Remove signs of AI-generated writing from text. Use when editing or reviewing text to make it sound more natural and h",

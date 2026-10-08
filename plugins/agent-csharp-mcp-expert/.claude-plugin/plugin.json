@@ -1,7 +1,7 @@
 {
   "name": "agent-csharp-mcp-expert",
   "description": "Expert assistant for developing Model Context Protocol (MCP) servers in C#",
-  "version": "1.0.0",
+  "version": "1.0.62530864257089",
   "author": {
     "name": "KiaroSama"
   },

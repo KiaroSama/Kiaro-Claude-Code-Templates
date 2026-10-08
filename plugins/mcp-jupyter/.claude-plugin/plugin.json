@@ -1,7 +1,7 @@
 {
   "name": "mcp-jupyter",
   "description": "Model Context Protocol server for Jupyter notebooks. Execute code, manage notebooks, and interact with Jupyter kernels directly from Claude.",
-  "version": "1.0.0",
+  "version": "1.0.16718406377284",
   "author": {
     "name": "KiaroSama"
   },

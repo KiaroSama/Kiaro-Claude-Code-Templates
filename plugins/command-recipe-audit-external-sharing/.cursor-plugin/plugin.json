@@ -1,0 +1,12 @@
+{
+  "name": "command-recipe-audit-external-sharing",
+  "description": "---",
+  "version": "1.0.47655531435497",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "commands": "./commands/*.md"
+}

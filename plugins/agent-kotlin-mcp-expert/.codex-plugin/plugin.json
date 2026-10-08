@@ -1,7 +1,7 @@
 {
   "name": "agent-kotlin-mcp-expert",
   "description": "Expert assistant for building Model Context Protocol (MCP) servers in Kotlin using the official SDK.",
-  "version": "1.0.0",
+  "version": "1.0.146788695560215",
   "author": {
     "name": "KiaroSama"
   },

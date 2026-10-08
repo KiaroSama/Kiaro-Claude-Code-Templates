@@ -1,13 +1,14 @@
 {
   "name": "skill-nodejs-backend-patterns",
   "description": "Comprehensive guidance for building scalable, maintainable, and production-ready Node.js backend applications with modern frameworks, architectural patterns, and best practices.",
-  "version": "1.0.0",
+  "version": "1.0.277062126690169",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "nodejs-backend-patterns",
     "shortDescription": "Comprehensive guidance for building scalable, maintainable, and production-ready Node.js backend applications with moder",

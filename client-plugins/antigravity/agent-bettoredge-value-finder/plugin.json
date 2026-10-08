@@ -1,0 +1,4 @@
+{
+  "name": "agent-bettoredge-value-finder",
+  "description": "Find +EV betting opportunities on BettorEdge prediction markets with edge calculation, Kelly criterion sizing, and bankroll management"
+}

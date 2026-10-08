@@ -1,7 +1,7 @@
 {
   "name": "hook-plan-mode-game",
   "description": "Play games while Claude plans. Launches a browser game (Dino Runner, Snake, or Flappy Bird) automatically when Claude enters Plan Mode via EnterPlanMode or /plan. A live activity panel shows Claude's tool calls in real time. The game pauses when Claude needs input (AskUserQuestion) and shows a co...",
-  "version": "1.0.0",
+  "version": "1.0.177262525472160",
   "author": {
     "name": "KiaroSama"
   },

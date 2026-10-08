@@ -1,0 +1,19 @@
+{
+  "name": "mod-session-time-machine",
+  "description": "/timemachine draws the session as a timeline of prompts, tool calls and turn ends from its own transcript. Press a point and give a new instruction: the mod writes a copy of the transcript cut there under a new session id and gives you the `claude --resume` command that continues it, so you can t...",
+  "version": "0.1.0",
+  "author": {
+    "name": "claude-code-templates",
+    "url": "https://www.aitmpl.com"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "interface": {
+    "displayName": "session-time-machine",
+    "shortDescription": "/timemachine draws the session as a timeline of prompts, tool calls and turn ends from its own transcript. Press a point",
+    "developerName": "KiaroSama",
+    "category": "Productivity",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates"
+  }
+}

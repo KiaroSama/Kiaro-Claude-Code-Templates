@@ -1,7 +1,7 @@
 {
   "name": "command-git-status",
   "description": "Show detailed git repository status",
-  "version": "1.0.0",
+  "version": "1.0.48358047252096",
   "author": {
     "name": "KiaroSama"
   },

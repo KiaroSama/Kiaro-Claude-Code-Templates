@@ -1,7 +1,7 @@
 {
   "name": "hook-simple-notifications",
   "description": "Send desktop notifications when Claude Code finishes working or needs user input. Works on macOS and Linux systems.",
-  "version": "1.0.0",
+  "version": "1.0.270885281668244",
   "author": {
     "name": "KiaroSama"
   },

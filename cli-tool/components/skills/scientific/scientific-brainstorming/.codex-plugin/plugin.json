@@ -1,13 +1,14 @@
 {
   "name": "skill-scientific-brainstorming",
   "description": "Research ideation partner. Generate hypotheses, explore interdisciplinary connections, challenge assumptions, develop methodologies, identify research gaps, for creative scientific problem-solving.",
-  "version": "1.0.0",
+  "version": "1.0.146123588547382",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "scientific-brainstorming",
     "shortDescription": "Research ideation partner. Generate hypotheses, explore interdisciplinary connections, challenge assumptions, develop me",

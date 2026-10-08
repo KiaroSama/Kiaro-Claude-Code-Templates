@@ -1,7 +1,7 @@
 {
   "name": "command-start",
   "description": "Initiates the task orchestration workflow using the three-agent system (task-orchestrator, task-decomposer, and dependency-analyzer) to create a comprehensive execution plan.",
-  "version": "1.0.0",
+  "version": "1.0.259060155562712",
   "author": {
     "name": "KiaroSama"
   },

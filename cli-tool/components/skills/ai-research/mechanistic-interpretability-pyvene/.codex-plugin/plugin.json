@@ -1,13 +1,14 @@
 {
   "name": "skill-mechanistic-interpretability-pyvene",
   "description": "Provides guidance for performing causal interventions on PyTorch models using pyvene's declarative intervention framework. Use when conducting causal tracing, activation patching, interchange intervention training, or testing causal hypotheses about model behavior.",
-  "version": "1.0.0",
+  "version": "1.0.206149155626899",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "mechanistic-interpretability-pyvene",
     "shortDescription": "Provides guidance for performing causal interventions on PyTorch models using pyvene's declarative intervention framewor",

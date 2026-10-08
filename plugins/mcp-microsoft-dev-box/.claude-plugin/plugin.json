@@ -1,7 +1,7 @@
 {
   "name": "mcp-microsoft-dev-box",
   "description": "This server enables natural language interactions for developer-focused operations like managing Dev Boxes, configurations, and pools.",
-  "version": "1.0.0",
+  "version": "1.0.29145643462976",
   "author": {
     "name": "KiaroSama"
   },

@@ -1,11 +1,14 @@
 {
   "name": "skill-game-development",
   "description": "Game development orchestrator. Routes to platform-specific skills based on project needs.",
-  "version": "1.0.0",
+  "version": "1.0.237887533157056",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
-  "license": "MIT"
+  "license": "MIT",
+  "skills": [
+    "./"
+  ]
 }

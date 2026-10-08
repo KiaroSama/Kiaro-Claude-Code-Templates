@@ -1,0 +1,4 @@
+{
+  "name": "mcp-grafana",
+  "description": "A Model Context Protocol server for interacting with Grafana dashboards and monitoring. Supports both self-hosted Grafana instances and Grafana Cloud."
+}

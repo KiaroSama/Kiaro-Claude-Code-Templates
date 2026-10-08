@@ -1,13 +1,14 @@
 {
   "name": "skill-slack-automation",
   "description": "Automate Slack workspace operations including messaging, search, channel management, and reaction workflows through Composio's Slack toolkit.",
-  "version": "1.0.0",
+  "version": "1.0.115771904197056",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "slack-automation",
     "shortDescription": "Automate Slack workspace operations including messaging, search, channel management, and reaction workflows through Comp",

@@ -1,13 +1,14 @@
 {
   "name": "skill-popup-cro",
   "description": "When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. Also use when the user mentions \"exit intent,\" \"popup conversions,\" \"modal optimization,\" \"lead capture popup,\" \"email popup,\" \"announcement banner,\" or \"overlay.\" For forms outside ...",
-  "version": "1.0.0",
+  "version": "1.0.118513644695348",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "popup-cro",
     "shortDescription": "When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. Also ",

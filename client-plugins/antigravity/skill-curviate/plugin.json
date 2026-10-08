@@ -1,0 +1,4 @@
+{
+  "name": "skill-curviate",
+  "description": "Entry point for driving LinkedIn work through the Curviate CLI: which skill answers which task, how to resolve the `curviate` binary, the retrieval-mode concept and the flags only four commands accept, and the rule that an agent branches on the exit code rather than on the message text. Use whene..."
+}

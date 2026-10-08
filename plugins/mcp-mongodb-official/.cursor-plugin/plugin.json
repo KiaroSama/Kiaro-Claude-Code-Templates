@@ -1,0 +1,12 @@
+{
+  "name": "mcp-mongodb-official",
+  "description": "Official MongoDB MCP Server by MongoDB. Connect to MongoDB databases and Atlas clusters for querying, aggregation, and collection management.",
+  "version": "1.0.270094525010204",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "mcpServers": "./.mcp.json"
+}

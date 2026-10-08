@@ -1,0 +1,12 @@
+{
+  "name": "command-recipe-create-feedback-form",
+  "description": "---",
+  "version": "1.0.192390459968548",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "commands": "./commands/*.md"
+}

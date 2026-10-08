@@ -1,7 +1,7 @@
 {
   "name": "mcp-scavio",
   "description": "Real-time structured web data across 32 platforms with one API key: Google search, YouTube, Amazon, Walmart, eBay, Target, TikTok, Instagram, LinkedIn, X, Reddit, Zillow, Indeed, SEC EDGAR and more, plus extract-any-URL to Markdown.",
-  "version": "1.0.0",
+  "version": "1.0.99190717607099",
   "author": {
     "name": "KiaroSama"
   },

@@ -1,0 +1,4 @@
+{
+  "name": "mcp-jupyter",
+  "description": "Model Context Protocol server for Jupyter notebooks. Execute code, manage notebooks, and interact with Jupyter kernels directly from Claude."
+}

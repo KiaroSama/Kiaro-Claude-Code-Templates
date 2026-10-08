@@ -1,13 +1,14 @@
 {
   "name": "skill-quality-manager-qmr",
   "description": "Senior Quality Manager Responsible Person (QMR) for HealthTech and MedTech companies. Provides overall quality system responsibility, regulatory compliance oversight, management accountability, and strategic quality leadership. Use for quality system governance, regulatory compliance oversight, m...",
-  "version": "1.0.0",
+  "version": "1.0.236958685879150",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "quality-manager-qmr",
     "shortDescription": "Senior Quality Manager Responsible Person (QMR) for HealthTech and MedTech companies. Provides overall quality system re",

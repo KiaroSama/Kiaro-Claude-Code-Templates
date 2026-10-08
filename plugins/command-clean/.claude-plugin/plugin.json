@@ -1,7 +1,7 @@
 {
   "name": "command-clean",
   "description": "Fix all black, isort, flake8 and mypy issues in the entire codebase",
-  "version": "1.0.0",
+  "version": "1.0.161251604140270",
   "author": {
     "name": "KiaroSama"
   },

@@ -1,0 +1,12 @@
+{
+  "name": "command-add-performance-monitoring",
+  "description": "---",
+  "version": "1.0.36844642909858",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "commands": "./commands/*.md"
+}

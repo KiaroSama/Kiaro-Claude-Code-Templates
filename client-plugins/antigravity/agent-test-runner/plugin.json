@@ -1,0 +1,4 @@
+{
+  "name": "agent-test-runner",
+  "description": "Executes tests, analyzes results, identifies failures, diagnoses root causes, and provides actionable fixes for failing tests"
+}

@@ -1,7 +1,7 @@
 {
   "name": "hook-build-on-change",
   "description": "Automatically trigger build processes when source files change. Detects common build tools and runs appropriate build commands.",
-  "version": "1.0.0",
+  "version": "1.0.232022578161417",
   "author": {
     "name": "KiaroSama"
   },

@@ -1,0 +1,4 @@
+{
+  "name": "skill-otif-analysis",
+  "description": "Audit delivery performance from order-level data - compute the OTIF metric ladder (tolerant to strict), find where lateness concentrates, and quantify the gap between the reported KPI and what customers experience. Use when the user mentions OTIF, on-time delivery, delivery performance, late orde..."
+}

@@ -1,7 +1,7 @@
 {
   "name": "mcp-filesystem-access",
   "description": "Secure filesystem access for Claude Code with configurable directory permissions and file operations.",
-  "version": "1.0.0",
+  "version": "1.0.34207336041349",
   "author": {
     "name": "KiaroSama"
   },

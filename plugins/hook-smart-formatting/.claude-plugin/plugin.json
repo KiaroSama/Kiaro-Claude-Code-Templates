@@ -1,7 +1,7 @@
 {
   "name": "hook-smart-formatting",
   "description": "Smart code formatting based on file type. Automatically formats code using Prettier, Black, gofmt, rustfmt, and other language-specific formatters.",
-  "version": "1.0.0",
+  "version": "1.0.84746647337687",
   "author": {
     "name": "KiaroSama"
   },

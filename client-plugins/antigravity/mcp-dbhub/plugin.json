@@ -1,0 +1,4 @@
+{
+  "name": "mcp-dbhub",
+  "description": "Zero-dependency, token-efficient database MCP server supporting PostgreSQL, MySQL, MariaDB, SQL Server, and SQLite connections."
+}

@@ -1,13 +1,14 @@
 {
   "name": "skill-post-training-slime",
   "description": "Provides guidance for LLM post-training with RL using slime, a Megatron+SGLang framework. Use when training GLM models, implementing custom data generation workflows, or needing tight Megatron-LM integration for RL scaling.",
-  "version": "1.0.0",
+  "version": "1.0.250600329271224",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "post-training-slime",
     "shortDescription": "Provides guidance for LLM post-training with RL using slime, a Megatron+SGLang framework. Use when training GLM models, ",

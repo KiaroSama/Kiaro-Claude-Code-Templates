@@ -1,13 +1,14 @@
 {
   "name": "skill-notion-spec-to-implementation",
   "description": "Turn Notion specs into implementation plans, tasks, and progress tracking; use when implementing PRDs/feature specs and creating Notion plans + tasks from them.",
-  "version": "1.0.0",
+  "version": "1.0.52926608049916",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "notion-spec-to-implementation",
     "shortDescription": "Turn Notion specs into implementation plans, tasks, and progress tracking; use when implementing PRDs/feature specs and ",

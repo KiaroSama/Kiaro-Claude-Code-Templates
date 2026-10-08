@@ -1,13 +1,14 @@
 {
   "name": "skill-security-audit",
   "description": "Comprehensive security auditing workflow covering web application testing, API security, penetration testing, vulnerability scanning, and security hardening.",
-  "version": "1.0.0",
+  "version": "1.0.62612568107570",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "security-audit",
     "shortDescription": "Comprehensive security auditing workflow covering web application testing, API security, penetration testing, vulnerabil",

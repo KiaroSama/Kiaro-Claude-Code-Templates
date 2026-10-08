@@ -1,7 +1,7 @@
 {
   "name": "agent-code-explorer",
   "description": "Deeply analyzes existing codebase features by tracing execution paths, mapping architecture layers, understanding patterns and abstractions, and documenting dependencies to inform new development",
-  "version": "1.0.0",
+  "version": "1.0.137279106020292",
   "author": {
     "name": "KiaroSama"
   },

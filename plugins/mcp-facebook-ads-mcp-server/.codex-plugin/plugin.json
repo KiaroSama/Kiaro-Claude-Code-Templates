@@ -1,7 +1,7 @@
 {
   "name": "mcp-facebook-ads-mcp-server",
   "description": "This project provides an MCP server acting as an interface to the Meta Ads, enabling programmatic access to Meta Ads data and management features.",
-  "version": "1.0.0",
+  "version": "1.0.125448551459518",
   "author": {
     "name": "KiaroSama"
   },

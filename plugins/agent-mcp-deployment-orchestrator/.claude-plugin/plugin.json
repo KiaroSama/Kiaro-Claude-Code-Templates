@@ -1,7 +1,7 @@
 {
   "name": "agent-mcp-deployment-orchestrator",
   "description": "MCP server deployment and operations specialist. Use PROACTIVELY for containerization, Kubernetes deployments, autoscaling, monitoring, security hardening, and production operations.",
-  "version": "1.0.0",
+  "version": "1.0.39517100671118",
   "author": {
     "name": "KiaroSama"
   },

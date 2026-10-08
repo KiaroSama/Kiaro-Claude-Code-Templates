@@ -1,7 +1,7 @@
 {
   "name": "agent-atlassian-requirements-to-jira",
   "description": "Transform requirements documents into structured Jira epics and user stories with intelligent duplicate detection, change management, and user-approved creation workflow.",
-  "version": "1.0.0",
+  "version": "1.0.280839988637844",
   "author": {
     "name": "KiaroSama"
   },

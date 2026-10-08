@@ -1,7 +1,7 @@
 {
   "name": "agent-prd",
   "description": "Generate a comprehensive Product Requirements Document (PRD) in Markdown, detailing user stories, acceptance criteria, technical considerations, and metrics. Optionally create GitHub issues upon user confirmation.",
-  "version": "1.0.0",
+  "version": "1.0.227232811266145",
   "author": {
     "name": "KiaroSama"
   },

@@ -1,0 +1,12 @@
+{
+  "name": "command-sync-conflict-resolver",
+  "description": "---",
+  "version": "1.0.183892669984077",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "commands": "./commands/*.md"
+}

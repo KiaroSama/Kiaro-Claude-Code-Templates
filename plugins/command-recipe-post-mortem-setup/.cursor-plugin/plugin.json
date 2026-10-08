@@ -1,0 +1,12 @@
+{
+  "name": "command-recipe-post-mortem-setup",
+  "description": "---",
+  "version": "1.0.118853080262691",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "commands": "./commands/*.md"
+}

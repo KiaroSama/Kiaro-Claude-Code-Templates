@@ -1,7 +1,7 @@
 {
   "name": "agent-blueprint-mode-codex",
   "description": "Executes structured workflows with strict correctness and maintainability. Enforces a minimal tool usage policy, never assumes facts, prioritizes reproducible solutions, self-correction, and edge-case handling.",
-  "version": "1.0.0",
+  "version": "1.0.155382355592985",
   "author": {
     "name": "KiaroSama"
   },

@@ -1,7 +1,7 @@
 {
   "name": "agent-azure-verified-modules-terraform",
   "description": "Create, update, or review Azure IaC in Terraform using Azure Verified Modules (AVM).",
-  "version": "1.0.0",
+  "version": "1.0.160178159394817",
   "author": {
     "name": "KiaroSama"
   },

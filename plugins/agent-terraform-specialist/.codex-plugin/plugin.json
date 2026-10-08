@@ -1,7 +1,7 @@
 {
   "name": "agent-terraform-specialist",
   "description": "Terraform and Infrastructure as Code specialist. Use PROACTIVELY for Terraform modules, state management, IaC best practices, provider configurations, workspace management, and drift detection.",
-  "version": "1.0.0",
+  "version": "1.0.1120564597432",
   "author": {
     "name": "KiaroSama"
   },

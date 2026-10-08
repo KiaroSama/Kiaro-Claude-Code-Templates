@@ -1,11 +1,14 @@
 {
   "name": "skill-documentation-templates",
   "description": "Documentation templates and structure guidelines. README, API docs, code comments, and AI-friendly documentation.",
-  "version": "1.0.0",
+  "version": "1.0.212736853932984",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
-  "license": "MIT"
+  "license": "MIT",
+  "skills": [
+    "./"
+  ]
 }

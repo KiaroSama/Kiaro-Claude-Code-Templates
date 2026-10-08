@@ -1,7 +1,7 @@
 {
   "name": "agent-janitor",
   "description": "Perform janitorial tasks on any codebase including cleanup, simplification, and tech debt remediation.",
-  "version": "1.0.0",
+  "version": "1.0.24427548503648",
   "author": {
     "name": "KiaroSama"
   },

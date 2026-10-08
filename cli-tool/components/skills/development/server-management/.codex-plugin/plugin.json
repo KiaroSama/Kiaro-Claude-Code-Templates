@@ -1,13 +1,14 @@
 {
   "name": "skill-server-management",
   "description": "Server management principles and decision-making. Process management, monitoring strategy, and scaling decisions. Teaches thinking, not commands.",
-  "version": "1.0.0",
+  "version": "1.0.166984693562796",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "server-management",
     "shortDescription": "Server management principles and decision-making. Process management, monitoring strategy, and scaling decisions. Teache",

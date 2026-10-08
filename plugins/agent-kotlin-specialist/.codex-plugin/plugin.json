@@ -1,7 +1,7 @@
 {
   "name": "agent-kotlin-specialist",
   "description": "Use when building Kotlin applications requiring advanced coroutine patterns, multiplatform code sharing, or Android/server-side development with functional programming principles. Specifically:\\\\n\\\\n<example>\\\\nContext: Building a cross-platform mobile application sharing business logic between A...",
-  "version": "1.0.0",
+  "version": "1.0.219373436994423",
   "author": {
     "name": "KiaroSama"
   },

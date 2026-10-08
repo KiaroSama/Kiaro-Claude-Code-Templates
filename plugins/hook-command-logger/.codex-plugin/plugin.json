@@ -1,7 +1,7 @@
 {
   "name": "hook-command-logger",
   "description": "Log all Claude Code commands to a file for audit and debugging purposes. Simple logging that records tool usage with timestamps.",
-  "version": "1.0.0",
+  "version": "1.0.43033607441173",
   "author": {
     "name": "KiaroSama"
   },

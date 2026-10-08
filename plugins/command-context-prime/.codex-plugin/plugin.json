@@ -1,7 +1,7 @@
 {
   "name": "command-context-prime",
   "description": "Read README.md, THEN run `git ls-files | grep -v -f (sed 's|^|^|; s|$|/|' .cursorignore | psub)` to understand the context of the project",
-  "version": "1.0.0",
+  "version": "1.0.132063401989057",
   "author": {
     "name": "KiaroSama"
   },

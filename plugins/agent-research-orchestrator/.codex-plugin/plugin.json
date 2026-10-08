@@ -1,7 +1,7 @@
 {
   "name": "agent-research-orchestrator",
   "description": "Use this agent when you need to coordinate a comprehensive research project that requires multiple specialized agents working in sequence. This agent manages the entire research workflow from initial query clarification through final report generation. <example>Context: User wants to conduct thor...",
-  "version": "1.0.0",
+  "version": "1.0.25957738090546",
   "author": {
     "name": "KiaroSama"
   },

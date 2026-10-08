@@ -1,0 +1,12 @@
+{
+  "name": "command-task-from-pr",
+  "description": "---",
+  "version": "1.0.17655195673802",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "commands": "./commands/*.md"
+}

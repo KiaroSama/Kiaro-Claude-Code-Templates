@@ -1,7 +1,7 @@
 {
   "name": "agent-database-architect",
   "description": "Database architecture and design specialist. Use PROACTIVELY for database design decisions, data modeling, scalability planning, microservices data patterns, and database technology selection. This agent designs and plans; hand off PostgreSQL tuning to postgres-pro and Neon-specific work to neon-...",
-  "version": "1.0.0",
+  "version": "1.0.169165197972842",
   "author": {
     "name": "KiaroSama"
   },

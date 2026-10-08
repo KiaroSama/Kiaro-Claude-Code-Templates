@@ -1,0 +1,4 @@
+{
+  "name": "agent-payment-integration",
+  "description": "Use this agent when implementing payment systems, integrating payment gateways, or handling financial transactions that require PCI compliance, fraud prevention, and secure transaction processing. Specifically:\\\\n\\\\n<example>\\\\nContext: An e-commerce platform needs to integrate a payment gateway ..."
+}

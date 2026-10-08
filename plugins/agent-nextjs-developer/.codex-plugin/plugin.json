@@ -1,7 +1,7 @@
 {
   "name": "agent-nextjs-developer",
   "description": "Use this agent when building production Next.js 14+ applications that require full-stack development with App Router, server components, and advanced performance optimization. Invoke when you need to architect or implement complete Next.js applications, optimize Core Web Vitals, implement server ...",
-  "version": "1.0.0",
+  "version": "1.0.15463566406064",
   "author": {
     "name": "KiaroSama"
   },

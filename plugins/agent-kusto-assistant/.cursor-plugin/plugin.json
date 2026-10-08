@@ -1,0 +1,12 @@
+{
+  "name": "agent-kusto-assistant",
+  "description": "Expert KQL assistant for live Azure Data Explorer analysis via Azure MCP server",
+  "version": "1.0.79803769875315",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "agents": "./agents/*.md"
+}

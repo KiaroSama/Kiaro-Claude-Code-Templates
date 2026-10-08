@@ -1,7 +1,7 @@
 {
   "name": "mcp-dbhub",
   "description": "Zero-dependency, token-efficient database MCP server supporting PostgreSQL, MySQL, MariaDB, SQL Server, and SQLite connections.",
-  "version": "1.0.0",
+  "version": "1.0.144016327660797",
   "author": {
     "name": "KiaroSama"
   },

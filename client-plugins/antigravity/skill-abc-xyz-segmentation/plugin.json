@@ -1,0 +1,4 @@
+{
+  "name": "skill-abc-xyz-segmentation",
+  "description": "Segment a SKU portfolio on value (ABC) and demand variability (XYZ), produce the 9-box with a planning policy per cell, and reallocate planner attention accordingly. Use when the user mentions ABC analysis, inventory segmentation, SKU rationalization, stok segmentasyonu, envanter sınıflandırma, o..."
+}

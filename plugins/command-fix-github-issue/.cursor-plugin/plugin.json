@@ -1,0 +1,12 @@
+{
+  "name": "command-fix-github-issue",
+  "description": "Please analyze and fix the GitHub issue: $ARGUMENTS.",
+  "version": "1.0.74425699950891",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "commands": "./commands/*.md"
+}

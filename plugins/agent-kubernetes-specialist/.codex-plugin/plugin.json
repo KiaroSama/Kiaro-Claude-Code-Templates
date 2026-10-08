@@ -1,7 +1,7 @@
 {
   "name": "agent-kubernetes-specialist",
   "description": "Use this agent when you need to design, deploy, configure, or troubleshoot Kubernetes clusters and workloads in production environments. Specifically:\\\\n\\\\n<example>\\\\nContext: Your team needs to set up a production Kubernetes cluster with high availability, security hardening, and auto-scaling c...",
-  "version": "1.0.0",
+  "version": "1.0.193766048592371",
   "author": {
     "name": "KiaroSama"
   },

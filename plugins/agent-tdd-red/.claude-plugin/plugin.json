@@ -1,7 +1,7 @@
 {
   "name": "agent-tdd-red",
   "description": "Guide test-first development by writing failing tests that describe desired behaviour from GitHub issue context before implementation exists.",
-  "version": "1.0.0",
+  "version": "1.0.203336985208743",
   "author": {
     "name": "KiaroSama"
   },

@@ -1,7 +1,7 @@
 {
   "name": "agent-python-mcp-expert",
   "description": "Expert assistant for developing Model Context Protocol (MCP) servers in Python",
-  "version": "1.0.0",
+  "version": "1.0.46239640317658",
   "author": {
     "name": "KiaroSama"
   },

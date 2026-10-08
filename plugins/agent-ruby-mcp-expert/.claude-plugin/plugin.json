@@ -1,7 +1,7 @@
 {
   "name": "agent-ruby-mcp-expert",
   "description": "Expert assistance for building Model Context Protocol servers in Ruby using the official MCP Ruby SDK gem with Rails integration.",
-  "version": "1.0.0",
+  "version": "1.0.168043098421958",
   "author": {
     "name": "KiaroSama"
   },

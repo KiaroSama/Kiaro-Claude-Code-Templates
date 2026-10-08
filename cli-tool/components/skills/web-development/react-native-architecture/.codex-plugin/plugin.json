@@ -1,13 +1,14 @@
 {
   "name": "skill-react-native-architecture",
   "description": "Production-ready patterns for React Native development with Expo, including navigation, state management, native modules, and offline-first architecture.",
-  "version": "1.0.0",
+  "version": "1.0.110801887607202",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "react-native-architecture",
     "shortDescription": "Production-ready patterns for React Native development with Expo, including navigation, state management, native modules",

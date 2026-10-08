@@ -1,7 +1,7 @@
 {
   "name": "agent-refine-issue",
   "description": "Refine the requirement or issue with Acceptance Criteria, Technical Considerations, Edge Cases, and NFRs",
-  "version": "1.0.0",
+  "version": "1.0.123191232203587",
   "author": {
     "name": "KiaroSama"
   },

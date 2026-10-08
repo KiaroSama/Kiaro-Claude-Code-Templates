@@ -1,13 +1,14 @@
 {
   "name": "skill-microservices-patterns",
   "description": "Master microservices architecture patterns including service boundaries, inter-service communication, data management, and resilience patterns for building distributed systems.",
-  "version": "1.0.0",
+  "version": "1.0.84708144331455",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "microservices-patterns",
     "shortDescription": "Master microservices architecture patterns including service boundaries, inter-service communication, data management, a",

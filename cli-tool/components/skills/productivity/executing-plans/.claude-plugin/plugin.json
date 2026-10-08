@@ -1,11 +1,14 @@
 {
   "name": "skill-executing-plans-2",
   "description": "Use when you have a written implementation plan to execute in a separate session with review checkpoints",
-  "version": "1.0.0",
+  "version": "1.0.3130553765240",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
-  "license": "MIT"
+  "license": "MIT",
+  "skills": [
+    "./"
+  ]
 }

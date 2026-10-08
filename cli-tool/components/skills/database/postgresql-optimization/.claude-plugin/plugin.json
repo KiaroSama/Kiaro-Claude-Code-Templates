@@ -1,11 +1,14 @@
 {
   "name": "skill-postgresql-optimization",
   "description": "PostgreSQL database optimization workflow for query tuning, indexing strategies, performance analysis, and production database management.",
-  "version": "1.0.0",
+  "version": "1.0.80304387491463",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
-  "license": "MIT"
+  "license": "MIT",
+  "skills": [
+    "./"
+  ]
 }

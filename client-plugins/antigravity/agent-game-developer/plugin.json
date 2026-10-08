@@ -1,0 +1,4 @@
+{
+  "name": "agent-game-developer",
+  "description": "Use this agent when implementing game systems, optimizing graphics rendering, building multiplayer networking, or developing gameplay mechanics for games targeting specific platforms. Specifically:\\\\n\\\\n<example>\\\\nContext: A Unity game needs to maintain 60 FPS across mobile platforms but current..."
+}

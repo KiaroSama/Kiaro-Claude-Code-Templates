@@ -1,7 +1,7 @@
 {
   "name": "mcp-chrome-devtools",
   "description": "A Model Context Protocol server for interacting with Chrome DevTools, enabling browser automation, debugging, and performance analysis capabilities.",
-  "version": "1.0.0",
+  "version": "1.0.189633554936696",
   "author": {
     "name": "KiaroSama"
   },

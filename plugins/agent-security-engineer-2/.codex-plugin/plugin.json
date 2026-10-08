@@ -1,7 +1,7 @@
 {
   "name": "agent-security-engineer-2",
   "description": "Use this agent when implementing comprehensive security solutions across infrastructure, building automated security controls into CI/CD pipelines, or establishing compliance and vulnerability management programs. Invoke for threat modeling, zero-trust architecture design, security automation imp...",
-  "version": "1.0.0",
+  "version": "1.0.251338087684920",
   "author": {
     "name": "KiaroSama"
   },

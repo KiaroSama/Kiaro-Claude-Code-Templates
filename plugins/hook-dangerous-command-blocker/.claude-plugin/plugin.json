@@ -1,7 +1,7 @@
 {
   "name": "hook-dangerous-command-blocker",
   "description": "Advanced protection against dangerous shell commands with multi-level security. Blocks catastrophic operations (rm -rf /, dd, mkfs), protects critical paths (.claude/, .git/, node_modules/), and warns about suspicious patterns. Features: catastrophic command blocking, critical path protection, sm...",
-  "version": "1.0.0",
+  "version": "1.0.144604011670811",
   "author": {
     "name": "KiaroSama"
   },

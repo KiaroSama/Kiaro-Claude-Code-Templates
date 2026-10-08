@@ -1,0 +1,12 @@
+{
+  "name": "mcp-notion",
+  "description": "Official MCP server for Notion API",
+  "version": "1.0.212898181361338",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "mcpServers": "./.mcp.json"
+}

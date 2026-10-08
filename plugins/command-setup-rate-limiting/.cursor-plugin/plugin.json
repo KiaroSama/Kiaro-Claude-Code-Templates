@@ -1,0 +1,12 @@
+{
+  "name": "command-setup-rate-limiting",
+  "description": "---",
+  "version": "1.0.212835179455025",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "commands": "./commands/*.md"
+}

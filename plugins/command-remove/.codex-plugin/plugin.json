@@ -1,7 +1,7 @@
 {
   "name": "command-remove",
   "description": "Safely remove a task from the orchestration system, updating all references and dependencies.",
-  "version": "1.0.0",
+  "version": "1.0.142025694772533",
   "author": {
     "name": "KiaroSama"
   },

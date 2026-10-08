@@ -1,11 +1,14 @@
 {
   "name": "skill-writing-skills",
   "description": "Use when creating new skills, editing existing skills, or verifying skills work before deployment",
-  "version": "1.0.0",
+  "version": "1.0.265388379777941",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
-  "license": "MIT"
+  "license": "MIT",
+  "skills": [
+    "./"
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "name": "mcp-mysql-integration",
   "description": "Connect to MySQL databases for direct data access, queries, and database management within Claude Code workflows.",
-  "version": "1.0.0",
+  "version": "1.0.167034412682220",
   "author": {
     "name": "KiaroSama"
   },

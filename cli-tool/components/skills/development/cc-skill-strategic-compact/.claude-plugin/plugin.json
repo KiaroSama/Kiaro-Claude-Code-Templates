@@ -1,11 +1,14 @@
 {
   "name": "skill-cc-skill-strategic-compact",
   "description": "Development skill from everything-claude-code",
-  "version": "1.0.0",
+  "version": "1.0.152382667808985",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
-  "license": "MIT"
+  "license": "MIT",
+  "skills": [
+    "./"
+  ]
 }

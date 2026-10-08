@@ -1,7 +1,7 @@
 {
   "name": "mcp-sentry",
   "description": "This service implements the Model Context Protocol (MCP) for interacting with Sentry, focused on human-in-the-loop coding agents and developer workflows rather than general-purpose API access.",
-  "version": "1.0.0",
+  "version": "1.0.232178582988349",
   "author": {
     "name": "KiaroSama"
   },

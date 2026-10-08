@@ -1,13 +1,14 @@
 {
   "name": "skill-bigquery-basics",
   "description": "Manages datasets, tables, and jobs in BigQuery, and integrates with BigQuery ML and Gemini for advanced data analytics and AI-driven insights. Use for SQL queries, resource management, data ingestion, or AI applications on BigQuery.",
-  "version": "1.0.0",
+  "version": "1.0.69538715715704",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "bigquery-basics",
     "shortDescription": "Manages datasets, tables, and jobs in BigQuery, and integrates with BigQuery ML and Gemini for advanced data analytics a",

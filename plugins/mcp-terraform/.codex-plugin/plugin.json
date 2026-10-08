@@ -1,7 +1,7 @@
 {
   "name": "mcp-terraform",
   "description": "The Terraform MCP Server is a Model Context Protocol (MCP) server that provides seamless integration with Terraform Registry APIs, enabling advanced automation and interaction capabilities for Infrastructure as Code (IaC) development.",
-  "version": "1.0.0",
+  "version": "1.0.197376676638748",
   "author": {
     "name": "KiaroSama"
   },

@@ -1,0 +1,12 @@
+{
+  "name": "mcp-huggingface",
+  "description": "Access Hugging Face models, datasets, Spaces, papers, collections via MCP.",
+  "version": "1.0.226033581930347",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "mcpServers": "./.mcp.json"
+}

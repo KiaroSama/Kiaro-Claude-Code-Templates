@@ -1,7 +1,7 @@
 {
   "name": "hook-security-scanner",
   "description": "Scan code for security vulnerabilities and secrets after modifications. Uses multiple security tools to detect potential issues.",
-  "version": "1.0.0",
+  "version": "1.0.157385839692419",
   "author": {
     "name": "KiaroSama"
   },

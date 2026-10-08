@@ -1,0 +1,12 @@
+{
+  "name": "skill-pudu-task-telemetry",
+  "description": "Measure local AI task latency, token usage, errors and verified outcomes using Pudu AI hardware evidence and installed Ollama models. Use when comparing local task runs, choosing a local model for a bounded subtask, or recording reproducible task telemetry.",
+  "version": "1.0.64910398283283",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "skills": "./SKILL.md"
+}

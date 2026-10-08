@@ -1,7 +1,7 @@
 {
   "name": "hook-validate-branch-name",
   "description": "Validate Git Flow branch naming conventions before checkout. Ensures branches follow the pattern: feature/*, release/v*.*.*, hotfix/*. Prevents creation of branches that don't follow Git Flow standards.",
-  "version": "1.0.0",
+  "version": "1.0.231702742291022",
   "author": {
     "name": "KiaroSama"
   },

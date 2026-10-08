@@ -1,13 +1,14 @@
 {
   "name": "skill-parallel-agents",
   "description": "Multi-agent orchestration patterns. Use when multiple independent tasks can run with different domain expertise or when comprehensive analysis requires multiple perspectives.",
-  "version": "1.0.0",
+  "version": "1.0.57929892748418",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "parallel-agents",
     "shortDescription": "Multi-agent orchestration patterns. Use when multiple independent tasks can run with different domain expertise or when ",

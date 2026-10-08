@@ -1,7 +1,7 @@
 {
   "name": "agent-pagerduty-incident-responder",
   "description": "Responds to PagerDuty incidents by analyzing incident context, identifying recent code changes, and suggesting fixes via GitHub PRs.",
-  "version": "1.0.0",
+  "version": "1.0.90363159884637",
   "author": {
     "name": "KiaroSama"
   },

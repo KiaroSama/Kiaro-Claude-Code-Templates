@@ -1,7 +1,7 @@
 {
   "name": "agent-podcast-transcriber",
   "description": "Audio transcription specialist. Use PROACTIVELY for extracting accurate transcripts from media files with speaker identification, timestamps, and structured output.",
-  "version": "1.0.0",
+  "version": "1.0.280574224788307",
   "author": {
     "name": "KiaroSama"
   },

@@ -1,7 +1,7 @@
 {
   "name": "agent-data-scientist",
   "description": "Use this agent when you need to analyze data patterns, build predictive models, or extract statistical insights from datasets. Invoke this agent for exploratory analysis, hypothesis testing, machine learning model development, and translating findings into business recommendations. Specifically:\\...",
-  "version": "1.0.0",
+  "version": "1.0.169802668119598",
   "author": {
     "name": "KiaroSama"
   },

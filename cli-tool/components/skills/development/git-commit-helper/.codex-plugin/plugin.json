@@ -1,13 +1,14 @@
 {
   "name": "skill-git-commit-helper",
   "description": "Generate descriptive commit messages by analyzing git diffs. Use when the user asks for help writing commit messages or reviewing staged changes.",
-  "version": "1.0.0",
+  "version": "1.0.164350679002507",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "git-commit-helper",
     "shortDescription": "Generate descriptive commit messages by analyzing git diffs. Use when the user asks for help writing commit messages or ",

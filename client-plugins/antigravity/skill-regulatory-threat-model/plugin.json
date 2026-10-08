@@ -1,0 +1,4 @@
+{
+  "name": "skill-regulatory-threat-model",
+  "description": "> Use when an application or system — including one built quickly with AI coding agents — needs a security review with regulatory grounding: a STRIDE threat model, a LINDDUN privacy threat model, a dependency exposure screen against live CVE / CISA-KEV / EPSS data, or a selected, non-exhaustive s..."
+}

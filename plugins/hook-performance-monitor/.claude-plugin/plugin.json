@@ -1,7 +1,7 @@
 {
   "name": "hook-performance-monitor",
   "description": "Monitor system performance during Claude Code operations. Tracks CPU, memory usage, and execution time for performance optimization.",
-  "version": "1.0.0",
+  "version": "1.0.251206164230579",
   "author": {
     "name": "KiaroSama"
   },

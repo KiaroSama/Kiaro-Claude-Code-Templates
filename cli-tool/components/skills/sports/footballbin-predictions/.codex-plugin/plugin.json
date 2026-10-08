@@ -1,13 +1,14 @@
 {
   "name": "skill-footballbin-predictions",
   "description": "Get AI-powered match predictions for Premier League and Champions League including scores, next goal, and corners.",
-  "version": "1.0.0",
+  "version": "1.0.108657362170576",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "footballbin-predictions",
     "shortDescription": "Get AI-powered match predictions for Premier League and Champions League including scores, next goal, and corners.",

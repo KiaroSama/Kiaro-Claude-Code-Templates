@@ -1,0 +1,12 @@
+{
+  "name": "skill-game-art",
+  "description": "Game art principles. Visual style selection, asset pipeline, animation workflow.",
+  "version": "1.0.160698334427901",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "skills": "./SKILL.md"
+}

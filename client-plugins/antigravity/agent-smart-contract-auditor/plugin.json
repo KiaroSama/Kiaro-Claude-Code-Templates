@@ -1,0 +1,4 @@
+{
+  "name": "agent-smart-contract-auditor",
+  "description": "Use this agent when conducting security audits of EVM/Solidity smart contracts — finding and reporting vulnerabilities in existing code, not designing architecture or implementing fixes. For architecture/upgrade-pattern design decisions, use `smart-contract-specialist`; for implementing fixes or ..."
+}

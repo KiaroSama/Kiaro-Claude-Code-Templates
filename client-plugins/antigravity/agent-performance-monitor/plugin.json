@@ -1,0 +1,4 @@
+{
+  "name": "agent-performance-monitor",
+  "description": "Use when establishing observability infrastructure to track system metrics, detect performance anomalies, and optimize resource usage across multi-agent environments. Specifically:\\\\n\\\\n<example>\\\\nContext: A distributed multi-agent system is processing hundreds of concurrent tasks across 50+ age..."
+}

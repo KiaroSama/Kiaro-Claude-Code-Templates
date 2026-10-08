@@ -1,0 +1,4 @@
+{
+  "name": "mcp-mongodb",
+  "description": "A Model Context Protocol server to connect to MongoDB databases and MongoDB Atlas Clusters."
+}

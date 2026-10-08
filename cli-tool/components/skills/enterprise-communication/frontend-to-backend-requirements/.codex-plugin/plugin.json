@@ -1,13 +1,14 @@
 {
   "name": "skill-frontend-to-backend-requirements",
   "description": "Document frontend data needs for backend developers. Use when frontend needs to communicate API requirements to backend, or user says 'backend requirements', 'what data do I need', 'API requirements', or is describing data needs for a UI.",
-  "version": "1.0.0",
+  "version": "1.0.278097365230273",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "frontend-to-backend-requirements",
     "shortDescription": "Document frontend data needs for backend developers. Use when frontend needs to communicate API requirements to backend,",

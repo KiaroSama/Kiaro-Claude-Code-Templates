@@ -1,7 +1,7 @@
 {
   "name": "hook-console-log-cleaner",
   "description": "Warns about console.log statements when editing files on production branches (main/master). Helps prevent debug code from reaching production.",
-  "version": "1.0.0",
+  "version": "1.0.94569294172690",
   "author": {
     "name": "KiaroSama"
   },

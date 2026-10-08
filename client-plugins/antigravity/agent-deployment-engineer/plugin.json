@@ -1,0 +1,4 @@
+{
+  "name": "agent-deployment-engineer",
+  "description": "Use this agent when designing, building, or optimizing CI/CD pipelines and deployment automation strategies. Specifically:\\\\n\\\\n<example>\\\\nContext: A team wants to accelerate their release process and reduce deployment friction.\\\\nuser: \\\"Our deployments are slow and manual. We deploy every 2 we..."
+}

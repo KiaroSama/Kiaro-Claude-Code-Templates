@@ -1,7 +1,7 @@
 {
   "name": "agent-planner",
   "description": "Generate an implementation plan for new features or refactoring existing code.",
-  "version": "1.0.0",
+  "version": "1.0.133321791003535",
   "author": {
     "name": "KiaroSama"
   },

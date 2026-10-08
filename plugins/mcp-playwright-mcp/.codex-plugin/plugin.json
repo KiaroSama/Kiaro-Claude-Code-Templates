@@ -1,7 +1,7 @@
 {
   "name": "mcp-playwright-mcp",
   "description": "A Model Context Protocol (MCP) server that provides browser automation capabilities using Playwright. This server enables LLMs to interact with web pages through structured accessibility snapshots, bypassing the need for screenshots or visually-tuned models.",
-  "version": "1.0.0",
+  "version": "1.0.213626514650806",
   "author": {
     "name": "KiaroSama"
   },

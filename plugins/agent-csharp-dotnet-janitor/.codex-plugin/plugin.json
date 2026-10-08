@@ -1,7 +1,7 @@
 {
   "name": "agent-csharp-dotnet-janitor",
   "description": "Perform janitorial tasks on C#/.NET code including cleanup, modernization, and tech debt remediation.",
-  "version": "1.0.0",
+  "version": "1.0.63088986629299",
   "author": {
     "name": "KiaroSama"
   },

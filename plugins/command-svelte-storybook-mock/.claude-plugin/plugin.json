@@ -1,7 +1,7 @@
 {
   "name": "command-svelte-storybook-mock",
   "description": "Mock SvelteKit modules and functionality in Storybook stories for isolated component development.",
-  "version": "1.0.0",
+  "version": "1.0.272229210587516",
   "author": {
     "name": "KiaroSama"
   },

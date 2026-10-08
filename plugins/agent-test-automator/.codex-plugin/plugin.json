@@ -1,7 +1,7 @@
 {
   "name": "agent-test-automator",
   "description": "Use this agent when you need to build, implement, or enhance automated test frameworks, create test scripts, or integrate testing into CI/CD pipelines. Specifically:\\\\n\\\\n<example>\\\\nContext: A team has identified a set of manual test cases that need to be automated to reduce regression testing t...",
-  "version": "1.0.0",
+  "version": "1.0.208187904717794",
   "author": {
     "name": "KiaroSama"
   },

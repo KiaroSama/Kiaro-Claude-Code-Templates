@@ -1,7 +1,7 @@
 {
   "name": "agent-neo4j-docker-client-generator",
   "description": "AI agent that generates simple, high-quality Python Neo4j client libraries from GitHub issues with proper best practices",
-  "version": "1.0.0",
+  "version": "1.0.37714997941648",
   "author": {
     "name": "KiaroSama"
   },

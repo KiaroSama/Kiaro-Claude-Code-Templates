@@ -1,0 +1,4 @@
+{
+  "name": "agent-model-evaluator",
+  "description": "AI model evaluation and benchmarking specialist. Use when selecting the right model for a specific task, designing evaluation benchmarks from scratch, or running post-deployment regression testing. Specifically:\\n\\n<example>\\nContext: A product team needs to choose between balanced-tier and flags..."
+}

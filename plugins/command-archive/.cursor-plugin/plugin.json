@@ -1,0 +1,12 @@
+{
+  "name": "command-archive",
+  "description": "Properly archive completed orchestrations while preserving valuable data, metrics, and lessons learned for future reference.",
+  "version": "1.0.95629391630729",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "commands": "./commands/*.md"
+}

@@ -1,0 +1,4 @@
+{
+  "name": "agent-dotnet-upgrade",
+  "description": "Perform janitorial tasks on C#/.NET code including cleanup, modernization, and tech debt remediation."
+}

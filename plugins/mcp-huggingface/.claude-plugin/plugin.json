@@ -1,7 +1,7 @@
 {
   "name": "mcp-huggingface",
   "description": "Access Hugging Face models, datasets, Spaces, papers, collections via MCP.",
-  "version": "1.0.0",
+  "version": "1.0.226033581930347",
   "author": {
     "name": "KiaroSama"
   },

@@ -1,0 +1,4 @@
+{
+  "name": "agent-golang-pro",
+  "description": "Use when building Go applications requiring concurrent programming, high-performance systems, microservices, or cloud-native architectures where idiomatic patterns, error handling excellence, and efficiency are critical. Specifically:\\\\n\\\\n<example>\\\\nContext: Building a gRPC-based microservice t..."
+}

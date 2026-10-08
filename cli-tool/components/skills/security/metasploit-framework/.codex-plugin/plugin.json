@@ -1,13 +1,14 @@
 {
   "name": "skill-metasploit-framework",
   "description": "This skill should be used when the user asks to \"use Metasploit for penetration testing\", \"exploit vulnerabilities with msfconsole\", \"create payloads with msfvenom\", \"perform post-exploitation\", \"use auxiliary modules for scanning\", or \"develop custom exploits\". It provides comprehensive guidance...",
-  "version": "1.0.0",
+  "version": "1.0.180477286090071",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "metasploit-framework",
     "shortDescription": "This skill should be used when the user asks to \"use Metasploit for penetration testing\", \"exploit vulnerabilities with ",

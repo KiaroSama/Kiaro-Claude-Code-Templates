@@ -1,11 +1,14 @@
 {
   "name": "skill-naming-analyzer",
   "description": "Suggest better variable, function, and class names based on context and conventions.",
-  "version": "1.0.0",
+  "version": "1.0.56398778293057",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
-  "license": "MIT"
+  "license": "MIT",
+  "skills": [
+    "./"
+  ]
 }

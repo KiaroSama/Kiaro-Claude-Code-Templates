@@ -1,13 +1,14 @@
 {
   "name": "skill-screenshot-feature-extractor",
   "description": "Analyze product screenshots to extract feature lists and generate development task checklists. Use when: (1) Analyzing competitor product screenshots for feature extraction, (2) Generating PRD/task lists from UI designs, (3) Batch analyzing multiple app screens, (4) Conducting competitive analysi...",
-  "version": "1.0.0",
+  "version": "1.0.255680086530717",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "screenshot-feature-extractor",
     "shortDescription": "Analyze product screenshots to extract feature lists and generate development task checklists. Use when: (1) Analyzing c",

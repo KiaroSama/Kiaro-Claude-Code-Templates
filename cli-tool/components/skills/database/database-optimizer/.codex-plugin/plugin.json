@@ -1,13 +1,14 @@
 {
   "name": "skill-database-optimizer",
   "description": "Expert database optimizer specializing in modern performance tuning, query optimization, and scalable architectures.",
-  "version": "1.0.0",
+  "version": "1.0.281379169570889",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "database-optimizer",
     "shortDescription": "Expert database optimizer specializing in modern performance tuning, query optimization, and scalable architectures.",

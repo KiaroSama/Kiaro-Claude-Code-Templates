@@ -1,7 +1,7 @@
 {
   "name": "hook-format-javascript-files",
   "description": "Automatically format JavaScript/TypeScript files after any Edit operation using prettier. This hook runs 'npx prettier --write' on any .js, .ts, .jsx, or .tsx file that Claude modifies, ensuring consistent code formatting. Uses npx so prettier doesn't need to be globally installed. Includes error...",
-  "version": "1.0.0",
+  "version": "1.0.264985718346371",
   "author": {
     "name": "KiaroSama"
   },

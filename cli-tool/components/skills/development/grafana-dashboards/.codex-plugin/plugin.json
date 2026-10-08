@@ -1,13 +1,14 @@
 {
   "name": "skill-grafana-dashboards",
   "description": "Create and manage production-ready Grafana dashboards for comprehensive system observability.",
-  "version": "1.0.0",
+  "version": "1.0.205638110520854",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "grafana-dashboards",
     "shortDescription": "Create and manage production-ready Grafana dashboards for comprehensive system observability.",

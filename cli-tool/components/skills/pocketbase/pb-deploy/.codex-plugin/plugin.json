@@ -1,13 +1,14 @@
 {
   "name": "skill-pb-deploy",
   "description": "Production deployment for PocketBase. Use when deploying PocketBase to a server, setting up Docker, configuring systemd, reverse proxy (nginx/Caddy), TLS, SMTP, backups, S3 storage, rate limiting, or hardening for production. Provides ready-to-use configs.",
-  "version": "1.0.0",
+  "version": "1.0.131289796529046",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "pb-deploy",
     "shortDescription": "Production deployment for PocketBase. Use when deploying PocketBase to a server, setting up Docker, configuring systemd,",

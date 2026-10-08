@@ -1,0 +1,12 @@
+{
+  "name": "mcp-postgresql-integration",
+  "description": "Connect to PostgreSQL databases for advanced data operations, complex queries, and enterprise database management.",
+  "version": "1.0.26887654355989",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "mcpServers": "./.mcp.json"
+}

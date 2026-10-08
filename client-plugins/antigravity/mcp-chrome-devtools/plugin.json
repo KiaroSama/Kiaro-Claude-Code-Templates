@@ -1,0 +1,4 @@
+{
+  "name": "mcp-chrome-devtools",
+  "description": "A Model Context Protocol server for interacting with Chrome DevTools, enabling browser automation, debugging, and performance analysis capabilities."
+}

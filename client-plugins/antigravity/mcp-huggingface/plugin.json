@@ -1,0 +1,4 @@
+{
+  "name": "mcp-huggingface",
+  "description": "Access Hugging Face models, datasets, Spaces, papers, collections via MCP."
+}

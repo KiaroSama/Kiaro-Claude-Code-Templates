@@ -1,13 +1,14 @@
 {
   "name": "skill-vr-ar",
   "description": "VR/AR development principles. Comfort, interaction, performance requirements.",
-  "version": "1.0.0",
+  "version": "1.0.140799231513106",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "vr-ar",
     "shortDescription": "VR/AR development principles. Comfort, interaction, performance requirements.",

@@ -1,0 +1,12 @@
+{
+  "name": "mcp-dynatrace",
+  "description": "Manage and interact with the Dynatrace Platform for real-time observability and monitoring.",
+  "version": "1.0.15110494385405",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "mcpServers": "./.mcp.json"
+}

@@ -1,13 +1,14 @@
 {
   "name": "skill-subagent-driven-development",
   "description": "Use when executing implementation plans with independent tasks in the current session",
-  "version": "1.0.0",
+  "version": "1.0.24147975227124",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "subagent-driven-development",
     "shortDescription": "Use when executing implementation plans with independent tasks in the current session",

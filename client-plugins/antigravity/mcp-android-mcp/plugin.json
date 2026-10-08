@@ -1,0 +1,4 @@
+{
+  "name": "mcp-android-mcp",
+  "description": "MCP Server for interacting with Android devices. Control, inspect, and automate Android devices via ADB through Claude."
+}

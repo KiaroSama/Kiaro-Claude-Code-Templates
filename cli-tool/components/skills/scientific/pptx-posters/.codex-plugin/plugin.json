@@ -1,13 +1,14 @@
 {
   "name": "skill-pptx-posters",
   "description": "Create professional research posters in LaTeX using beamerposter, tikzposter, or baposter. Support for conference presentations, academic posters, and scientific communication. Includes layout design, color schemes, multi-column formats, figure integration, and poster-specific best practices for ...",
-  "version": "1.0.0",
+  "version": "1.0.219529658710737",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "pptx-posters",
     "shortDescription": "Create professional research posters in LaTeX using beamerposter, tikzposter, or baposter. Support for conference presen",

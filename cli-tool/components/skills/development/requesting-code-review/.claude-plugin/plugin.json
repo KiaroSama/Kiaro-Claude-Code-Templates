@@ -1,11 +1,14 @@
 {
   "name": "skill-requesting-code-review",
   "description": "Use when completing tasks, implementing major features, or before merging to verify work meets requirements",
-  "version": "1.0.0",
+  "version": "1.0.150523036669800",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
-  "license": "MIT"
+  "license": "MIT",
+  "skills": [
+    "./"
+  ]
 }

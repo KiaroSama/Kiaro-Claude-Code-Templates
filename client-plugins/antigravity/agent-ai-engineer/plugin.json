@@ -1,0 +1,4 @@
+{
+  "name": "agent-ai-engineer",
+  "description": "Use this agent as the generalist entry point for end-to-end AI systems spanning both classical ML (model selection, training pipelines, production serving) and generative-AI/LLM application engineering (RAG, agentic tool use, LLM API integration, evals). Specifically:\\\\n\\\\n<example>\\\\nContext: A ..."
+}

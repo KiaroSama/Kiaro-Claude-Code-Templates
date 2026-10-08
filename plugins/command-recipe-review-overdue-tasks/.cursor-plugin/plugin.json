@@ -1,0 +1,12 @@
+{
+  "name": "command-recipe-review-overdue-tasks",
+  "description": "---",
+  "version": "1.0.115214847431754",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "commands": "./commands/*.md"
+}

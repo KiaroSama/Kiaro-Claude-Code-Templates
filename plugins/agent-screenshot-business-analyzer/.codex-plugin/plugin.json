@@ -1,7 +1,7 @@
 {
   "name": "agent-screenshot-business-analyzer",
   "description": "Extracts business logic, functional modules, and data entities from UI screenshots",
-  "version": "1.0.0",
+  "version": "1.0.186020949036262",
   "author": {
     "name": "KiaroSama"
   },

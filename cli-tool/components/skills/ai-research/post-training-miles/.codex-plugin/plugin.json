@@ -1,13 +1,14 @@
 {
   "name": "skill-post-training-miles",
   "description": "Provides guidance for enterprise-grade RL training using miles, a production-ready fork of slime. Use when training large MoE models with FP8/INT4, needing train-inference alignment, or requiring speculative RL for maximum throughput.",
-  "version": "1.0.0",
+  "version": "1.0.156709580306275",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "post-training-miles",
     "shortDescription": "Provides guidance for enterprise-grade RL training using miles, a production-ready fork of slime. Use when training larg",

@@ -1,0 +1,12 @@
+{
+  "name": "mcp-memory-integration",
+  "description": "Persistent memory and context management for Claude Code sessions. Store and recall information across conversations and projects.",
+  "version": "1.0.106860246012074",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "mcpServers": "./.mcp.json"
+}

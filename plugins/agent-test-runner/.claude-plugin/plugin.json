@@ -1,7 +1,7 @@
 {
   "name": "agent-test-runner",
   "description": "Executes tests, analyzes results, identifies failures, diagnoses root causes, and provides actionable fixes for failing tests",
-  "version": "1.0.0",
+  "version": "1.0.68197373373934",
   "author": {
     "name": "KiaroSama"
   },

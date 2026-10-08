@@ -1,7 +1,7 @@
 {
   "name": "command-fix-github-issue",
   "description": "Please analyze and fix the GitHub issue: $ARGUMENTS.",
-  "version": "1.0.0",
+  "version": "1.0.74425699950891",
   "author": {
     "name": "KiaroSama"
   },

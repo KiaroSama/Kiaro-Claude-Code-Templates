@@ -1,11 +1,14 @@
 {
   "name": "skill-red-team-tactics",
   "description": "Red team tactics principles based on MITRE ATT&CK. Attack phases, detection evasion, reporting.",
-  "version": "1.0.0",
+  "version": "1.0.40523055829661",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
-  "license": "MIT"
+  "license": "MIT",
+  "skills": [
+    "./"
+  ]
 }

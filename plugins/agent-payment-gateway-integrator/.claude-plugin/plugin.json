@@ -1,0 +1,11 @@
+{
+  "name": "agent-payment-gateway-integrator",
+  "description": "Use PROACTIVELY for Stripe, PayPal, and Square integrations: checkout flows, subscription billing, webhook handling, idempotency, PCI scope reduction, and SCA/3DS2 compliance. Specifically:\\n\\n<example>\\nContext: An e-commerce site needs to add Stripe checkout for one-time purchases.\\nuser: \\\"We ...",
+  "version": "1.0.161016757895060",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT"
+}

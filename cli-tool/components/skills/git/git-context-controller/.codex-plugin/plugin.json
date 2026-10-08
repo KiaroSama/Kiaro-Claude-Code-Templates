@@ -1,13 +1,14 @@
 {
   "name": "skill-git-context-controller",
   "description": "Git Context Controller (GCC) - Manages agent memory as a versioned file system under .GCC/. This skill should be used when working on multi-step projects that benefit from structured memory persistence, milestone tracking, branching for alternative approaches, and cross-session context recovery. ...",
-  "version": "1.0.0",
+  "version": "1.0.220270326109657",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "git-context-controller",
     "shortDescription": "Git Context Controller (GCC) - Manages agent memory as a versioned file system under .GCC/. This skill should be used wh",

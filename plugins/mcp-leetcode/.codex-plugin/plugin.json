@@ -1,7 +1,7 @@
 {
   "name": "mcp-leetcode",
   "description": "A Model Context Protocol (MCP) server for LeetCode that enables AI assistants to access LeetCode problems, user information, and contest data.",
-  "version": "1.0.0",
+  "version": "1.0.272834789522669",
   "author": {
     "name": "KiaroSama"
   },

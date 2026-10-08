@@ -1,7 +1,7 @@
 {
   "name": "command-create-worktrees",
   "description": "This command fetches all open pull requests using GitHub CLI, then creates a git worktree for each PR's branch in the `./tree/<BRANCH_NAME>` directory.",
-  "version": "1.0.0",
+  "version": "1.0.149024737782106",
   "author": {
     "name": "KiaroSama"
   },

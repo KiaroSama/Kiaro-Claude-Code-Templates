@@ -1,0 +1,4 @@
+{
+  "name": "agent-postgresql-dba",
+  "description": "Work with PostgreSQL databases using the PostgreSQL extension."
+}

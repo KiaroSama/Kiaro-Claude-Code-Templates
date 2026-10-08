@@ -1,0 +1,12 @@
+{
+  "name": "agent-screenshot-reviewer",
+  "description": "Reviews synthesized task lists for completeness, consistency, and quality",
+  "version": "1.0.131350713707848",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "agents": "./agents/*.md"
+}

@@ -1,13 +1,14 @@
 {
   "name": "skill-cirq",
   "description": "Quantum computing framework for building, simulating, optimizing, and executing quantum circuits. Use this skill when working with quantum algorithms, quantum circuit design, quantum simulation (noiseless or noisy), running on quantum hardware (Google, IonQ, AQT, Pasqal), circuit optimization and...",
-  "version": "1.0.0",
+  "version": "1.0.25603134033654",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "cirq",
     "shortDescription": "Quantum computing framework for building, simulating, optimizing, and executing quantum circuits. Use this skill when wo",

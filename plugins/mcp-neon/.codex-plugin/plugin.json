@@ -1,7 +1,7 @@
 {
   "name": "mcp-neon",
   "description": "MCP server for interacting with Neon Management API and databases",
-  "version": "1.0.0",
+  "version": "1.0.58722791702142",
   "author": {
     "name": "KiaroSama"
   },

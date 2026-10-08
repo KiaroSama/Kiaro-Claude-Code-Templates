@@ -1,0 +1,4 @@
+{
+  "name": "skill-swift-concurrency-expert",
+  "description": "Review and fix Swift concurrency issues such as actor isolation and Sendable violations."
+}

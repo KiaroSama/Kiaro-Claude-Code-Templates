@@ -1,7 +1,7 @@
 {
   "name": "mcp-codacy",
   "description": "MCP Server for the Codacy API, enabling access to repositories, files, quality, coverage, security and more.",
-  "version": "1.0.0",
+  "version": "1.0.234092833895022",
   "author": {
     "name": "KiaroSama"
   },

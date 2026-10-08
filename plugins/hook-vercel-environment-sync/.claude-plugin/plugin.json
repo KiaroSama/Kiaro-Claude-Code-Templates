@@ -1,7 +1,7 @@
 {
   "name": "hook-vercel-environment-sync",
   "description": "Synchronize environment variables between local development and Vercel deployments, ensuring consistency across all environments. Detects changes to .env files and provides options to sync with Vercel, validates environment variable format, and ensures required variables are present. Setup: Expor...",
-  "version": "1.0.0",
+  "version": "1.0.75474068753796",
   "author": {
     "name": "KiaroSama"
   },

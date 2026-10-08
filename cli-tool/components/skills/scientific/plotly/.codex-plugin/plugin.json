@@ -1,13 +1,14 @@
 {
   "name": "skill-plotly",
   "description": "Interactive scientific and statistical data visualization library for Python. Use when creating charts, plots, or visualizations including scatter plots, line charts, bar charts, heatmaps, 3D plots, geographic maps, statistical distributions, financial charts, and dashboards. Supports both quick ...",
-  "version": "1.0.0",
+  "version": "1.0.51886055199092",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "plotly",
     "shortDescription": "Interactive scientific and statistical data visualization library for Python. Use when creating charts, plots, or visual",

@@ -1,0 +1,12 @@
+{
+  "name": "mcp-browseract",
+  "description": "BrowserAct cloud browser automation for structured data extraction from Amazon, YouTube, Google Maps, Google News, Reddit, WeChat, Zhihu and more",
+  "version": "1.0.67615239888756",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "mcpServers": "./.mcp.json"
+}

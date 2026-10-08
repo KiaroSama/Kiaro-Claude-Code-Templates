@@ -1,0 +1,4 @@
+{
+  "name": "mcp-leetcode",
+  "description": "A Model Context Protocol (MCP) server for LeetCode that enables AI assistants to access LeetCode problems, user information, and contest data."
+}

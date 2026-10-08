@@ -1,11 +1,14 @@
 {
   "name": "skill-core-components",
   "description": "Core component library and design system patterns. Use when building UI, using design tokens, or working with the component library.",
-  "version": "1.0.0",
+  "version": "1.0.159936847151981",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
-  "license": "MIT"
+  "license": "MIT",
+  "skills": [
+    "./"
+  ]
 }

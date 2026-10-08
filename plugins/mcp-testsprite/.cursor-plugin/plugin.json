@@ -1,0 +1,12 @@
+{
+  "name": "mcp-testsprite",
+  "description": "TestSprite’s MCP reads your intent, tests your code, and tells you what to fix.",
+  "version": "1.0.81222360689148",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
+  "license": "MIT",
+  "mcpServers": "./.mcp.json"
+}

@@ -1,13 +1,14 @@
 {
   "name": "skill-verification-before-completion",
   "description": "Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always",
-  "version": "1.0.0",
+  "version": "1.0.233647730278356",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "verification-before-completion",
     "shortDescription": "Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verifi",

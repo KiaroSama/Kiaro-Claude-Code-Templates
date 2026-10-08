@@ -1,13 +1,14 @@
 {
   "name": "skill-pdf-processing-pro",
   "description": "Production-ready PDF processing with forms, tables, OCR, validation, and batch operations. Use when working with complex PDF workflows in production environments, processing large volumes of PDFs, or requiring robust error handling and validation.",
-  "version": "1.0.0",
+  "version": "1.0.238991906638061",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "pdf-processing-pro",
     "shortDescription": "Production-ready PDF processing with forms, tables, OCR, validation, and batch operations. Use when working with complex",

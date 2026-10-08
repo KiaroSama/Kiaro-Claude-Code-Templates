@@ -1,7 +1,7 @@
 {
   "name": "mcp-figma-dev-mode",
   "description": "The Dev Mode MCP server brings Figma directly into your workflow by providing important design information and context to AI agents generating code from Figma design files.",
-  "version": "1.0.0",
+  "version": "1.0.224770110541249",
   "author": {
     "name": "KiaroSama"
   },

@@ -1,13 +1,14 @@
 {
   "name": "skill-react-best-practices",
   "description": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimizati...",
-  "version": "1.0.0",
+  "version": "1.0.15309211320514",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "react-best-practices",
     "shortDescription": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, r",

@@ -1,0 +1,4 @@
+{
+  "name": "skill-gitops-workflow",
+  "description": "Complete guide to implementing GitOps workflows with ArgoCD and Flux for automated Kubernetes deployments."
+}

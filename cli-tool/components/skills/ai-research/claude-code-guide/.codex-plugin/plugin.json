@@ -1,13 +1,14 @@
 {
   "name": "skill-claude-code-guide",
   "description": "Master guide for using Claude Code effectively. Includes configuration templates, prompting strategies \"Thinking\" keywords, debugging techniques, and best practices for interacting with the agent.",
-  "version": "1.0.0",
+  "version": "1.0.85721046313682",
   "author": {
     "name": "KiaroSama"
   },
   "homepage": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "repository": "https://github.com/KiaroSama/Kiaro-Claude-Code-Templates",
   "license": "MIT",
+  "skills": "./",
   "interface": {
     "displayName": "claude-code-guide",
     "shortDescription": "Master guide for using Claude Code effectively. Includes configuration templates, prompting strategies \"Thinking\" keywor",

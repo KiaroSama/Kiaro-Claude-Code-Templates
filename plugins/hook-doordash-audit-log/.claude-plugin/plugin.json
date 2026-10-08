@@ -1,7 +1,7 @@
 {
   "name": "hook-doordash-audit-log",
   "description": "Append-only audit log of every DoorDash CLI (dd-cli) invocation made through Claude Code. A PostToolUse hook records one versioned JSON line per dd-cli command (timestamp, session, cwd, command with tokens stripped, event type derived from the command itself - search / cart_mutation / checkout_ur...",
-  "version": "1.0.0",
+  "version": "1.0.247146254497987",
   "author": {
     "name": "KiaroSama"
   },
