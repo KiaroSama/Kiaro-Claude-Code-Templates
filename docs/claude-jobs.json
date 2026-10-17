@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-16T07:50:12.463295+00:00",
-  "totalJobs": 91,
+  "lastUpdated": "2026-10-17T07:28:18.493406+00:00",
+  "totalJobs": 92,
   "sources": [
     "Anthropic",
     "HackerNews",
@@ -8,6 +8,26 @@
     "WeWorkRemotely"
   ],
   "jobs": [
+    {
+      "id": "anth-5424305008",
+      "company": "Anthropic",
+      "position": "Manager, Applied AI Architects - Digital Natives, EMEA",
+      "location": "London, UK",
+      "remote": false,
+      "salary": "",
+      "description": "As Manager of the EMEA Digital Natives Applied AI Architecture team, you'll drive adoption of frontier AI across Europe's fastest-growing technology companies: SaaS scale-ups, fintechs, marketplaces, consumer platforms, and developer-tooling businesses. Your team makes Anthropic's products (Claude...",
+      "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5424305008",
+      "source": "Anthropic",
+      "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5424305008",
+      "postedAt": "2026-10-16T05:34:58-04:00",
+      "tags": [
+        "Rust",
+        "AWS",
+        "Claude Code",
+        "Anthropic"
+      ],
+      "companyIcon": "https://www.anthropic.com/favicon.ico"
+    },
     {
       "id": "anth-5454673008",
       "company": "Anthropic",
@@ -47,6 +67,29 @@
         "Anthropic"
       ],
       "companyIcon": "https://www.anthropic.com/favicon.ico"
+    },
+    {
+      "id": "rok-remote-senior-software-engineer-ii-applied-ai-wrapbook-1137527",
+      "company": "Wrapbook",
+      "position": "Senior Software Engineer II Applied AI",
+      "location": "Remote",
+      "remote": true,
+      "salary": "",
+      "description": "About Us: Wrapbook is the AI platform for production finance. We’re building a system of action that puts finance teams in control of their whole production, from payroll, to spend, to accounting. Built for feature films, TV, and commercials, Wrapbook is trusted by teams at Netflix, Paramount,...",
+      "applyUrl": "https://remoteOK.com/remote-jobs/remote-senior-software-engineer-ii-applied-ai-wrapbook-1137527",
+      "source": "RemoteOK",
+      "sourceUrl": "https://remoteok.com/remote-jobs/remote-senior-software-engineer-ii-applied-ai-wrapbook-1137527",
+      "postedAt": "2026-10-15T16:00:03+00:00",
+      "tags": [
+        "TypeScript",
+        "JavaScript",
+        "Python",
+        "Rust",
+        "Node.js",
+        "AWS",
+        "Java"
+      ],
+      "companyIcon": ""
     },
     {
       "id": "hn-50104234",
@@ -668,26 +711,6 @@
         "Anthropic"
       ],
       "companyIcon": "https://www.anthropic.com/favicon.ico"
-    },
-    {
-      "id": "wwr-sticker-mule-si-agent-engineer",
-      "company": "Sticker Mule",
-      "position": "SI agent engineer",
-      "location": "Remote",
-      "remote": true,
-      "salary": "$150,000–$250,000",
-      "description": "Headquarters: New York, NY URL: https://www.stickermule.com Sticker Mule is building the most lucrative commerce platform on the Internet by combining software, manufacturing, and super intelligence in one stack. We're hiring an engineer to build, run and manage a team of SI agents to help us...",
-      "applyUrl": "https://weworkremotely.com/remote-jobs/sticker-mule-si-agent-engineer",
-      "source": "WeWorkRemotely",
-      "sourceUrl": "https://weworkremotely.com/remote-jobs/sticker-mule-si-agent-engineer",
-      "postedAt": "2026-09-16T12:24:17+00:00",
-      "tags": [
-        "TypeScript",
-        "PostgreSQL",
-        "GCP",
-        "GraphQL"
-      ],
-      "companyIcon": ""
     },
     {
       "id": "anth-5421566008",
