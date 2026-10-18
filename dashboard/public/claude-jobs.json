@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-17T07:28:18.493406+00:00",
-  "totalJobs": 92,
+  "lastUpdated": "2026-10-18T07:43:26.682654+00:00",
+  "totalJobs": 93,
   "sources": [
     "Anthropic",
     "HackerNews",
@@ -442,6 +442,28 @@
       "postedAt": "2026-10-02T22:11:43+00:00",
       "tags": [
         "Claude Code"
+      ],
+      "companyIcon": ""
+    },
+    {
+      "id": "wwr-humane-world-for-animals-web-designer-ecrm-1",
+      "company": "Humane World for Animals",
+      "position": "Web Designer, eCRM",
+      "location": "Remote",
+      "remote": true,
+      "salary": "$80,000 – 115,000",
+      "description": "Headquarters: Humane World for Animals URL: https://humaneworld.org The general salary range for this full-time position is $80,000 – 115,000. Salary offers will be commensurate with experience, qualifications, skills, training and education. Humane World for Animals, a global leader in animal...",
+      "applyUrl": "https://weworkremotely.com/remote-jobs/humane-world-for-animals-web-designer-ecrm-1",
+      "source": "WeWorkRemotely",
+      "sourceUrl": "https://weworkremotely.com/remote-jobs/humane-world-for-animals-web-designer-ecrm-1",
+      "postedAt": "2026-10-02T17:39:45+00:00",
+      "tags": [
+        "JavaScript",
+        "AWS",
+        "Claude Code",
+        "Copilot",
+        "Rails",
+        "MySQL"
       ],
       "companyIcon": ""
     },
