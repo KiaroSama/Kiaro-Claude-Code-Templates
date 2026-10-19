@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-18T07:43:26.682654+00:00",
-  "totalJobs": 93,
+  "lastUpdated": "2026-10-19T08:25:27.642905+00:00",
+  "totalJobs": 94,
   "sources": [
     "Anthropic",
     "HackerNews",
@@ -8,6 +8,28 @@
     "WeWorkRemotely"
   ],
   "jobs": [
+    {
+      "id": "anth-5456453008",
+      "company": "Anthropic",
+      "position": "Software Engineer, Memory & Search",
+      "location": "New York City, NY; New York City, NY | Seattle, WA; Remote-Friendly, United Stat",
+      "remote": true,
+      "salary": "",
+      "description": "Anthropic is looking for Software Engineers to join the Memory & Search team. We own how Claude remembers you and how it finds what it needs, across Claude.ai, Cowork and Claude Code. That spans the user-facing experience (what Claude remembers, how people see and edit it, how search surfaces the...",
+      "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5456453008",
+      "source": "Anthropic",
+      "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5456453008",
+      "postedAt": "2026-10-19T01:09:10-04:00",
+      "tags": [
+        "TypeScript",
+        "Python",
+        "Rust",
+        "AWS",
+        "Claude Code",
+        "Anthropic"
+      ],
+      "companyIcon": "https://www.anthropic.com/favicon.ico"
+    },
     {
       "id": "anth-5424305008",
       "company": "Anthropic",
