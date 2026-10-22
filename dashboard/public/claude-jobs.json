@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-21T08:13:45.551650+00:00",
-  "totalJobs": 96,
+  "lastUpdated": "2026-10-22T08:15:16.171860+00:00",
+  "totalJobs": 99,
   "sources": [
     "Anthropic",
     "HackerNews",
@@ -800,6 +800,26 @@
       "companyIcon": "https://www.anthropic.com/favicon.ico"
     },
     {
+      "id": "anth-5423931008",
+      "company": "Anthropic",
+      "position": "Copywriter, Developer",
+      "location": "San Francisco, CA | New York City, NY",
+      "remote": false,
+      "salary": "",
+      "description": "As a Copywriter, Developer at Anthropic, you will shape how our brand speaks to developers, an audience that is notoriously allergic to being marketed to and quick to spot anything that doesn't ring true. Developers who stay sharp, curious, and direct AI tools with their own judgment are the ones...",
+      "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5423931008",
+      "source": "Anthropic",
+      "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5423931008",
+      "postedAt": "2026-09-16T15:39:40-04:00",
+      "tags": [
+        "Rust",
+        "AWS",
+        "Claude Code",
+        "Anthropic"
+      ],
+      "companyIcon": "https://www.anthropic.com/favicon.ico"
+    },
+    {
       "id": "anth-5421566008",
       "company": "Anthropic",
       "position": "Technical Architect ",
@@ -1277,6 +1297,48 @@
         "Python",
         "Rust",
         "AWS",
+        "Claude Code",
+        "Anthropic"
+      ],
+      "companyIcon": "https://www.anthropic.com/favicon.ico"
+    },
+    {
+      "id": "anth-5391062008",
+      "company": "Anthropic",
+      "position": "AI Outcomes Manager, Financial Services",
+      "location": "San Francisco, CA | Seattle, WA | New York City, NY | Washington, DC",
+      "remote": false,
+      "salary": "",
+      "description": "Join Anthropic's Customer Success team in a high-impact role driving AI adoption across our Financial Services segment. As an Enterprise Customer Success Manager for FSI, you'll be the strategic partner and a trusted advisor to our most complex customers with a portfolio spanning Banking,...",
+      "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5391062008",
+      "source": "Anthropic",
+      "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5391062008",
+      "postedAt": "2026-08-17T10:04:09-04:00",
+      "tags": [
+        "Rust",
+        "AWS",
+        "Claude Code",
+        "Anthropic"
+      ],
+      "companyIcon": "https://www.anthropic.com/favicon.ico"
+    },
+    {
+      "id": "anth-5379140008",
+      "company": "Anthropic",
+      "position": "Staff+ Software Engineer, Safeguards Data ",
+      "location": "New York City, NY",
+      "remote": false,
+      "salary": "",
+      "description": "Claude serves millions of individual users alongside enterprise clients. Safeguards Engineering develops the foundational infrastructure that ensures its safe use: robust access controls, active abuse detection, real-time probes and classifiers within the inference pipeline, offline monitoring for...",
+      "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5379140008",
+      "source": "Anthropic",
+      "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5379140008",
+      "postedAt": "2026-08-14T19:01:15-04:00",
+      "tags": [
+        "Rust",
+        "AWS",
+        "GCP",
+        "Azure",
         "Claude Code",
         "Anthropic"
       ],
@@ -1915,7 +1977,7 @@
     {
       "id": "anth-5082455008",
       "company": "Anthropic",
-      "position": "AI Outcomes Manager",
+      "position": "AI Outcomes Manager, Strategic Tech",
       "location": "New York City, NY; San Francisco, CA; Seattle, WA",
       "remote": false,
       "salary": "",
