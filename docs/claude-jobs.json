@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-22T08:15:16.171860+00:00",
-  "totalJobs": 99,
+  "lastUpdated": "2026-10-23T08:12:32.226672+00:00",
+  "totalJobs": 103,
   "sources": [
     "Anthropic",
     "HackerNews",
@@ -8,6 +8,69 @@
     "WeWorkRemotely"
   ],
   "jobs": [
+    {
+      "id": "anth-5455627008",
+      "company": "Anthropic",
+      "position": "Applied AI Architect, Public Sector (Federal Civilan)",
+      "location": "San Francisco, CA | New York City, NY",
+      "remote": false,
+      "salary": "",
+      "description": "As an Applied AI team member at Anthropic, you will be a Pre-Sales architect focused on becoming a trusted technical advisor helping state and local government agencies understand the value of Claude and paint the vision on how they can successfully integrate and deploy Claude into their technology...",
+      "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5455627008",
+      "source": "Anthropic",
+      "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5455627008",
+      "postedAt": "2026-10-22T21:53:49-04:00",
+      "tags": [
+        "Python",
+        "Rust",
+        "AWS",
+        "Claude Code",
+        "Anthropic"
+      ],
+      "companyIcon": "https://www.anthropic.com/favicon.ico"
+    },
+    {
+      "id": "anth-5460211008",
+      "company": "Anthropic",
+      "position": "Applied AI Architect, Public Sector (GovTech)",
+      "location": "Washington, DC",
+      "remote": false,
+      "salary": "",
+      "description": "As an Applied AI team member at Anthropic, you will be a Pre-Sales architect focused on becoming a trusted technical advisor helping systems integrators, startups, and other GovTech companies understand the value of Claude and paint the vision on how they can successfully integrate and deploy...",
+      "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5460211008",
+      "source": "Anthropic",
+      "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5460211008",
+      "postedAt": "2026-10-22T21:53:09-04:00",
+      "tags": [
+        "Python",
+        "Rust",
+        "AWS",
+        "Claude Code",
+        "Anthropic"
+      ],
+      "companyIcon": "https://www.anthropic.com/favicon.ico"
+    },
+    {
+      "id": "rok-remote-senior-backend-engineer-duckduckgo-1137551",
+      "company": "DuckDuckGo",
+      "position": "Senior Backend Engineer",
+      "location": "Remote",
+      "remote": true,
+      "salary": "",
+      "description": "Who We Are Hi, we're DuckDuckGo, the online protection company and remote-first team of 400+ on a mission to raise the standard of trust online. Founded in 2008 and profitable since 2014, our annual revenue is in the hundreds of millions USD and millions use our browser on Mac , Windows , iOS , and...",
+      "applyUrl": "https://remoteOK.com/remote-jobs/remote-senior-backend-engineer-duckduckgo-1137551",
+      "source": "RemoteOK",
+      "sourceUrl": "https://remoteok.com/remote-jobs/remote-senior-backend-engineer-duckduckgo-1137551",
+      "postedAt": "2026-10-21T14:29:21+00:00",
+      "tags": [
+        "JavaScript",
+        "Rust",
+        "Go",
+        "Node.js",
+        "AWS"
+      ],
+      "companyIcon": ""
+    },
     {
       "id": "anth-5455961008",
       "company": "Anthropic",
@@ -1295,6 +1358,26 @@
       "tags": [
         "TypeScript",
         "Python",
+        "Rust",
+        "AWS",
+        "Claude Code",
+        "Anthropic"
+      ],
+      "companyIcon": "https://www.anthropic.com/favicon.ico"
+    },
+    {
+      "id": "anth-4986159008",
+      "company": "Anthropic",
+      "position": "AI Outcomes Manager, GSI",
+      "location": "San Francisco, CA | Seattle, WA | New York City, NY | Washington, DC",
+      "remote": false,
+      "salary": "",
+      "description": "Join Anthropic's Customer Success team in a high-impact role driving AI adoption across our Industry segment. As an AI Outcomes Manager, GSI, you'll be the strategic partner and a trusted advisor to our most complex customers with a portfolio spanning Systems Integrators—helping them harness the...",
+      "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/4986159008",
+      "source": "Anthropic",
+      "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/4986159008",
+      "postedAt": "2026-08-17T10:04:30-04:00",
+      "tags": [
         "Rust",
         "AWS",
         "Claude Code",
