@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-23T08:12:32.226672+00:00",
-  "totalJobs": 103,
+  "lastUpdated": "2026-10-24T07:50:59.052547+00:00",
+  "totalJobs": 102,
   "sources": [
     "Anthropic",
     "HackerNews",
@@ -762,27 +762,6 @@
       "companyIcon": "https://www.anthropic.com/favicon.ico"
     },
     {
-      "id": "wwr-steuart-nutrition-software-developer-ai-coding",
-      "company": "STEUART NUTRITION",
-      "position": "Software Developer AI Coding",
-      "location": "Remote",
-      "remote": true,
-      "salary": "",
-      "description": "Headquarters: Minnesota URL: https://www.steuartnutrition.com/ About us Steuart Nutrition is a GMP-certified contract manufacturer making powders, liquids, capsules and stick packs for growing wellness brands. We run on Extreme Ownership, clear communication and fast turnaround, and we want a...",
-      "applyUrl": "https://weworkremotely.com/remote-jobs/steuart-nutrition-software-developer-ai-coding",
-      "source": "WeWorkRemotely",
-      "sourceUrl": "https://weworkremotely.com/remote-jobs/steuart-nutrition-software-developer-ai-coding",
-      "postedAt": "2026-09-23T15:03:18+00:00",
-      "tags": [
-        "TypeScript",
-        "JavaScript",
-        "Python",
-        "Cursor",
-        "Copilot"
-      ],
-      "companyIcon": ""
-    },
-    {
       "id": "anth-5382518008",
       "company": "Anthropic",
       "position": "Applied AI Architect, Public Sector ",
@@ -1392,7 +1371,7 @@
       "location": "San Francisco, CA | Seattle, WA | New York City, NY | Washington, DC",
       "remote": false,
       "salary": "",
-      "description": "Join Anthropic's Customer Success team in a high-impact role driving AI adoption across our Financial Services segment. As an Enterprise Customer Success Manager for FSI, you'll be the strategic partner and a trusted advisor to our most complex customers with a portfolio spanning Banking,...",
+      "description": "Join Anthropic's Customer Success team as an AI Outcome Manager in a high-impact role driving AI adoption across our Financial Services segment. As an AI Outcome Manager for FSI, you'll be the strategic partner and a trusted advisor to our most complex customers with a portfolio spanning Banking,...",
       "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5391062008",
       "source": "Anthropic",
       "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5391062008",
