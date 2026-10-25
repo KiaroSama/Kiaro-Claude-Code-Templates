@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-24T07:50:59.052547+00:00",
-  "totalJobs": 102,
+  "lastUpdated": "2026-10-25T08:03:23.006806+00:00",
+  "totalJobs": 101,
   "sources": [
     "Anthropic",
     "HackerNews",
@@ -964,29 +964,6 @@
         "Anthropic"
       ],
       "companyIcon": "https://www.anthropic.com/favicon.ico"
-    },
-    {
-      "id": "hn-49552714",
-      "company": "AiMi",
-      "position": "AI Engineer",
-      "location": "Remote(Everywhere)",
-      "remote": true,
-      "salary": "",
-      "description": "AiMi builds agentic AI infrastructure for capital markets: autonomous agents that ingest venue and vendor notifications, assess impact across client infrastructure, and drive change management workflows in real time, replacing what used to be manual, static processes for exchanges and their ops...",
-      "applyUrl": "https://news.ycombinator.com/item?id=49552714",
-      "source": "HackerNews",
-      "sourceUrl": "https://news.ycombinator.com/item?id=49552714",
-      "postedAt": "2026-09-03T16:29:17+00:00",
-      "tags": [
-        "React",
-        "TypeScript",
-        "Node.js",
-        "AWS",
-        "Claude Code",
-        "Cursor",
-        "MongoDB"
-      ],
-      "companyIcon": ""
     },
     {
       "id": "hn-49547792",
