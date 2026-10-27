@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-26T08:26:27.774149+00:00",
-  "totalJobs": 101,
+  "lastUpdated": "2026-10-27T08:35:26.735160+00:00",
+  "totalJobs": 102,
   "sources": [
     "Anthropic",
     "HackerNews",
@@ -8,6 +8,29 @@
     "WeWorkRemotely"
   ],
   "jobs": [
+    {
+      "id": "rok-remote-senior-software-engineer-latam-wagmo-1137572",
+      "company": "Wagmo",
+      "position": "Senior Software Engineer LATAM",
+      "location": "Remote",
+      "remote": true,
+      "salary": "",
+      "description": "Senior Software Engineer Remote role based in Latin America. Must work at least 6 hours of overlap with US Eastern Time. What We Do Wagmo is a modern pet healthcare company built around how pet parents actually care for their pets. We partner with employers to provide a complete approach to pet and...",
+      "applyUrl": "https://remoteOK.com/remote-jobs/remote-senior-software-engineer-latam-wagmo-1137572",
+      "source": "RemoteOK",
+      "sourceUrl": "https://remoteok.com/remote-jobs/remote-senior-software-engineer-latam-wagmo-1137572",
+      "postedAt": "2026-10-26T08:00:06+00:00",
+      "tags": [
+        "React",
+        "TypeScript",
+        "Python",
+        "Rust",
+        "Go",
+        "Claude Code",
+        "Django"
+      ],
+      "companyIcon": ""
+    },
     {
       "id": "anth-5455627008",
       "company": "Anthropic",
