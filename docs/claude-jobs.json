@@ -1,12 +1,33 @@
 {
-  "lastUpdated": "2026-11-01T09:59:34.078481+00:00",
-  "totalJobs": 102,
+  "lastUpdated": "2026-11-02T10:28:03.440856+00:00",
+  "totalJobs": 103,
   "sources": [
     "Anthropic",
     "HackerNews",
     "RemoteOK"
   ],
   "jobs": [
+    {
+      "id": "anth-5465639008",
+      "company": "Anthropic",
+      "position": "AI Outcomes Manager, Strategic Tech (Spanish-speaking)",
+      "location": "San Francisco, CA | Seattle, WA | New York City, NY | Washington, DC",
+      "remote": false,
+      "salary": "",
+      "description": "Join Anthropic's Customer Success team in a high-visibility & high-impact role driving AI adoption across a small number of strategic accounts in our Enterprise Tech segment. As our dedicated Outcomes AI Manager for Strategic Tech Customers you’ll be their partner and trusted advisor helping them...",
+      "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5465639008",
+      "source": "Anthropic",
+      "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5465639008",
+      "postedAt": "2026-11-02T02:07:52-05:00",
+      "tags": [
+        "Rust",
+        "Go",
+        "AWS",
+        "Claude Code",
+        "Anthropic"
+      ],
+      "companyIcon": "https://www.anthropic.com/favicon.ico"
+    },
     {
       "id": "rok-remote-cloud-engineer-automation-smile-digital-health-1137600",
       "company": "Smile Digital Health",
