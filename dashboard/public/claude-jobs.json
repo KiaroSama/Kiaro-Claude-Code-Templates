@@ -1,12 +1,33 @@
 {
-  "lastUpdated": "2026-11-02T10:28:03.440856+00:00",
-  "totalJobs": 103,
+  "lastUpdated": "2026-11-03T10:25:21.273477+00:00",
+  "totalJobs": 105,
   "sources": [
     "Anthropic",
     "HackerNews",
-    "RemoteOK"
+    "RemoteOK",
+    "WeWorkRemotely"
   ],
   "jobs": [
+    {
+      "id": "hn-50344555",
+      "company": "Location: Huntington Beach, CA, USA Remote: Yes Willing to relocate: No Technolo",
+      "position": "Software Engineer",
+      "location": "Remote",
+      "remote": true,
+      "salary": "",
+      "description": "Fractional CTO and contract work: web apps that do real work (booking, ordering, portals, quoting), modernizing older systems, and shipping faster with AI coding tools without losing quality. Twelve working examples you can click through: https://aiwebcenter.com/work/examples/",
+      "applyUrl": "https://news.ycombinator.com/item?id=50344555",
+      "source": "HackerNews",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50344555",
+      "postedAt": "2026-11-02T22:06:30+00:00",
+      "tags": [
+        "React",
+        "TypeScript",
+        "PostgreSQL",
+        "Claude Code"
+      ],
+      "companyIcon": ""
+    },
     {
       "id": "anth-5465639008",
       "company": "Anthropic",
@@ -183,7 +204,7 @@
     {
       "id": "anth-5456581008",
       "company": "Anthropic",
-      "position": "Manager of Applied AI Architecture, Industries ",
+      "position": "Head of Southern Europe & MEA, Applied AI",
       "location": "Paris, France",
       "remote": false,
       "salary": "",
@@ -327,6 +348,26 @@
         "Swift",
         "Kotlin",
         "Tailwind"
+      ],
+      "companyIcon": ""
+    },
+    {
+      "id": "wwr-upgrade-ai-experience-engineer-conversational-ai",
+      "company": "Upgrade",
+      "position": "AI Experience Engineer (Conversational AI)",
+      "location": "Remote",
+      "remote": true,
+      "salary": "$140K-$180K",
+      "description": "Headquarters: Canada (Remote) About the Role: An AI Experience Engineer owns the full lifecycle of the journeys our customers have with Upgrade's AI agent on chat, voice and email: creation, optimization, edge case handling and containment growth. They build journeys in Sierra's no-code tooling,...",
+      "applyUrl": "https://weworkremotely.com/remote-jobs/upgrade-ai-experience-engineer-conversational-ai",
+      "source": "WeWorkRemotely",
+      "sourceUrl": "https://weworkremotely.com/remote-jobs/upgrade-ai-experience-engineer-conversational-ai",
+      "postedAt": "2026-10-15T07:31:14+00:00",
+      "tags": [
+        "TypeScript",
+        "JavaScript",
+        "Rails",
+        "GraphQL"
       ],
       "companyIcon": ""
     },
