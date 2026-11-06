@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-05T10:15:09.286119+00:00",
-  "totalJobs": 103,
+  "lastUpdated": "2026-11-06T10:18:39.315315+00:00",
+  "totalJobs": 102,
   "sources": [
     "Anthropic",
     "HackerNews",
@@ -8,6 +8,27 @@
     "WeWorkRemotely"
   ],
   "jobs": [
+    {
+      "id": "hn-50384008",
+      "company": "Sortrace",
+      "position": "Junior Frontend Engineer",
+      "location": "REMOTE (Europe), hybrid Norrköping or Stockholm",
+      "remote": true,
+      "salary": "",
+      "description": "Sortrace is a small cleantech AI company in Sweden. Cameras on waste collection trucks and trained vision models flag material in the wrong fraction when bins are emptied. Customers use our platform to review deviations, images, and insights. We're hiring for two roles on a small team with short...",
+      "applyUrl": "https://news.ycombinator.com/item?id=50384008",
+      "source": "HackerNews",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50384008",
+      "postedAt": "2026-11-05T20:25:23+00:00",
+      "tags": [
+        "React",
+        "TypeScript",
+        "Python",
+        "Cursor",
+        "Tailwind"
+      ],
+      "companyIcon": ""
+    },
     {
       "id": "hn-50373706",
       "company": "ALBERT",
@@ -1091,26 +1112,6 @@
       "companyIcon": ""
     },
     {
-      "id": "anth-5397654008",
-      "company": "Anthropic",
-      "position": "Product Designer, Claude Developer Platform",
-      "location": "San Francisco, CA | New York City, NY | Seattle, WA",
-      "remote": false,
-      "salary": "",
-      "description": "Design at Anthropic sits at the intersection of craft, research, and product intuition. We're a small team working on products that millions of people use daily—and on interactions that don't have established conventions yet. Our work shapes how people experience AI: whether Claude feels like a...",
-      "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5397654008",
-      "source": "Anthropic",
-      "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5397654008",
-      "postedAt": "2026-09-28T17:06:36-04:00",
-      "tags": [
-        "Rust",
-        "AWS",
-        "Claude Code",
-        "Anthropic"
-      ],
-      "companyIcon": "https://www.anthropic.com/favicon.ico"
-    },
-    {
       "id": "anth-5428014008",
       "company": "Anthropic",
       "position": "Product Designer, Safeguards",
@@ -1202,26 +1203,6 @@
       "source": "Anthropic",
       "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5427479008",
       "postedAt": "2026-09-18T18:50:40-04:00",
-      "tags": [
-        "Rust",
-        "AWS",
-        "Claude Code",
-        "Anthropic"
-      ],
-      "companyIcon": "https://www.anthropic.com/favicon.ico"
-    },
-    {
-      "id": "anth-5423931008",
-      "company": "Anthropic",
-      "position": "Copywriter, Developer",
-      "location": "San Francisco, CA | New York City, NY",
-      "remote": false,
-      "salary": "",
-      "description": "As a Copywriter, Developer at Anthropic, you will shape how our brand speaks to developers, an audience that is notoriously allergic to being marketed to and quick to spot anything that doesn't ring true. Developers who stay sharp, curious, and direct AI tools with their own judgment are the ones...",
-      "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5423931008",
-      "source": "Anthropic",
-      "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5423931008",
-      "postedAt": "2026-09-16T15:39:40-04:00",
       "tags": [
         "Rust",
         "AWS",
