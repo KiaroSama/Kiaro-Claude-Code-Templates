@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-06T10:18:39.315315+00:00",
-  "totalJobs": 102,
+  "lastUpdated": "2026-11-07T09:32:46.644640+00:00",
+  "totalJobs": 104,
   "sources": [
     "Anthropic",
     "HackerNews",
@@ -8,6 +8,48 @@
     "WeWorkRemotely"
   ],
   "jobs": [
+    {
+      "id": "anth-5473198008",
+      "company": "Anthropic",
+      "position": "Applied AI Architect, Democratic Partnerships ",
+      "location": "San Francisco, CA | New York City, NY",
+      "remote": false,
+      "salary": "",
+      "description": "As a member of the Applied AI, Democratic Partnerships team at Anthropic you will provide technical support to the governments of key international allies and civil-sector partners to support democratic resilience. Near-term work focuses on a few priority countries and partners, and will continue...",
+      "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5473198008",
+      "source": "Anthropic",
+      "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5473198008",
+      "postedAt": "2026-11-06T12:43:55-05:00",
+      "tags": [
+        "Python",
+        "Rust",
+        "AWS",
+        "Claude Code",
+        "Anthropic"
+      ],
+      "companyIcon": "https://www.anthropic.com/favicon.ico"
+    },
+    {
+      "id": "anth-5473195008",
+      "company": "Anthropic",
+      "position": "Applied AI Architect, International Policy",
+      "location": "San Francisco, CA | New York City, NY",
+      "remote": false,
+      "salary": "",
+      "description": "As a member of the International Policy Applied AI team at Anthropic, you will be a trusted technical advisor to governments, AI Safety Institutes (AISIs), and multilateral institutions. You'll use your technical skills and your experience with government partners to help them understand frontier...",
+      "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5473195008",
+      "source": "Anthropic",
+      "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5473195008",
+      "postedAt": "2026-11-06T12:43:11-05:00",
+      "tags": [
+        "Python",
+        "Rust",
+        "AWS",
+        "Claude Code",
+        "Anthropic"
+      ],
+      "companyIcon": "https://www.anthropic.com/favicon.ico"
+    },
     {
       "id": "hn-50384008",
       "company": "Sortrace",
@@ -26,6 +68,30 @@
         "Python",
         "Cursor",
         "Tailwind"
+      ],
+      "companyIcon": ""
+    },
+    {
+      "id": "rok-remote-feltsense-ai-engineer-silver-dev-1137691",
+      "company": "Silver.dev",
+      "position": "Feltsense AI Engineer",
+      "location": "Remote",
+      "remote": true,
+      "salary": "",
+      "description": "About the company We raised $5.1M to build agents that operate as fully autonomous founders. Our backers include Matt Schlicht (founder of Moltbook), the founders of Crunchbase and Republic, and VCs including Draper, Precursor, and Liquid2. We're working at the frontier of autonomous systems,...",
+      "applyUrl": "https://remoteOK.com/remote-jobs/remote-feltsense-ai-engineer-silver-dev-1137691",
+      "source": "RemoteOK",
+      "sourceUrl": "https://remoteok.com/remote-jobs/remote-feltsense-ai-engineer-silver-dev-1137691",
+      "postedAt": "2026-11-05T16:00:07+00:00",
+      "tags": [
+        "TypeScript",
+        "JavaScript",
+        "Node.js",
+        "PostgreSQL",
+        "Supabase",
+        "GCP",
+        "Claude Code",
+        "Cursor"
       ],
       "companyIcon": ""
     },
@@ -580,26 +646,6 @@
       "tags": [
         "TypeScript",
         "Python",
-        "Rust",
-        "AWS",
-        "Claude Code",
-        "Anthropic"
-      ],
-      "companyIcon": "https://www.anthropic.com/favicon.ico"
-    },
-    {
-      "id": "anth-5424305008",
-      "company": "Anthropic",
-      "position": "Manager, Applied AI Architects - Digital Natives, EMEA",
-      "location": "London, UK",
-      "remote": false,
-      "salary": "",
-      "description": "As Manager of the EMEA Digital Natives Applied AI Architecture team, you'll drive adoption of frontier AI across Europe's fastest-growing technology companies: SaaS scale-ups, fintechs, marketplaces, consumer platforms, and developer-tooling businesses. Your team makes Anthropic's products (Claude...",
-      "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5424305008",
-      "source": "Anthropic",
-      "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5424305008",
-      "postedAt": "2026-10-16T05:34:58-04:00",
-      "tags": [
         "Rust",
         "AWS",
         "Claude Code",
