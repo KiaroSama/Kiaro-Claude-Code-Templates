@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-08T09:49:13.487995+00:00",
-  "totalJobs": 104,
+  "lastUpdated": "2026-11-09T10:50:13.579201+00:00",
+  "totalJobs": 105,
   "sources": [
     "Anthropic",
     "HackerNews",
@@ -652,6 +652,29 @@
         "Anthropic"
       ],
       "companyIcon": "https://www.anthropic.com/favicon.ico"
+    },
+    {
+      "id": "wwr-airbnb-operations-engineer-biztech",
+      "company": "Airbnb",
+      "position": "Operations Engineer, BizTech",
+      "location": "Remote",
+      "remote": true,
+      "salary": "",
+      "description": "Headquarters: Remote- USA Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and...",
+      "applyUrl": "https://weworkremotely.com/remote-jobs/airbnb-operations-engineer-biztech",
+      "source": "WeWorkRemotely",
+      "sourceUrl": "https://weworkremotely.com/remote-jobs/airbnb-operations-engineer-biztech",
+      "postedAt": "2026-10-18T07:31:05+00:00",
+      "tags": [
+        "TypeScript",
+        "JavaScript",
+        "Python",
+        "Rust",
+        "AWS",
+        "GCP",
+        "Copilot"
+      ],
+      "companyIcon": ""
     },
     {
       "id": "anth-5454673008",
