@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-09T10:50:13.579201+00:00",
+  "lastUpdated": "2026-11-10T10:42:34.947870+00:00",
   "totalJobs": 105,
   "sources": [
     "Anthropic",
@@ -675,6 +675,27 @@
         "Copilot"
       ],
       "companyIcon": ""
+    },
+    {
+      "id": "anth-5454800008",
+      "company": "Anthropic",
+      "position": "AI Outcomes Manager, Enterprise Tech",
+      "location": "San Francisco, CA | New York City, NY",
+      "remote": false,
+      "salary": "",
+      "description": "Join Anthropic's Customer Success team in a high-visibility & high-impact role driving AI adoption across a small number of enterprise accounts in our Enterprise Tech segment. As our dedicated Customer Success Manager for Enterprise Tech Customers you’ll be their partner and trusted advisor helping...",
+      "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5454800008",
+      "source": "Anthropic",
+      "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5454800008",
+      "postedAt": "2026-10-16T21:12:59-04:00",
+      "tags": [
+        "Rust",
+        "Go",
+        "AWS",
+        "Claude Code",
+        "Anthropic"
+      ],
+      "companyIcon": "https://www.anthropic.com/favicon.ico"
     },
     {
       "id": "anth-5454673008",
@@ -1667,27 +1688,6 @@
       "source": "Anthropic",
       "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5390865008",
       "postedAt": "2026-08-20T15:07:21-04:00",
-      "tags": [
-        "Rust",
-        "Go",
-        "AWS",
-        "Claude Code",
-        "Anthropic"
-      ],
-      "companyIcon": "https://www.anthropic.com/favicon.ico"
-    },
-    {
-      "id": "anth-5393526008",
-      "company": "Anthropic",
-      "position": "Product Manager, Cybersecurity ",
-      "location": "San Francisco, CA | New York City, NY",
-      "remote": false,
-      "salary": "",
-      "description": "Claude is now good at security work. It finds and fixes vulnerabilities in real codebases, triages alerts, and reasons about how an attacker would move through a system, and it improves with every model we ship. Many security platforms build on Claude and we shipped our first security product this...",
-      "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5393526008",
-      "source": "Anthropic",
-      "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5393526008",
-      "postedAt": "2026-08-20T12:35:52-04:00",
       "tags": [
         "Rust",
         "Go",
