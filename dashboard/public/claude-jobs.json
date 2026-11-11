@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-10T10:42:34.947870+00:00",
+  "lastUpdated": "2026-11-11T10:12:46.715651+00:00",
   "totalJobs": 105,
   "sources": [
     "Anthropic",
@@ -8,6 +8,29 @@
     "WeWorkRemotely"
   ],
   "jobs": [
+    {
+      "id": "rok-remote-senior-agentic-ai-engineer-nda-gt-1137710",
+      "company": "GT",
+      "position": "Senior Agentic AI Engineer NDA",
+      "location": "Remote",
+      "remote": true,
+      "salary": "",
+      "description": "GT was founded in 2019 by a former Apple, Nest, and Google executive. GT’s mission is to connect the world’s best talent with product careers offered by high-growth companies in the UK, USA, Canada, Germany, and the Netherlands. On behalf of the client, GT is looking for a Senior Agentic AI...",
+      "applyUrl": "https://remoteOK.com/remote-jobs/remote-senior-agentic-ai-engineer-nda-gt-1137710",
+      "source": "RemoteOK",
+      "sourceUrl": "https://remoteok.com/remote-jobs/remote-senior-agentic-ai-engineer-nda-gt-1137710",
+      "postedAt": "2026-11-09T16:00:13+00:00",
+      "tags": [
+        "React",
+        "Python",
+        "Azure",
+        "Docker",
+        "Claude Code",
+        "Cursor",
+        "Rails"
+      ],
+      "companyIcon": ""
+    },
     {
       "id": "anth-5473198008",
       "company": "Anthropic",
@@ -883,27 +906,6 @@
       "postedAt": "2026-10-08T23:12:41-04:00",
       "tags": [
         "Rust",
-        "AWS",
-        "Claude Code",
-        "Anthropic"
-      ],
-      "companyIcon": "https://www.anthropic.com/favicon.ico"
-    },
-    {
-      "id": "anth-5444482008",
-      "company": "Anthropic",
-      "position": "Manager, Applied AI Architecture, Enterprise Tech",
-      "location": "San Francisco, CA",
-      "remote": false,
-      "salary": "",
-      "description": "As the manager of the Solutions Architect team within Applied AI Enterprise Tech at Anthropic, you will drive the adoption of frontier AI in partnership with the rest of the go to market organization. Our Enterprise Tech customers are some of the world's most sophisticated technology companies,...",
-      "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5444482008",
-      "source": "Anthropic",
-      "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5444482008",
-      "postedAt": "2026-10-07T15:00:01-04:00",
-      "tags": [
-        "Rust",
-        "Go",
         "AWS",
         "Claude Code",
         "Anthropic"
