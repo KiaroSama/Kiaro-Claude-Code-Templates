@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-11T10:12:46.715651+00:00",
-  "totalJobs": 105,
+  "lastUpdated": "2026-11-12T10:35:01.798195+00:00",
+  "totalJobs": 104,
   "sources": [
     "Anthropic",
     "HackerNews",
@@ -589,27 +589,6 @@
         "Anthropic"
       ],
       "companyIcon": "https://www.anthropic.com/favicon.ico"
-    },
-    {
-      "id": "rok-remote-senior-backend-engineer-duckduckgo-1137551",
-      "company": "DuckDuckGo",
-      "position": "Senior Backend Engineer",
-      "location": "Remote",
-      "remote": true,
-      "salary": "",
-      "description": "Who We Are Hi, we're DuckDuckGo, the online protection company and remote-first team of 400+ on a mission to raise the standard of trust online. Founded in 2008 and profitable since 2014, our annual revenue is in the hundreds of millions USD and millions use our browser on Mac , Windows , iOS , and...",
-      "applyUrl": "https://remoteOK.com/remote-jobs/remote-senior-backend-engineer-duckduckgo-1137551",
-      "source": "RemoteOK",
-      "sourceUrl": "https://remoteok.com/remote-jobs/remote-senior-backend-engineer-duckduckgo-1137551",
-      "postedAt": "2026-10-21T14:29:21+00:00",
-      "tags": [
-        "JavaScript",
-        "Rust",
-        "Go",
-        "Node.js",
-        "AWS"
-      ],
-      "companyIcon": ""
     },
     {
       "id": "anth-5455961008",
