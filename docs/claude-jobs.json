@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-12T10:35:01.798195+00:00",
-  "totalJobs": 104,
+  "lastUpdated": "2026-11-13T10:27:34.348254+00:00",
+  "totalJobs": 103,
   "sources": [
     "Anthropic",
     "HackerNews",
@@ -825,25 +825,6 @@
         "Anthropic"
       ],
       "companyIcon": "https://www.anthropic.com/favicon.ico"
-    },
-    {
-      "id": "rok-remote-technical-customer-support-quickmail-1137506",
-      "company": "QuickMail",
-      "position": "Technical Customer Support",
-      "location": "Remote",
-      "remote": true,
-      "salary": "",
-      "description": "QuickMail is a cold email and LinkedIn outreach platform for markets you can't afford to burn. Our customers can't easily replace leads that land in spam, which is why deliverability matters more to us than anything else. We have been running since 2014, and we pioneered deliverability technology...",
-      "applyUrl": "https://remoteOK.com/remote-jobs/remote-technical-customer-support-quickmail-1137506",
-      "source": "RemoteOK",
-      "sourceUrl": "https://remoteok.com/remote-jobs/remote-technical-customer-support-quickmail-1137506",
-      "postedAt": "2026-10-12T16:20:10+00:00",
-      "tags": [
-        "Rust",
-        "Go",
-        "GraphQL"
-      ],
-      "companyIcon": ""
     },
     {
       "id": "hn-50025234",
