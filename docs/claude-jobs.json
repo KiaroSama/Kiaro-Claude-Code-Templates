@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-13T10:27:34.348254+00:00",
-  "totalJobs": 103,
+  "lastUpdated": "2026-11-14T09:45:41.436262+00:00",
+  "totalJobs": 104,
   "sources": [
     "Anthropic",
     "HackerNews",
@@ -461,6 +461,21 @@
       "companyIcon": ""
     },
     {
+      "id": "hn-50338809",
+      "company": "UPDATE",
+      "position": "Software Engineer",
+      "location": "Remote",
+      "remote": true,
+      "salary": "$60K–$100K",
+      "description": "Bridge AI Consulting | AI Consultant, Junior AI Consultant | REMOTE (US) | Full-time | $60K–$100K base + upside for new business, equity possible | Visa sponsorship possible We're a small, bootstrapped, profitable AI consulting firm. We embed with small and mid-size businesses (wealth management,...",
+      "applyUrl": "https://news.ycombinator.com/item?id=50338809",
+      "source": "HackerNews",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50338809",
+      "postedAt": "2026-11-02T16:05:23+00:00",
+      "tags": [],
+      "companyIcon": ""
+    },
+    {
       "id": "anth-5465639008",
       "company": "Anthropic",
       "position": "AI Outcomes Manager, Strategic Tech (Spanish-speaking)",
@@ -611,6 +626,25 @@
         "Anthropic"
       ],
       "companyIcon": "https://www.anthropic.com/favicon.ico"
+    },
+    {
+      "id": "wwr-growth-minded-senior-data-engineer",
+      "company": "Growth Minded",
+      "position": "Senior Data Engineer",
+      "location": "Remote",
+      "remote": true,
+      "salary": "",
+      "description": "Headquarters: Remote URL: https://growthminded.co About the role You'll own the data layer underneath InsightsOS and EngageOS, the products that turn booking, CRM, ad, and financial data from multi-location brands into proactive insights and automated actions. Today that layer is built and...",
+      "applyUrl": "https://weworkremotely.com/remote-jobs/growth-minded-senior-data-engineer",
+      "source": "WeWorkRemotely",
+      "sourceUrl": "https://weworkremotely.com/remote-jobs/growth-minded-senior-data-engineer",
+      "postedAt": "2026-10-19T12:47:58+00:00",
+      "tags": [
+        "Python",
+        "PostgreSQL",
+        "Claude Code"
+      ],
+      "companyIcon": ""
     },
     {
       "id": "anth-5456581008",
@@ -783,26 +817,6 @@
         "Swift",
         "Kotlin",
         "Tailwind"
-      ],
-      "companyIcon": ""
-    },
-    {
-      "id": "wwr-upgrade-ai-experience-engineer-conversational-ai",
-      "company": "Upgrade",
-      "position": "AI Experience Engineer (Conversational AI)",
-      "location": "Remote",
-      "remote": true,
-      "salary": "$140K-$180K",
-      "description": "Headquarters: Canada (Remote) About the Role: An AI Experience Engineer owns the full lifecycle of the journeys our customers have with Upgrade's AI agent on chat, voice and email: creation, optimization, edge case handling and containment growth. They build journeys in Sierra's no-code tooling,...",
-      "applyUrl": "https://weworkremotely.com/remote-jobs/upgrade-ai-experience-engineer-conversational-ai",
-      "source": "WeWorkRemotely",
-      "sourceUrl": "https://weworkremotely.com/remote-jobs/upgrade-ai-experience-engineer-conversational-ai",
-      "postedAt": "2026-10-15T07:31:14+00:00",
-      "tags": [
-        "TypeScript",
-        "JavaScript",
-        "Rails",
-        "GraphQL"
       ],
       "companyIcon": ""
     },
