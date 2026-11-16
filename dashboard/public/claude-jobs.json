@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-15T10:18:44.447202+00:00",
+  "lastUpdated": "2026-11-16T10:33:14.007501+00:00",
   "totalJobs": 106,
   "sources": [
     "Anthropic",
@@ -628,6 +628,31 @@
       "companyIcon": "https://www.anthropic.com/favicon.ico"
     },
     {
+      "id": "wwr-offerup-software-development-engineer-ii-remote-colombia",
+      "company": "OfferUp",
+      "position": "Software Development Engineer II (Remote @ Colombia)",
+      "location": "Remote",
+      "remote": true,
+      "salary": "",
+      "description": "Headquarters: Remote @ Colombia About the role: The OfferUp Connect team builds the moments that turn a listing into a sale. Every chat between buyers and sellers, every offer notification, and every saved-search alert runs through services we own, from messaging and notifications to location,...",
+      "applyUrl": "https://weworkremotely.com/remote-jobs/offerup-software-development-engineer-ii-remote-colombia",
+      "source": "WeWorkRemotely",
+      "sourceUrl": "https://weworkremotely.com/remote-jobs/offerup-software-development-engineer-ii-remote-colombia",
+      "postedAt": "2026-10-22T07:31:08+00:00",
+      "tags": [
+        "TypeScript",
+        "Rust",
+        "Node.js",
+        "AWS",
+        "Kubernetes",
+        "Claude Code",
+        "Java",
+        "Vue.js",
+        "Redis"
+      ],
+      "companyIcon": ""
+    },
+    {
       "id": "wwr-vertex-marketing-group-distribution-engineer",
       "company": "Vertex Marketing Group",
       "position": "Distribution Engineer",
@@ -1248,26 +1273,6 @@
       "source": "Anthropic",
       "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5382518008",
       "postedAt": "2026-09-23T13:17:43-04:00",
-      "tags": [
-        "Rust",
-        "AWS",
-        "Claude Code",
-        "Anthropic"
-      ],
-      "companyIcon": "https://www.anthropic.com/favicon.ico"
-    },
-    {
-      "id": "anth-5428790008",
-      "company": "Anthropic",
-      "position": "Sales Enablement Trainer, Claude Products",
-      "location": "San Francisco, CA | New York City, NY",
-      "remote": false,
-      "salary": "",
-      "description": "As a Sales Enablement Trainer, Claude Products, you'll teach Anthropic's global sales team how to use our products, both to do their own work better and to position Claude credibly with customers. Anthropic ships quickly, and the surface area of what we build is growing faster than any individual...",
-      "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5428790008",
-      "source": "Anthropic",
-      "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5428790008",
-      "postedAt": "2026-09-22T19:16:56-04:00",
       "tags": [
         "Rust",
         "AWS",
