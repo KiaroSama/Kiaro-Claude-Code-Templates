@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-16T10:33:14.007501+00:00",
-  "totalJobs": 106,
+  "lastUpdated": "2026-11-17T11:26:14.272050+00:00",
+  "totalJobs": 107,
   "sources": [
     "Anthropic",
     "HackerNews",
@@ -8,6 +8,48 @@
     "WeWorkRemotely"
   ],
   "jobs": [
+    {
+      "id": "anth-5484035008",
+      "company": "Anthropic",
+      "position": "Applied AI Architect, Beneficial Deployments (Non-Profits)",
+      "location": "San Francisco, CA | New York City, NY",
+      "remote": false,
+      "salary": "",
+      "description": "We're looking for an Applied AI Architect to join Beneficial Deployments, focused on helping nonprofits and foundations get real value from Claude. You'll be the technical lead for a portfolio of partners, working alongside our Account Executives from first conversation through deployment. You'll...",
+      "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5484035008",
+      "source": "Anthropic",
+      "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5484035008",
+      "postedAt": "2026-11-16T18:14:39-05:00",
+      "tags": [
+        "Rust",
+        "Go",
+        "AWS",
+        "Claude Code",
+        "Anthropic"
+      ],
+      "companyIcon": "https://www.anthropic.com/favicon.ico"
+    },
+    {
+      "id": "anth-5477416008",
+      "company": "Anthropic",
+      "position": "Research Engineer, AI Monitoring",
+      "location": "London, UK",
+      "remote": false,
+      "salary": "",
+      "description": "Our team builds, tests, deploys, and monitors the classifiers that block internal agents from taking dangerous actions. These classifiers run across RL, evals, and internal deployments, and are designed to catch things like sandbox escape attempts or exfiltration of sensitive data. When a...",
+      "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5477416008",
+      "source": "Anthropic",
+      "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5477416008",
+      "postedAt": "2026-11-16T16:28:41-05:00",
+      "tags": [
+        "Rust",
+        "Go",
+        "AWS",
+        "Claude Code",
+        "Anthropic"
+      ],
+      "companyIcon": "https://www.anthropic.com/favicon.ico"
+    },
     {
       "id": "anth-5469291008",
       "company": "Anthropic",
@@ -289,26 +331,6 @@
       "companyIcon": "https://www.anthropic.com/favicon.ico"
     },
     {
-      "id": "rok-remote-tech-lead-ringbook-limited-1137673",
-      "company": "Ringbook Limited",
-      "position": "Tech lead",
-      "location": "Remote",
-      "remote": true,
-      "salary": "",
-      "description": "What You’ll Do ãDesign the architecture of the application and make key technical decisions. ãBuild and maintain scalable features across the Ringbook web application. ãIntegrate AI capabilities throughout the platform to create innovative features. ãDevelop clean, responsive, and intuitive...",
-      "applyUrl": "https://remoteOK.com/remote-jobs/remote-tech-lead-ringbook-limited-1137673",
-      "source": "RemoteOK",
-      "sourceUrl": "https://remoteok.com/remote-jobs/remote-tech-lead-ringbook-limited-1137673",
-      "postedAt": "2026-11-03T14:53:55+00:00",
-      "tags": [
-        "React",
-        "TypeScript",
-        "PostgreSQL",
-        "AWS"
-      ],
-      "companyIcon": ""
-    },
-    {
       "id": "hn-50349129",
       "company": "Opsfleet",
       "position": "AI Engineer",
@@ -544,11 +566,11 @@
     {
       "id": "anth-5464493008",
       "company": "Anthropic",
-      "position": "Tech Lead Manager, Core Apps Data Scientist",
+      "position": "Tech Lead Manager, Claude Code Data Scientist",
       "location": "New York City, NY; San Francisco, CA | New York City, NY; Seattle, WA",
       "remote": false,
       "salary": "",
-      "description": "As part of our growing Data Science and Analytics team, you will play an instrumental role in our company’s mission of building safe and beneficial artificial intelligence by driving data-informed decision making across our organization. You bring experience from high-bar teams and are eager to...",
+      "description": "As part of our growing Data Science and Analytics team, you will play an instrumental role in our company's mission of building safe and beneficial artificial intelligence by driving data-informed decision making across our organization. You bring experience from high-bar teams and are eager to...",
       "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5464493008",
       "source": "Anthropic",
       "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5464493008",
@@ -626,6 +648,24 @@
         "Anthropic"
       ],
       "companyIcon": "https://www.anthropic.com/favicon.ico"
+    },
+    {
+      "id": "wwr-toptal-ai-engineer-agentic-systems",
+      "company": "Toptal",
+      "position": "AI Engineer - Agentic Systems",
+      "location": "Remote",
+      "remote": true,
+      "salary": "",
+      "description": "Headquarters: Summary We are seeking a highly hands-on AI Engineer with a proven track record of shipping agentic AI systems into production for enterprise environments. In this role, you will design, build, and deploy production-grade AI agents capable of multi-agent orchestration, complex tool...",
+      "applyUrl": "https://weworkremotely.com/remote-jobs/toptal-ai-engineer-agentic-systems",
+      "source": "WeWorkRemotely",
+      "sourceUrl": "https://weworkremotely.com/remote-jobs/toptal-ai-engineer-agentic-systems",
+      "postedAt": "2026-10-22T18:54:42+00:00",
+      "tags": [
+        "GCP",
+        "Rails"
+      ],
+      "companyIcon": ""
     },
     {
       "id": "wwr-offerup-software-development-engineer-ii-remote-colombia",
@@ -752,29 +792,6 @@
         "Anthropic"
       ],
       "companyIcon": "https://www.anthropic.com/favicon.ico"
-    },
-    {
-      "id": "wwr-airbnb-operations-engineer-biztech",
-      "company": "Airbnb",
-      "position": "Operations Engineer, BizTech",
-      "location": "Remote",
-      "remote": true,
-      "salary": "",
-      "description": "Headquarters: Remote- USA Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and...",
-      "applyUrl": "https://weworkremotely.com/remote-jobs/airbnb-operations-engineer-biztech",
-      "source": "WeWorkRemotely",
-      "sourceUrl": "https://weworkremotely.com/remote-jobs/airbnb-operations-engineer-biztech",
-      "postedAt": "2026-10-18T07:31:05+00:00",
-      "tags": [
-        "TypeScript",
-        "JavaScript",
-        "Python",
-        "Rust",
-        "AWS",
-        "GCP",
-        "Copilot"
-      ],
-      "companyIcon": ""
     },
     {
       "id": "anth-5454800008",
