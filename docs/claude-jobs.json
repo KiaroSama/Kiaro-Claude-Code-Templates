@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-17T11:26:14.272050+00:00",
-  "totalJobs": 107,
+  "lastUpdated": "2026-11-18T11:00:16.669707+00:00",
+  "totalJobs": 104,
   "sources": [
     "Anthropic",
     "HackerNews",
@@ -138,27 +138,6 @@
       "companyIcon": "https://www.anthropic.com/favicon.ico"
     },
     {
-      "id": "hn-50384008",
-      "company": "Sortrace",
-      "position": "Junior Frontend Engineer",
-      "location": "REMOTE (Europe), hybrid Norrköping or Stockholm",
-      "remote": true,
-      "salary": "",
-      "description": "Sortrace is a small cleantech AI company in Sweden. Cameras on waste collection trucks and trained vision models flag material in the wrong fraction when bins are emptied. Customers use our platform to review deviations, images, and insights. We're hiring for two roles on a small team with short...",
-      "applyUrl": "https://news.ycombinator.com/item?id=50384008",
-      "source": "HackerNews",
-      "sourceUrl": "https://news.ycombinator.com/item?id=50384008",
-      "postedAt": "2026-11-05T20:25:23+00:00",
-      "tags": [
-        "React",
-        "TypeScript",
-        "Python",
-        "Cursor",
-        "Tailwind"
-      ],
-      "companyIcon": ""
-    },
-    {
       "id": "rok-remote-feltsense-ai-engineer-silver-dev-1137691",
       "company": "Silver.dev",
       "position": "Feltsense AI Engineer",
@@ -221,27 +200,6 @@
         "Go",
         "Claude Code",
         "Django"
-      ],
-      "companyIcon": ""
-    },
-    {
-      "id": "hn-50357360",
-      "company": "Thankly",
-      "position": "Software Engineer",
-      "location": "REMOTE (US)",
-      "remote": true,
-      "salary": "",
-      "description": "Thankly builds branded shopping apps that run inside AI assistants, including ChatGPT, Claude and Gemini. Shoppers ask for what they need in conversation, the app recommends products from the brand's own catalog, and they can check out without leaving the chat. Founding Engineer: Build our platform...",
-      "applyUrl": "https://news.ycombinator.com/item?id=50357360",
-      "source": "HackerNews",
-      "sourceUrl": "https://news.ycombinator.com/item?id=50357360",
-      "postedAt": "2026-11-03T20:01:15+00:00",
-      "tags": [
-        "React",
-        "TypeScript",
-        "PostgreSQL",
-        "Supabase",
-        "Claude Code"
       ],
       "companyIcon": ""
     },
@@ -708,28 +666,6 @@
         "Claude Code"
       ],
       "companyIcon": ""
-    },
-    {
-      "id": "anth-5455961008",
-      "company": "Anthropic",
-      "position": "Applied AI Demo Engineer",
-      "location": "San Francisco, CA | New York City, NY",
-      "remote": false,
-      "salary": "",
-      "description": "Anthropic's customer-facing teams are often the first place a customer sees what Claude can do. As a Demo Engineer, you'll build the demos, reference implementations, and reusable tooling that help those teams make new capabilities tangible, relevant, and trustworthy, ideally within days of a...",
-      "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5455961008",
-      "source": "Anthropic",
-      "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5455961008",
-      "postedAt": "2026-10-19T18:38:51-04:00",
-      "tags": [
-        "TypeScript",
-        "Python",
-        "Rust",
-        "AWS",
-        "Claude Code",
-        "Anthropic"
-      ],
-      "companyIcon": "https://www.anthropic.com/favicon.ico"
     },
     {
       "id": "wwr-growth-minded-senior-data-engineer",
