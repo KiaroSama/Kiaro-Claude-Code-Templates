@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-18T11:00:16.669707+00:00",
+  "lastUpdated": "2026-11-19T11:02:36.783862+00:00",
   "totalJobs": 104,
   "sources": [
     "Anthropic",
@@ -8,6 +8,29 @@
     "WeWorkRemotely"
   ],
   "jobs": [
+    {
+      "id": "anth-5483945008",
+      "company": "Anthropic",
+      "position": "Applied AI Engineer, Commercial",
+      "location": "San Francisco, CA",
+      "remote": false,
+      "salary": "",
+      "description": "As an Applied AI Engineer on the Commercial team at Anthropic, you will be a trusted technical advisor to the companies that run the real economy, across software, financial services, healthcare, retail, manufacturing, and professional services, as they go from using Claude to building on it....",
+      "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5483945008",
+      "source": "Anthropic",
+      "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5483945008",
+      "postedAt": "2026-11-18T11:26:55-05:00",
+      "tags": [
+        "TypeScript",
+        "Python",
+        "Rust",
+        "Go",
+        "AWS",
+        "Claude Code",
+        "Anthropic"
+      ],
+      "companyIcon": "https://www.anthropic.com/favicon.ico"
+    },
     {
       "id": "anth-5484035008",
       "company": "Anthropic",
@@ -663,25 +686,6 @@
       "sourceUrl": "https://weworkremotely.com/remote-jobs/vertex-marketing-group-distribution-engineer",
       "postedAt": "2026-10-20T11:32:37+00:00",
       "tags": [
-        "Claude Code"
-      ],
-      "companyIcon": ""
-    },
-    {
-      "id": "wwr-growth-minded-senior-data-engineer",
-      "company": "Growth Minded",
-      "position": "Senior Data Engineer",
-      "location": "Remote",
-      "remote": true,
-      "salary": "",
-      "description": "Headquarters: Remote URL: https://growthminded.co About the role You'll own the data layer underneath InsightsOS and EngageOS, the products that turn booking, CRM, ad, and financial data from multi-location brands into proactive insights and automated actions. Today that layer is built and...",
-      "applyUrl": "https://weworkremotely.com/remote-jobs/growth-minded-senior-data-engineer",
-      "source": "WeWorkRemotely",
-      "sourceUrl": "https://weworkremotely.com/remote-jobs/growth-minded-senior-data-engineer",
-      "postedAt": "2026-10-19T12:47:58+00:00",
-      "tags": [
-        "Python",
-        "PostgreSQL",
         "Claude Code"
       ],
       "companyIcon": ""
