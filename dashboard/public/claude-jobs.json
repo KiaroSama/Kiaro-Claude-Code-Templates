@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-19T11:02:36.783862+00:00",
-  "totalJobs": 104,
+  "lastUpdated": "2026-11-20T10:51:07.330485+00:00",
+  "totalJobs": 106,
   "sources": [
     "Anthropic",
     "HackerNews",
@@ -8,6 +8,50 @@
     "WeWorkRemotely"
   ],
   "jobs": [
+    {
+      "id": "anth-5486780008",
+      "company": "Anthropic",
+      "position": "Applied AI Architect, Beneficial Deployment",
+      "location": "Sydney, Australia",
+      "remote": false,
+      "salary": "",
+      "description": "We're looking for an Applied AI Architect to join Beneficial Deployments, focused on helping nonprofits and research institutes in APAC get real value from Claude. You'll be the technical lead for a portfolio of partners, working alongside our Account Executives from first conversation through...",
+      "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5486780008",
+      "source": "Anthropic",
+      "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5486780008",
+      "postedAt": "2026-11-19T21:35:45-05:00",
+      "tags": [
+        "Rust",
+        "Go",
+        "AWS",
+        "Claude Code",
+        "Anthropic"
+      ],
+      "companyIcon": "https://www.anthropic.com/favicon.ico"
+    },
+    {
+      "id": "rok-remote-seo-full-stack-engineer-treatwell-1137805",
+      "company": "Treatwell",
+      "position": "SEO Full Stack Engineer",
+      "location": "Remote",
+      "remote": true,
+      "salary": "",
+      "description": "We're looking for a full-stack engineer to join our Product Engineering team, reporting to one of the Engineering Managers of the Marketplace area, with a dotted line to the Marketing SEO Manager, focused on supporting the Growth and Marketing area. This role will have a 60% focus on Front End, and...",
+      "applyUrl": "https://remoteOK.com/remote-jobs/remote-seo-full-stack-engineer-treatwell-1137805",
+      "source": "RemoteOK",
+      "sourceUrl": "https://remoteok.com/remote-jobs/remote-seo-full-stack-engineer-treatwell-1137805",
+      "postedAt": "2026-11-18T16:00:31+00:00",
+      "tags": [
+        "React",
+        "TypeScript",
+        "PostgreSQL",
+        "AWS",
+        "Kubernetes",
+        "Cursor",
+        "Java"
+      ],
+      "companyIcon": ""
+    },
     {
       "id": "anth-5483945008",
       "company": "Anthropic",
@@ -245,29 +289,6 @@
         "Anthropic"
       ],
       "companyIcon": "https://www.anthropic.com/favicon.ico"
-    },
-    {
-      "id": "hn-50353980",
-      "company": "Location: Andalucía, Spain",
-      "position": "Software Engineer",
-      "location": "Remote",
-      "remote": true,
-      "salary": "",
-      "description": "Full-stack engineer, 6+ years on 100% remote teams, focused on shipping LLM features to production. Last role: tech lead for AI call analysis at a US marketing agency. Took the MVP from design to validated delivery in 2 months: a Claude-based pipeline that turns a month of customer calls into...",
-      "applyUrl": "https://news.ycombinator.com/item?id=50353980",
-      "source": "HackerNews",
-      "sourceUrl": "https://news.ycombinator.com/item?id=50353980",
-      "postedAt": "2026-11-03T16:21:48+00:00",
-      "tags": [
-        "React",
-        "Next.js",
-        "TypeScript",
-        "Node.js",
-        "PostgreSQL",
-        "Supabase",
-        "React Native"
-      ],
-      "companyIcon": ""
     },
     {
       "id": "anth-5471361008",
@@ -522,6 +543,24 @@
       "companyIcon": "https://www.anthropic.com/favicon.ico"
     },
     {
+      "id": "wwr-zoominfo-technologies-llc-principal-product-management-growth",
+      "company": "ZoomInfo Technologies LLC",
+      "position": "Principal Product Management, Growth",
+      "location": "Remote",
+      "remote": true,
+      "salary": "",
+      "description": "Headquarters: Remote ZoomInfo is where careers accelerate. We move fast, think boldly, and empower you to do the best work of your life. You’ll be surrounded by teammates who care deeply, challenge each other, and celebrate wins. With tools that amplify your impact and a culture that backs your...",
+      "applyUrl": "https://weworkremotely.com/remote-jobs/zoominfo-technologies-llc-principal-product-management-growth",
+      "source": "WeWorkRemotely",
+      "sourceUrl": "https://weworkremotely.com/remote-jobs/zoominfo-technologies-llc-principal-product-management-growth",
+      "postedAt": "2026-11-01T07:30:53+00:00",
+      "tags": [
+        "Rust",
+        "Cursor"
+      ],
+      "companyIcon": ""
+    },
+    {
       "id": "rok-remote-cloud-engineer-automation-smile-digital-health-1137600",
       "company": "Smile Digital Health",
       "position": "Cloud Engineer Automation",
@@ -592,10 +631,10 @@
       "id": "anth-5455627008",
       "company": "Anthropic",
       "position": "Applied AI Architect, Public Sector (Federal Civilan)",
-      "location": "San Francisco, CA | New York City, NY",
+      "location": "Washington, DC",
       "remote": false,
       "salary": "",
-      "description": "As an Applied AI team member at Anthropic, you will be a Pre-Sales architect focused on becoming a trusted technical advisor helping state and local government agencies understand the value of Claude and paint the vision on how they can successfully integrate and deploy Claude into their technology...",
+      "description": "As an Applied AI team member at Anthropic, you will be a Pre-Sales architect focused on becoming a trusted technical advisor helping federal civilian government agencies understand the value of Claude and paint the vision on how they can successfully integrate and deploy Claude into their...",
       "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5455627008",
       "source": "Anthropic",
       "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5455627008",
@@ -670,23 +709,6 @@
         "Java",
         "Vue.js",
         "Redis"
-      ],
-      "companyIcon": ""
-    },
-    {
-      "id": "wwr-vertex-marketing-group-distribution-engineer",
-      "company": "Vertex Marketing Group",
-      "position": "Distribution Engineer",
-      "location": "Remote",
-      "remote": true,
-      "salary": "",
-      "description": "Headquarters: Bulgaria URL: https://vertexmg.com Scale our distribution by code: a fleet of real devices, iPhones first and Android too, plus platform APIs and AI agents, posting across many accounts and surfaces. You work directly with the founder. Most content gets made and then dies at a few...",
-      "applyUrl": "https://weworkremotely.com/remote-jobs/vertex-marketing-group-distribution-engineer",
-      "source": "WeWorkRemotely",
-      "sourceUrl": "https://weworkremotely.com/remote-jobs/vertex-marketing-group-distribution-engineer",
-      "postedAt": "2026-10-20T11:32:37+00:00",
-      "tags": [
-        "Claude Code"
       ],
       "companyIcon": ""
     },
@@ -1991,6 +2013,26 @@
         "AWS",
         "Claude Code",
         "Rails",
+        "Anthropic"
+      ],
+      "companyIcon": "https://www.anthropic.com/favicon.ico"
+    },
+    {
+      "id": "anth-5068570008",
+      "company": "Anthropic",
+      "position": "AI Outcomes Manager, Industries",
+      "location": "New York City, NY",
+      "remote": false,
+      "salary": "",
+      "description": "Join Anthropic's Customer Success team in a high-impact role driving AI adoption across our Industry segment. As an AI Outcomes Manager for Industries, you'll be the strategic partner and a trusted advisor to our most complex customers with a portfolio spanning Entertainment, Insurance,...",
+      "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5068570008",
+      "source": "Anthropic",
+      "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5068570008",
+      "postedAt": "2026-04-03T12:12:57-04:00",
+      "tags": [
+        "Rust",
+        "AWS",
+        "Claude Code",
         "Anthropic"
       ],
       "companyIcon": "https://www.anthropic.com/favicon.ico"
