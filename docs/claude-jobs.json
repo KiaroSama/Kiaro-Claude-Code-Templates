@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-21T10:35:10.028920+00:00",
-  "totalJobs": 106,
+  "lastUpdated": "2026-11-22T10:39:07.412873+00:00",
+  "totalJobs": 105,
   "sources": [
     "Anthropic",
     "HackerNews",
@@ -8,6 +8,44 @@
     "WeWorkRemotely"
   ],
   "jobs": [
+    {
+      "id": "rok-remote-enterprise-performance-lead-clover-health-1137944",
+      "company": "Clover Health",
+      "position": "Enterprise Performance Lead",
+      "location": "Remote",
+      "remote": true,
+      "salary": "",
+      "description": "Clover is reinventing health insurance by working to keep people healthier. The Actuarial Strategic Operations team serves as the operational and financial nerve center for Clover's Medicare Advantage business. Embedded within the Actuarial and Finance organization, the team combines deep business...",
+      "applyUrl": "https://remoteOK.com/remote-jobs/remote-enterprise-performance-lead-clover-health-1137944",
+      "source": "RemoteOK",
+      "sourceUrl": "https://remoteok.com/remote-jobs/remote-enterprise-performance-lead-clover-health-1137944",
+      "postedAt": "2026-11-21T04:40:04+00:00",
+      "tags": [
+        "Python",
+        "Rust"
+      ],
+      "companyIcon": ""
+    },
+    {
+      "id": "rok-remote-senior-staff-machine-learning-engineer-ads-ranking-reddit-1137932",
+      "company": "Reddit",
+      "position": "Senior Staff Machine Learning Engineer, Ads Ranking",
+      "location": "Remote",
+      "remote": true,
+      "salary": "",
+      "description": "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and...",
+      "applyUrl": "https://remoteOK.com/remote-jobs/remote-senior-staff-machine-learning-engineer-ads-ranking-reddit-1137932",
+      "source": "RemoteOK",
+      "sourceUrl": "https://remoteok.com/remote-jobs/remote-senior-staff-machine-learning-engineer-ads-ranking-reddit-1137932",
+      "postedAt": "2026-11-21T02:40:04+00:00",
+      "tags": [
+        "Python",
+        "Rust",
+        "Go",
+        "Cursor"
+      ],
+      "companyIcon": ""
+    },
     {
       "id": "rok-remote-advisory-solutions-architect-msp-new-product-intro-rubrik-job-board-1137896",
       "company": "Rubrik Job Board",
@@ -102,47 +140,6 @@
         "GCP",
         "Docker",
         "Kubernetes"
-      ],
-      "companyIcon": ""
-    },
-    {
-      "id": "rok-remote-senior-account-executive-ii-collibra-1137840",
-      "company": "Collibra",
-      "position": "Senior Account Executive II",
-      "location": "Remote",
-      "remote": true,
-      "salary": "",
-      "description": "Join Collibra's Sales team as a Senior Enterprise Account Executive II, - East Coast Make an impact at Collibra by fueling Collibra's growth in your assigned East Coast territory and be the guiding force behind bringing Collibra's value and vision to customers and prospects. As part of our...",
-      "applyUrl": "https://remoteOK.com/remote-jobs/remote-senior-account-executive-ii-collibra-1137840",
-      "source": "RemoteOK",
-      "sourceUrl": "https://remoteok.com/remote-jobs/remote-senior-account-executive-ii-collibra-1137840",
-      "postedAt": "2026-11-19T16:15:12+00:00",
-      "tags": [
-        "Rust",
-        "Copilot"
-      ],
-      "companyIcon": ""
-    },
-    {
-      "id": "rok-remote-seo-full-stack-engineer-treatwell-1137805",
-      "company": "Treatwell",
-      "position": "SEO Full Stack Engineer",
-      "location": "Remote",
-      "remote": true,
-      "salary": "",
-      "description": "We're looking for a full-stack engineer to join our Product Engineering team, reporting to one of the Engineering Managers of the Marketplace area, with a dotted line to the Marketing SEO Manager, focused on supporting the Growth and Marketing area. This role will have a 60% focus on Front End, and...",
-      "applyUrl": "https://remoteOK.com/remote-jobs/remote-seo-full-stack-engineer-treatwell-1137805",
-      "source": "RemoteOK",
-      "sourceUrl": "https://remoteok.com/remote-jobs/remote-seo-full-stack-engineer-treatwell-1137805",
-      "postedAt": "2026-11-18T16:00:31+00:00",
-      "tags": [
-        "React",
-        "TypeScript",
-        "PostgreSQL",
-        "AWS",
-        "Kubernetes",
-        "Cursor",
-        "Java"
       ],
       "companyIcon": ""
     },
@@ -692,24 +689,6 @@
         "Anthropic"
       ],
       "companyIcon": "https://www.anthropic.com/favicon.ico"
-    },
-    {
-      "id": "wwr-toptal-ai-engineer-agentic-systems",
-      "company": "Toptal",
-      "position": "AI Engineer - Agentic Systems",
-      "location": "Remote",
-      "remote": true,
-      "salary": "",
-      "description": "Headquarters: Summary We are seeking a highly hands-on AI Engineer with a proven track record of shipping agentic AI systems into production for enterprise environments. In this role, you will design, build, and deploy production-grade AI agents capable of multi-agent orchestration, complex tool...",
-      "applyUrl": "https://weworkremotely.com/remote-jobs/toptal-ai-engineer-agentic-systems",
-      "source": "WeWorkRemotely",
-      "sourceUrl": "https://weworkremotely.com/remote-jobs/toptal-ai-engineer-agentic-systems",
-      "postedAt": "2026-10-22T18:54:42+00:00",
-      "tags": [
-        "GCP",
-        "Rails"
-      ],
-      "companyIcon": ""
     },
     {
       "id": "anth-5456581008",
