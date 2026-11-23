@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-22T10:39:07.412873+00:00",
-  "totalJobs": 105,
+  "lastUpdated": "2026-11-23T11:41:23.566198+00:00",
+  "totalJobs": 106,
   "sources": [
     "Anthropic",
     "HackerNews",
@@ -121,27 +121,6 @@
         "Anthropic"
       ],
       "companyIcon": "https://www.anthropic.com/favicon.ico"
-    },
-    {
-      "id": "rok-remote-principal-devsecops-engineer-upgrade-1137858",
-      "company": "Upgrade",
-      "position": "Principal DevSecOps Engineer",
-      "location": "Remote",
-      "remote": true,
-      "salary": "",
-      "description": "About the Role: We are looking for a highly technical, hands-on Principal DevSecOps Developer to join Upgrade's Security team. In this role, you'll focus on building and improving security automation, strengthening our SaaS environment, and developing scalable solutions that enhance security...",
-      "applyUrl": "https://remoteOK.com/remote-jobs/remote-principal-devsecops-engineer-upgrade-1137858",
-      "source": "RemoteOK",
-      "sourceUrl": "https://remoteok.com/remote-jobs/remote-principal-devsecops-engineer-upgrade-1137858",
-      "postedAt": "2026-11-19T20:45:40+00:00",
-      "tags": [
-        "Python",
-        "AWS",
-        "GCP",
-        "Docker",
-        "Kubernetes"
-      ],
-      "companyIcon": ""
     },
     {
       "id": "anth-5483945008",
@@ -271,6 +250,46 @@
         "Anthropic"
       ],
       "companyIcon": "https://www.anthropic.com/favicon.ico"
+    },
+    {
+      "id": "wwr-drfirst-com-inc-senior-software-engineer",
+      "company": "DRFIRST COM INC",
+      "position": "Senior Software Engineer",
+      "location": "Remote",
+      "remote": true,
+      "salary": "",
+      "description": "Headquarters: United States URL: https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=fc2a6c7e-ef54-4ed9-8c04-d5aca23f99e3 Senior Software Engineer, eRx Enterprise and Gadget About DrFirst For 25 years, DrFirst has empowered providers and patients to achieve better...",
+      "applyUrl": "https://weworkremotely.com/remote-jobs/drfirst-com-inc-senior-software-engineer",
+      "source": "WeWorkRemotely",
+      "sourceUrl": "https://weworkremotely.com/remote-jobs/drfirst-com-inc-senior-software-engineer",
+      "postedAt": "2026-11-05T13:22:33+00:00",
+      "tags": [
+        "JavaScript",
+        "AWS",
+        "Copilot",
+        "Java"
+      ],
+      "companyIcon": ""
+    },
+    {
+      "id": "wwr-secure-privacy-senior-full-stack-web-developer-net-c-mongodb-angular-redux-ai-first-with-gdpr-experience",
+      "company": "Secure Privacy",
+      "position": "Senior Full-Stack Web Developer (.NET/C#/MongoDB/Angular/Redux) – AI-First, with GDPR Experience",
+      "location": "Remote",
+      "remote": true,
+      "salary": "",
+      "description": "Headquarters: Europe (DK) URL: https://secureprivacy.ai Secure Privacy is expanding, and we’re looking for an experienced Senior Full-Stack Developer with expertise in .NET, C#, and MongoDB, along with GDPR experience, to join our team! You’ll work remotely with a diverse group of developers,...",
+      "applyUrl": "https://weworkremotely.com/remote-jobs/secure-privacy-senior-full-stack-web-developer-net-c-mongodb-angular-redux-ai-first-with-gdpr-experience",
+      "source": "WeWorkRemotely",
+      "sourceUrl": "https://weworkremotely.com/remote-jobs/secure-privacy-senior-full-stack-web-developer-net-c-mongodb-angular-redux-ai-first-with-gdpr-experience",
+      "postedAt": "2026-11-05T12:39:27+00:00",
+      "tags": [
+        "Claude Code",
+        "Cursor",
+        "Angular",
+        "MongoDB"
+      ],
+      "companyIcon": ""
     },
     {
       "id": "hn-50373706",
