@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-25T12:01:24.634418+00:00",
-  "totalJobs": 108,
+  "lastUpdated": "2026-11-26T11:49:06.815107+00:00",
+  "totalJobs": 111,
   "sources": [
     "Anthropic",
     "HackerNews",
@@ -8,6 +8,79 @@
     "WeWorkRemotely"
   ],
   "jobs": [
+    {
+      "id": "rok-remote-paid-media-specialist-kinsta-1138126",
+      "company": "Kinsta",
+      "position": "Paid Media Specialist",
+      "location": "Remote",
+      "remote": true,
+      "salary": "",
+      "description": "Kinsta is one of the top providers of managed hosting for WordPress, with a growing club of 230,000+ businesses including startups, universities, and Fortune 500 firms. We're motivated by excellent quality and proud to have received a 97% satisfaction rating from our customers. That's because, to...",
+      "applyUrl": "https://remoteOK.com/remote-jobs/remote-paid-media-specialist-kinsta-1138126",
+      "source": "RemoteOK",
+      "sourceUrl": "https://remoteok.com/remote-jobs/remote-paid-media-specialist-kinsta-1138126",
+      "postedAt": "2026-11-25T10:40:30+00:00",
+      "tags": [
+        "JavaScript",
+        "AWS"
+      ],
+      "companyIcon": ""
+    },
+    {
+      "id": "rok-remote-senior-implementation-consultant-pharmacovigilance-reporting-remote-veeva-systems-1138115",
+      "company": "Veeva Systems",
+      "position": "Senior Implementation Consultant - Pharmacovigilance Reporting (Remote)",
+      "location": "Remote",
+      "remote": true,
+      "salary": "",
+      "description": "Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing SaaS companies in history, we surpassed $3B in revenue in our last fiscal year with extensive growth potential ahead. At...",
+      "applyUrl": "https://remoteOK.com/remote-jobs/remote-senior-implementation-consultant-pharmacovigilance-reporting-remote-veeva-systems-1138115",
+      "source": "RemoteOK",
+      "sourceUrl": "https://remoteok.com/remote-jobs/remote-senior-implementation-consultant-pharmacovigilance-reporting-remote-veeva-systems-1138115",
+      "postedAt": "2026-11-25T09:00:28+00:00",
+      "tags": [
+        "AWS"
+      ],
+      "companyIcon": ""
+    },
+    {
+      "id": "rok-remote-knowledge-engineer-jobgether-1138105",
+      "company": "Jobgether",
+      "position": "Knowledge Engineer",
+      "location": "Remote",
+      "remote": true,
+      "salary": "",
+      "description": "This position is listed on behalf of a partner company, which manages all applications and next steps. Our partner is looking for a Knowledge Engineer based in the United States. The Knowledge Engineer will play a pivotal role in building the knowledge infrastructure and AI-powered systems that...",
+      "applyUrl": "https://remoteOK.com/remote-jobs/remote-knowledge-engineer-jobgether-1138105",
+      "source": "RemoteOK",
+      "sourceUrl": "https://remoteok.com/remote-jobs/remote-knowledge-engineer-jobgether-1138105",
+      "postedAt": "2026-11-25T07:28:47+00:00",
+      "tags": [
+        "JavaScript",
+        "Python",
+        "Rust",
+        "AWS",
+        "Rails"
+      ],
+      "companyIcon": ""
+    },
+    {
+      "id": "rok-remote-senior-executive-assistant-office-of-the-cro-est-cst-gitlab-1138103",
+      "company": "GitLab",
+      "position": "Senior Executive Assistant, Office of the CRO (EST / CST)",
+      "location": "Remote",
+      "remote": true,
+      "salary": "",
+      "description": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the...",
+      "applyUrl": "https://remoteOK.com/remote-jobs/remote-senior-executive-assistant-office-of-the-cro-est-cst-gitlab-1138103",
+      "source": "RemoteOK",
+      "sourceUrl": "https://remoteok.com/remote-jobs/remote-senior-executive-assistant-office-of-the-cro-est-cst-gitlab-1138103",
+      "postedAt": "2026-11-25T00:00:29+00:00",
+      "tags": [
+        "Rust"
+      ],
+      "companyIcon": ""
+    },
     {
       "id": "rok-remote-real-estate-executive-assistant-21370-wing-assistant-1138078",
       "company": "Wing Assistant",
@@ -84,27 +157,6 @@
         "Rust",
         "Go",
         "Cursor"
-      ],
-      "companyIcon": ""
-    },
-    {
-      "id": "rok-remote-advisory-solutions-architect-msp-new-product-intro-rubrik-job-board-1137896",
-      "company": "Rubrik Job Board",
-      "position": "Advisory Solutions Architect, MSP (New Product Intro)",
-      "location": "Remote",
-      "remote": true,
-      "salary": "",
-      "description": "Help shape how Rubrik partners with leading service providers to deliver cyber resilience at scale. The New Product Introduction (NPI) & Service Creation Solution Architect is a new function in the MSP Solution Architecture Team. You will design, package and enable new managed service offerings...",
-      "applyUrl": "https://remoteOK.com/remote-jobs/remote-advisory-solutions-architect-msp-new-product-intro-rubrik-job-board-1137896",
-      "source": "RemoteOK",
-      "sourceUrl": "https://remoteok.com/remote-jobs/remote-advisory-solutions-architect-msp-new-product-intro-rubrik-job-board-1137896",
-      "postedAt": "2026-11-20T07:20:36+00:00",
-      "tags": [
-        "Rust",
-        "AWS",
-        "GCP",
-        "Azure",
-        "Claude Code"
       ],
       "companyIcon": ""
     },
