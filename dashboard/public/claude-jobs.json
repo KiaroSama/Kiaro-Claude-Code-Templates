@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-26T11:49:06.815107+00:00",
-  "totalJobs": 111,
+  "lastUpdated": "2026-11-27T11:42:03.902641+00:00",
+  "totalJobs": 112,
   "sources": [
     "Anthropic",
     "HackerNews",
@@ -8,6 +8,56 @@
     "WeWorkRemotely"
   ],
   "jobs": [
+    {
+      "id": "rok-remote-senior-accountant-ethena-1138175",
+      "company": "Ethena",
+      "position": "Senior Accountant",
+      "location": "Remote",
+      "remote": true,
+      "salary": "",
+      "description": "Who we are We’re Ethena, an AI platform that’s revolutionizing the Compliance space. Our team of agents helps Compliance and People leaders run proactive Compliance programs that drive real behavior change. From Policies and Disclosures to Training, Hotline, and Analytics, our agents work together...",
+      "applyUrl": "https://remoteOK.com/remote-jobs/remote-senior-accountant-ethena-1138175",
+      "source": "RemoteOK",
+      "sourceUrl": "https://remoteok.com/remote-jobs/remote-senior-accountant-ethena-1138175",
+      "postedAt": "2026-11-26T08:20:13+00:00",
+      "tags": [],
+      "companyIcon": ""
+    },
+    {
+      "id": "rok-remote-account-executive-chicago-saviynt-1138164",
+      "company": "Saviynt",
+      "position": "Account Executive - Chicago",
+      "location": "Remote",
+      "remote": true,
+      "salary": "",
+      "description": "Saviynt's AI-powered identity platform manages and governs human and non-human access to all of an organization's applications, data, and business processes. Customers trust Saviynt to safeguard their digital assets, drive operational efficiency, and reduce compliance costs. Built for the AI age,...",
+      "applyUrl": "https://remoteOK.com/remote-jobs/remote-account-executive-chicago-saviynt-1138164",
+      "source": "RemoteOK",
+      "sourceUrl": "https://remoteok.com/remote-jobs/remote-account-executive-chicago-saviynt-1138164",
+      "postedAt": "2026-11-26T04:40:10+00:00",
+      "tags": [
+        "Rust",
+        "Go"
+      ],
+      "companyIcon": ""
+    },
+    {
+      "id": "rok-remote-lifecycle-marketing-manager-lifeforce-1138144",
+      "company": "Lifeforce",
+      "position": "Lifecycle Marketing Manager",
+      "location": "Remote",
+      "remote": true,
+      "salary": "",
+      "description": "Employment type: Full-time Experience: 4+ years Reports to: Chris Stella, VP Growth About Lifeforce We are in the early stages of a generational shift in how people approach their health. No longer satisfied with the reactive, fragmented care offered by the traditional healthcare system, millions...",
+      "applyUrl": "https://remoteOK.com/remote-jobs/remote-lifecycle-marketing-manager-lifeforce-1138144",
+      "source": "RemoteOK",
+      "sourceUrl": "https://remoteok.com/remote-jobs/remote-lifecycle-marketing-manager-lifeforce-1138144",
+      "postedAt": "2026-11-25T13:40:34+00:00",
+      "tags": [
+        "React"
+      ],
+      "companyIcon": ""
+    },
     {
       "id": "rok-remote-paid-media-specialist-kinsta-1138126",
       "company": "Kinsta",
@@ -119,44 +169,6 @@
         "Cursor",
         "Flask",
         "Vue.js"
-      ],
-      "companyIcon": ""
-    },
-    {
-      "id": "rok-remote-enterprise-performance-lead-clover-health-1137944",
-      "company": "Clover Health",
-      "position": "Enterprise Performance Lead",
-      "location": "Remote",
-      "remote": true,
-      "salary": "",
-      "description": "Clover is reinventing health insurance by working to keep people healthier. The Actuarial Strategic Operations team serves as the operational and financial nerve center for Clover's Medicare Advantage business. Embedded within the Actuarial and Finance organization, the team combines deep business...",
-      "applyUrl": "https://remoteOK.com/remote-jobs/remote-enterprise-performance-lead-clover-health-1137944",
-      "source": "RemoteOK",
-      "sourceUrl": "https://remoteok.com/remote-jobs/remote-enterprise-performance-lead-clover-health-1137944",
-      "postedAt": "2026-11-21T04:40:04+00:00",
-      "tags": [
-        "Python",
-        "Rust"
-      ],
-      "companyIcon": ""
-    },
-    {
-      "id": "rok-remote-senior-staff-machine-learning-engineer-ads-ranking-reddit-1137932",
-      "company": "Reddit",
-      "position": "Senior Staff Machine Learning Engineer, Ads Ranking",
-      "location": "Remote",
-      "remote": true,
-      "salary": "",
-      "description": "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and...",
-      "applyUrl": "https://remoteOK.com/remote-jobs/remote-senior-staff-machine-learning-engineer-ads-ranking-reddit-1137932",
-      "source": "RemoteOK",
-      "sourceUrl": "https://remoteok.com/remote-jobs/remote-senior-staff-machine-learning-engineer-ads-ranking-reddit-1137932",
-      "postedAt": "2026-11-21T02:40:04+00:00",
-      "tags": [
-        "Python",
-        "Rust",
-        "Go",
-        "Cursor"
       ],
       "companyIcon": ""
     },
