@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-27T11:42:03.902641+00:00",
-  "totalJobs": 112,
+  "lastUpdated": "2026-11-28T11:17:19.133187+00:00",
+  "totalJobs": 113,
   "sources": [
     "Anthropic",
     "HackerNews",
@@ -8,6 +8,136 @@
     "WeWorkRemotely"
   ],
   "jobs": [
+    {
+      "id": "rok-remote-founding-engineer-3y-health-1138213",
+      "company": "3Y Health",
+      "position": "Founding Engineer",
+      "location": "Remote",
+      "remote": true,
+      "salary": "",
+      "description": "About 3Y Health 3Y Health is building the operating system for healthcare practices, an AI-native platform that helps clinicians start, run and grow their practice. We work as a managed services organization (MSO): along with the software, our operations team runs the back office for the clinics we...",
+      "applyUrl": "https://remoteOK.com/remote-jobs/remote-founding-engineer-3y-health-1138213",
+      "source": "RemoteOK",
+      "sourceUrl": "https://remoteok.com/remote-jobs/remote-founding-engineer-3y-health-1138213",
+      "postedAt": "2026-11-27T03:20:38+00:00",
+      "tags": [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Python",
+        "PostgreSQL",
+        "AWS",
+        "Claude Code",
+        "Cursor",
+        "React Native",
+        "Kotlin"
+      ],
+      "companyIcon": ""
+    },
+    {
+      "id": "rok-remote-senior-software-engineer-3y-health-1138212",
+      "company": "3Y Health",
+      "position": "Senior Software Engineer",
+      "location": "Remote",
+      "remote": true,
+      "salary": "",
+      "description": "About 3Y Health 3Y Health is building the operating system for healthcare practices, an AI-native platform that helps clinicians start, run and grow their practice. We work as a managed services organization (MSO): along with the software, our operations team runs the back office for the clinics we...",
+      "applyUrl": "https://remoteOK.com/remote-jobs/remote-senior-software-engineer-3y-health-1138212",
+      "source": "RemoteOK",
+      "sourceUrl": "https://remoteok.com/remote-jobs/remote-senior-software-engineer-3y-health-1138212",
+      "postedAt": "2026-11-27T03:00:43+00:00",
+      "tags": [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Python",
+        "PostgreSQL",
+        "AWS",
+        "Claude Code",
+        "Cursor",
+        "React Native",
+        "Kotlin"
+      ],
+      "companyIcon": ""
+    },
+    {
+      "id": "rok-remote-senior-account-executive-us-west-coder-technologies-inc-1138207",
+      "company": "Coder Technologies Inc.",
+      "position": "Senior Account Executive (US West)",
+      "location": "Remote",
+      "remote": true,
+      "salary": "",
+      "description": "Coder is looking for a Senior Account Executive to grow our diverse customer base. You’ll help bring Coder’s platform to some of the largest companies in the world, who are focused on executing AI-centric software development at scale. This role is about building trusted relationships, shaping...",
+      "applyUrl": "https://remoteOK.com/remote-jobs/remote-senior-account-executive-us-west-coder-technologies-inc-1138207",
+      "source": "RemoteOK",
+      "sourceUrl": "https://remoteok.com/remote-jobs/remote-senior-account-executive-us-west-coder-technologies-inc-1138207",
+      "postedAt": "2026-11-27T01:20:36+00:00",
+      "tags": [
+        "Rust",
+        "AWS",
+        "Cursor",
+        "Copilot"
+      ],
+      "companyIcon": ""
+    },
+    {
+      "id": "rok-remote-social-media-community-manager-the-global-talent-co-1138206",
+      "company": "The Global Talent Co.",
+      "position": "Social Media & Community Manager",
+      "location": "Remote",
+      "remote": true,
+      "salary": "",
+      "description": "Social Media & Community Manager Full-time (flexible, results-based hours), Remote About Us At The Global Talent Co., we provide opportunities to work with leading innovative technology companies worldwide, offering stable employment, competitive compensation, career growth, and access to a...",
+      "applyUrl": "https://remoteOK.com/remote-jobs/remote-social-media-community-manager-the-global-talent-co-1138206",
+      "source": "RemoteOK",
+      "sourceUrl": "https://remoteok.com/remote-jobs/remote-social-media-community-manager-the-global-talent-co-1138206",
+      "postedAt": "2026-11-27T01:00:40+00:00",
+      "tags": [],
+      "companyIcon": ""
+    },
+    {
+      "id": "rok-remote-senior-software-developer-loopio-inc-1138202",
+      "company": "Loopio Inc.",
+      "position": "Senior Software Developer",
+      "location": "Remote",
+      "remote": true,
+      "salary": "",
+      "description": "Take your career to new heights with Loopio! ðâ¨ Loopio is a workplace that unleashes learning & growth opportunities for our Loopers. We provide autonomous, challenging work that allows each employee to master their craft. We attract and retain people who are naturally curious, have grit and...",
+      "applyUrl": "https://remoteOK.com/remote-jobs/remote-senior-software-developer-loopio-inc-1138202",
+      "source": "RemoteOK",
+      "sourceUrl": "https://remoteok.com/remote-jobs/remote-senior-software-developer-loopio-inc-1138202",
+      "postedAt": "2026-11-27T00:00:03+00:00",
+      "tags": [
+        "React",
+        "TypeScript",
+        "JavaScript",
+        "Python",
+        "Rust",
+        "AWS",
+        "Docker",
+        "Java",
+        "Flask",
+        "MySQL"
+      ],
+      "companyIcon": ""
+    },
+    {
+      "id": "rok-remote-customer-success-manager-outmarket-ai-1138189",
+      "company": "Outmarket AI",
+      "position": "Customer Success Manager",
+      "location": "Remote",
+      "remote": true,
+      "salary": "",
+      "description": "About Outmarket Outmarket is an AI-powered platform purpose-built for commercial insurance agencies. We help brokers, MGAs, and carriers extract insights, automate workflows, and move faster by turning unstructured data into action. Our customer base is growing quickly, and we're looking for a...",
+      "applyUrl": "https://remoteOK.com/remote-jobs/remote-customer-success-manager-outmarket-ai-1138189",
+      "source": "RemoteOK",
+      "sourceUrl": "https://remoteok.com/remote-jobs/remote-customer-success-manager-outmarket-ai-1138189",
+      "postedAt": "2026-11-26T13:00:26+00:00",
+      "tags": [
+        "Rust"
+      ],
+      "companyIcon": ""
+    },
     {
       "id": "rok-remote-senior-accountant-ethena-1138175",
       "company": "Ethena",
@@ -73,102 +203,6 @@
       "tags": [
         "JavaScript",
         "AWS"
-      ],
-      "companyIcon": ""
-    },
-    {
-      "id": "rok-remote-senior-implementation-consultant-pharmacovigilance-reporting-remote-veeva-systems-1138115",
-      "company": "Veeva Systems",
-      "position": "Senior Implementation Consultant - Pharmacovigilance Reporting (Remote)",
-      "location": "Remote",
-      "remote": true,
-      "salary": "",
-      "description": "Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing SaaS companies in history, we surpassed $3B in revenue in our last fiscal year with extensive growth potential ahead. At...",
-      "applyUrl": "https://remoteOK.com/remote-jobs/remote-senior-implementation-consultant-pharmacovigilance-reporting-remote-veeva-systems-1138115",
-      "source": "RemoteOK",
-      "sourceUrl": "https://remoteok.com/remote-jobs/remote-senior-implementation-consultant-pharmacovigilance-reporting-remote-veeva-systems-1138115",
-      "postedAt": "2026-11-25T09:00:28+00:00",
-      "tags": [
-        "AWS"
-      ],
-      "companyIcon": ""
-    },
-    {
-      "id": "rok-remote-knowledge-engineer-jobgether-1138105",
-      "company": "Jobgether",
-      "position": "Knowledge Engineer",
-      "location": "Remote",
-      "remote": true,
-      "salary": "",
-      "description": "This position is listed on behalf of a partner company, which manages all applications and next steps. Our partner is looking for a Knowledge Engineer based in the United States. The Knowledge Engineer will play a pivotal role in building the knowledge infrastructure and AI-powered systems that...",
-      "applyUrl": "https://remoteOK.com/remote-jobs/remote-knowledge-engineer-jobgether-1138105",
-      "source": "RemoteOK",
-      "sourceUrl": "https://remoteok.com/remote-jobs/remote-knowledge-engineer-jobgether-1138105",
-      "postedAt": "2026-11-25T07:28:47+00:00",
-      "tags": [
-        "JavaScript",
-        "Python",
-        "Rust",
-        "AWS",
-        "Rails"
-      ],
-      "companyIcon": ""
-    },
-    {
-      "id": "rok-remote-senior-executive-assistant-office-of-the-cro-est-cst-gitlab-1138103",
-      "company": "GitLab",
-      "position": "Senior Executive Assistant, Office of the CRO (EST / CST)",
-      "location": "Remote",
-      "remote": true,
-      "salary": "",
-      "description": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the...",
-      "applyUrl": "https://remoteOK.com/remote-jobs/remote-senior-executive-assistant-office-of-the-cro-est-cst-gitlab-1138103",
-      "source": "RemoteOK",
-      "sourceUrl": "https://remoteok.com/remote-jobs/remote-senior-executive-assistant-office-of-the-cro-est-cst-gitlab-1138103",
-      "postedAt": "2026-11-25T00:00:29+00:00",
-      "tags": [
-        "Rust"
-      ],
-      "companyIcon": ""
-    },
-    {
-      "id": "rok-remote-real-estate-executive-assistant-21370-wing-assistant-1138078",
-      "company": "Wing Assistant",
-      "position": "Real Estate Executive Assistant 21370",
-      "location": "Remote",
-      "remote": true,
-      "salary": "",
-      "description": "Please whitelist the domains \"lever.co\" and \"hire.lever.co\" with your email provider to make sure you get our emails. Disclaimer: This is a generic job description for the position stated below. Actual tasks and tools will be discussed further when you reach the final interview stage. Please ensure...",
-      "applyUrl": "https://remoteOK.com/remote-jobs/remote-real-estate-executive-assistant-21370-wing-assistant-1138078",
-      "source": "RemoteOK",
-      "sourceUrl": "https://remoteok.com/remote-jobs/remote-real-estate-executive-assistant-21370-wing-assistant-1138078",
-      "postedAt": "2026-11-24T00:00:20+00:00",
-      "tags": [],
-      "companyIcon": ""
-    },
-    {
-      "id": "rok-remote-senior-cx-platform-engineer-gitlab-1138075",
-      "company": "GitLab",
-      "position": "Senior CX Platform Engineer",
-      "location": "Remote",
-      "remote": true,
-      "salary": "",
-      "description": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the...",
-      "applyUrl": "https://remoteOK.com/remote-jobs/remote-senior-cx-platform-engineer-gitlab-1138075",
-      "source": "RemoteOK",
-      "sourceUrl": "https://remoteok.com/remote-jobs/remote-senior-cx-platform-engineer-gitlab-1138075",
-      "postedAt": "2026-11-24T00:00:07+00:00",
-      "tags": [
-        "React",
-        "TypeScript",
-        "Python",
-        "Rust",
-        "AWS",
-        "Docker",
-        "Claude Code",
-        "Cursor",
-        "Flask",
-        "Vue.js"
       ],
       "companyIcon": ""
     },
